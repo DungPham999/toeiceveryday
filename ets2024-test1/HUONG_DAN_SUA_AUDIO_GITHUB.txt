@@ -1,0 +1,23 @@
+SỬA AUDIO BỊ LỆCH TRỰC TIẾP TRÊN GITHUB
+
+Bạn chỉ sửa 1 file: audio-times.js
+
+Ví dụ học viên báo câu 18 bị mất khoảng 2 giây đầu:
+1. Mở repository trên GitHub.
+2. Bấm file audio-times.js.
+3. Bấm biểu tượng bút chì Edit this file.
+4. Bấm Ctrl+F (Windows) hoặc Cmd+F (Mac), tìm: p2-q18
+5. Bạn sẽ thấy dạng:
+   "p2-q18": { start: "09:26.78", end: "09:41.10" },
+6. Nếu MẤT 2 giây đầu: sửa start 09:26.78 -> 09:24.78.
+7. Nếu DƯ 2 giây đầu: sửa start 09:26.78 -> 09:28.78.
+8. Nếu MẤT 2 giây cuối: cộng 2 giây vào end.
+9. Nếu DƯ 2 giây cuối: trừ 2 giây ở end.
+10. Bấm Commit changes.
+
+Part 3/4 tìm theo nhóm, ví dụ:
+- p3-q32-34
+- p3-q62-64
+- p4-q71-73
+
+Không cần cắt lại MP3. Không sửa app.js.
