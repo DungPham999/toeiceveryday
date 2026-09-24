@@ -141,3 +141,75 @@ body.palette-open-body{overflow:hidden}
 }
 
 .topbar h1 strong{font:inherit;font-weight:inherit;color:inherit;background:transparent;padding:0;border-radius:0;vertical-align:baseline}
+
+
+/* ===== HEADER ACTION BUTTONS ===== */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.header-action-btn {
+  appearance: none;
+  -webkit-appearance: none;
+
+  min-height: 52px;
+  padding: 0 22px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background: #fffaf0;
+  color: #8d4c00;
+
+  border: 2px solid #f2b64d;
+  border-radius: 16px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+
+  text-decoration: none !important;
+  white-space: nowrap;
+
+  cursor: pointer;
+  box-shadow: none;
+
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
+}
+
+.header-action-btn:visited {
+  color: #8d4c00;
+}
+
+.header-action-btn:hover {
+  background: #fff1d2;
+  border-color: #f59e0b;
+  color: #7a4100;
+  transform: translateY(-1px);
+}
+
+.header-action-btn:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 800px) {
+  .header-actions {
+    justify-content: flex-start;
+  }
+
+  .header-action-btn {
+    min-height: 46px;
+    padding: 0 16px;
+    font-size: 14px;
+  }
+}
