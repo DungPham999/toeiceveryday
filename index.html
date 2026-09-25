@@ -3,236 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TOEIC EVERYDAY - Luyện thi TOEIC theo format ETS với từng Part." />
+  <meta name="description" content="TOEIC EVERYDAY - Luyện thi TOEIC theo format ETS với Listening và Reading." />
   <title>TOEIC EVERYDAY</title>
   <style>
-    :root{
-      --bg:#fffaf2; --surface:#ffffff; --text:#2d2418; --muted:#746556;
-      --line:#eadcc7; --primary:#f59e0b; --primary-2:#fb8c00;
-      --dark:#3d2f1f; --shadow:0 16px 45px rgba(83,53,18,.10); --radius:24px;
-    }
+    :root{--bg:#fffaf2;--surface:#fff;--text:#2d2418;--muted:#746556;--line:#eadcc7;--primary:#f59e0b;--primary-2:#fb8c00;--dark:#3d2f1f;--shadow:0 16px 45px rgba(83,53,18,.10);--radius:24px}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-      background:radial-gradient(circle at top right, rgba(245,158,11,.10), transparent 32%),
-      linear-gradient(180deg,#fffaf2 0%,#fffdf9 44%,#fff8ec 100%);color:var(--text)}
-    a{text-decoration:none;color:inherit}.container{width:min(1160px,calc(100% - 36px));margin:0 auto}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top right,rgba(245,158,11,.10),transparent 32%),linear-gradient(180deg,#fffaf2 0%,#fffdf9 44%,#fff8ec 100%);color:var(--text)}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1160px,calc(100% - 36px));margin:0 auto}
     header{position:sticky;top:0;z-index:30;backdrop-filter:blur(16px);background:rgba(255,250,242,.88);border-bottom:1px solid rgba(234,220,199,.85)}
-
-
-    
     .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
     .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:-.6px}
-    .brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,var(--primary),var(--primary-2));color:white;box-shadow:0 10px 26px rgba(245,158,11,.30);font-size:20px}
+    .brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,var(--primary),var(--primary-2));color:#fff;box-shadow:0 10px 26px rgba(245,158,11,.30);font-size:20px}
     .brand-name{font-size:20px}.brand-name span{color:var(--primary-2)}
     .nav-links{display:flex;align-items:center;gap:24px;color:#5f5245;font-weight:700;font-size:14px}.nav-links a:hover{color:var(--primary-2)}
-    .hero{padding:74px 0 50px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:48px}
+    .hero{padding:74px 0 50px}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:48px}
     .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid #f0d6a7;background:#fff4dd;color:#a15b00;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:18px}
     h1{margin:0;font-size:clamp(44px,7vw,78px);line-height:.96;letter-spacing:-3.4px;max-width:760px}h1 .accent{color:var(--primary-2)}
     .hero-copy{margin:24px 0 0;color:var(--muted);font-size:18px;line-height:1.75;max-width:680px}
     .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:0 18px;border-radius:14px;font-weight:850;border:1px solid transparent;transition:.18s ease}
-    .btn-primary{color:white;background:linear-gradient(135deg,var(--primary),var(--primary-2));box-shadow:0 12px 26px rgba(245,158,11,.25)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:0 18px;border-radius:14px;font-weight:850;border:1px solid transparent;transition:.18s ease;cursor:pointer}
+    .btn-primary{color:#fff;background:linear-gradient(135deg,var(--primary),var(--primary-2));box-shadow:0 12px 26px rgba(245,158,11,.25)}
     .btn-primary:hover{transform:translateY(-2px);box-shadow:0 15px 34px rgba(245,158,11,.31)}
-    .btn-secondary{background:white;border-color:var(--line);color:var(--dark)}
+    .btn-secondary{background:#fff;border-color:var(--line);color:var(--dark)}
     .btn-secondary:hover{border-color:#e2bb79;background:#fffaf2}
-    .hero-card{background:linear-gradient(150deg,#4a3218 0%,#2f2419 100%);color:white;border-radius:32px;padding:28px;min-height:350px;box-shadow:0 24px 70px rgba(62,38,13,.22);position:relative;overflow:hidden}
+    .hero-card{background:linear-gradient(150deg,#4a3218 0%,#2f2419 100%);color:#fff;border-radius:32px;padding:28px;min-height:350px;box-shadow:0 24px 70px rgba(62,38,13,.22);position:relative;overflow:hidden}
     .hero-card:before,.hero-card:after{content:"";position:absolute;border-radius:50%;background:rgba(255,183,77,.16)}
     .hero-card:before{width:240px;height:240px;right:-90px;top:-70px}.hero-card:after{width:150px;height:150px;left:-50px;bottom:-45px}
     .hc-top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
     .hc-label{font-size:13px;font-weight:800;color:#ffd89a;letter-spacing:.5px;text-transform:uppercase}
     .hc-pill{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.10);font-size:12px;font-weight:800}
-    .wave{position:relative;z-index:2;display:flex;align-items:center;gap:5px;height:92px;margin:34px 0 26px}
+    .wave{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:5px;height:92px;margin:34px 0 26px}
     .wave span{width:5px;border-radius:99px;background:linear-gradient(#ffd27f,#ff9d13);opacity:.92}
     .wave span:nth-child(1){height:18px}.wave span:nth-child(2){height:46px}.wave span:nth-child(3){height:72px}.wave span:nth-child(4){height:38px}.wave span:nth-child(5){height:84px}.wave span:nth-child(6){height:54px}.wave span:nth-child(7){height:26px}.wave span:nth-child(8){height:67px}.wave span:nth-child(9){height:36px}.wave span:nth-child(10){height:75px}.wave span:nth-child(11){height:44px}.wave span:nth-child(12){height:62px}.wave span:nth-child(13){height:28px}.wave span:nth-child(14){height:79px}.wave span:nth-child(15){height:51px}.wave span:nth-child(16){height:31px}.wave span:nth-child(17){height:66px}.wave span:nth-child(18){height:39px}.wave span:nth-child(19){height:77px}.wave span:nth-child(20){height:48px}.wave span:nth-child(21){height:24px}.wave span:nth-child(22){height:57px}
     .hc-title{position:relative;z-index:2;margin:0 0 8px;font-size:28px;letter-spacing:-.8px}.hc-desc{position:relative;z-index:2;color:#e8dccc;line-height:1.7;margin:0}
     .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px;position:relative;z-index:2}
     .stat{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.07);padding:14px;border-radius:16px}.stat strong{display:block;font-size:20px}.stat span{font-size:12px;color:#d9c9b5}
-    section{padding:48px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}.section-head h2{margin:0;font-size:32px;letter-spacing:-1.2px}.section-head p{margin:8px 0 0;color:var(--muted);line-height:1.6}
+    section{padding:48px 0}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}.section-head h2{margin:0;font-size:32px;letter-spacing:-1.2px}.section-head p{margin:8px 0 0;color:var(--muted);line-height:1.6}
     .year-tag{padding:8px 12px;border-radius:999px;background:#fff0cf;border:1px solid #f0d5a0;color:#995700;font-size:13px;font-weight:850}
     .test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
     .test-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);transition:.18s ease;display:flex;flex-direction:column;min-height:280px}
-    .test-card:hover{transform:translateY(-4px);border-color:#e9c27c;box-shadow:0 20px 50px rgba(83,53,18,.14)}.test-card.disabled{opacity:.62;box-shadow:none}
-    .test-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.test-no{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;color:white;font-weight:900;background:linear-gradient(145deg,var(--primary),var(--primary-2))}
-    .badge{font-size:12px;font-weight:850;padding:7px 9px;border-radius:999px;background:#edf9f4;color:#0c7755;border:1px solid #ccecdf}.badge.soon{background:#f7f4ef;color:#766a5f;border-color:#e7dfd3}
+    .test-card:hover{transform:translateY(-4px);border-color:#e9c27c;box-shadow:0 20px 50px rgba(83,53,18,.14)}
+    .test-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.test-no{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;color:#fff;font-weight:900;background:linear-gradient(145deg,var(--primary),var(--primary-2))}
+    .badge{font-size:12px;font-weight:850;padding:7px 9px;border-radius:999px;background:#edf9f4;color:#0c7755;border:1px solid #ccecdf}
     .test-card h3{margin:19px 0 8px;font-size:22px;letter-spacing:-.5px}.test-card p{color:var(--muted);line-height:1.65;margin:0}
-    .meta{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 20px}.meta span{padding:7px 9px;border-radius:10px;background:#fff7e8;color:#7f5b26;font-size:12px;font-weight:800}.test-card .btn{margin-top:auto;width:100%}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 20px}.meta span{padding:7px 9px;border-radius:10px;background:#fff7e8;color:#7f5b26;font-size:12px;font-weight:800}
+    .test-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:auto}.test-actions.one-button{grid-template-columns:1fr}.test-actions .btn{width:100%;min-height:52px;padding:0 12px;border-radius:14px;font-weight:900}
+    .btn-reading{background:#fff4dc;color:#8d4c00;border:2px solid #f0b64d;box-shadow:none}.btn-reading:hover{background:#ffe9bd;border-color:#f59e0b;transform:translateY(-1px)}
+    .loading-card,.error-card{grid-column:1/-1;background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;color:var(--muted)}.error-card{background:#fff8e8;border-color:#f0c47c;color:#76552e}
     .info-strip{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.info-item{background:#fff7e7;border:1px solid #efdbb6;border-radius:18px;padding:18px}.info-item strong{display:block;margin-bottom:6px;color:#754814}.info-item span{color:#7b6a58;font-size:14px;line-height:1.5}
     footer{margin-top:42px;border-top:1px solid var(--line);padding:28px 0 38px;color:#7b6f62;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
-    @media (max-width:920px){.hero-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr 1fr}.info-strip{grid-template-columns:1fr}.nav-links{display:none}}
-    @media (max-width:640px){.container{width:min(100% - 24px,1160px)}.hero{padding-top:44px}h1{letter-spacing:-2px}.test-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.section-head{align-items:flex-start;flex-direction:column}.hero-card{padding:22px;min-height:320px}}
-
-    .test-actions{
-  display:grid;
-  grid-template-columns:repeat(2, minmax(0,1fr));
-  gap:10px;
-  margin-top:auto;
-}
-
-.test-actions .btn{
-  min-height:52px;
-
-  display:flex;
-  align-items:center;
-  justify-content:center;
-
-  border-radius:14px;
-
-  font-weight:900;
-  text-decoration:none;
-
-  transition:.15s ease;
-}
-
-.btn-primary{
-  background:linear-gradient(
-    135deg,
-    #f59e0b,
-    #fb8c00
-  );
-
-  color:white;
-}
-
-.btn-primary:hover{
-  transform:translateY(-1px);
-}
-
-.btn-reading{
-  background:#fff4dc;
-
-  color:#8d4c00;
-
-  border:2px solid #f0b64d;
-}
-
-.btn-reading:hover{
-  background:#ffe9bd;
-  border-color:#f59e0b;
-}
-
-@media(max-width:600px){
-
-  .test-actions{
-    grid-template-columns:1fr;
-  }
-
-}
+    @media(max-width:920px){.hero-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr 1fr}.info-strip{grid-template-columns:1fr}.nav-links{display:none}}
+    @media(max-width:640px){.container{width:min(100% - 24px,1160px)}.hero{padding-top:44px}h1{letter-spacing:-2px}.test-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.section-head{align-items:flex-start;flex-direction:column}.hero-card{padding:22px;min-height:320px}.test-actions{grid-template-columns:1fr}}
   </style>
 </head>
-<script>
-async function loadTests() {
-  const grid = document.getElementById("testGrid");
-
-  try {
-    const response = await fetch("./tests.json");
-
-    if (!response.ok) {
-      throw new Error("Không tải được tests.json");
-    }
-
-    const tests = await response.json();
-
-    grid.innerHTML = "";
-
-    tests.forEach(item => {
-
-      // Không có kỹ năng nào thì không hiện test.
-      if (!item.listening && !item.reading) {
-        return;
-      }
-
-      const card = document.createElement("article");
-      card.className = "test-card";
-
-      const number = String(item.test).padStart(2, "0");
-
-      let skillText = "";
-
-      if (item.listening && item.reading) {
-        skillText = "100 câu Listening + 100 câu Reading.";
-      } else if (item.listening) {
-        skillText = "Full Listening Test gồm Part 1–4.";
-      } else if (item.reading) {
-        skillText = "Full Reading Test gồm Part 5–7.";
-      }
-
-      let tags = "";
-
-      if (item.listening) {
-        tags += `<span>Listening</span>`;
-      }
-
-      if (item.reading) {
-        tags += `<span>Reading</span>`;
-      }
-
-      let buttons = "";
-
-      if (item.listening) {
-        buttons += `
-          <a class="btn btn-primary"
-             href="./shared/listening/listening.html?test=${item.id}">
-            🎧 Listening
-          </a>
-        `;
-      }
-
-      if (item.reading) {
-        buttons += `
-          <a class="btn btn-reading"
-             href="./shared/reading/reading.html?test=${item.id}">
-            📖 Reading
-          </a>
-        `;
-      }
-
-      card.innerHTML = `
-        <div class="test-top">
-          <div class="test-no">${number}</div>
-          <span class="badge">Đang mở</span>
-        </div>
-
-        <h3>ETS ${item.year} · Test ${item.test}</h3>
-
-        <p>${skillText}</p>
-
-        <div class="meta">
-          ${tags}
-        </div>
-
-        <div class="test-actions">
-          ${buttons}
-        </div>
-      `;
-
-      grid.appendChild(card);
-    });
-
-  } catch (error) {
-    console.error(error);
-
-    grid.innerHTML = `
-      <div style="
-        padding:20px;
-        border:1px solid #f0c47c;
-        border-radius:16px;
-        background:#fff8e8;
-      ">
-        Không tải được danh sách bộ đề.
-      </div>
-    `;
-  }
-}
-
-loadTests();
-</script>
-  
 <body>
   <header>
     <div class="container nav">
-      <a class="brand" href="./"><div class="brand-mark">TE</div><div class="brand-name">TOEIC <span>EVERYDAY</span></div></a>
-      <nav class="nav-links"><a href="#tests">Bộ đề</a><a href="#how">Cách luyện</a></nav>
+      <a class="brand" href="./">
+        <div class="brand-mark">✓</div>
+        <div class="brand-name">TOEIC <span>EVERYDAY</span></div>
+      </a>
+      <nav class="nav-links"><a href="#bo-de">Bộ đề</a><a href="#cach-luyen">Cách luyện</a></nav>
     </div>
   </header>
 
@@ -240,128 +75,73 @@ loadTests();
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">🎧 TOEIC Listening Practice</div>
-          <h1>Luyện thi TOEIC<br><span class="accent">mỗi ngày.</span></h1>
-          <p class="hero-copy">Làm bài theo từng Part, làm lại linh hoạt, kiểm tra đáp án ngay và xem giải thích sau khi hoàn thành. Giao diện được tối ưu để học viên luyện tập trực tiếp trên máy tính hoặc điện thoại.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="./ets2024-test1/">▶ Bắt đầu Test 1</a>
-            <a class="btn btn-secondary" href="#tests">Xem bộ đề</a>
-          </div>
+          <div class="eyebrow">ETS Practice · Listening & Reading</div>
+          <h1>Luyện TOEIC <span class="accent">mỗi ngày.</span></h1>
+          <p class="hero-copy">Luyện đề TOEIC theo format ETS với giao diện tối ưu cho từng kỹ năng. Chọn một bộ đề bên dưới để bắt đầu Listening hoặc Reading.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#bo-de">Bắt đầu luyện →</a><a class="btn btn-secondary" href="#cach-luyen">Cách luyện</a></div>
         </div>
 
         <aside class="hero-card">
-          <div class="hc-top"><span class="hc-label">Listening Test</span><span class="hc-pill">4 Parts</span></div>
-          <div class="wave" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span><span></span><span></span>
-            <span></span><span></span><span></span><span></span>
-          </div>
-          <h2 class="hc-title">LISTENING TEST</h2>
-          <p class="hc-desc">100 câu Listening với hình ảnh, question-response, conversations và talks.</p>
-          <div class="stats">
-            <div class="stat"><strong>100</strong><span>Câu hỏi</span></div>
-            <div class="stat"><strong>4</strong><span>Parts</span></div>
-            <div class="stat"><strong>45′</strong><span>Khoảng thời gian</span></div>
-            <div class="stat"><strong>∞</strong><span>Nghe lại</span></div>
-          </div>
+          <div class="hc-top"><span class="hc-label">TOEIC PRACTICE</span><span class="hc-pill">7 Parts</span></div>
+          <div class="wave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <h2 class="hc-title">Listening + Reading</h2>
+          <p class="hc-desc">Làm từng kỹ năng riêng, lưu tiến độ trên trình duyệt và xem đáp án, script hoặc explanation sau khi kiểm tra.</p>
+          <div class="stats"><div class="stat"><strong>200</strong><span>Câu full test</span></div><div class="stat"><strong>7</strong><span>Parts</span></div><div class="stat"><strong>120′</strong><span>Full test</span></div><div class="stat"><strong>✓</strong><span>Có đáp án</span></div></div>
         </aside>
-
-<aside class="hero-card reading-card">
-  <div class="hc-top">
-    <span class="hc-label">READING TEST</span>
-    <span class="hc-pill">3 Parts</span>
-  </div>
-
-  <div class="reading-visual" aria-hidden="true">
-    <div class="reading-page">
-      <div class="reading-line line-long"></div>
-      <div class="reading-line line-medium"></div>
-      <div class="reading-line line-short"></div>
-
-      <div class="reading-choice-row">
-        <span>A</span>
-        <span>B</span>
-        <span>C</span>
-        <span>D</span>
-      </div>
-
-      <div class="reading-line line-long"></div>
-      <div class="reading-line line-medium"></div>
-      <div class="reading-line line-short"></div>
-    </div>
-
-    <div class="reading-part-labels">
-      <span>Part 5</span>
-      <span>Part 6</span>
-      <span>Part 7</span>
-    </div>
-  </div>
-
-  <h2 class="hc-title">Reading Test</h2>
-
-  <p class="hc-desc">
-    100 câu Reading gồm Incomplete Sentences,
-    Text Completion và Reading Comprehension.
-  </p>
-
-  <div class="stats">
-    <div class="stat">
-      <strong>100</strong>
-      <span>Câu hỏi</span>
-    </div>
-
-    <div class="stat">
-      <strong>3</strong>
-      <span>Parts</span>
-    </div>
-
-    <div class="stat">
-      <strong>75′</strong>
-      <span>Thời gian</span>
-    </div>
-
-    <div class="stat">
-      <strong>✓</strong>
-      <span>Có đáp án</span>
-    </div>
-  </div>
-</aside>
-
-        
-        
-
-        
       </div>
     </section>
 
-    <section id="tests">
+    <section id="bo-de">
       <div class="container">
-        <div class="section-head">
-          <div><h2>Bộ đề luyện tập</h2><p>Chọn một đề để bắt đầu. Các bộ đề mới sẽ được bổ sung dần.</p></div>
-          <span class="year-tag">ETS 2024</span>
-        </div>
-
-       <div id="testGrid" class="test-grid"></div>
-        
+        <div class="section-head"><div><h2>Bộ đề luyện tập</h2><p>Chọn Listening hoặc Reading của từng đề đã được mở.</p></div><span class="year-tag">ETS</span></div>
+        <div id="testGrid" class="test-grid"><div class="loading-card">Đang tải danh sách bộ đề...</div></div>
       </div>
     </section>
 
-    
-    <section id="how">
+    <section id="cach-luyen">
       <div class="container">
-        <div class="section-head"><div><h2>Cách luyện</h2><p>Quy trình đơn giản, tập trung vào nghe và phản xạ.</p></div></div>
+        <div class="section-head"><div><h2>Cách luyện</h2><p>Một quy trình đơn giản để sử dụng TOEIC EVERYDAY hiệu quả.</p></div></div>
         <div class="info-strip">
-          <div class="info-item"><strong>1. Chọn Part hoặc câu hỏi</strong><span>Dùng danh sách câu hỏi để di chuyển nhanh giữa các phần.</span></div>
-          <div class="info-item"><strong>2. Nghe và trả lời</strong><span>Có thể tua lại hoặc click trực tiếp vào waveform để nghe lại đoạn cần thiết.</span></div>
-          <div class="info-item"><strong>3. Kiểm tra và xem script</strong><span>Sau khi trả lời, hệ thống hiển thị đúng/sai và script để học lại.</span></div>
+          <div class="info-item"><strong>01 · Chọn đề</strong><span>Chọn Test và kỹ năng Listening hoặc Reading bạn muốn luyện.</span></div>
+          <div class="info-item"><strong>02 · Làm bài</strong><span>Tiến độ được lưu trên trình duyệt để bạn có thể tiếp tục khi quay lại.</span></div>
+          <div class="info-item"><strong>03 · Kiểm tra</strong><span>Xem đáp án, script hoặc explanation để rà lại lỗi sai.</span></div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-row"><span>© 2026 TOEIC EVERYDAY</span><span>Practice consistently. Improve every day.</span></div>
-  </footer>
+  <footer><div class="container footer-row"><span>© TOEIC EVERYDAY</span><span>Practice consistently. Improve every day.</span></div></footer>
+
+  <script>
+    async function loadTests(){
+      const grid=document.getElementById("testGrid");
+      try{
+        const response=await fetch("./tests.json",{cache:"no-store"});
+        if(!response.ok) throw new Error(`HTTP ${response.status}`);
+        const tests=await response.json();
+        if(!Array.isArray(tests)) throw new Error("tests.json không đúng định dạng.");
+        const availableTests=tests.filter(item=>item&&(item.listening||item.reading));
+        if(!availableTests.length){grid.innerHTML='<div class="error-card">Chưa có bộ đề nào được mở.</div>';return;}
+        grid.innerHTML="";
+        availableTests.forEach(item=>{
+          const card=document.createElement("article");card.className="test-card";
+          const number=String(item.test).padStart(2,"0");
+          let skillText="";
+          if(item.listening&&item.reading) skillText="100 câu Listening + 100 câu Reading.";
+          else if(item.listening) skillText="Full Listening Test gồm Part 1–4.";
+          else skillText="Full Reading Test gồm Part 5–7.";
+          const tags=[item.listening?"<span>Listening</span>":"",item.reading?"<span>Reading</span>":""].join("");
+          const buttons=[item.listening?`<a class="btn btn-primary" href="./shared/listening/listening.html?test=${encodeURIComponent(item.id)}">🎧 Listening</a>`:"",item.reading?`<a class="btn btn-reading" href="./shared/reading/reading.html?test=${encodeURIComponent(item.id)}">📖 Reading</a>`:""].join("");
+          const oneButton=!(item.listening&&item.reading);
+          card.innerHTML=`<div class="test-top"><div class="test-no">${number}</div><span class="badge">Đang mở</span></div><h3>ETS ${item.year} · Test ${item.test}</h3><p>${skillText}</p><div class="meta">${tags}</div><div class="test-actions${oneButton?" one-button":""}">${buttons}</div>`;
+          grid.appendChild(card);
+        });
+      }catch(error){
+        console.error("Không tải được tests.json:",error);
+        grid.innerHTML='<div class="error-card"><strong>Không tải được danh sách bộ đề.</strong><br>Kiểm tra xem <code>tests.json</code> có nằm cùng cấp với <code>index.html</code> hay không.</div>';
+      }
+    }
+    loadTests();
+  </script>
 </body>
 </html>
