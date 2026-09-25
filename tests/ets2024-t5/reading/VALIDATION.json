@@ -1,0 +1,14 @@
+{
+  "test": "ETS 2024 Reading Test 5",
+  "part5_count": 30,
+  "part6_count": 16,
+  "part6_sets": 4,
+  "part7_count": 54,
+  "part7_sets": 15,
+  "total_questions": 100,
+  "first_question": 101,
+  "last_question": 200,
+  "missing_questions": [],
+  "duplicate_questions": [],
+  "answer_key_checked": true
+}
