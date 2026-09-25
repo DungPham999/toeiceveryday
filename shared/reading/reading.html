@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETS 2024 · Reading Test 1 Prototype</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="test-header">
+    <div class="test-title-wrap">
+      <div class="kicker">TOEIC READING PRACTICE</div>
+      <div class="title-line">
+        <h1 id="testTitle">ETS 2024 · Reading Test 1</h1>
+        <span class="prototype-pill">Prototype</span>
+      </div>
+    </div>
+
+    <div class="progress-wrap">
+      <div id="progressText">0 / 22 answered</div>
+      <div class="progress-track"><div id="progressBar"></div></div>
+    </div>
+
+    <div class="header-actions">
+      <a href="./index.html" class="header-action-btn">← Trang chủ</a>
+      <button id="resetBtn" class="header-action-btn" type="button">↻ Làm lại bài</button>
+      <button id="paletteBtn" class="header-action-btn" type="button">☷ Danh sách câu hỏi</button>
+    </div>
+  </header>
+
+  <nav class="part-tabs">
+    <button data-part="5" class="active">Part 5</button>
+    <button data-part="6">Part 6</button>
+    <button data-part="7">Part 7</button>
+  </nav>
+
+  <main id="testArea" class="test-shell"></main>
+
+  <div id="paletteOverlay" class="palette-overlay hidden" aria-hidden="true">
+    <aside class="palette-panel">
+      <div class="palette-head">
+        <div>
+          <h2>Danh sách câu hỏi</h2>
+          <p>Prototype Reading Test 1</p>
+        </div>
+        <button id="paletteClose" type="button">×</button>
+      </div>
+
+      <div class="palette-summary">
+        <span><b id="correctCount">0</b> Đúng</span>
+        <span><b id="wrongCount">0</b> Sai</span>
+        <span><b id="todoCount">22</b> Chưa chấm</span>
+      </div>
+
+      <div class="palette-legend">
+        <span><i class="legend-current"></i>Đang xem</span>
+        <span><i class="legend-correct"></i>Đúng</span>
+        <span><i class="legend-wrong"></i>Sai</span>
+
+       <span class="legend-marked-item">
+  <i class="legend-star">★</i>
+  Đánh dấu
+</span>
+      </div>
+
+      <div id="paletteSections"></div>
+    </aside>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="data.js"></script>
+  <script src="explanation-fixes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
