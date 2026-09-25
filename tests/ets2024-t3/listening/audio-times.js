@@ -1,6 +1,6 @@
 // ETS 2024 Test 3 — chỉnh START/END tại đây nếu học viên báo audio lệch.
 window.AUDIO_TIMES = {
-  "p1-q1": { start: "01:34.20", end: "01:57.40" },
+  "p1-q1": { start: "01:34.20", end: "01:58.40" },
   "p1-q2": { start: "02:02.47", end: "02:21.66" },
   "p1-q3": { start: "02:26.72", end: "02:55.11" },
   "p1-q4": { start: "03:00.22", end: "03:20.22" },
