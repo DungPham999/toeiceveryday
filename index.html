@@ -5,6 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="TOEIC EVERYDAY - Luyện thi TOEIC theo format ETS với Listening và Reading." />
   <title>TOEIC EVERYDAY</title>
+ .year-groups{
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+}
+
+.year-group{
+  width:100%;
+}
+
+.year-group-head{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:18px;
+}
+
+.year-group-title{
+  margin:0;
+  font-size:26px;
+  font-weight:900;
+  letter-spacing:-0.8px;
+  color:#3d2f1f;
+}
+
+.year-group-line{
+  flex:1;
+  height:1px;
+  background:#eadcc7;
+}
+
+.year-group-count{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#fff0cf;
+  border:1px solid #f0d5a0;
+  color:#995700;
+  font-size:12px;
+  font-weight:850;
+}
+
+@media(max-width:640px){
+  .year-groups{
+    gap:34px;
+  }
+
+  .year-group-title{
+    font-size:22px;
+  }
+}
+  
   <style>
     :root{--bg:#fffaf2;--surface:#fff;--text:#2d2418;--muted:#746556;--line:#eadcc7;--primary:#f59e0b;--primary-2:#fb8c00;--dark:#3d2f1f;--shadow:0 16px 45px rgba(83,53,18,.10);--radius:24px}
     *{box-sizing:border-box}
@@ -94,7 +145,7 @@
     <section id="bo-de">
       <div class="container">
         <div class="section-head"><div><h2>Bộ đề luyện tập</h2><p>Chọn Listening hoặc Reading của từng đề đã được mở.</p></div><span class="year-tag">ETS</span></div>
-        <div id="testGrid" class="test-grid"><div class="loading-card">Đang tải danh sách bộ đề...</div></div>
+        <div id="testGrid" class="year-groups"><div class="loading-card">Đang tải danh sách bộ đề...</div></div>
       </div>
     </section>
 
@@ -112,36 +163,229 @@
 
   <footer><div class="container footer-row"><span>© TOEIC EVERYDAY</span><span>Practice consistently. Improve every day.</span></div></footer>
 
-  <script>
-    async function loadTests(){
-      const grid=document.getElementById("testGrid");
-      try{
-        const response=await fetch("./tests.json",{cache:"no-store"});
-        if(!response.ok) throw new Error(`HTTP ${response.status}`);
-        const tests=await response.json();
-        if(!Array.isArray(tests)) throw new Error("tests.json không đúng định dạng.");
-        const availableTests=tests.filter(item=>item&&(item.listening||item.reading));
-        if(!availableTests.length){grid.innerHTML='<div class="error-card">Chưa có bộ đề nào được mở.</div>';return;}
-        grid.innerHTML="";
-        availableTests.forEach(item=>{
-          const card=document.createElement("article");card.className="test-card";
-          const number=String(item.test).padStart(2,"0");
-          let skillText="";
-          if(item.listening&&item.reading) skillText="100 câu Listening + 100 câu Reading.";
-          else if(item.listening) skillText="Full Listening Test gồm Part 1–4.";
-          else skillText="Full Reading Test gồm Part 5–7.";
-          const tags=[item.listening?"<span>Listening</span>":"",item.reading?"<span>Reading</span>":""].join("");
-          const buttons=[item.listening?`<a class="btn btn-primary" href="./shared/listening/listening.html?test=${encodeURIComponent(item.id)}">🎧 Listening</a>`:"",item.reading?`<a class="btn btn-reading" href="./shared/reading/reading.html?test=${encodeURIComponent(item.id)}">📖 Reading</a>`:""].join("");
-          const oneButton=!(item.listening&&item.reading);
-          card.innerHTML=`<div class="test-top"><div class="test-no">${number}</div><span class="badge">Đang mở</span></div><h3>ETS ${item.year} · Test ${item.test}</h3><p>${skillText}</p><div class="meta">${tags}</div><div class="test-actions${oneButton?" one-button":""}">${buttons}</div>`;
-          grid.appendChild(card);
-        });
-      }catch(error){
-        console.error("Không tải được tests.json:",error);
-        grid.innerHTML='<div class="error-card"><strong>Không tải được danh sách bộ đề.</strong><br>Kiểm tra xem <code>tests.json</code> có nằm cùng cấp với <code>index.html</code> hay không.</div>';
-      }
+  
+ <script>
+async function loadTests() {
+  const container = document.getElementById("testGrid");
+
+  try {
+    const response = await fetch("./tests.json", {
+      cache: "no-store"
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
     }
-    loadTests();
-  </script>
+
+    const tests = await response.json();
+
+    if (!Array.isArray(tests)) {
+      throw new Error("tests.json không đúng định dạng.");
+    }
+
+    const availableTests = tests.filter(
+      item => item && (item.listening || item.reading)
+    );
+
+    if (availableTests.length === 0) {
+      container.innerHTML = `
+        <div class="error-card">
+          Chưa có bộ đề nào được mở.
+        </div>
+      `;
+      return;
+    }
+
+    /*
+     * Gom test theo năm
+     *
+     * Ví dụ:
+     * 2024 → Test 1, 2, 3...
+     * 2023 → Test 1, 2, 3...
+     */
+    const groups = {};
+
+    availableTests.forEach(item => {
+      if (!groups[item.year]) {
+        groups[item.year] = [];
+      }
+
+      groups[item.year].push(item);
+    });
+
+    /*
+     * Năm mới nhất lên trên:
+     * 2024
+     * 2023
+     * 2022
+     */
+    const years = Object.keys(groups)
+      .map(Number)
+      .sort((a, b) => b - a);
+
+    container.innerHTML = "";
+
+    years.forEach(year => {
+
+      /*
+       * Test trong mỗi năm:
+       * Test 1 → Test 2 → Test 3...
+       */
+      groups[year].sort(
+        (a, b) => a.test - b.test
+      );
+
+      const yearSection = document.createElement("section");
+      yearSection.className = "year-group";
+
+      const yearHead = document.createElement("div");
+      yearHead.className = "year-group-head";
+
+      yearHead.innerHTML = `
+        <h3 class="year-group-title">
+          ETS ${year}
+        </h3>
+
+        <div class="year-group-line"></div>
+
+        <span class="year-group-count">
+          ${groups[year].length} Tests
+        </span>
+      `;
+
+      const grid = document.createElement("div");
+      grid.className = "test-grid";
+
+      groups[year].forEach(item => {
+
+        const card = document.createElement("article");
+        card.className = "test-card";
+
+        const number =
+          String(item.test).padStart(2, "0");
+
+        let skillText = "";
+
+        if (item.listening && item.reading) {
+
+          skillText =
+            "100 câu Listening + 100 câu Reading.";
+
+        } else if (item.listening) {
+
+          skillText =
+            "Full Listening Test gồm Part 1–4.";
+
+        } else {
+
+          skillText =
+            "Full Reading Test gồm Part 5–7.";
+
+        }
+
+        let tags = "";
+
+        if (item.listening) {
+          tags += `<span>Listening</span>`;
+        }
+
+        if (item.reading) {
+          tags += `<span>Reading</span>`;
+        }
+
+        let buttons = "";
+
+        if (item.listening) {
+
+          buttons += `
+            <a
+              class="btn btn-primary"
+              href="./shared/listening/listening.html?test=${encodeURIComponent(item.id)}"
+            >
+              🎧 Listening
+            </a>
+          `;
+        }
+
+        if (item.reading) {
+
+          buttons += `
+            <a
+              class="btn btn-reading"
+              href="./shared/reading/reading.html?test=${encodeURIComponent(item.id)}"
+            >
+              📖 Reading
+            </a>
+          `;
+        }
+
+        const oneButton =
+          !(item.listening && item.reading);
+
+        card.innerHTML = `
+          <div class="test-top">
+
+            <div class="test-no">
+              ${number}
+            </div>
+
+            <span class="badge">
+              Đang mở
+            </span>
+
+          </div>
+
+          <h3>
+            ETS ${item.year} · Test ${item.test}
+          </h3>
+
+          <p>
+            ${skillText}
+          </p>
+
+          <div class="meta">
+            ${tags}
+          </div>
+
+          <div class="test-actions${oneButton ? " one-button" : ""}">
+            ${buttons}
+          </div>
+        `;
+
+        grid.appendChild(card);
+      });
+
+      yearSection.appendChild(yearHead);
+      yearSection.appendChild(grid);
+
+      container.appendChild(yearSection);
+    });
+
+  } catch (error) {
+
+    console.error(
+      "Không tải được tests.json:",
+      error
+    );
+
+    container.innerHTML = `
+      <div class="error-card">
+        <strong>
+          Không tải được danh sách bộ đề.
+        </strong>
+        <br>
+        Kiểm tra file
+        <code>tests.json</code>.
+      </div>
+    `;
+  }
+}
+
+loadTests();
+</script>
+
+  
+
+  
 </body>
 </html>
