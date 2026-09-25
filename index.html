@@ -18,6 +18,9 @@
       linear-gradient(180deg,#fffaf2 0%,#fffdf9 44%,#fff8ec 100%);color:var(--text)}
     a{text-decoration:none;color:inherit}.container{width:min(1160px,calc(100% - 36px));margin:0 auto}
     header{position:sticky;top:0;z-index:30;backdrop-filter:blur(16px);background:rgba(255,250,242,.88);border-bottom:1px solid rgba(234,220,199,.85)}
+
+
+    
     .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
     .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:-.6px}
     .brand-mark{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,var(--primary),var(--primary-2));color:white;box-shadow:0 10px 26px rgba(245,158,11,.30);font-size:20px}
@@ -58,8 +61,173 @@
     footer{margin-top:42px;border-top:1px solid var(--line);padding:28px 0 38px;color:#7b6f62;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
     @media (max-width:920px){.hero-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr 1fr}.info-strip{grid-template-columns:1fr}.nav-links{display:none}}
     @media (max-width:640px){.container{width:min(100% - 24px,1160px)}.hero{padding-top:44px}h1{letter-spacing:-2px}.test-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.section-head{align-items:flex-start;flex-direction:column}.hero-card{padding:22px;min-height:320px}}
+
+    .test-actions{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:10px;
+  margin-top:auto;
+}
+
+.test-actions .btn{
+  min-height:52px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border-radius:14px;
+
+  font-weight:900;
+  text-decoration:none;
+
+  transition:.15s ease;
+}
+
+.btn-primary{
+  background:linear-gradient(
+    135deg,
+    #f59e0b,
+    #fb8c00
+  );
+
+  color:white;
+}
+
+.btn-primary:hover{
+  transform:translateY(-1px);
+}
+
+.btn-reading{
+  background:#fff4dc;
+
+  color:#8d4c00;
+
+  border:2px solid #f0b64d;
+}
+
+.btn-reading:hover{
+  background:#ffe9bd;
+  border-color:#f59e0b;
+}
+
+@media(max-width:600px){
+
+  .test-actions{
+    grid-template-columns:1fr;
+  }
+
+}
   </style>
 </head>
+<script>
+async function loadTests() {
+  const grid = document.getElementById("testGrid");
+
+  try {
+    const response = await fetch("./tests.json");
+
+    if (!response.ok) {
+      throw new Error("Không tải được tests.json");
+    }
+
+    const tests = await response.json();
+
+    grid.innerHTML = "";
+
+    tests.forEach(item => {
+
+      // Không có kỹ năng nào thì không hiện test.
+      if (!item.listening && !item.reading) {
+        return;
+      }
+
+      const card = document.createElement("article");
+      card.className = "test-card";
+
+      const number = String(item.test).padStart(2, "0");
+
+      let skillText = "";
+
+      if (item.listening && item.reading) {
+        skillText = "100 câu Listening + 100 câu Reading.";
+      } else if (item.listening) {
+        skillText = "Full Listening Test gồm Part 1–4.";
+      } else if (item.reading) {
+        skillText = "Full Reading Test gồm Part 5–7.";
+      }
+
+      let tags = "";
+
+      if (item.listening) {
+        tags += `<span>Listening</span>`;
+      }
+
+      if (item.reading) {
+        tags += `<span>Reading</span>`;
+      }
+
+      let buttons = "";
+
+      if (item.listening) {
+        buttons += `
+          <a class="btn btn-primary"
+             href="./shared/listening/listening.html?test=${item.id}">
+            🎧 Listening
+          </a>
+        `;
+      }
+
+      if (item.reading) {
+        buttons += `
+          <a class="btn btn-reading"
+             href="./shared/reading/reading.html?test=${item.id}">
+            📖 Reading
+          </a>
+        `;
+      }
+
+      card.innerHTML = `
+        <div class="test-top">
+          <div class="test-no">${number}</div>
+          <span class="badge">Đang mở</span>
+        </div>
+
+        <h3>ETS ${item.year} · Test ${item.test}</h3>
+
+        <p>${skillText}</p>
+
+        <div class="meta">
+          ${tags}
+        </div>
+
+        <div class="test-actions">
+          ${buttons}
+        </div>
+      `;
+
+      grid.appendChild(card);
+    });
+
+  } catch (error) {
+    console.error(error);
+
+    grid.innerHTML = `
+      <div style="
+        padding:20px;
+        border:1px solid #f0c47c;
+        border-radius:16px;
+        background:#fff8e8;
+      ">
+        Không tải được danh sách bộ đề.
+      </div>
+    `;
+  }
+}
+
+loadTests();
+</script>
+  
 <body>
   <header>
     <div class="container nav">
@@ -174,142 +342,12 @@
           <span class="year-tag">ETS 2024</span>
         </div>
 
-        <div class="test-grid">
-          <article class="test-card">
-            <div class="test-top"><div class="test-no">01</div><span class="badge">Đang mở</span></div>
-            <h3>ETS 2024 · Test 1</h3>
-            <p>Full Listening Test gồm đủ Part 1, Part 2, Part 3 và Part 4.</p>
-            <div class="meta"><span>100 câu</span><span>4 Parts</span><span>Có script</span><span>Có đáp án</span></div>
-            <a class="btn btn-primary" href="./ets2024-test1/">Làm bài ngay →</a>
-          </article>
-
-          
-         <article class="test-card">
-    <div class="test-top">
-      <div class="test-no">02</div>
-      <span class="badge">Đang mở</span>
-    </div>
-
-    <h3>ETS 2024 · Test 2</h3>
-
-    <p>
-      Full Listening Test gồm đủ Part 1, Part 2,
-      Part 3 và Part 4.
-    </p>
-
-    <div class="meta">
-      <span>100 câu</span>
-      <span>4 Parts</span>
-      <span>Có script</span>
-      <span>Có đáp án</span>
-    </div>
-
-    <a class="btn btn-primary"
-       href="./ets2024-test2/">
-      Làm bài ngay →
-    </a>
-  </article>
-
-
-          
-<article class="test-card">
-    <div class="test-top">
-      <div class="test-no">03</div>
-      <span class="badge">Đang mở</span>
-    </div>
-
-    <h3>ETS 2024 · Test 3</h3>
-
-    <p>
-      Full Listening Test gồm đủ Part 1, Part 2,
-      Part 3 và Part 4.
-    </p>
-
-    <div class="meta">
-      <span>100 câu</span>
-      <span>4 Parts</span>
-      <span>Có script</span>
-      <span>Có đáp án</span>
-    </div>
-
-    <a class="btn btn-primary"
-       href="./ets2024-test3/">
-      Làm bài ngay →
-    </a>
-  </article>
-
-
-          
-
-          <article class="test-card">
-    <div class="test-top">
-      <div class="test-no">04</div>
-      <span class="badge">Đang mở</span>
-    </div>
-
-    <h3>ETS 2024 · Test 4</h3>
-
-    <p>
-      Full Listening Test gồm đủ Part 1, Part 2,
-      Part 3 và Part 4.
-    </p>
-
-    <div class="meta">
-      <span>100 câu</span>
-      <span>4 Parts</span>
-      <span>Có script</span>
-      <span>Có đáp án</span>
-    </div>
-
-    <a class="btn btn-primary"
-       href="./ets2024-test4/">
-      Làm bài ngay →
-    </a>
-  </article>
-
-          
-          
-<article class="test-card">
-    <div class="test-top">
-      <div class="test-no">05</div>
-      <span class="badge">Đang mở</span>
-    </div>
-
-    <h3>ETS 2024 · Test 5</h3>
-
-    <p>
-      Full Listening Test gồm đủ Part 1, Part 2,
-      Part 3 và Part 4.
-    </p>
-
-    <div class="meta">
-      <span>100 câu</span>
-      <span>4 Parts</span>
-      <span>Có script</span>
-      <span>Có đáp án</span>
-    </div>
-
-    <a class="btn btn-primary"
-       href="./ets2024-test5/">
-      Làm bài ngay →
-    </a>
-  </article>
-
-
-
-
-
-
-
-          
-          
-
-
-          
-        </div>
+       <div id="testGrid" class="test-grid"></div>
+        
       </div>
     </section>
 
+    
     <section id="how">
       <div class="container">
         <div class="section-head"><div><h2>Cách luyện</h2><p>Quy trình đơn giản, tập trung vào nghe và phản xạ.</p></div></div>
