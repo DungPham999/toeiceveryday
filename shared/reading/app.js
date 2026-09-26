@@ -107,14 +107,72 @@
     }
 
     b.innerHTML = `<span class="radio"></span><span>(${String.fromCharCode(65+i)}) ${escapeHtml(choice)}</span>`;
+   
+    
     b.onclick = () => {
-      if(isChecked(q)) return;
-      answers[q.number] = i;
-      currentNumber = q.number;
-      if(q.part === 5) checkedSingle.add(q.number);
-      save();
-      render();
-    };
+  if(isChecked(q)) return;
+
+  // Ghi nhớ vị trí cuộn hiện tại của Part 6–7
+  const questionsPane = document.querySelector(
+    '.reading-set .set-questions'
+  );
+
+  const passagePane = document.querySelector(
+    '.reading-set .passage-card'
+  );
+
+  const questionsScroll = questionsPane
+    ? questionsPane.scrollTop
+    : 0;
+
+  const passageScroll = passagePane
+    ? passagePane.scrollTop
+    : 0;
+
+
+  // Lưu đáp án
+  answers[q.number] = i;
+  currentNumber = q.number;
+
+  // Part 5 vẫn chấm ngay như cũ
+  if(q.part === 5) {
+    checkedSingle.add(q.number);
+  }
+
+  save();
+  render();
+
+
+  // Part 6–7: trả về đúng vị trí đang cuộn
+  if(q.part === 6 || q.part === 7) {
+
+    requestAnimationFrame(() => {
+
+      const newQuestionsPane = document.querySelector(
+        '.reading-set .set-questions'
+      );
+
+      const newPassagePane = document.querySelector(
+        '.reading-set .passage-card'
+      );
+
+      if(newQuestionsPane) {
+        newQuestionsPane.scrollTop = questionsScroll;
+      }
+
+      if(newPassagePane) {
+        newPassagePane.scrollTop = passageScroll;
+      }
+
+    });
+
+  }
+};
+
+
+
+    
+    
     return b;
   }
 
