@@ -1,0 +1,16 @@
+{
+  "test": "ETS 2026 Reading Test 1",
+  "storageKey": "ets2026-reading-t1",
+  "part5_count": 30,
+  "part6_count": 16,
+  "part6_sets": 4,
+  "part7_count": 54,
+  "part7_sets": 15,
+  "total_questions": 100,
+  "first_question": 101,
+  "last_question": 200,
+  "missing_questions": [],
+  "duplicate_questions": [],
+  "source_pages_in_assets": 25,
+  "shared_files_recreated": false
+}
