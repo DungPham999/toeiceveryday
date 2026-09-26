@@ -41,4 +41,20 @@
 
   }
 
+  window.logoutToeic = function () {
+
+  localStorage.removeItem(
+    "toeic-everyday-auth"
+  );
+
+  sessionStorage.removeItem(
+    "toeic-return-url"
+  );
+
+  window.location.replace(
+    "/toeiceveryday/login.html"
+  );
+
+};
+  
 })();
