@@ -1,6 +1,22 @@
 
 (() => {
   const cfg = window.READING_CONFIG;
+  const testTitleEl =
+  document.getElementById('testTitle');
+
+if(testTitleEl){
+
+  if(
+    window.READING_CONFIG &&
+    window.READING_CONFIG.title
+  ){
+
+    testTitleEl.textContent =
+      window.READING_CONFIG.title;
+
+  }
+
+}
   const data = window.READING_DATA;
   const key = cfg.storageKey;
 
