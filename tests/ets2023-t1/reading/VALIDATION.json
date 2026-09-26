@@ -1,0 +1,15 @@
+{
+  "test": "ETS 2023 Reading Test 1",
+  "part5_count": 30,
+  "part6_count": 16,
+  "part6_sets": 4,
+  "part7_count": 54,
+  "part7_sets": 15,
+  "total_questions": 100,
+  "first_question": 101,
+  "last_question": 200,
+  "missing_questions": [],
+  "duplicate_questions": [],
+  "storageKey": "ets2023-reading-t1",
+  "source_note": "Uploaded booklet contains Q101–195 only. Q196–200 were reconstructed from the uploaded detailed-solution file; their exact original English passage is not present in the booklet."
+}
