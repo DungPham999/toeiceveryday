@@ -1,0 +1,21 @@
+{
+  "test": "ETS 2026 Listening Test 4",
+  "part1": 6,
+  "part2": 25,
+  "part3": 39,
+  "part4": 30,
+  "total": 100,
+  "missing": [],
+  "duplicates": [],
+  "items": 54,
+  "audio_original_seconds": 2375.131,
+  "audio_compressed_bytes": 16664572,
+  "graphics": [
+    "g62-64.jpg",
+    "g65-67.jpg",
+    "g68-70.jpg",
+    "g95-97.jpg",
+    "g98-100.jpg"
+  ],
+  "timestamp_method": "Auto-detected from recurring TOEIC answer-pause silence pattern in supplied audio."
+}
