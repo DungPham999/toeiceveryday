@@ -5,56 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="TOEIC EVERYDAY - Luyện thi TOEIC theo format ETS với Listening và Reading." />
   <title>TOEIC EVERYDAY</title>
- .year-groups{
-  display:flex;
-  flex-direction:column;
-  gap:42px;
-}
 
-.year-group{
-  width:100%;
-}
-
-.year-group-head{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  margin-bottom:18px;
-}
-
-.year-group-title{
-  margin:0;
-  font-size:26px;
-  font-weight:900;
-  letter-spacing:-0.8px;
-  color:#3d2f1f;
-}
-
-.year-group-line{
-  flex:1;
-  height:1px;
-  background:#eadcc7;
-}
-
-.year-group-count{
-  padding:6px 10px;
-  border-radius:999px;
-  background:#fff0cf;
-  border:1px solid #f0d5a0;
-  color:#995700;
-  font-size:12px;
-  font-weight:850;
-}
-
-@media(max-width:640px){
-  .year-groups{
-    gap:34px;
-  }
-
-  .year-group-title{
-    font-size:22px;
-  }
-}
   
   <style>
     :root{--bg:#fffaf2;--surface:#fff;--text:#2d2418;--muted:#746556;--line:#eadcc7;--primary:#f59e0b;--primary-2:#fb8c00;--dark:#3d2f1f;--shadow:0 16px 45px rgba(83,53,18,.10);--radius:24px}
@@ -105,10 +56,61 @@
     .test-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:auto}.test-actions.one-button{grid-template-columns:1fr}.test-actions .btn{width:100%;min-height:52px;padding:0 12px;border-radius:14px;font-weight:900}
     .btn-reading{background:#fff4dc;color:#8d4c00;border:2px solid #f0b64d;box-shadow:none}.btn-reading:hover{background:#ffe9bd;border-color:#f59e0b;transform:translateY(-1px)}
     .loading-card,.error-card{grid-column:1/-1;background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;color:var(--muted)}.error-card{background:#fff8e8;border-color:#f0c47c;color:#76552e}
-    .info-strip{margin-top:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.info-item{background:#fff7e7;border:1px solid #efdbb6;border-radius:18px;padding:18px}.info-item strong{display:block;margin-bottom:6px;color:#754814}.info-item span{color:#7b6a58;font-size:14px;line-height:1.5}
+    .info-strip{margin-top:18px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.info-item{background:#fff7e7;border:1px solid #efdbb6;border-radius:18px;padding:18px}.info-item strong{display:block;margin-bottom:6px;color:#754814}.info-item span{color:#7b6a58;font-size:14px;line-height:1.5}
     footer{margin-top:42px;border-top:1px solid var(--line);padding:28px 0 38px;color:#7b6f62;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
-    @media(max-width:920px){.hero-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr 1fr}.info-strip{grid-template-columns:1fr}.nav-links{display:none}}
+    @media(max-width:920px){.hero-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr 1fr}.info-strip{grid-template-columns:(2,1fr);}.nav-links{display:none}}
     @media(max-width:640px){.container{width:min(100% - 24px,1160px)}.hero{padding-top:44px}h1{letter-spacing:-2px}.test-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.section-head{align-items:flex-start;flex-direction:column}.hero-card{padding:22px;min-height:320px}.test-actions{grid-template-columns:1fr}}
+   .year-groups{
+  display:flex;
+  flex-direction:column;
+  gap:42px;
+}
+
+.year-group{
+  width:100%;
+}
+
+.year-group-head{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:18px;
+}
+
+.year-group-title{
+  margin:0;
+  font-size:26px;
+  font-weight:900;
+  letter-spacing:-0.8px;
+  color:#3d2f1f;
+}
+
+.year-group-line{
+  flex:1;
+  height:1px;
+  background:#eadcc7;
+}
+
+.year-group-count{
+  padding:6px 10px;
+  border-radius:999px;
+  background:#fff0cf;
+  border:1px solid #f0d5a0;
+  color:#995700;
+  font-size:12px;
+  font-weight:850;
+}
+
+@media(max-width:640px){
+  .year-groups{
+    gap:34px;
+  }
+
+  .year-group-title{
+    font-size:22px;
+  }
+}
+  
   </style>
 </head>
 <body>
