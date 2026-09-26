@@ -1,0 +1,17 @@
+{
+  "test": "ETS 2026 Listening Test 5",
+  "part1_count": 6,
+  "part2_count": 25,
+  "part3_count": 39,
+  "part4_count": 30,
+  "total_questions": 100,
+  "audio_items_sets": 54,
+  "first_question": 1,
+  "last_question": 100,
+  "missing_questions": [],
+  "duplicate_questions": [],
+  "storageKey": "ets2026-t5",
+  "audio_file": "assets/audio/Test_05.mp3",
+  "part1_images": 6,
+  "graphic_images": 5
+}
