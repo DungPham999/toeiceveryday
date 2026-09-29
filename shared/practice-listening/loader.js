@@ -1,7 +1,6 @@
-(function(){
-
-const params =
-new URLSearchParams(window.location.search);
+const params = new URLSearchParams(
+window.location.search
+);
 
 
 const unit =
@@ -10,12 +9,12 @@ params.get("unit");
 
 if(!unit){
 
-alert("Missing unit");
+document.body.innerHTML =
+"No practice selected";
 
-return;
+throw new Error("Missing unit");
 
 }
-
 
 
 const script =
@@ -23,32 +22,16 @@ document.createElement("script");
 
 
 script.src =
-`../../units/${unit}/data.js`;
+`../../tests/practice/${unit}/data.js`;
 
 
 script.onload=function(){
 
-console.log(
-"Loaded unit:",
-unit
+startPractice(
+window.PRACTICE_DATA
 );
-
-
-window.CURRENT_UNIT =
-unit;
-
-
-if(window.initPractice){
-
-window.initPractice();
-
-}
 
 };
 
 
-
 document.head.appendChild(script);
-
-
-})();
