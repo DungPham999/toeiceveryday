@@ -1,22 +1,18 @@
 window.PRACTICE_DATA={
 
 
-title:
-"Pre_Lis 1",
+title:"Pre_Lis 1",
 
 
-storageKey:
-"practice-test",
+storageKey:"pre-lis-1",
 
 
 
 sections:[
 
-
 {
 
-label:
-"Part 1",
+label:"Part 1",
 
 
 exercises:[
@@ -24,56 +20,47 @@ exercises:[
 
 {
 
-id:
-"ex1",
+id:"ex1",
 
-label:
-"Exercise 1",
-
-part:
-1
-
-},
+label:"Exercise 1",
 
 
-{
-
-id:
-"ex2",
-
-label:
-"Exercise 2",
-
-part:
-1
-
-}
+type:"part1",
 
 
-]
+audio:"assets/audio/ex1.mp3",
 
-},
 
+
+questions:[
 
 
 {
 
-label:
-"Part 3",
-
-exercises:[
+number:1,
 
 
-{
+image:"assets/images/q1.jpg",
 
-id:
-"ex3",
 
-label:
-"Exercise 3",
+choices:[
 
-part:
-3
+"She is sitting outside.",
+
+"She is walking away.",
+
+"She is reading a book.",
+
+"She is carrying a bag."
+
+],
+
+
+answer:0,
+
+
+script:
+"She is sitting outside."
 
 }
 
@@ -84,5 +71,11 @@ part:
 
 
 ]
+
+}
+
+
+]
+
 
 };
