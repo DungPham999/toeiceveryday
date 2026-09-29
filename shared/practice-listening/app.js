@@ -179,3 +179,37 @@ container.appendChild(box);
 
 
 }
+
+
+function checkAnswer(q,user,correct){
+
+
+const box =
+document.getElementById(
+"result-"+q
+);
+
+
+
+if(user===correct){
+
+box.innerHTML=
+"✅ Correct";
+
+
+}
+
+else{
+
+
+box.innerHTML=
+"❌ Wrong <br> Answer: "
++
+String.fromCharCode(65+correct);
+
+
+}
+
+
+
+}
