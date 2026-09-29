@@ -1,0 +1,1 @@
+window.READING_EXPLANATION_FIXES = {};
