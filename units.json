@@ -1,0 +1,47 @@
+[
+  {
+    "id": "pre-lis-1",
+    "level": "PRE",
+    "title": "Pre_Lis 1",
+    "skill": "listening",
+    "description": "Pre TOEIC Listening",
+    "parts": ["Part 1"],
+    "enabled": true
+  },
+  {
+    "id": "pre-lis-2",
+    "level": "PRE",
+    "title": "Pre_Lis 2",
+    "skill": "listening",
+    "description": "Pre TOEIC Listening",
+    "parts": ["Part 2"],
+    "enabled": true
+  },
+  {
+    "id": "a-lis-1",
+    "level": "A",
+    "title": "A_Lis 1",
+    "skill": "listening",
+    "description": "TOEIC A _ Listening",
+    "parts": ["Part 1", "Part 3"],
+    "enabled": true
+  },
+  {
+    "id": "a-read-1",
+    "level": "A",
+    "title": "A_Read 1",
+    "skill": "reading",
+    "description": "TOEIC A _ Reading",
+    "parts": ["Part 5", "Part 6"],
+    "enabled": true
+  },
+  {
+    "id": "a-read-2",
+    "level": "A",
+    "title": "A_Read 2",
+    "skill": "reading",
+    "description": "TOEIC A _ Reading",
+    "parts": ["Part 5", "Part 7"],
+    "enabled": true
+  }
+]
