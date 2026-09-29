@@ -678,7 +678,7 @@ window.READING_DATA = {
             "It is currently for sale.",
             "It is a real estate magazine.",
             "It is a local weekly publication.",
-            "It is a national daily newspaper. Gửi: Donna Witt; Jack Witt Từ: David Paltz Ngày: 5 tháng 8 Chủ đề: Dự án sân hiên đường Barkley Chào Donna và Jack,"
+            "It is a national daily newspaper. "
           ],
           "answer": 2,
           "explanation": "u gì được gợi ý về Clearpoint Times?\nHiện đang được rao bán\nLà một tạp chí bất động sản\nLà một ấn phẩm địa phương phát hành hàng\nn\nLà một tờ báo quốc gia phát hành hằng ngày\n➔ Chọn c\nlịch làm việc của mình cho những tháng sắp tới.\nnhà của anh chị và thảo luận chi tiết hơn về\nùng nhau trao đổi và đưa ra một số mong đợi\ntưởng của anh chị sẽ giúp tôi xác định tốt\ntôi có thể đưa ra một bản ước tính chi phí chính"
