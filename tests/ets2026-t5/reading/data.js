@@ -436,7 +436,7 @@ window.READING_DATA = {
             "role",
             "school",
             "production",
-            "warehouse (A) role: ● Ngữ c này). ● Giải th công v (trườn phù hợ thuật) 132 (A) There (B) Instead (C) Otherwise (D) Afterward (A) There: ● Ngữ c \"There ● Giải th thế ch lặp từ ● Loại t thì), A lý. 133 (A) Let him know if you would like to apply. (B) The salary levels are more competitive. (C) He will be joining us on January 12. (D) Spencer Design has lost revenue over the last two years. (C) He will be ● Ngữ c Molina ● Giải th giới th đầu là công t nội du 134 (A) will be (B) could be (C) has been (D) would have been (C) has been ● Ngữ c ● Giải th dùng t động/t"
+            "warehouse"
           ],
           "answer": 0,
           "explanation": "● Ngữ cảnh: \"...ten years in this role\" (10 năm ở vai trò\nnày).\n● Giải thích: \"Role\" (vai trò/vị trí) thường dùng để chỉ\ncông việc trong một công ty. Các từ khác như school\n(trường), production (sản xuất), warehouse (kho) không\nphù hợp với chức danh \"art director\" (giám đốc nghệ\nthuật) đã nhắc ở đầu câu."
@@ -446,7 +446,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "There",
-            "Instead (A) There:",
+            "Instead",
             "Otherwise",
             "Afterward"
           ],
@@ -457,10 +457,10 @@ window.READING_DATA = {
           "number": 133,
           "prompt": "",
           "choices": [
-            "Let him know if you would like to apply. (C) He will be joining us on January 12:",
-            "The salary levels are more competitive. ● Ngữ cảnh: Câu trước giới thiệu người mới (Marcos",
-            "He will be joining us on Molina). January 12. ● Giải thích: Theo mạch văn thông báo nhân sự, sau khi",
-            "Spencer Design has lost giới thiệu tên người mới sẽ là thông tin về ngày bắt revenue over the last two đầu làm việc. Các phương án còn lại (mức lương, việc công ty cũ mất doanh thu...) đều không liên quan đến years. nội dung chúc mừng."
+            "Let him know if you would like to apply.",
+            "The salary levels are more competitive.",
+            "He will be joining us on January 12.",
+            "Spencer Design has lost revenue over the last two years."
           ],
           "answer": 2,
           "explanation": "● Ngữ cảnh: Câu trước giới thiệu người mới (Marcos\nMolina).\n● Giải thích: Theo mạch văn thông báo nhân sự, sau khi\ngiới thiệu tên người mới sẽ là thông tin về ngày bắt\nđầu làm việc. Các phương án còn lại (mức lương, việc\ncông ty cũ mất doanh thu...) đều không liên quan đến\nnội dung chúc mừng."
@@ -470,7 +470,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "will be",
-            "could be (C) has been:",
+            "could be",
             "has been",
             "would have been"
           ],
@@ -491,7 +491,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "where",
-            "therefore (D) as:",
+            "therefore",
             "for",
             "as"
           ],
@@ -502,10 +502,10 @@ window.READING_DATA = {
           "number": 136,
           "prompt": "",
           "choices": [
-            "One common problem is employee tardiness. (C) They communicate with their team...:",
-            "Our seminars cost £120 per session. ● Ngữ cảnh: Câu trước nói: \"Good leaders know how to",
-            "They communicate with find... and implement...\" (Lãnh đạo giỏi biết cách tìm... their team regularly to keep và thực hiện...). them informed. ● Giải thích: Câu này cần một hành động tiếp theo của",
-            "Sign up now and receive a \"Good leaders\". Việc \"giao tiếp thường xuyên\" là một đặc điểm của lãnh đạo giỏi. 9 ETS 2026 READING TEST 5 ten percent discount on the"
+            "One common problem is employee tardiness.",
+            "Our seminars cost £120 per session.",
+            "They communicate with their team regularly to keep them informed.",
+            "Sign up now and receive a ten percent discount on the registration fee."
           ],
           "answer": 2,
           "explanation": "● Ngữ cảnh: Câu trước nói: \"Good leaders know how to\nfind... and implement...\" (Lãnh đạo giỏi biết cách tìm...\nvà thực hiện...).\n● Giải thích: Câu này cần một hành động tiếp theo của\n\"Good leaders\". Việc \"giao tiếp thường xuyên\" là một\nđặc điểm của lãnh đạo giỏi.\n● Loại trừ: Câu (A) nói về việc nhân viên đi muộn, (B)\nnói về giá cả, (D) nói về giảm giá - tất cả đều làm ngắt\nmạch định nghĩa về người lãnh đạo."
@@ -515,7 +515,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "learned",
-            "will learn (B) will learn:",
+            "will learn",
             "had learned",
             "will have learned"
           ],
@@ -527,7 +527,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "Authorities",
-            "Candidates (C) Participants:",
+            "Candidates",
             "Participants",
             "Subscribers"
           ],
@@ -548,7 +548,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "either",
-            "perhaps (C) within:",
+            "perhaps",
             "within",
             "since"
           ],
@@ -559,10 +559,10 @@ window.READING_DATA = {
           "number": 140,
           "prompt": "",
           "choices": [
-            "Let us help you achieve these objectives. (A) Let us help you achieve these objectives:",
-            "Ask us about potential tax advantages. ● Dấu hiệu: \"these objectives\" (những mục tiêu này).",
-            "Our software makes ● Giải thích: \"Objectives\" ở đây ám chỉ việc làm cho cơ booking appointments easy. sở \"thoải mái, làm dịu, nâng cao hình ảnh\" đã nêu ở",
-            "A well-trained staff is all câu trước. Đây là cách kết nối ý rất phổ biến trong Part you need to succeed. 6."
+            "Let us help you achieve these objectives.",
+            "Ask us about potential tax advantages.",
+            "Our software makes booking appointments easy.",
+            "A well-trained staff is all you need to succeed."
           ],
           "answer": 0,
           "explanation": "● Dấu hiệu: \"these objectives\" (những mục tiêu này).\n● Giải thích: \"Objectives\" ở đây ám chỉ việc làm cho cơ\nsở \"thoải mái, làm dịu, nâng cao hình ảnh\" đã nêu ở\ncâu trước. Đây là cách kết nối ý rất phổ biến trong Part\n6."
@@ -572,7 +572,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "space",
-            "event (A) space:",
+            "event",
             "signal",
             "moment"
           ],
@@ -584,7 +584,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "educational",
-            "residential (D) previous:",
+            "residential",
             "preventive",
             "previous"
           ],
@@ -604,9 +604,9 @@ window.READING_DATA = {
           "number": 143,
           "prompt": "",
           "choices": [
-            "Lengthier articles are sometimes considered as (A) Lengthier articles are sometimes considered as well: well.",
-            "The editorial staff has won ● Ngữ cảnh: Câu trước giới hạn 800-1200 từ. numerous awards. ● Giải thích: Câu này bổ sung ngoại lệ (các bài dài hơn",
-            "Subscribe now and receive cũng có thể được xem xét). \"As well\" ở cuối câu là dấu a free tote bag. hiệu của việc bổ sung thông tin.",
+            "Lengthier articles are sometimes considered as well.",
+            "The editorial staff has won numerous awards.", 
+            "Subscribe now and receive a free tote bag.",
             "Please allow four to six weeks for delivery."
           ],
           "answer": 0,
@@ -617,7 +617,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "In any event",
-            "If you cannot (C) Before you do:",
+            "If you cannot",
             "Before you do",
             "On the contrary"
           ],
@@ -629,7 +629,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "We",
-            "They (A) We:",
+            "They",
             "Some",
             "These"
           ],
@@ -641,7 +641,7 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "forms",
-            "drafts (B) drafts:",
+            "drafts",
             "contracts",
             "schedules"
           ],
@@ -727,15 +727,15 @@ window.READING_DATA = {
       "questions": [
         {
           "number": 151,
-          "prompt": "For whom is the advertisement most Quảng cáo này nhiều khả năng hướng tới đối likely intended? tượng nào?",
+          "prompt": "For whom is the advertisement most likely intended?",
           "choices": [
-            "People who want to tour Jeel City (A) Những người muốn tham quan thành phố Jeel",
-            "People who enjoy outdoor activities (B) Những người yêu thích các hoạt động ngoài",
-            "Business conference organizers trời 17 ETS 2026 READING TEST 5",
-            "Hotel industry professionals (C) Những người tổ chức hội nghị doanh nghiệp (D) Những người làm trong ngành khách sạn"
+            "People who want to tour Jeel City",
+            "People who enjoy outdoor activities",
+            "Business conference organizers",
+            "Hotel industry professionals"
           ],
           "answer": 1,
-          "explanation": "uảng cáo này nhiều khả năng hướng tới đối\nượng nào?\nA) Những người muốn tham quan thành phố Jeel\nB) Những người yêu thích các hoạt động ngoài\nrời\ng người tổ chức hội nghị doanh nghiệp\ng người làm trong ngành khách sạn\nọn B"
+          "explanation": "Quảng cáo này nhiều khả năng hướng tới đối tượng nào?\nA) Những người muốn tham quan thành phố Jeel\nB) Những người yêu thích các hoạt động ngoài\nrời\ng người tổ chức hội nghị doanh nghiệp\ng người làm trong ngành khách sạn\nọn B"
         },
         {
           "number": 152,
@@ -747,7 +747,7 @@ window.READING_DATA = {
             "Guests can prepare food in them."
           ],
           "answer": 3,
-          "explanation": "được gợi ý về một số phòng tại khách sạn\n?\ng có đồ nội thất cổ\ng vừa được nâng cấp gần đây\nh có thể xem các phòng này trực tuyến\nh có thể tự chuẩn bị đồ ăn trong phòng\nọn D\nvới giám đốc của công ty Yadav Digital\ng, và tôi đã nhắc đến bạn. Cô ấy nói rằng bạn\nyêu cầu.\nhồ sơ xin việc của tôi không?\nu năm rồi. Chỉ cần đảm bảo rằng hồ sơ xin việc\nn là được.\nất cảm kích!"
+          "explanation": "Điều gì đúng về một số phòng tại khách sạn?\nA) có đồ nội thất cổ \nB) vừa được nâng cấp gần đây\n C) Khách có thể xem các phòng này trực tuyến \n D)Khách có thể tự chuẩn bị đồ ăn trong phòng.\n chọn D\nvới giám đốc của công ty Yadav Digital\n, và tôi đã nhắc đến bạn. Cô ấy nói rằng bạn\nyêu cầu.\nhồ sơ xin việc của tôi không?\nu năm rồi. Chỉ cần đảm bảo rằng hồ sơ xin việc\nn là được.\nất cảm kích!"
         }
       ]
     },
@@ -805,12 +805,12 @@ window.READING_DATA = {
         },
         {
           "number": 156,
-          "prompt": "Why did the leaders of Covered Bridge Tại sao ban lãnh đạo của Covered Bridge Industries not follow their original plan? Industries không thực hiện kế hoạch ban đầu? 21 ETS 2026 READING TEST 5",
+          "prompt": "Why did the leaders of Covered Bridge Industries not follow their original plan?",
           "choices": [
-            "They wanted to wait for more (A) Họ muốn chờ điều kiện thị trường thuận lợi favorable market conditions. hơn",
-            "Quality tests revealed several (B) Các bài kiểm tra chất lượng cho thấy nhiều problems. vấn đề",
-            "Their advertising campaign was not (C) Chiến dịch quảng cáo của họ chưa sẵn sàng ready on time. đúng hạn",
-            "An essential ingredient was (D) Một nguyên liệu thiết yếu không có sẵn unavailable."
+            "They wanted to wait for more favorable market conditions.",
+            "Quality tests revealed several problems.",
+            "Their advertising campaign was not ready on time.",
+            "An essential ingredient was unavailable."
           ],
           "answer": 3,
           "explanation": "Tại sao ban lãnh đạo của Covered Bridge\nIndustries không thực hiện kế hoạch ban đầu?\nHọ muốn chờ điều kiện thị trường thuận lợi\nCác bài kiểm tra chất lượng cho thấy nhiều\nđề\nChiến dịch quảng cáo của họ chưa sẵn sàng\ng hạn\nMột nguyên liệu thiết yếu không có sẵn\n➔ Chọn D"
@@ -822,7 +822,7 @@ window.READING_DATA = {
             "In June",
             "In August",
             "In November",
-            "In December BẢN GHI NHỚ Từ: Leah Achen, Trưởng bộ phận Tài nguyên Công ng Gửi: Toàn thể nhân viên Ngày: 28 tháng 6 Chủ đề: Thay đổi phần mềm chỉnh sửa video"
+            "In December"
           ],
           "answer": 3,
           "explanation": "ng tháng nào Covered Bridge Industries nhiều\nnăng sẽ tung ra sản phẩm mới?\nTháng Sáu\nTháng Tám\nTháng Mười Một\nTháng Mười Hai\n➔ Chọn D\nđược truy cập vào ứng dụng Zipvid để tạo\ndụng Curtain Call, một chương trình mà (158)\nị treo) hơn. — [2] —\nà Zipvid sử dụng sang định dạng tương\no máy tính làm việc của mình. Tiện ích này có\ncông ty. — [3] —\nanuel Costa thuộc bộ phận Hỗ trợ Công nghệ."
@@ -936,7 +936,7 @@ window.READING_DATA = {
       "part": 7,
       "label": "Questions 165–167",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Important Information Regarding Employee Safety\n\nAll employees are expected to follow the guidelines in the employee manual as well\nas posted safety rules. Certain jobs require employees to follow the additional safety\nguidelines provided by their supervisors. Because we take safety seriously, we urge any\nemployee who becomes aware of a breach of these protocols to contact a supervisor\nor the safety coordinator. Further, any employee who has concerns about these\nprotocols or would like to propose additional measures should contact the safety\ncoordinator directly.\n\nAdditionally, contact information for employees who are trained in first aid can be\nfound in the employee manual. Free first aid training and certification are available\ntwice yearly to all employees. For more information about when trainings are held,\nplease contact Lynn Schneider at Ischneider@rinckindustry.com.</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Important Information Regarding Employee Safety\n\nAll employees are expected to follow the guidelines in the employee manual as well as posted safety rules. Certain jobs require employees to follow the additional safety guidelines provided by their supervisors. Because we take safety seriously, we urge any employee who becomes aware of a breach of these protocols to contact a supervisor or the safety coordinator. Further, any employee who has concerns about these protocols or would like to propose additional measures should contact the safety coordinator directly.\n\nAdditionally, contact information for employees who are trained in first aid can be found in the employee manual. Free first aid training and certification are available twice yearly to all employees. For more information about when trainings are held,please contact Lynn Schneider at Ischneider@rinckindustry.com.</div></div>",
       "questions": [
         {
           "number": 165,
@@ -981,7 +981,7 @@ window.READING_DATA = {
       "part": 7,
       "label": "Questions 168–171",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Dora County Department of Transportation\nDivision of Administrative Services\n\nHIGHWAY SUPERVISOR\n\nThe highway supervisor oversees all tasks related to the construction and\nmaintenance of road-related structures throughout Dora County, including creating\nwork objectives for all emergency program activities. Key responsibilities include\nthe organization of all snow-removal operations and construction projects. — [1] —.\nTherefore, the supervisor must also be able to perform construction and\nmaintenance work as needed and possess an appropriate level of skill in operating\nthe relevant equipment.\n\n—[2]—. The supervisor assists in the hiring and training of subordinates and\nworks with division leaders to conduct evaluations and yearly performance reviews\nof crew members. Crucially, the supervisor instructs crew members in safety\nprocedures and monitors the safety of works in progress. The supervisor informs\nthe division director of major personnel problems; the director will recommend an\nappropriate course of action in all instances. — [3] —. Significant concerns raised\nby employees are brought to the attention of division leaders by the supervisor,\nwho functions as a liaison between crew members and the Division of\nAdministrative Services.\n\nManaging the division’s designated budget is a critical aspect of the position. The\nsupervisor shows proficiency in the use of computers to keep track of the budget\neach month. — [4] —. The supervisor prepares expenditure reports and time sheets\nas well as statistical and narrative reports related to maintenance and repair\nactivities, being sure to record the amount of time, number of employees, and\nmaterials used for each activity.</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Dora County Department of Transportation\nDivision of Administrative Services\n\nHIGHWAY SUPERVISOR\n\nThe highway supervisor oversees all tasks related to the construction and maintenance of road-related structures throughout Dora County, including creating work objectives for all emergency program activities. Key responsibilities include the organization of all snow-removal operations and construction projects. — [1] —.Therefore, the supervisor must also be able to perform construction and maintenance work as needed and possess an appropriate level of skill in operating the relevant equipment.\n\n—[2]—. The supervisor assists in the hiring and training of subordinates and works with division leaders to conduct evaluations and yearly performance reviews of crew members. Crucially, the supervisor instructs crew members in safety procedures and monitors the safety of works in progress. The supervisor informs\nthe division director of major personnel problems; the director will recommend an appropriate course of action in all instances. — [3] —. Significant concerns raised by employees are brought to the attention of division leaders by the supervisor, who functions as a liaison between crew members and the Division of Administrative Services.\n\nManaging the division’s designated budget is a critical aspect of the position. The supervisor shows proficiency in the use of computers to keep track of the budget each month. — [4] —. The supervisor prepares expenditure reports and time sheets as well as statistical and narrative reports related to maintenance and repair activities, being sure to record the amount of time, number of employees, and materials used for each activity.</div></div>",
       "questions": [
         {
           "number": 168,
