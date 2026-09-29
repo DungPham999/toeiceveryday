@@ -1,95 +1,38 @@
-function initPractice(){
+function startPractice(data){
+
+document.getElementById("title").innerHTML=data.title;
 
 
-const data =
-window.PRACTICE_DATA;
-
-
-
-if(!data){
-
-console.error(
-"No PRACTICE_DATA"
-);
-
-return;
-
-}
-
-
-
-document
-.getElementById("unitTitle")
-.innerText =
-data.title ||
-"Practice Listening";
-
-
-
-const container =
-document.getElementById(
-"exerciseContainer"
-);
-
-
-
-container.innerHTML="";
-
+const list=document.getElementById("exerciseList");
 
 
 data.sections.forEach(section=>{
 
 
-const sectionBox =
-document.createElement("div");
-
-
-sectionBox.className =
-"section";
-
-
-
-sectionBox.innerHTML =
-`
-<h2>
-${section.label}
-</h2>
-`;
-
+let h=document.createElement("h2");
+h.innerHTML=section.label;
+list.appendChild(h);
 
 
 section.exercises.forEach(ex=>{
 
 
-const btn =
-document.createElement("button");
+let btn=document.createElement("button");
 
-
-btn.innerText =
-ex.label ||
-"Exercise";
+btn.innerHTML=ex.title;
 
 
 btn.onclick=function(){
 
-loadExercise(ex);
+showExercise(ex);
 
 };
 
 
-
-sectionBox.appendChild(btn);
-
+list.appendChild(btn);
 
 
 });
-
-
-
-container.appendChild(
-sectionBox
-);
-
 
 
 });
@@ -99,80 +42,66 @@ sectionBox
 
 
 
-function loadExercise(ex){
+function showExercise(ex){
 
 
-const container =
-document.getElementById(
-"exerciseContainer"
-);
+const box=document.getElementById("content");
 
-
-container.innerHTML="";
+box.innerHTML="";
 
 
 ex.questions.forEach(q=>{
 
 
-const box =
-document.createElement("div");
+box.innerHTML+=`
 
+<hr>
 
-box.className="question";
-
-
-box.innerHTML=`
-
-<h3>
+<h2>
 Question ${q.number}
-</h3>
+</h2>
 
 
-${q.image ?
-`<img src="../../units/${CURRENT_UNIT}/${q.image}">`
-:""}
+<img 
+width="400"
+src="../../practice/a-lis-1/listening/${q.image}"
+>
+
+
+<br>
 
 
 <audio controls>
 
-<source src="../../units/${CURRENT_UNIT}/${ex.audio}">
+<source 
+src="../../practice/a-lis-1/listening/${ex.audio}"
+>
 
 </audio>
 
 
+<br><br>
 
-<p>${q.script}</p>
 
+${q.choices.map((c,i)=>`
 
-<div>
-
-${q.choices.map((c,i)=>
-
-`
 <button onclick="
-checkAnswer(${q.number},${i},${q.answer})
+check(${q.number},${i},${q.answer})
 ">
+
 ${String.fromCharCode(65+i)}.
 ${c}
+
 </button>
 
-`
 
-).join("")}
-
-</div>
+`).join("")}
 
 
-<div id="result-${q.number}">
-
-</div>
+<div id="r${q.number}"></div>
 
 
 `;
-
-
-
-container.appendChild(box);
 
 
 });
@@ -181,35 +110,18 @@ container.appendChild(box);
 }
 
 
-function checkAnswer(q,user,correct){
 
 
-const box =
-document.getElementById(
-"result-"+q
-);
+function check(q,a,c){
 
 
+document.getElementById("r"+q).innerHTML=
 
-if(user===correct){
-
-box.innerHTML=
-"✅ Correct";
-
-
-}
-
-else{
-
-
-box.innerHTML=
-"❌ Wrong <br> Answer: "
-+
-String.fromCharCode(65+correct);
-
-
-}
-
+a===c
+?
+"✅ Correct"
+:
+"❌ Answer: "+String.fromCharCode(65+c);
 
 
 }
