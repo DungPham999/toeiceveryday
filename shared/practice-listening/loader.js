@@ -1,35 +1,16 @@
-const params = new URLSearchParams(
-window.location.search
-);
+const params = new URLSearchParams(window.location.search);
+
+const unit = params.get("unit");
 
 
-const unit =
-params.get("unit");
+const script = document.createElement("script");
+
+script.src = `../../practice/${unit}/listening/data.js`;
 
 
-if(!unit){
+script.onload = function(){
 
-document.body.innerHTML =
-"No practice selected";
-
-throw new Error("Missing unit");
-
-}
-
-
-const script =
-document.createElement("script");
-
-
-script.src =
-`../../tests/practice/${unit}/data.js`;
-
-
-script.onload=function(){
-
-startPractice(
-window.PRACTICE_DATA
-);
+    startPractice(PRACTICE_DATA);
 
 };
 
