@@ -1,1 +1,54 @@
+body{
 
+font-family:
+Arial, sans-serif;
+
+margin:20px;
+
+}
+
+
+
+header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:20px;
+
+}
+
+
+
+button{
+
+padding:8px 15px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+
+.section{
+
+margin-bottom:30px;
+
+}
+
+
+
+.section button{
+
+display:block;
+
+width:250px;
+
+margin:10px 0;
+
+}
