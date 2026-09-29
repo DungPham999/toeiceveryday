@@ -15,7 +15,6 @@
     return;
   }
 
-  // Chỉ cho phép ID dạng a-lis-1, pre-lis-2...
   if (!/^[a-z0-9-]+$/.test(unitId)) {
     app.innerHTML = `
       <div class="practice-error">
@@ -27,8 +26,7 @@
 
   const dataScript = document.createElement("script");
 
-  dataScript.src =
-    `../../units/${unitId}/data.js`;
+  dataScript.src = `../../units/${unitId}/data.js`;
 
   dataScript.onload = function () {
 
