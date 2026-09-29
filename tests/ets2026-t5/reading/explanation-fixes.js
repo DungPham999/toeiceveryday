@@ -1,7 +1,7 @@
 window.READING_EXPLANATION_FIXES = {
   "101": "Mr. Choi, who recently joined the advisory\nboard, is an experienced accountant -------\ninvestor. → Chọn (C)\naccountant and investor = kế toán và nhà\nđầu tư\nbut / yet: đối lập (sai nghĩa)\nthat: không nối danh từ\nDịch: Ông Choi là một kế toán viên và nhà\nđầu tư giàu kinh nghiệm.",
-  "102": "er bottle = chai nước\ntled: tính từ\ntling / to bottle: động từ\nChọn (A)\nch: sẽ nhận được một chai nước miễn phí.",
-  "103": "shortly = sớm thôi\nshort: tính từ\nshorter: so sánh\nshortening: V-ing\n→ Chọn (B)\nDịch: …sẽ sớm được gửi email cho nhân\nviên.",
+  "102": "a complimentary water bottle là cụm danh từ, chai nước\nChọn (A)\n: sẽ nhận được một chai nước miễn phí.",
+  "103": "shortly = sớm thôi\nshort: tính từ\nshorter: so sánh\nshortening: V-ing\n→ nChọn (B)\nDịch: …sẽ sớm được gửi email cho nhân\nviên.",
   "104": "ied customers = khách hàng hài lòng\ny: động từ\naction: danh từ\nies: động từ\nn (B)\nHàng chục khách hàng hài lòng đã đăng\ngiá tích cực.",
   "105": "idely praised = được ca ngợi rộng rãi\nespectively: tương ứng\nightly: chặt chẽ\nnhappily: không vui\n→ Chọn (D)\nDịch: đã được ca ngợi rộng rãi.",
   "106": "her meeting = cuộc họp của cô ấy\nhe: chủ ngữ\ners: đại từ sở hữu\nerself: phản thân\n→ Chọn (A)\nDịch: sau cuộc họp của cô ấy.",
