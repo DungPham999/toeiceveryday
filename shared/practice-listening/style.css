@@ -1,54 +1,18 @@
-body{
-
-font-family:
-Arial, sans-serif;
-
-margin:20px;
-
+* {
+  box-sizing: border-box;
 }
 
-
-
-header{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-margin-bottom:20px;
-
+body {
+  margin: 0;
+  background: #fffaf3;
+  color: #2f2923;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-button{
-
-padding:8px 15px;
-
-border-radius:8px;
-
-cursor:pointer;
-
-}
-
-
-
-.section{
-
-margin-bottom:30px;
-
-}
-
-
-
-.section button{
-
-display:block;
-
-width:250px;
-
-margin:10px 0;
-
+.practice-loading,
+.practice-error {
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 40px;
+  text-align: center;
 }
