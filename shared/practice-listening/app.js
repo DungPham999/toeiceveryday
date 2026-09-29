@@ -1,127 +1,31 @@
-function startPractice(data){
+(function () {
 
-document.getElementById("title").innerHTML=data.title;
+  const app = document.getElementById("practice-app");
+  const data = window.PRACTICE_DATA;
 
+  app.innerHTML = `
+    <div style="
+      max-width:700px;
+      margin:80px auto;
+      padding:40px;
+      font-family:Arial,sans-serif;
+      border:2px solid #f59e0b;
+      border-radius:20px;
+      text-align:center;
+    ">
 
-const list=document.getElementById("exerciseList");
+      <h1>TOEIC EVERYDAY</h1>
 
+      <h2>Listening Practice</h2>
 
-data.sections.forEach(section=>{
+      <p>Practice Unit đã được tải thành công.</p>
 
+      <p>
+        <strong>Storage Key:</strong>
+        ${data.storageKey || "Chưa thiết lập"}
+      </p>
 
-let h=document.createElement("h2");
-h.innerHTML=section.label;
-list.appendChild(h);
+    </div>
+  `;
 
-
-section.exercises.forEach(ex=>{
-
-
-let btn=document.createElement("button");
-
-btn.innerHTML=ex.title;
-
-
-btn.onclick=function(){
-
-showExercise(ex);
-
-};
-
-
-list.appendChild(btn);
-
-
-});
-
-
-});
-
-
-}
-
-
-
-function showExercise(ex){
-
-
-const box=document.getElementById("content");
-
-box.innerHTML="";
-
-
-ex.questions.forEach(q=>{
-
-
-box.innerHTML+=`
-
-<hr>
-
-<h2>
-Question ${q.number}
-</h2>
-
-
-<img 
-width="400"
-src="../../practice/a-lis-1/listening/${q.image}"
->
-
-
-<br>
-
-
-<audio controls>
-
-<source 
-src="../../practice/a-lis-1/listening/${ex.audio}"
->
-
-</audio>
-
-
-<br><br>
-
-
-${q.choices.map((c,i)=>`
-
-<button onclick="
-check(${q.number},${i},${q.answer})
-">
-
-${String.fromCharCode(65+i)}.
-${c}
-
-</button>
-
-
-`).join("")}
-
-
-<div id="r${q.number}"></div>
-
-
-`;
-
-
-});
-
-
-}
-
-
-
-
-function check(q,a,c){
-
-
-document.getElementById("r"+q).innerHTML=
-
-a===c
-?
-"✅ Correct"
-:
-"❌ Answer: "+String.fromCharCode(65+c);
-
-
-}
+})();
