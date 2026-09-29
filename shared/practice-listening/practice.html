@@ -1,58 +1,155 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-<meta charset="UTF-8">
-
-<title>
-TOEIC EVERYDAY Practice Listening
-</title>
-
-<link rel="stylesheet"
-href="./style.css">
-
-</head>
+function startPractice(data){
 
 
-<body>
+document.getElementById(
+"title"
+).innerHTML=data.title;
 
 
-<div id="app">
+
+const list =
+document.getElementById(
+"exerciseList"
+);
 
 
-<header>
 
-<h1 id="unitTitle">
-Practice Listening
-</h1>
+data.sections.forEach(section=>{
 
-<button id="homeBtn">
-Trang chủ
+
+const h =
+document.createElement("h2");
+
+h.innerHTML=
+section.label;
+
+
+list.appendChild(h);
+
+
+
+section.exercises.forEach(ex=>{
+
+
+const btn =
+document.createElement("button");
+
+
+btn.innerHTML=
+ex.title;
+
+
+btn.onclick=function(){
+
+showExercise(ex);
+
+};
+
+
+list.appendChild(btn);
+
+
+
+});
+
+
+});
+
+}
+
+
+
+function showExercise(ex){
+
+
+const box =
+document.getElementById(
+"content"
+);
+
+
+
+box.innerHTML="";
+
+
+
+ex.questions.forEach(q=>{
+
+
+box.innerHTML+=`
+
+
+<hr>
+
+<h3>
+Question ${q.number}
+</h3>
+
+
+<img width="400"
+src="../../tests/practice/pre-lis-1/${q.image}">
+
+
+<br>
+
+
+<audio controls>
+
+<source src="../../tests/practice/pre-lis-1/${ex.audio}">
+
+</audio>
+
+
+<br><br>
+
+
+${q.choices.map(
+(c,i)=>
+
+`
+
+<button onclick="
+check(${q.number},${i},${q.answer})
+">
+
+${String.fromCharCode(65+i)}
+.
+${c}
+
 </button>
 
-<button id="logoutBtn">
-Đăng xuất
-</button>
+`
 
-</header>
+).join("")}
 
 
-
-<div id="exerciseContainer">
-
-</div>
+<div id="r${q.number}"></div>
 
 
-</div>
+`;
+
+
+});
+
+
+}
 
 
 
-<script src="../auth/auth.js"></script>
-
-<script src="./loader.js"></script>
-
-<script src="./app.js"></script>
+function check(q,a,c){
 
 
-</body>
-</html>
+document.getElementById(
+"r"+q
+).innerHTML =
+
+a===c
+?
+"✅ Correct"
+:
+"❌ Answer: "
++
+String.fromCharCode(65+c);
+
+
+}
