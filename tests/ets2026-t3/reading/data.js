@@ -10,7 +10,7 @@ window.READING_DATA = {
         "herself"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “her”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q101",
       "part": 5
     },
@@ -24,7 +24,7 @@ window.READING_DATA = {
         "decisive"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “available”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q102",
       "part": 5
     },
@@ -38,7 +38,7 @@ window.READING_DATA = {
         "reviews"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “review”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q103",
       "part": 5
     },
@@ -52,7 +52,7 @@ window.READING_DATA = {
         "responded"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “promoted”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q104",
       "part": 5
     },
@@ -66,7 +66,7 @@ window.READING_DATA = {
         "productive"
       ],
       "answer": 3,
-      "explanation": "The correct answer is “productive”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q105",
       "part": 5
     },
@@ -80,7 +80,7 @@ window.READING_DATA = {
         "structure"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “technician”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q106",
       "part": 5
     },
@@ -94,7 +94,7 @@ window.READING_DATA = {
         "nearness"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “nearly”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q107",
       "part": 5
     },
@@ -108,7 +108,7 @@ window.READING_DATA = {
         "thoughtfully"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “probably”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q108",
       "part": 5
     },
@@ -122,7 +122,7 @@ window.READING_DATA = {
         "itself"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “various”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q109",
       "part": 5
     },
@@ -136,7 +136,7 @@ window.READING_DATA = {
         "aside from"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “at”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q110",
       "part": 5
     },
@@ -150,7 +150,7 @@ window.READING_DATA = {
         "accepting"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “acceptable”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q111",
       "part": 5
     },
@@ -164,7 +164,7 @@ window.READING_DATA = {
         "had represented"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “is representing”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q112",
       "part": 5
     },
@@ -178,7 +178,7 @@ window.READING_DATA = {
         "additional"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “profitable”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q113",
       "part": 5
     },
@@ -192,7 +192,7 @@ window.READING_DATA = {
         "supplying"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “supplier”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q114",
       "part": 5
     },
@@ -206,7 +206,7 @@ window.READING_DATA = {
         "organization"
       ],
       "answer": 3,
-      "explanation": "The correct answer is “organization”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q115",
       "part": 5
     },
@@ -220,7 +220,7 @@ window.READING_DATA = {
         "some"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “who”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q116",
       "part": 5
     },
@@ -234,7 +234,7 @@ window.READING_DATA = {
         "specifically"
       ],
       "answer": 3,
-      "explanation": "The correct answer is “specifically”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q117",
       "part": 5
     },
@@ -248,7 +248,7 @@ window.READING_DATA = {
         "struggle"
       ],
       "answer": 3,
-      "explanation": "The correct answer is “struggle”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q118",
       "part": 5
     },
@@ -262,7 +262,7 @@ window.READING_DATA = {
         "confirmation"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “response”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q119",
       "part": 5
     },
@@ -276,7 +276,7 @@ window.READING_DATA = {
         "randomly"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “consistently”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q120",
       "part": 5
     },
@@ -290,7 +290,7 @@ window.READING_DATA = {
         "formality"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “former”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q121",
       "part": 5
     },
@@ -304,7 +304,7 @@ window.READING_DATA = {
         "out of"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “up to”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q122",
       "part": 5
     },
@@ -318,7 +318,7 @@ window.READING_DATA = {
         "promote"
       ],
       "answer": 3,
-      "explanation": "The correct answer is “promote”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q123",
       "part": 5
     },
@@ -332,7 +332,7 @@ window.READING_DATA = {
         "Without"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “While”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q124",
       "part": 5
     },
@@ -346,7 +346,7 @@ window.READING_DATA = {
         "Often"
       ],
       "answer": 1,
-      "explanation": "The correct answer is “Despite”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q125",
       "part": 5
     },
@@ -360,7 +360,7 @@ window.READING_DATA = {
         "beside"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “over”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q126",
       "part": 5
     },
@@ -374,7 +374,7 @@ window.READING_DATA = {
         "audition"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “auditions”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q127",
       "part": 5
     },
@@ -388,7 +388,7 @@ window.READING_DATA = {
         "mysteriously"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “hastily”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q128",
       "part": 5
     },
@@ -402,7 +402,7 @@ window.READING_DATA = {
         "has to revise"
       ],
       "answer": 2,
-      "explanation": "The correct answer is “had revised”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q129",
       "part": 5
     },
@@ -416,7 +416,7 @@ window.READING_DATA = {
         "regarding"
       ],
       "answer": 0,
-      "explanation": "The correct answer is “once”; it best completes the sentence grammatically and in context.",
+      "explanation": "",
       "id": "p5-q130",
       "part": 5
     }
@@ -439,7 +439,7 @@ window.READING_DATA = {
             "● (C) purchased (C) ● (D) purchasing (D) ●"
           ],
           "answer": 0,
-          "explanation": "“purchase *” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 132,
@@ -451,7 +451,7 @@ window.READING_DATA = {
             "● (C) automation (C) ● (D) automatically (D) ● Grammar: ● \"deposited\". ● →"
           ],
           "answer": 3,
-          "explanation": "“● (C) automation (C) ● (D) automatically (D) ● Grammar: ● \"deposited\". ● →” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 133,
@@ -463,7 +463,7 @@ window.READING_DATA = {
             "● (C) Nevertheless (C) ● (D) Frequently (D) ● Context: ● câu ● →"
           ],
           "answer": 0,
-          "explanation": "“Alternatively” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 134,
@@ -475,7 +475,7 @@ window.READING_DATA = {
             "Don’t wait—the (C) ● double-rewards promotion bạn ends on January 31. (D) ● (C) Please make sure to đây check your credit card Context: ● balance weekly. quay (D) Thank you for providing kết feedback on your recent ● → transaction."
           ],
           "answer": 1,
-          "explanation": "“Việc sử rewards is a common trong ngành practice in the banking” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         }
       ]
     },
@@ -496,7 +496,7 @@ window.READING_DATA = {
             "● (C) Regardless (C) ● (D) Moreover (D) ● Context: ● mới. ● →"
           ],
           "answer": 1,
-          "explanation": "“Originally:” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 136,
@@ -508,7 +508,7 @@ window.READING_DATA = {
             "● (C) cooperation (C) ● (D) generosity (D) ● Context: ● một ● →"
           ],
           "answer": 1,
-          "explanation": "“availability:” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 137,
@@ -520,7 +520,7 @@ window.READING_DATA = {
             "● (C) finalized (C) ● (D) finally (D) ● Grammar: ● ● →"
           ],
           "answer": 0,
-          "explanation": "“final” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 138,
@@ -532,7 +532,7 @@ window.READING_DATA = {
             "She was the best (C) ● candidate for the job. bánh (C) Please join us for coffee (D) ● and cake. Context: ● (D) The break room is (party). currently closed for ● → maintenance."
           ],
           "answer": 2,
-          "explanation": "“●” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         }
       ]
     },
@@ -553,7 +553,7 @@ window.READING_DATA = {
             "Reveal your company’s từ greatest strength from the (C) ● outset. trong (C) Make sure to cite any (D) ● sources you quote during trưởng. your presentation. Context: ● (D) An infusion of cash is phải often necessary for growth. ● →"
           ],
           "answer": 1,
-          "explanation": "“Các nhà share of ownership.” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 140,
@@ -565,7 +565,7 @@ window.READING_DATA = {
             "● (C) first (C) ● (D) relevant (D) ● Collocation: ● đó. ● →"
           ],
           "answer": 3,
-          "explanation": "“● (C) first (C) ● (D) relevant (D) ● Collocation: ● đó. ● →” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 141,
@@ -577,7 +577,7 @@ window.READING_DATA = {
             "● (C) what (C) ● (D) anything (D) ● Grammar: ● company ● →"
           ],
           "answer": 2,
-          "explanation": "“that” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 142,
@@ -589,7 +589,7 @@ window.READING_DATA = {
             "● (C) materials (C) ● (D) awards (D) ● Context: ● là để ● →"
           ],
           "answer": 0,
-          "explanation": "“funding” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         }
       ]
     },
@@ -610,7 +610,7 @@ window.READING_DATA = {
             "● (C) account (C) ● (D) plan (D) ● Context: ● tin ● →"
           ],
           "answer": 1,
-          "explanation": "“course:” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 144,
@@ -622,7 +622,7 @@ window.READING_DATA = {
             "● (C) will enable (C) ● (D) would have enabled (D) ● Context: ● cấp ● →"
           ],
           "answer": 2,
-          "explanation": "“enabling” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 145,
@@ -634,7 +634,7 @@ window.READING_DATA = {
             "Our shareholders will be mới pleased with this new (C) ● product. (D) ● (C) Productivity reductions cung will likely occur next month. Context: ● (D) This function will liên optimize the services offered ● → by the department."
           ],
           "answer": 3,
-          "explanation": "“Our shareholders will be mới pleased with this new (C) ● product. (D) ● (C) Productivity reductions cung will likely occur next month. Context: ● (D) This function will liên optimize the services offered ● → by the department.” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         },
         {
           "number": 146,
@@ -646,7 +646,7 @@ window.READING_DATA = {
             "● (C) during (C) ● (D) toward (D) ● Context: ● thống ● →"
           ],
           "answer": 2,
-          "explanation": "“along with” best completes the passage according to its grammar and surrounding context."
+          "explanation": ""
         }
       ]
     }
@@ -669,7 +669,7 @@ window.READING_DATA = {
             "A car wash"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “A car wash”."
+          "explanation": ""
         },
         {
           "number": 148,
@@ -681,7 +681,7 @@ window.READING_DATA = {
             "It can be used multiple times."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “It must be used before the end of August.”."
+          "explanation": ""
         }
       ]
     },
@@ -702,7 +702,7 @@ window.READING_DATA = {
             "To emphasize the important role of local artists"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “To publicize the start of a renovation project”."
+          "explanation": ""
         },
         {
           "number": 150,
@@ -714,7 +714,7 @@ window.READING_DATA = {
             "Artists will deliver wall decoration ideas"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Artists will deliver wall decoration ideas”."
+          "explanation": ""
         }
       ]
     },
@@ -735,7 +735,7 @@ window.READING_DATA = {
             "To announce the opening of a new museum"
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “To invite Mr. Sanchez to an event”."
+          "explanation": ""
         },
         {
           "number": 152,
@@ -747,7 +747,7 @@ window.READING_DATA = {
             "He has a membership at an art museum."
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “He has a membership at an art museum.”."
+          "explanation": ""
         }
       ]
     },
@@ -768,7 +768,7 @@ window.READING_DATA = {
             "Developing a mobile phone app"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “Renting a temporary space”."
+          "explanation": ""
         },
         {
           "number": 154,
@@ -780,7 +780,7 @@ window.READING_DATA = {
             "He will download a mobile phone app."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “He is willing to drive a van to a location.”."
+          "explanation": ""
         }
       ]
     },
@@ -801,7 +801,7 @@ window.READING_DATA = {
             "A distributor of computer components"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “A maker of computer furniture”."
+          "explanation": ""
         },
         {
           "number": 156,
@@ -813,7 +813,7 @@ window.READING_DATA = {
             "Read product reviews"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Read product reviews”."
+          "explanation": ""
         },
         {
           "number": 157,
@@ -825,7 +825,7 @@ window.READING_DATA = {
             "To receive product assembly information"
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “To obtain a price quote for a large order”."
+          "explanation": ""
         }
       ]
     },
@@ -846,7 +846,7 @@ window.READING_DATA = {
             "She introduced some newly hired executives."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “She congratulated staff on the latest sales figures.”."
+          "explanation": ""
         },
         {
           "number": 159,
@@ -858,7 +858,7 @@ window.READING_DATA = {
             "Mr. Sung"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Mr. Sung”."
+          "explanation": ""
         },
         {
           "number": 160,
@@ -870,7 +870,7 @@ window.READING_DATA = {
             "The company’s products are now available there."
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “A colleague is planning to move there.”."
+          "explanation": ""
         }
       ]
     },
@@ -891,7 +891,7 @@ window.READING_DATA = {
             "He has vast experience as a corporate executive."
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “He conducts research at an institution.”."
+          "explanation": ""
         },
         {
           "number": 162,
@@ -903,7 +903,7 @@ window.READING_DATA = {
             "Collaborate with Dr. Able’s team"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Collaborate with Dr. Able’s team”."
+          "explanation": ""
         },
         {
           "number": 163,
@@ -915,7 +915,7 @@ window.READING_DATA = {
             "[4]"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “[2]”."
+          "explanation": ""
         }
       ]
     },
@@ -936,7 +936,7 @@ window.READING_DATA = {
             "It is a trainee position."
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “It is a remote position.”."
+          "explanation": ""
         },
         {
           "number": 165,
@@ -948,7 +948,7 @@ window.READING_DATA = {
             "Previous experience at Neveck Associates"
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “Good communication skills”."
+          "explanation": ""
         },
         {
           "number": 166,
@@ -960,7 +960,7 @@ window.READING_DATA = {
             "The education requirements"
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “The starting date”."
+          "explanation": ""
         },
         {
           "number": 167,
@@ -972,7 +972,7 @@ window.READING_DATA = {
             "[4]"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “[1]”."
+          "explanation": ""
         }
       ]
     },
@@ -993,7 +993,7 @@ window.READING_DATA = {
             "It is funded by the city government."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “It offers nature-related courses.”."
+          "explanation": ""
         },
         {
           "number": 169,
@@ -1005,7 +1005,7 @@ window.READING_DATA = {
             "To attract a wide variety of birds"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “To attract a wide variety of birds”."
+          "explanation": ""
         },
         {
           "number": 170,
@@ -1017,7 +1017,7 @@ window.READING_DATA = {
             "Schoolchildren and their teachers"
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “University professors”."
+          "explanation": ""
         },
         {
           "number": 171,
@@ -1029,7 +1029,7 @@ window.READING_DATA = {
             "Preparing the ground for planting"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Preparing the ground for planting”."
+          "explanation": ""
         }
       ]
     },
@@ -1050,7 +1050,7 @@ window.READING_DATA = {
             "Support a product-development strategy"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “Increase her team’s marketing budget”."
+          "explanation": ""
         },
         {
           "number": 173,
@@ -1062,7 +1062,7 @@ window.READING_DATA = {
             "It does not sell well at a certain time of year."
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “It does not sell well at a certain time of year.”."
+          "explanation": ""
         },
         {
           "number": 174,
@@ -1074,7 +1074,7 @@ window.READING_DATA = {
             "He will share information on a competitor’s product."
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “He can fulfill Ms. Parkin’s request.”."
+          "explanation": ""
         },
         {
           "number": 175,
@@ -1086,7 +1086,7 @@ window.READING_DATA = {
             "Social media"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Social media”."
+          "explanation": ""
         }
       ]
     },
@@ -1107,7 +1107,7 @@ window.READING_DATA = {
             "It has won several awards for its products."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “It makes its products with locally sourced parts.”."
+          "explanation": ""
         },
         {
           "number": 177,
@@ -1119,7 +1119,7 @@ window.READING_DATA = {
             "Attend a sales event"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “Post photos online”."
+          "explanation": ""
         },
         {
           "number": 178,
@@ -1131,7 +1131,7 @@ window.READING_DATA = {
             "By traveling around the country"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “By talking to a colleague at work”."
+          "explanation": ""
         },
         {
           "number": 179,
@@ -1143,7 +1143,7 @@ window.READING_DATA = {
             "He received his order sooner than he expected."
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “He received his order sooner than he expected.”."
+          "explanation": ""
         },
         {
           "number": 180,
@@ -1155,7 +1155,7 @@ window.READING_DATA = {
             "connect"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “satisfy”."
+          "explanation": ""
         }
       ]
     },
@@ -1176,7 +1176,7 @@ window.READING_DATA = {
             "To promote a current theater production"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “To profile a successful local business”."
+          "explanation": ""
         },
         {
           "number": 182,
@@ -1188,7 +1188,7 @@ window.READING_DATA = {
             "He wrote a popular musical."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “He created a company 100 years ago.”."
+          "explanation": ""
         },
         {
           "number": 183,
@@ -1200,7 +1200,7 @@ window.READING_DATA = {
             "She used to live in Edinburgh’s Old Town."
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “She wants to return to Edinburgh.”."
+          "explanation": ""
         },
         {
           "number": 184,
@@ -1212,7 +1212,7 @@ window.READING_DATA = {
             "knows"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “values”."
+          "explanation": ""
         },
         {
           "number": 185,
@@ -1224,7 +1224,7 @@ window.READING_DATA = {
             "She had a good experience with a product from Milne Associates."
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “She had a good experience with a product from Milne Associates.”."
+          "explanation": ""
         }
       ]
     },
@@ -1245,7 +1245,7 @@ window.READING_DATA = {
             "A photographer"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “A farmer”."
+          "explanation": ""
         },
         {
           "number": 187,
@@ -1257,7 +1257,7 @@ window.READING_DATA = {
             "They are at a different location."
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “They are too fragile.”."
+          "explanation": ""
         },
         {
           "number": 188,
@@ -1269,7 +1269,7 @@ window.READING_DATA = {
             "It is near the museum’s south entrance."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “It seats no more than 75 people.”."
+          "explanation": ""
         },
         {
           "number": 189,
@@ -1281,7 +1281,7 @@ window.READING_DATA = {
             "Collaborate on research projects"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Collaborate on research projects”."
+          "explanation": ""
         },
         {
           "number": 190,
@@ -1293,7 +1293,7 @@ window.READING_DATA = {
             "They are still in use."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “They are more than 800 years old.”."
+          "explanation": ""
         }
       ]
     },
@@ -1314,7 +1314,7 @@ window.READING_DATA = {
             "On Friday"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “On Wednesday”."
+          "explanation": ""
         },
         {
           "number": 192,
@@ -1326,7 +1326,7 @@ window.READING_DATA = {
             "An executive assistant"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “An executive assistant”."
+          "explanation": ""
         },
         {
           "number": 193,
@@ -1338,7 +1338,7 @@ window.READING_DATA = {
             "New eyewear models"
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “The results of some interviews”."
+          "explanation": ""
         },
         {
           "number": 194,
@@ -1350,7 +1350,7 @@ window.READING_DATA = {
             "Marketing strategies"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “Technology updates”."
+          "explanation": ""
         },
         {
           "number": 195,
@@ -1362,7 +1362,7 @@ window.READING_DATA = {
             "Check that Ms. Moreland’s office has been cleaned"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “Attempt to contact some marketing team members”."
+          "explanation": ""
         }
       ]
     },
@@ -1383,7 +1383,7 @@ window.READING_DATA = {
             "He is a former choir director."
           ],
           "answer": 0,
-          "explanation": "The passage supports choice (A) “He is originally from Gradey City.”."
+          "explanation": ""
         },
         {
           "number": 197,
@@ -1395,7 +1395,7 @@ window.READING_DATA = {
             "Training a new choir director"
           ],
           "answer": 1,
-          "explanation": "The passage supports choice (B) “Hiring singers at short notice”."
+          "explanation": ""
         },
         {
           "number": 198,
@@ -1407,7 +1407,7 @@ window.READING_DATA = {
             "He contacted Mr. Stolarz."
           ],
           "answer": 2,
-          "explanation": "The passage supports choice (C) “He paid MLP a €300 fee.”."
+          "explanation": ""
         },
         {
           "number": 199,
@@ -1419,7 +1419,7 @@ window.READING_DATA = {
             "On August 11"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “On August 11”."
+          "explanation": ""
         },
         {
           "number": 200,
@@ -1431,7 +1431,7 @@ window.READING_DATA = {
             "Visit the Resources page to upload a video recording"
           ],
           "answer": 3,
-          "explanation": "The passage supports choice (D) “Visit the Resources page to upload a video recording”."
+          "explanation": ""
         }
       ]
     }
