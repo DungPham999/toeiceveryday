@@ -423,234 +423,234 @@ window.READING_DATA = {
   ],
   "part6": [
     {
-      "id": "p6-131-134",
-      "part": 6,
-      "label": "Questions 131–134",
-      "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">New Vietnamese Restaurant Opens\n\nSAN FRANCISCO (November 5)—Celebrity chef Eric Hoang ------- his first restaurant, Ngon Mieng. It opened last week in the North Beach neighborhood. Ngon Mieng serves authentic Vietnamese cuisine and some innovative dishes developed by Chef Hoang. The restaurant took over the space once occupied by the restaurant Plantains, ------- closed last year.\n\nChef Hoang won first place on the reality television show Best Chefs in the U.S. two years ago. ------- “After receiving the award, opening a restaurant became my dream,” he said. “I am excited to bring my culinary creations to the North Beach area.”\n\nAt the grand opening, diners echoed Chef Hoang’s enthusiasm for the -------. “Without a doubt, it was some of the best I’ve ever eaten,” said customer Judy Blackburn.</div></div>",
-      "questions": [
-        {
-          "number": 131,
-          "prompt": "",
-          "choices": [
-            "will launch",
-            "will launch: sẽ khai",
-            "could launch",
-            "could launch: có (C) has launched: đã (C) has launched (D) was launching: (D) was launching Grammar: Thì hiện mới xảy ra và có kết Chọn (C)"
-          ],
-          "answer": 2,
-          "explanation": "“could launch” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 132,
-          "prompt": "",
-          "choices": [
-            "they",
-            "they: họ",
-            "this",
-            "this: cái này (C) where (C) where: nơi mà (D) which (D) which: cái mà Grammar: Đại từ quan đã đóng cửa trước Chọn (D)"
-          ],
-          "answer": 3,
-          "explanation": "“this: cái này (C) where (C) where: nơi mà (D) which (D) which: cái mà Grammar: Đại từ quan đã đóng cửa trước Chọn (D)” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 133,
-          "prompt": "",
-          "choices": [
-            "San Francisco has",
-            "San Francisco có many popular",
-            "Nhà hàng có thể Vietnamese vào năm tới. restaurants.",
-            "Chương trình đang (B) The restaurant (D) Anh ấy đã rất phấn may expand to other Context: Câu trước California cities next show \"Best Chefs in year. Chọn (D) → (C) The show is Dịch: Anh ấy đã rất entering its fifth season. (D) He was thrilled to win that competition."
-          ],
-          "answer": 3,
-          "explanation": "“Chương trình đang (B) The restaurant (D) Anh ấy đã rất phấn may expand to other Context: Câu trước California cities next show \"Best Chefs in year. Chọn (D) → (C) The show is Dịch: Anh ấy đã rất entering its fifth season. (D) He was thrilled to win that competition.” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 134,
-          "prompt": "",
-          "choices": [
-            "food",
-            "food: đồ ăn/ẩm",
-            "event",
-            "event: sự kiện (C) area (C) area: khu vực (D) performance (D) performance: buổi Context: Thực khách (\"vừa mới ăn xong\"). Chọn (A)"
-          ],
-          "answer": 0,
-          "explanation": "“food” best completes the passage according to its grammar and surrounding context."
-        }
-      ]
+        "id": "p6-131-134",
+        "part": 6,
+        "label": "Questions 131–134",
+        "passageTitle": "",
+        "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>New Vietnamese Restaurant Opens</strong>\n\nSAN FRANCISCO (November 5)—Celebrity chef Eric Hoang <strong>131.</strong> ------- his first restaurant, Ngon Mieng. It opened last week in the North Beach neighborhood. Ngon Mieng serves authentic Vietnamese cuisine and some innovative dishes developed by Chef Hoang. The restaurant took over the space once occupied by the restaurant Plantains, <strong>132.</strong> ------- closed last year.\n\nChef Hoang won first place on the reality television show <em>Best Chefs in the U.S.</em> two years ago. <strong>133.</strong> ------- “After receiving the award, opening a restaurant became my dream,” he said. “I am excited to bring my culinary creations to the North Beach area.”\n\nAt the grand opening, diners echoed Chef Hoang’s enthusiasm for the <strong>134.</strong> -------. “Without a doubt, it was some of the best I’ve ever eaten,” said customer Judy Blackburn.</div></div>",
+        "questions": [
+            {
+                "number": 131,
+                "prompt": "",
+                "choices": [
+                    "will launch",
+                    "could launch",
+                    "has launched",
+                    "was launching"
+                ],
+                "answer": 2,
+                "explanation": "Đáp án (C) has launched. Bài báo thông báo một nhà hàng vừa được khai trương và ngay sau đó nói “It opened last week”. Hiện tại hoàn thành “has launched” phù hợp để nêu sự kiện mới xảy ra có liên hệ với hiện tại."
+            },
+            {
+                "number": 132,
+                "prompt": "",
+                "choices": [
+                    "they",
+                    "this",
+                    "where",
+                    "which"
+                ],
+                "answer": 3,
+                "explanation": "Đáp án (D) which. Sau dấu phẩy cần đại từ quan hệ mở đầu mệnh đề không xác định, bổ nghĩa cho “the restaurant Plantains”: “Plantains, which closed last year”."
+            },
+            {
+                "number": 133,
+                "prompt": "",
+                "choices": [
+                    "San Francisco has many popular Vietnamese restaurants.",
+                    "The restaurant may expand to other California cities next year.",
+                    "The show is entering its fifth season.",
+                    "He was thrilled to win that competition."
+                ],
+                "answer": 3,
+                "explanation": "Đáp án (D). Câu trước nói Chef Hoang đã giành giải nhất trong chương trình truyền hình; câu “He was thrilled to win that competition.” nối trực tiếp với thành tích này và dẫn tự nhiên sang lời kể “After receiving the award...”."
+            },
+            {
+                "number": 134,
+                "prompt": "",
+                "choices": [
+                    "food",
+                    "event",
+                    "area",
+                    "performance"
+                ],
+                "answer": 0,
+                "explanation": "Đáp án (A) food. Câu sau có lời nhận xét “it was some of the best I’ve ever eaten”, nên thứ mà thực khách nhiệt tình khen ngợi là đồ ăn."
+            }
+        ]
     },
     {
-      "id": "p6-135-138",
-      "part": 6,
-      "label": "Questions 135–138",
-      "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Connelly’s Parking Garage\n\nParking is $10 per hour unless you get your parking validated at a ------- store. Stores that can validate your parking include Raymond&#x27;s Department Store, Lola’s Fine Dining, Monique’s Boutique, and Gretsch Chocolatiers. Just bring your entrance ticket to ------- of these establishments. ------- You will get your first hour of parking at no charge. -------, the fee will be $5 per hour.</div></div>",
-      "questions": [
-        {
-          "number": 135,
-          "prompt": "",
-          "choices": [
-            "participates",
-            "participates",
-            "participated",
-            "participated (C) participating (C) participating (D) participation (D) participation Collocation: trình). Chọn (C)"
-          ],
-          "answer": 2,
-          "explanation": "“participated” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 136,
-          "prompt": "",
-          "choices": [
-            "any",
-            "any: bất",
-            "all",
-            "all: tất cả (C) each (C) each: mỗi (D) either (D) either: một Grammar: \"any sở nào trong Chọn (A)"
-          ],
-          "answer": 0,
-          "explanation": "“any” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 137,
-          "prompt": "",
-          "choices": [
-            "Park only in",
-            "Chỉ đỗ xe specified spots.",
-            "Hãy chắc",
-            "Make sure to lock (C) Chúng tôi your vehicle. (D) Nhân viên (C) We cannot accept Context: Để cash at this time. đến cửa hàng (D) A cashier will Chọn (D)"
-          ],
-          "answer": 3,
-          "explanation": "“Make sure to lock (C) Chúng tôi your vehicle. (D) Nhân viên (C) We cannot accept Context: Để cash at this time. đến cửa hàng (D) A cashier will Chọn (D)” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 138,
-          "prompt": "",
-          "choices": [
-            "If not",
-            "If not: Nếu",
-            "Then",
-            "Then: Sau (C) In that case (C) In that case: (D) Nevertheless (D) Nevertheless: Context: \"If đóng dấu xác Chọn (A)"
-          ],
-          "answer": 0,
-          "explanation": "“If not” best completes the passage according to its grammar and surrounding context."
-        }
-      ]
+        "id": "p6-135-138",
+        "part": 6,
+        "label": "Questions 135–138",
+        "passageTitle": "",
+        "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>Connelly’s Parking Garage</strong>\n\nParking is $10 per hour unless you get your parking validated at a <strong>135.</strong> ------- store. Stores that can validate your parking include Raymond’s Department Store, Lola’s Fine Dining, Monique’s Boutique, and Gretsch Chocolatiers. Just bring your entrance ticket to <strong>136.</strong> ------- of these establishments. <strong>137.</strong> ------- You will get your first hour of parking at no charge. <strong>138.</strong> -------, the fee will be $5 per hour.</div></div>",
+        "questions": [
+            {
+                "number": 135,
+                "prompt": "",
+                "choices": [
+                    "participates",
+                    "participated",
+                    "participating",
+                    "participation"
+                ],
+                "answer": 2,
+                "explanation": "Đáp án (C) participating. “Participating” là tính từ/phân từ hiện tại bổ nghĩa cho “store”, tạo cụm “a participating store” = một cửa hàng tham gia chương trình xác nhận đỗ xe."
+            },
+            {
+                "number": 136,
+                "prompt": "",
+                "choices": [
+                    "any",
+                    "all",
+                    "each",
+                    "either"
+                ],
+                "answer": 0,
+                "explanation": "Đáp án (A) any. Cấu trúc “any of these establishments” có nghĩa là bất kỳ cơ sở nào trong số các cơ sở vừa được liệt kê."
+            },
+            {
+                "number": 137,
+                "prompt": "",
+                "choices": [
+                    "Park only in specified spots.",
+                    "Make sure to lock your vehicle.",
+                    "We cannot accept cash at this time.",
+                    "A cashier will gladly stamp it for you."
+                ],
+                "answer": 3,
+                "explanation": "Đáp án (D). Câu trước yêu cầu mang vé vào cửa hàng; bước hợp lý tiếp theo là nhân viên thu ngân đóng dấu/xác nhận vé. Sau đó khách được miễn phí giờ đỗ xe đầu tiên."
+            },
+            {
+                "number": 138,
+                "prompt": "",
+                "choices": [
+                    "If not",
+                    "Then",
+                    "In that case",
+                    "Nevertheless"
+                ],
+                "answer": 1,
+                "explanation": "Đáp án (B) Then. Trình tự là: vé được xác nhận → giờ đầu miễn phí → sau đó mức phí là $5 mỗi giờ. “Then” diễn đạt bước tiếp theo trong trình tự này."
+            }
+        ]
     },
     {
-      "id": "p6-139-142",
-      "part": 6,
-      "label": "Questions 139–142",
-      "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Lost Ocean Theater is thrilled to announce a unique offering coming to its downtown location next week. The talented comedian Maddy Chang ------- a one-person show based on her memoir, That&#x27;s All I Wanted. Chang&#x27;s book, filled with funny and engaging -------, is brought to life through this performance. Fans will enjoy experiencing Chang&#x27;s brilliance in person, while newcomers to her work will receive a ------- introduction to her entertaining world.\n\nShow times are Thursday through Sunday at 7:00 P.M., with an additional matinee on Saturday at 1:00 P.M. ------- Additional information can be found at www.lostoceantheater.com.</div></div>",
-      "questions": [
-        {
-          "number": 139,
-          "prompt": "",
-          "choices": [
-            "will perform",
-            "will perform:",
-            "to perform",
-            "to perform: (C) performed (C) performed: (D) performing (D) performing: Grammar: Thì lịch sắp tới Chọn (A)"
-          ],
-          "answer": 0,
-          "explanation": "“will perform” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 140,
-          "prompt": "",
-          "choices": [
-            "reasons",
-            "reasons:",
-            "structures",
-            "structures: (C) characters (C) characters: (D) signs (D) signs: dấu Context: Cuốn thú vị và lôi Chọn (C)"
-          ],
-          "answer": 2,
-          "explanation": "“structures” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 141,
-          "prompt": "",
-          "choices": [
-            "delight",
-            "delight (v/n):",
-            "delights",
-            "delights (C) delighted (C) delighted (D) delightful (D) delightful Grammar: Cần Chọn (D)"
-          ],
-          "answer": 3,
-          "explanation": "“delights (C) delighted (C) delighted (D) delightful (D) delightful Grammar: Cần Chọn (D)” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 142,
-          "prompt": "",
-          "choices": [
-            "The theater will",
-            "Nhà hát close for renovations.",
-            "Hãy gọi",
-            "Call the theater at (C) Hồi ký của 704-555-0138 to phương. reserve tickets. (D) Chang lớn (C) Chang’s memoir Context: Đây is available online hướng dẫn and at local Chọn (B) → booksellers. Dịch: Hãy gọi (D) Chang was raised in Southern California and attended college in Minnesota."
-          ],
-          "answer": 1,
-          "explanation": "“Nhà hát close for renovations.” best completes the passage according to its grammar and surrounding context."
-        }
-      ]
+        "id": "p6-139-142",
+        "part": 6,
+        "label": "Questions 139–142",
+        "passageTitle": "",
+        "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>Lost Ocean Theater</strong> is thrilled to announce a unique offering coming to its downtown location next week. The talented comedian Maddy Chang <strong>139.</strong> ------- a one-person show based on her memoir, <em>That’s All I Wanted</em>. Chang’s book, filled with funny and engaging <strong>140.</strong> -------, is brought to life through this performance. Fans will enjoy experiencing Chang’s brilliance in person, while newcomers to her work will receive a <strong>141.</strong> ------- introduction to her entertaining world.\n\nShow times are Thursday through Sunday at 7:00 P.M., with an additional matinee on Saturday at 1:00 P.M. <strong>142.</strong> ------- Additional information can be found at www.lostoceantheater.com.</div></div>",
+        "questions": [
+            {
+                "number": 139,
+                "prompt": "",
+                "choices": [
+                    "will perform",
+                    "to perform",
+                    "performed",
+                    "performing"
+                ],
+                "answer": 0,
+                "explanation": "Đáp án (A) will perform. “Next week” cho biết buổi diễn sẽ diễn ra trong tương lai; câu cần một động từ chính nên “will perform” phù hợp."
+            },
+            {
+                "number": 140,
+                "prompt": "",
+                "choices": [
+                    "reasons",
+                    "structures",
+                    "characters",
+                    "signs"
+                ],
+                "answer": 2,
+                "explanation": "Đáp án (C) characters. Một cuốn hồi ký có thể chứa những “funny and engaging characters” (những nhân vật thú vị, cuốn hút); các lựa chọn còn lại không phù hợp về nghĩa."
+            },
+            {
+                "number": 141,
+                "prompt": "",
+                "choices": [
+                    "delight",
+                    "delights",
+                    "delighted",
+                    "delightful"
+                ],
+                "answer": 3,
+                "explanation": "Đáp án (D) delightful. Chỗ trống đứng trước danh từ “introduction” nên cần tính từ. “Delightful” mô tả sự giới thiệu thú vị/dễ chịu; “delighted” thường mô tả cảm xúc của người."
+            },
+            {
+                "number": 142,
+                "prompt": "",
+                "choices": [
+                    "The theater will close for renovations.",
+                    "Call the theater at 704-555-0138 to reserve tickets.",
+                    "Chang’s memoir is available online and at local booksellers.",
+                    "Chang was raised in Southern California and attended college in Minnesota."
+                ],
+                "answer": 1,
+                "explanation": "Đáp án (B). Đoạn cuối đang cung cấp thông tin thực tế về lịch diễn; hướng dẫn gọi nhà hát để đặt vé là thông tin phù hợp nhất trước câu cung cấp thêm địa chỉ trang web."
+            }
+        ]
     },
     {
-      "id": "p6-143-146",
-      "part": 6,
-      "label": "Questions 143–146",
-      "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">To: tvargas@sandelleinn.com\nFrom: moira@petalsaplenty.com\nDate: November 2\nSubject: Floral arrangement\n\nDear Ms. Vargas,\n\nI left a complimentary floral arrangement with your receptionist today, and she suggested that I contact you directly. I specialize in floral design. I created this bouquet for you, using bold colors that match the inn’s lobby, to give you an idea of how I ------- my work.\n\nI was told that you do not currently have a budget for décor. -------, perhaps we could still partner in some way. I see that you host small events, and your Web site has links to local DJs, caterers, and other service providers that you recommend. Would you consider including my company, Petals Aplenty, on your list of -------? I would be happy to reciprocate by promoting your inn on my own Web site. -------\n\nI look forward to hearing from you.\n\nMoira Voss, Owner, Petals Aplenty</div></div>",
-      "questions": [
-        {
-          "number": 143,
-          "prompt": "",
-          "choices": [
-            "document",
-            "document",
-            "approach",
-            "approach (C) schedule (C) schedule (D) verify (D) verify (v): Collocation: làm việc của Chọn (B)"
-          ],
-          "answer": 1,
-          "explanation": "“document” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 144,
-          "prompt": "",
-          "choices": [
-            "Even so",
-            "Even so: Dẫu vậy/Tuy",
-            "For example",
-            "For example: Ví (C) On the contrary (C) On the contrary: (D) As you suggested (D) As you suggested: Context: Dùng để nối có thể hợp tác bằng Chọn (A)"
-          ],
-          "answer": 0,
-          "explanation": "“Even so” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 145,
-          "prompt": "",
-          "choices": [
-            "refers",
-            "refers (v):",
-            "referred",
-            "referred (C) referrals (C) referrals (D) referable (D) referable Collocation: được giới thiệu. Chọn (C)"
-          ],
-          "answer": 2,
-          "explanation": "“referred” best completes the passage according to its grammar and surrounding context."
-        },
-        {
-          "number": 146,
-          "prompt": "",
-          "choices": [
-            "I want to thank",
-            "Tôi muốn you again for the",
-            "Tôi chắc nomination.",
-            "Tôi nghĩ (B) I can certainly see (D) Tôi tin rằng the resemblance. chúng ta. (C) I think it was all Context: Người just a (tôi quảng bá misunderstanding. Chọn (D) → (D) I believe this Dịch: Tôi tin arrangement can hai chúng ta. benefit us both."
-          ],
-          "answer": 3,
-          "explanation": "“Tôi nghĩ (B) I can certainly see (D) Tôi tin rằng the resemblance. chúng ta. (C) I think it was all Context: Người just a (tôi quảng bá misunderstanding. Chọn (D) → (D) I believe this Dịch: Tôi tin arrangement can hai chúng ta. benefit us both.” best completes the passage according to its grammar and surrounding context."
-        }
-      ]
+        "id": "p6-143-146",
+        "part": 6,
+        "label": "Questions 143–146",
+        "passageTitle": "",
+        "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>To:</strong> tvargas@sandelleinn.com\n<strong>From:</strong> moira@petalsaplenty.com\n<strong>Date:</strong> November 2\n<strong>Subject: Floral arrangement</strong>\n\nDear Ms. Vargas,\n\nI left a complimentary floral arrangement with your receptionist today, and she suggested that I contact you directly. I specialize in floral design. I created this bouquet for you, using bold colors that match the inn’s lobby, to give you an idea of how I <strong>143.</strong> ------- my work.\n\nI was told that you do not currently have a budget for décor. <strong>144.</strong> -------, perhaps we could still partner in some way. I see that you host small events, and your Web site has links to local DJs, caterers, and other service providers that you recommend. Would you consider including my company, Petals Aplenty, on your list of <strong>145.</strong> -------? I would be happy to reciprocate by promoting your inn on my own Web site. <strong>146.</strong> -------\n\nI look forward to hearing from you.\n\nMoira Voss, Owner, Petals Aplenty</div></div>",
+        "questions": [
+            {
+                "number": 143,
+                "prompt": "",
+                "choices": [
+                    "document",
+                    "approach",
+                    "schedule",
+                    "verify"
+                ],
+                "answer": 1,
+                "explanation": "Đáp án (B) approach. Cấu trúc “how I approach my work” nghĩa là cách tôi tiếp cận/thực hiện công việc. Các động từ còn lại không phù hợp với ý người viết muốn giới thiệu phong cách làm việc qua bó hoa mẫu."
+            },
+            {
+                "number": 144,
+                "prompt": "",
+                "choices": [
+                    "Even so",
+                    "For example",
+                    "On the contrary",
+                    "As you suggested"
+                ],
+                "answer": 0,
+                "explanation": "Đáp án (A) Even so. Câu trước nói khách sạn hiện không có ngân sách trang trí; câu sau vẫn đề xuất một cách hợp tác khác. “Even so” = dù vậy, thể hiện quan hệ tương phản phù hợp."
+            },
+            {
+                "number": 145,
+                "prompt": "",
+                "choices": [
+                    "refers",
+                    "referred",
+                    "referrals",
+                    "referable"
+                ],
+                "answer": 2,
+                "explanation": "Đáp án (C) referrals. Sau “a list of” cần danh từ. “Referrals” phù hợp với ngữ cảnh danh sách các nhà cung cấp dịch vụ mà khách sạn giới thiệu cho khách."
+            },
+            {
+                "number": 146,
+                "prompt": "",
+                "choices": [
+                    "I want to thank you again for the nomination.",
+                    "I can certainly see the resemblance.",
+                    "I think it was all just a misunderstanding.",
+                    "I believe this arrangement can benefit us both."
+                ],
+                "answer": 3,
+                "explanation": "Đáp án (D). Người viết đề nghị khách sạn giới thiệu Petals Aplenty và đổi lại cô sẽ quảng bá khách sạn trên website của mình, nên “I believe this arrangement can benefit us both.” kết luận đúng ý hợp tác đôi bên cùng có lợi."
+            }
+        ]
     }
-  ],
+],
   "part7": [
     {
       "id": "p7-147-148",
