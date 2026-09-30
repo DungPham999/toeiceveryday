@@ -427,16 +427,16 @@ window.READING_DATA = {
       "part": 6,
       "label": "Questions 131–134",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">Take advantage of double rewards for a limited time!\n\nStretch your holiday season’s shopping spree into January, and we will reward you with $4 cash back on every ------- of $50 or more. Additionally, cashback rewards will be ------- deposited into a separate Avanti savings account and earn a 3% annual interest rate. Enroll in our double-rewards program on Avanti’s mobile or desktop app. -------, stop by an Avanti branch for assistance. -------. On February 1, cashback rewards will return to $2 per $50 transaction.</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>Take advantage of double rewards for a limited time!</strong>\n\nStretch your holiday season’s shopping spree into January, and we will reward you with $4 cash back on every <span style=\"white-space:nowrap\">-------<sub><strong>131</strong></sub></span> of $50 or more. Additionally, cashback rewards will be <span style=\"white-space:nowrap\">-------<sub><strong>132</strong></sub></span> deposited into a separate Avanti savings account and earn a 3% annual interest rate. Enroll in our double-rewards program on Avanti’s mobile or desktop app. <span style=\"white-space:nowrap\">-------<sub><strong>133</strong></sub></span>, stop by an Avanti branch for assistance. <span style=\"white-space:nowrap\">-------<sub><strong>134</strong></sub></span>. On February 1, cashback rewards will return to $2 per $50 transaction.</div></div>",
       "questions": [
         {
           "number": 131,
           "prompt": "",
           "choices": [
-            "purchase *",
-            "purchase:",
+            "purchase",
             "purchaser",
-            "● (C) purchased (C) ● (D) purchasing (D) ●"
+            "purchased",
+            "purchasing"
           ],
           "answer": 0,
           "explanation": ""
@@ -445,10 +445,10 @@ window.READING_DATA = {
           "number": 132,
           "prompt": "",
           "choices": [
-            "automate *",
-            "automate:",
+            "automate",
             "automatic",
-            "● (C) automation (C) ● (D) automatically (D) ● Grammar: ● \"deposited\". ● →"
+            "automation",
+            "automatically"
           ],
           "answer": 3,
           "explanation": ""
@@ -458,9 +458,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "Alternatively",
-            "Alternatively:",
             "Likewise",
-            "● (C) Nevertheless (C) ● (D) Frequently (D) ● Context: ● câu ● →"
+            "Nevertheless",
+            "Frequently"
           ],
           "answer": 0,
           "explanation": ""
@@ -469,10 +469,10 @@ window.READING_DATA = {
           "number": 134,
           "prompt": "",
           "choices": [
-            "The use of double",
-            "Việc sử rewards is a common trong ngành practice in the banking",
-            "● industry. thưởng",
-            "Don’t wait—the (C) ● double-rewards promotion bạn ends on January 31. (D) ● (C) Please make sure to đây check your credit card Context: ● balance weekly. quay (D) Thank you for providing kết feedback on your recent ● → transaction."
+            "The use of double rewards is a common practice in the banking industry.",
+            "Don’t wait—the double-rewards promotion ends on January 31.",
+            "Please make sure to check your credit card balance weekly.",
+            "Thank you for providing feedback on your recent transaction."
           ],
           "answer": 1,
           "explanation": ""
@@ -484,16 +484,16 @@ window.READING_DATA = {
       "part": 6,
       "label": "Questions 135–138",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">To: Shipping Team\nFrom: Martina West\nDate: February 21\nSubject: Exciting news\n\nDear Team,\n\nI am excited to share the news that Winnie Liu, our longtime team captain, will be moving on. Fortunately, she will not be leaving the company. -------, Winnie will serve as our new regional distribution manager. We are thrilled about her -------.\n\nWe would like to show our appreciation for everything Winnie has done for our department, especially for our team. We will be hosting a party for Winnie in the break room at 3:00 P.M. on February 28, her ------- day with us. -------. We look forward to seeing you there.\n\nBest,\nMartina West\nShipping Manager\nCroce Company</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">To: Shipping Team\nFrom: Martina West\nDate: February 21\nSubject: <strong>Exciting news</strong>\n\nDear Team,\n\nI am excited to share the news that Winnie Liu, our longtime team captain, will be moving on. Fortunately, she will not be leaving the company. <span style=\"white-space:nowrap\">-------<sub><strong>135</strong></sub></span>, Winnie will serve as our new regional distribution manager. We are thrilled about her <span style=\"white-space:nowrap\">-------<sub><strong>136</strong></sub></span>.\n\nWe would like to show our appreciation for everything Winnie has done for our department, especially for our team. We will be hosting a party for Winnie in the break room at 3:00 P.M. on February 28, her <span style=\"white-space:nowrap\">-------<sub><strong>137</strong></sub></span> day with us. <span style=\"white-space:nowrap\">-------<sub><strong>138</strong></sub></span>. We look forward to seeing you there.\n\nBest,\nMartina West\nShipping Manager\nCroce Company</div></div>",
       "questions": [
         {
           "number": 135,
           "prompt": "",
           "choices": [
             "Originally",
-            "Originally:",
             "Instead",
-            "● (C) Regardless (C) ● (D) Moreover (D) ● Context: ● mới. ● →"
+            "Regardless",
+            "Moreover"
           ],
           "answer": 1,
           "explanation": ""
@@ -503,9 +503,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "availability",
-            "availability:",
             "promotion",
-            "● (C) cooperation (C) ● (D) generosity (D) ● Context: ● một ● →"
+            "cooperation",
+            "generosity"
           ],
           "answer": 1,
           "explanation": ""
@@ -515,9 +515,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "final",
-            "final: cuối",
             "finalize",
-            "● (C) finalized (C) ● (D) finally (D) ● Grammar: ● ● →"
+            "finalized",
+            "finally"
           ],
           "answer": 0,
           "explanation": ""
@@ -526,10 +526,10 @@ window.READING_DATA = {
           "number": 138,
           "prompt": "",
           "choices": [
-            "Our day will start at 8:00",
-            "Ngày của A.M., as usual.",
-            "●",
-            "She was the best (C) ● candidate for the job. bánh (C) Please join us for coffee (D) ● and cake. Context: ● (D) The break room is (party). currently closed for ● → maintenance."
+            "Our day will start at 8:00 A.M., as usual.",
+            "She was the best candidate for the job.",
+            "Please join us for coffee and cake.",
+            "The break room is currently closed for maintenance."
           ],
           "answer": 2,
           "explanation": ""
@@ -541,16 +541,16 @@ window.READING_DATA = {
       "part": 6,
       "label": "Questions 139–142",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">How to Pitch Your Start-up to a Potential Investor\n\nWhen planning a presentation for potential investors, do not keep them in suspense. -------. This has the added benefit of grabbing investors’ attention. Your company’s young, dynamic team may be its greatest asset. On the other hand, if your team has years of valuable experience together and this is ------- to the product or service you offer, mention that early as well. Finally, if ------- sets your company apart is its unique vision, make it your leading statement.\n\nIf you can convince your audience that your company’s product or service is destined for success, you will likely acquire the ------- you seek.</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\"><strong>How to Pitch Your Start-up to a Potential Investor</strong>\n\nWhen planning a presentation for potential investors, do not keep them in suspense. <span style=\"white-space:nowrap\">-------<sub><strong>139</strong></sub></span>. This has the added benefit of grabbing investors’ attention. Your company’s young, dynamic team may be its greatest asset. On the other hand, if your team has years of valuable experience together and this is <span style=\"white-space:nowrap\">-------<sub><strong>140</strong></sub></span> to the product or service you offer, mention that early as well. Finally, if <span style=\"white-space:nowrap\">-------<sub><strong>141</strong></sub></span> sets your company apart is its unique vision, make it your leading statement.\n\nIf you can convince your audience that your company’s product or service is destined for success, you will likely acquire the <span style=\"white-space:nowrap\">-------<sub><strong>142</strong></sub></span> you seek.</div></div>",
       "questions": [
         {
           "number": 139,
           "prompt": "",
           "choices": [
-            "Investors often expect a",
-            "Các nhà share of ownership.",
-            "●",
-            "Reveal your company’s từ greatest strength from the (C) ● outset. trong (C) Make sure to cite any (D) ● sources you quote during trưởng. your presentation. Context: ● (D) An infusion of cash is phải often necessary for growth. ● →"
+            "Investors often expect a share of ownership.",
+            "Reveal your company’s greatest strength from the outset.",
+            "Make sure to cite any sources you quote during your presentation.",
+            "An infusion of cash is often necessary for growth."
           ],
           "answer": 1,
           "explanation": ""
@@ -560,9 +560,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "capable",
-            "capable:",
             "progressive",
-            "● (C) first (C) ● (D) relevant (D) ● Collocation: ● đó. ● →"
+            "first",
+            "relevant"
           ],
           "answer": 3,
           "explanation": ""
@@ -572,9 +572,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "it",
-            "it",
             "that",
-            "● (C) what (C) ● (D) anything (D) ● Grammar: ● company ● →"
+            "what",
+            "anything"
           ],
           "answer": 2,
           "explanation": ""
@@ -584,9 +584,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "funding",
-            "funding:",
             "property",
-            "● (C) materials (C) ● (D) awards (D) ● Context: ● là để ● →"
+            "materials",
+            "awards"
           ],
           "answer": 0,
           "explanation": ""
@@ -598,16 +598,16 @@ window.READING_DATA = {
       "part": 6,
       "label": "Questions 143–146",
       "passageTitle": "",
-      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">To: Botswana Mining Staff\nFrom: Phildah Ramogapi, Human Resources Director\nDate: 4 April\nSubject: Payroll portal upgrade\n\nGood morning,\n\nBotswana Mining’s online payroll portal will be unavailable between 8 and 12 April to allow for a software upgrade. Please refrain from accessing the ------- over these five days.\n\nThe updated site ------- users to perform advanced operations, including setting up and managing direct deposit preferences and accessing tax documents. It will also feature a live-chat function so that users can directly contact a human resources team member when needed. -------.\n\nIf you need to access your payroll and benefits details ------- the period mentioned above, please send an e-mail to hr@botswanamining.co.bw or visit our office in room 107 of the Ujima Tower.\n\nRegards,\nPhildah Ramogapi\nHuman Resources Director</div></div>",
+      "passageHtml": "<div class=\"source-doc\"><div style=\"white-space:pre-wrap\">To: Botswana Mining Staff\nFrom: Phildah Ramogapi, Human Resources Director\nDate: 4 April\nSubject: <strong>Payroll portal upgrade</strong>\n\nGood morning,\n\nBotswana Mining’s online payroll portal will be unavailable between 8 and 12 April to allow for a software upgrade. Please refrain from accessing the <span style=\"white-space:nowrap\">-------<sub><strong>143</strong></sub></span> over these five days.\n\nThe updated site <span style=\"white-space:nowrap\">-------<sub><strong>144</strong></sub></span> users to perform advanced operations, including setting up and managing direct deposit preferences and accessing tax documents. It will also feature a live-chat function so that users can directly contact a human resources team member when needed. <span style=\"white-space:nowrap\">-------<sub><strong>145</strong></sub></span>.\n\nIf you need to access your payroll and benefits details <span style=\"white-space:nowrap\">-------<sub><strong>146</strong></sub></span> the period mentioned above, please send an e-mail to hr@botswanamining.co.bw or visit our office in room 107 of the Ujima Tower.\n\nRegards,\nPhildah Ramogapi\nHuman Resources Director</div></div>",
       "questions": [
         {
           "number": 143,
           "prompt": "",
           "choices": [
             "course",
-            "course:",
             "system",
-            "● (C) account (C) ● (D) plan (D) ● Context: ● tin ● →"
+            "account",
+            "plan"
           ],
           "answer": 1,
           "explanation": ""
@@ -617,9 +617,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "enabled",
-            "enabled:",
             "enabling",
-            "● (C) will enable (C) ● (D) would have enabled (D) ● Context: ● cấp ● →"
+            "will enable",
+            "would have enabled"
           ],
           "answer": 2,
           "explanation": ""
@@ -628,10 +628,10 @@ window.READING_DATA = {
           "number": 145,
           "prompt": "",
           "choices": [
-            "This gathering will",
-            "Buổi họp promote innovation among viên. our employees.",
-            "●",
-            "Our shareholders will be mới pleased with this new (C) ● product. (D) ● (C) Productivity reductions cung will likely occur next month. Context: ● (D) This function will liên optimize the services offered ● → by the department."
+            "This gathering will promote innovation among our employees.",
+            "Our shareholders will be pleased with this new product.",
+            "Productivity reductions will likely occur next month.",
+            "This function will optimize the services offered by the department."
           ],
           "answer": 3,
           "explanation": ""
@@ -641,9 +641,9 @@ window.READING_DATA = {
           "prompt": "",
           "choices": [
             "apart from",
-            "apart from:",
             "along with",
-            "● (C) during (C) ● (D) toward (D) ● Context: ● thống ● →"
+            "during",
+            "toward"
           ],
           "answer": 2,
           "explanation": ""
