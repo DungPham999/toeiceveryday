@@ -1,5 +1,5 @@
 window.PRACTICE_DATA = {
-  title: "A_Lis 1",
+  title: "A_EXAM 1",
   storageKey: "practice-a-exam-1",
   sourceNote: "Exercise 1 built from the supplied TOEIC source PDF, audio, transcript and answer key.",
   sections: [
