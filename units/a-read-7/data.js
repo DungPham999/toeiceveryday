@@ -177,7 +177,7 @@ window.PRACTICE_DATA = {
                 "soon"
               ],
               "answer": 2,
-              "explanation": "Answer: C. always — always seeks = luôn luôn xin sự chấp thuận."
+              "explanation": "Answer: C. always — always seeks = luôn luôn tìm kiếm sự chấp thuận."
             },
             {
               "number": 15,
@@ -189,7 +189,7 @@ window.PRACTICE_DATA = {
                 "latest"
               ],
               "answer": 2,
-              "explanation": "Answer: C. late — the visa was issued late = visa được cấp muộn."
+              "explanation": " late = muộn và lately = gần đây, cùng là trạng từ nhưng khác nghĩa — the visa was issued late = visa được cấp muộn."
             },
             {
               "number": 16,
@@ -213,7 +213,7 @@ window.PRACTICE_DATA = {
                 "easily"
               ],
               "answer": 3,
-              "explanation": "Answer: D. easily — easily surpassing... = dễ dàng vượt qua."
+              "explanation": "adv bổ nghĩa và đứng trước V — easily surpassing... = dễ dàng vượt qua."
             },
             {
               "number": 18,
@@ -225,7 +225,7 @@ window.PRACTICE_DATA = {
                 "securely"
               ],
               "answer": 0,
-              "explanation": "Answer: A. security — Cụm for security purposes = vì mục đích an ninh/bảo mật. Đây là collocation phổ biến trong TOEIC."
+              "explanation": "Answer: A. security — Cụm for security purposes = vì mục đích an ninh/bảo mật. Đây là cụm danh danh phổ biến trong TOEIC."
             },
             {
               "number": 19,
@@ -237,7 +237,7 @@ window.PRACTICE_DATA = {
                 "educate"
               ],
               "answer": 2,
-              "explanation": "Answer: C. educational — educational toys = đồ chơi giáo dục."
+              "explanation": "cụm tính danh — our educational toys = đồ chơi có tính giáo dục."
             },
             {
               "number": 20,
@@ -309,7 +309,7 @@ window.PRACTICE_DATA = {
                 "attracted"
               ],
               "answer": 1,
-              "explanation": "Answer: B. attractively — is attractively decorated = được trang trí đẹp mắt."
+              "explanation": " cấu trúc : be + adv + V3 — is attractively decorated = được trang trí đẹp mắt."
             },
             {
               "number": 26,
