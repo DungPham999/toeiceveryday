@@ -1041,7 +1041,7 @@ window.PRACTICE_DATA = {
                 "immediate"
               ],
               "answer": 1,
-              "explanation": "Answer: B. obsolete — technology becomes obsolete = công nghệ trở nên lỗi thời."
+              "explanation": "become là linking verb : technology becomes obsolete = công nghệ trở nên lỗi thời."
             },
             {
               "number": 87,
