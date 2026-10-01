@@ -309,7 +309,7 @@ window.PRACTICE_DATA = {
                 "attracted"
               ],
               "answer": 1,
-              "explanation": " cấu trúc : be + adv + V3 — is attractively decorated = được trang trí đẹp mắt."
+              "explanation": " cấu trúc : adv nằm giữa be và V3 — is attractively decorated = được trang trí đẹp mắt."
             },
             {
               "number": 26,
@@ -321,7 +321,7 @@ window.PRACTICE_DATA = {
                 "mutually"
               ],
               "answer": 1,
-              "explanation": "Answer: B. adversely — adversely affected = bị ảnh hưởng tiêu cực. Đây là collocation rất phổ biến."
+              "explanation": "cấu trúc : adv nằm giữa be và V3 — be adversely affected = bị ảnh hưởng tiêu cực. Đây là collocation rất phổ biến."
             },
             {
               "number": 27,
@@ -333,7 +333,7 @@ window.PRACTICE_DATA = {
                 "expertly"
               ],
               "answer": 0,
-              "explanation": "Answer: A. expert — the leading expert on... = chuyên gia hàng đầu về..."
+              "explanation": "cụm danh từ số ít — the leading expert on... = một chuyên gia hàng đầu về..."
             },
             {
               "number": 28,
@@ -345,7 +345,7 @@ window.PRACTICE_DATA = {
                 "privately"
               ],
               "answer": 3,
-              "explanation": "Answer: D. privately — privately decide = quyết định một cách riêng tư/kín đáo."
+              "explanation": "S + adv+ V — privately decide = quyết định một cách riêng tư/kín đáo."
             },
             {
               "number": 29,
@@ -357,7 +357,7 @@ window.PRACTICE_DATA = {
                 "highly"
               ],
               "answer": 1,
-              "explanation": "Answer: B. soon — will soon be completed = sẽ sớm được hoàn thành."
+              "explanation": "bài tập từ vựng — will soon be completed = sẽ sớm được hoàn thành."
             },
             {
               "number": 30,
@@ -369,7 +369,7 @@ window.PRACTICE_DATA = {
                 "notice"
               ],
               "answer": 0,
-              "explanation": "Answer: A. noticeable — a noticeable difference = một sự khác biệt đáng kể/dễ nhận thấy."
+              "explanation": "cụm tính danh — a noticeable difference = một sự khác biệt đáng kể/dễ nhận thấy."
             },
             {
               "number": 31,
@@ -381,7 +381,7 @@ window.PRACTICE_DATA = {
                 "still"
               ],
               "answer": 2,
-              "explanation": "Answer: C. accurately — tracked accurately = được theo dõi chính xác."
+              "explanation": "Cấu trúc: be V3 + adv — tracked accurately = được theo dõi chính xác."
             },
             {
               "number": 32,
@@ -393,7 +393,7 @@ window.PRACTICE_DATA = {
                 "grateful"
               ],
               "answer": 2,
-              "explanation": "Answer: C. durable — durable material = vật liệu bền; câu sau withstand heavy items xác nhận nghĩa này."
+              "explanation": "BT từ vựng — a durable material = vật liệu bền; câu sau withstand heavy items xác nhận nghĩa này."
             },
             {
               "number": 33,
@@ -405,7 +405,7 @@ window.PRACTICE_DATA = {
                 "critics"
               ],
               "answer": 3,
-              "explanation": "Answer: D. critics — film critics = các nhà phê bình phim."
+              "explanation": "cụm danh danh — film critics = các nhà phê bình phim."
             },
             {
               "number": 34,
@@ -417,7 +417,7 @@ window.PRACTICE_DATA = {
                 "secure"
               ],
               "answer": 2,
-              "explanation": "Answer: C. securely — securely stored files = các hồ sơ được lưu trữ an toàn."
+              "explanation": " Cấu trúc cụm tính danh: adv + adj + N — securely stored files = các hồ sơ được lưu trữ một cách an toàn."
             },
             {
               "number": 35,
@@ -429,7 +429,7 @@ window.PRACTICE_DATA = {
                 "significant"
               ],
               "answer": 3,
-              "explanation": "Answer: D. significant — significant relief = sự giảm đau đáng kể."
+              "explanation": "cụm danh danh — significant relief = sự giảm đau đáng kể."
             },
             {
               "number": 36,
@@ -441,7 +441,7 @@ window.PRACTICE_DATA = {
                 "rigorous"
               ],
               "answer": 3,
-              "explanation": "Answer: D. rigorous — rigorous standards = các tiêu chuẩn nghiêm ngặt."
+              "explanation": "cụm tính danh — rigorous standards = các tiêu chuẩn nghiêm ngặt."
             },
             {
               "number": 37,
@@ -453,7 +453,7 @@ window.PRACTICE_DATA = {
                 "compensatory"
               ],
               "answer": 1,
-              "explanation": "Answer: B. compensation — generous compensation is offered = chế độ thù lao hấp dẫn được cung cấp."
+              "explanation": "cụm tính danh — generous compensation is offered = chế độ thù lao hấp dẫn được cung cấp."
             },
             {
               "number": 38,
@@ -465,7 +465,7 @@ window.PRACTICE_DATA = {
                 "still"
               ],
               "answer": 2,
-              "explanation": "Answer: C. likewise — do likewise = làm tương tự/làm như vậy."
+              "explanation": "chỉ có likewise đứng được sau verb, các options còn lại phải đứng trước động từ — do likewise = làm tương tự/làm như vậy."
             },
             {
               "number": 39,
@@ -477,7 +477,7 @@ window.PRACTICE_DATA = {
                 "admirable"
               ],
               "answer": 3,
-              "explanation": "Answer: D. admirable — the admirable goal = mục tiêu đáng ngưỡng mộ."
+              "explanation": "cụm tính danh— the admirable goal = mục tiêu đáng ngưỡng mộ."
             },
             {
               "number": 40,
@@ -501,7 +501,7 @@ window.PRACTICE_DATA = {
                 "situational"
               ],
               "answer": 0,
-              "explanation": "Answer: A. situation — Cấu trúc as the situation arises = khi tình huống phát sinh."
+              "explanation": " cấu trúc: S + V as S + V — ....  as the situation arises = .... khi tình huống phát sinh."
             },
             {
               "number": 42,
@@ -513,7 +513,7 @@ window.PRACTICE_DATA = {
                 "cooperative"
               ],
               "answer": 3,
-              "explanation": "Answer: D. cooperative — cooperative efforts = những nỗ lực hợp tác."
+              "explanation": "cụm tính danh — our cooperative efforts = những nỗ lực hợp tác."
             },
             {
               "number": 43,
@@ -525,7 +525,7 @@ window.PRACTICE_DATA = {
                 "disappointingly"
               ],
               "answer": 0,
-              "explanation": "Answer: A. disappointed — a disappointed client = một khách hàng thất vọng."
+              "explanation": "cụm tính danh— a disappointed client = một khách hàng thất vọng."
             },
             {
               "number": 44,
@@ -537,7 +537,7 @@ window.PRACTICE_DATA = {
                 "operate"
               ],
               "answer": 1,
-              "explanation": "Answer: B. operational — become + adjective → become fully operational = đi vào hoạt động hoàn toàn."
+              "explanation": "become là linking verb — become + (adv) + adjective → become fully operational = đi vào hoạt động hoàn toàn."
             },
             {
               "number": 45,
