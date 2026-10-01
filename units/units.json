@@ -13,6 +13,17 @@
     "description": "Practice Unit kết hợp Listening và Reading.",
     "status": "active"
   },
+
+{
+  "id": "a-read-7",
+  "title": "A-Read 7",
+  "group": "A",
+  "parts": [5],
+  "description": "Part 5 – Adjectives & Adverbs",
+  "status": "active"
+},
+
+
   
   {
     "id": "a-exam-1",
