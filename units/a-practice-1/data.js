@@ -52,7 +52,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 3,
-              "start": 122.04,
+              "start": 126.04,
               "end": 150.06,
               "image": "assets/images/q03.jpg",
               "choices": [
@@ -141,7 +141,7 @@ window.PRACTICE_DATA = {
           "questions": [
             {
               "number": 7,
-              "start": 268.0,
+              "start": 267.0,
               "end": 283.052,
               "choices": [
                 "George can take care of that.",
@@ -158,7 +158,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 8,
-              "start": 288.166,
+              "start": 286.166,
               "end": 301.753,
               "choices": [
                 "Before we went to work.",
@@ -175,7 +175,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 9,
-              "start": 306.901,
+              "start": 304.901,
               "end": 320.258,
               "choices": [
                 "After two o'clock.",
@@ -192,7 +192,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 10,
-              "start": 325.327,
+              "start": 323.327,
               "end": 340.936,
               "choices": [
                 "At the hospital, I think.",
@@ -209,7 +209,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 11,
-              "start": 346.027,
+              "start": 344.027,
               "end": 361.944,
               "choices": [
                 "I haven't heard from her, either.",
@@ -226,7 +226,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 12,
-              "start": 367.083,
+              "start": 365.083,
               "end": 380.329,
               "choices": [
                 "A fork and knife, please.",
@@ -243,7 +243,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 13,
-              "start": 385.393,
+              "start": 383.393,
               "end": 400.422,
               "choices": [
                 "Yes, I'd appreciate that.",
@@ -260,7 +260,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 14,
-              "start": 405.484,
+              "start": 403.484,
               "end": 421.702,
               "choices": [
                 "Oh, have you read it too?",
@@ -277,7 +277,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 15,
-              "start": 426.81,
+              "start": 424.81,
               "end": 442.397,
               "choices": [
                 "The printer is down that hall.",
@@ -294,7 +294,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 16,
-              "start": 447.489,
+              "start": 445.489,
               "end": 462.694,
               "choices": [
                 "The overnight workers will do it.",
@@ -311,7 +311,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 17,
-              "start": 467.799,
+              "start": 465.799,
               "end": 483.698,
               "choices": [
                 "Mainly soft drinks and juices.",
@@ -328,7 +328,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 18,
-              "start": 488.792,
+              "start": 485.792,
               "end": 504.248,
               "choices": [
                 "Oh yes, sorry about that.",
@@ -345,7 +345,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 19,
-              "start": 509.472,
+              "start": 506.472,
               "end": 524.938,
               "choices": [
                 "She borrowed your newspaper.",
@@ -362,7 +362,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 20,
-              "start": 530.121,
+              "start": 527.121,
               "end": 544.367,
               "choices": [
                 "A round-trip ticket.",
@@ -379,7 +379,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 21,
-              "start": 549.422,
+              "start": 546.422,
               "end": 564.257,
               "choices": [
                 "Oh, I'll be visiting clients then.",
@@ -396,7 +396,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 22,
-              "start": 569.337,
+              "start": 566.337,
               "end": 583.771,
               "choices": [
                 "I just turned up the heat.",
@@ -413,7 +413,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 23,
-              "start": 588.903,
+              "start": 585.903,
               "end": 605.888,
               "choices": [
                 "No, I don't drink coffee.",
@@ -430,7 +430,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 24,
-              "start": 611.004,
+              "start": 608.004,
               "end": 628.371,
               "choices": [
                 "About 40 kilometers away.",
@@ -447,7 +447,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 25,
-              "start": 633.503,
+              "start": 630.503,
               "end": 647.619,
               "choices": [
                 "No, it's not made of stone.",
@@ -464,7 +464,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 26,
-              "start": 652.748,
+              "start": 649.748,
               "end": 669.302,
               "choices": [
                 "Our e-mail's not working right now.",
@@ -481,7 +481,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 27,
-              "start": 674.359,
+              "start": 671.359,
               "end": 689.646,
               "choices": [
                 "No, we always keep it on.",
@@ -498,7 +498,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 28,
-              "start": 694.733,
+              "start": 691.733,
               "end": 708.912,
               "choices": [
                 "A six-week training program.",
@@ -515,7 +515,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 29,
-              "start": 713.976,
+              "start": 710.976,
               "end": 729.738,
               "choices": [
                 "No, I don't need one—thanks, though.",
@@ -532,7 +532,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 30,
-              "start": 734.848,
+              "start": 731.848,
               "end": 752.02,
               "choices": [
                 "A building next door.",
@@ -549,7 +549,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 31,
-              "start": 757.123,
+              "start": 754.123,
               "end": 772.083,
               "choices": [
                 "That process is very complicated.",
