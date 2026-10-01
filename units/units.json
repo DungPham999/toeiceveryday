@@ -11,5 +11,21 @@
     ],
     "description": "Practice Unit kết hợp Listening và Reading.",
     "status": "active"
+  },
+
+  {
+    "id": "a-exam-2",
+    "title": "A-Exam 2",
+    "group": "A",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
   }
+]
+  
 ]
