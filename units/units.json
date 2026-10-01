@@ -25,6 +25,22 @@
     ],
     "description": "Practice Unit kết hợp Listening và Reading.",
     "status": "active"
+  },
+
+  
+  {
+    "id": "a-practice-1",
+    "title": "A-Practice 1",
+    "group": "A",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
   }
+  
   
 ]
