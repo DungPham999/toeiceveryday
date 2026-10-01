@@ -2096,7 +2096,7 @@ window.PRACTICE_DATA = {
                     "competing",
                     "undergoing"
                   ],
-                  "answer": 0,
+                  "answer": 3,
                   "explanation": "Answer preserved from the supplied Exam Master 3 answer key: A."
                 },
                 {
@@ -2120,7 +2120,7 @@ window.PRACTICE_DATA = {
                     "Meat, cheese, and honey are among the new products.",
                     "Currently, parking is available in the garage across the street."
                   ],
-                  "answer": 0,
+                  "answer": 2,
                   "explanation": "Answer preserved from the supplied Exam Master 3 answer key: A."
                 },
                 {
@@ -2150,7 +2150,7 @@ window.PRACTICE_DATA = {
                     "set",
                     "round"
                   ],
-                  "answer": 3,
+                  "answer": 2,
                   "explanation": "Answer preserved from the supplied Exam Master 3 answer key: D."
                 },
                 {
@@ -2313,7 +2313,7 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "part7-147-148",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Mayor Lize¢e Set to Deliver State of the City Address \nFALCON HEIGHTS (21 April)— Mayor Loreüa Lizeüe will deliver her ﬁgh State of the City \naddress at Falcon Heights City Hall, Room 101, on Wednesday, 30 April, beginning at 7:00 \nP.M. The event is open to the public, but seaUng is ﬁrst come, ﬁrst served. \nMayor Lizeüe, who was reelected to her second four-year term last month, will discuss her \nvision for the future of the city. One issue on her agenda is the controversial applicaUon by \nPanhandle Eatery, a fast-food restaurant, to open a location on historic Hedgerow Boulevard. \nThe speech will be followed by a question-and-answer period. Doors open at 6:30 P.M.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Mayor Lize¢e Set to Deliver State of the City Address FALCON HEIGHTS (21 April)— Mayor Loreüa Lizeüe will deliver her ﬁgh State of the City address at Falcon Heights City Hall, Room 101, on Wednesday, 30 April, beginning at 7:00 P.M. The event is open to the public, but seaUng is ﬁrst come, ﬁrst served. Mayor Lizeüe, who was reelected to her second four-year term last month, will discuss her vision for the future of the city. One issue on her agenda is the controversial application by Panhandle Eatery, a fast-food restaurant, to open a location on historic Hedgerow Boulevard. The speech will be followed by a question-and-answer period. Doors open at 6:30 P.M.</pre></div>",
               "questions": [
                 {
                   "number": 147,
@@ -2324,8 +2324,8 @@ window.PRACTICE_DATA = {
                     "Its location",
                     "Its duraUon"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 148,
@@ -2336,14 +2336,14 @@ window.PRACTICE_DATA = {
                     "She has a home on Hedgerow Boulevard.",
                     "She will present an award to a city employee."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-149-150",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">YOU&#x27;RE INVITED! \n \nCorozal Digital’s \nTenth Anniversary \n \nJoin us to celebrate your hard work and dedicaUon \nthat got us to this milestone! \n \nSaturday, June 15 \n6:00 P.M. AppeUzers and Music  \n7:00 P.M. Dinner \n \nBayshore Hotel  \n22 AtlanUc Avenue \nRSVP by June 1 to j.bovel@corozaldigital.com.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">YOU&#x27;RE INVITED! Corozal Digital’s Tenth Anniversary Join us to celebrate your hard work and dedicaUon that got us to this milestone! Saturday, June 15 6:00 P.M. AppeUzers and Music 7:00 P.M. Dinner Bayshore Hotel 22 AtlanUc Avenue RSVP by June 1 to j.bovel@corozaldigital.com.</pre></div>",
               "questions": [
                 {
                   "number": 149,
@@ -2354,8 +2354,8 @@ window.PRACTICE_DATA = {
                     "Bayshore Hotel staﬀ",
                     "Bayshore Hotel patrons"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 150,
@@ -2366,14 +2366,14 @@ window.PRACTICE_DATA = {
                     "Food will be served.",
                     "Guests of invitees are welcome."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-151-152",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">hüps://www.ﬁrststreetcinema.com/classic_ﬁlm \nSeason Program \nNews \nTickets \nContact \nClassic Film FesAval  \nThe new First Street Cinema is celebraUng its opening in June by welcoming ﬁlmgoers with \nthese free screenings for fans of classic ﬁlms. The ﬁlms will start at 7:00 P.M. SeaUng is limited, \nand guests are asked to reserve tickets on our Web site, as tickets will not be oﬀered on-site. \nThe Hillside Farm — Saturday, June 2  \nThe story features a mysterious farm on a hill and three generaUons of the family living there. \nJust Two Wheels — Saturday, June 9  \nA young cyclist spends years preparing for an elite race. This is a heartwarming story of \novercoming adversity. \nThe Missing Papers — Saturday, June 16  \nThe puzzling theg of a writer&#x27;s manuscript causes a search for the culprit. \nA Rambling Homecoming — Saturday, June 23  \nThe Khan&#x27;s family reunion celebraUon is marked by a series of comical incidents and \nmisunderstandings. If you need a good laugh, this is the ﬁlm for you.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">hüps://www.ﬁrststreetcinema.com/classic_ﬁlm Season Program News Tickets Contact Classic Film FesAval The new First Street Cinema is celebraUng its opening in June by welcoming ﬁlmgoers with these free screenings for fans of classic ﬁlms. The ﬁlms will start at 7:00 P.M. SeaUng is limited, and guests are asked to reserve tickets on our Web site, as tickets will not be oﬀered on-site. The Hillside Farm — Saturday, June 2 The story features a mysterious farm on a hill and three generaUons of the family living there. Just Two Wheels — Saturday, June 9 A young cyclist spends years preparing for an elite race. This is a heartwarming story of overcoming adversity. The Missing Papers — Saturday, June 16 The puzzling theg of a writer&#x27;s manuscript causes a search for the culprit. A Rambling Homecoming — Saturday, June 23 The Khan&#x27;s family reunion celebraUon is marked by a series of comical incidents and misunderstandings. If you need a good laugh, this is the ﬁlm for you.</pre></div>",
               "questions": [
                 {
                   "number": 151,
@@ -2384,8 +2384,8 @@ window.PRACTICE_DATA = {
                     "They are shown during the morning.",
                     "They are being held outdoors."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 152,
@@ -2396,14 +2396,14 @@ window.PRACTICE_DATA = {
                     "The Missing Papers",
                     "A Rambling Homecoming"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-153-156",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Aisa Ito [10:08 A.M.] I&#x27;m so glad I found this forum for users of CanomaUk products! Has \nanyone tried the S20 can opener? The electric can opener I&#x27;ve had for years finally broke. \nTanveer Kumar [10:10 A.M.] I bought one several years ago, but I don&#x27;t think it was worth \nthe money I spent. \nIngrid Vogel [11:15 A.M.] I like mine. I used to struggle opening cans. This one makes it \neasier to open cans of all sizes. \nLaurie Jacobs [2:12 P.M.] The commercial version is expensive, but there is also a consumer \nversion that costs less. \nJohn Burwood [2:14 P.M.] I ordered mine online, and it was defecUve. I contacted the \ncompany&#x27;s customer service department, and they sent me a new one that works just ﬁne. \nLaurie Jacobs [2:16 P.M.] I used to be a cook at a restaurant years ago, and we had a \ncommercial-grade CanomaUk can opener back then. I&#x27;ve been using the consumer version at \nhome for nearly a decade, it opens cans safely and easily. \nAisa Ito [5:15 P.M.] Thanks, everyone. I&#x27;ll give it a try.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Aisa Ito [10:08 A.M.] I&#x27;m so glad I found this forum for users of CanomaUk products! Has anyone tried the S20 can opener? The electric can opener I&#x27;ve had for years finally broke. Tanveer Kumar [10:10 A.M.] I bought one several years ago, but I don&#x27;t think it was worth the money I spent. Ingrid Vogel [11:15 A.M.] I like mine. I used to struggle opening cans. This one makes it easier to open cans of all sizes. Laurie Jacobs [2:12 P.M.] The commercial version is expensive, but there is also a consumer version that costs less. John Burwood [2:14 P.M.] I ordered mine online, and it was defecUve. I contacted the company&#x27;s customer service department, and they sent me a new one that works just ﬁne. Laurie Jacobs [2:16 P.M.] I used to be a cook at a restaurant years ago, and we had a commercial-grade CanomaUk can opener back then. I&#x27;ve been using the consumer version at home for nearly a decade, it opens cans safely and easily. Aisa Ito [5:15 P.M.] Thanks, everyone. I&#x27;ll give it a try.</pre></div>",
               "questions": [
                 {
                   "number": 153,
@@ -2414,8 +2414,8 @@ window.PRACTICE_DATA = {
                     "ParUcipants in an online cooking course",
                     "Owners of a parUcular type of"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 154,
@@ -2426,8 +2426,8 @@ window.PRACTICE_DATA = {
                     "He ﬁnds it convenient to use.",
                     "He is concerned that it might break."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 155,
@@ -2438,8 +2438,8 @@ window.PRACTICE_DATA = {
                     "Mr. Burwood",
                     "Mr. Kumar"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 156,
@@ -2457,7 +2457,7 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part7-157-158",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Gerald Anast [8:58 A.M.] Hi, Laura. You have enough people to work in our showroom this \nmorning, right? \nLaura Huu [8:59 A.M.] I do. Brenda, our part-time helper, is here now. \nGerald Anast [9:01 A.M.] Good. I&#x27;m at the distributor&#x27;s warehouse on Crosby Street. It turns \nout they have the exact style of pendant lights we need for our latest client, Alsford \nGuesthouse. \nLaura Huu [9:02 A.M.] I&#x27;m surprised you had to go there. We have such a large variety of \nstyles here. \nGerald Anast [9:04 A.M.] Well, Alsford&#x27;s management was very speciﬁc about their design \npreference. I&#x27;m just glad we&#x27;ll be able to get those lights. I should be back by late morning. \nHave you looked over our purchase orders and inventory spreadsheets? \nLaura Huu [9:05 A.M.] I&#x27;ve only been here about ten minutes. \nGerald Anast [9:06 A.M.] No problem. When you are caught up, let me know if we&#x27;re short \non any items. \nLaura Huu [9:07 A.M.] Will do.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Gerald Anast [8:58 A.M.] Hi, Laura. You have enough people to work in our showroom this morning, right? Laura Huu [8:59 A.M.] I do. Brenda, our part-time helper, is here now. Gerald Anast [9:01 A.M.] Good. I&#x27;m at the distributor&#x27;s warehouse on Crosby Street. It turns out they have the exact style of pendant lights we need for our latest client, Alsford Guesthouse. Laura Huu [9:02 A.M.] I&#x27;m surprised you had to go there. We have such a large variety of styles here. Gerald Anast [9:04 A.M.] Well, Alsford&#x27;s management was very speciﬁc about their design preference. I&#x27;m just glad we&#x27;ll be able to get those lights. I should be back by late morning. Have you looked over our purchase orders and inventory spreadsheets? Laura Huu [9:05 A.M.] I&#x27;ve only been here about ten minutes. Gerald Anast [9:06 A.M.] No problem. When you are caught up, let me know if we&#x27;re short on any items. Laura Huu [9:07 A.M.] Will do.</pre></div>",
               "questions": [
                 {
                   "number": 157,
@@ -2468,8 +2468,8 @@ window.PRACTICE_DATA = {
                     "At a lighUng store",
                     "At a manufacturing company"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 158,
@@ -2480,14 +2480,14 @@ window.PRACTICE_DATA = {
                     "She will not be able to subsUtute for an absent employee.",
                     "She has not had time to unpack some boxes."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-159-161",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">To: Nick Foster \nFrom: Natural Spring Garden Products Customer Service \nSubject: Follow – up \nDate: October 28 \nDear Mr. Foster, \nThank you for your recent purchase of a Serene Bird Bath from Natural Spring Garden \nProducts. Its steady, cascading ﬂow of water down several levels will aüract naUve birds to \nyour garden and is sure to provide a cool, calming environment. \nI see that your order was placed on October 21 and arrived on October 24. I hope that you \nhave been pleased with the product thus far. Please remember that your purchase is \ncovered by a three-year warranty. If you experience any issues with its operaUon, feel free to \nreach out to our customer service team at 1-800-555-0168. \nWould you mind taking two minutes to complete a brief survey? Your responses will enable \nus to learn more about our customers so that we can more eﬀecUvely market our products \nand services. To access the survey, please visit our Web site at . \nSincerely, \nKen Iwata \nCustomer Support, Natural Spring Garden Products</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">To: Nick Foster From: Natural Spring Garden Products Customer Service Subject: Follow – up Date: October 28 Dear Mr. Foster, Thank you for your recent purchase of a Serene Bird Bath from Natural Spring Garden Products. Its steady, cascading ﬂow of water down several levels will aüract naUve birds to your garden and is sure to provide a cool, calming environment. I see that your order was placed on October 21 and arrived on October 24. I hope that you have been pleased with the product thus far. Please remember that your purchase is covered by a three-year warranty. If you experience any issues with its operation, feel free to reach out to our customer service team at 1-800-555-0168. Would you mind taking two minutes to complete a brief survey? Your responses will enable us to learn more about our customers so that we can more eﬀecUvely market our products and services. To access the survey, please visit our Web site at . Sincerely, Ken Iwata Customer Support, Natural Spring Garden Products</pre></div>",
               "questions": [
                 {
                   "number": 159,
@@ -2498,8 +2498,8 @@ window.PRACTICE_DATA = {
                     "A book about gardens",
                     "An outdoor fountain"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 160,
@@ -2522,14 +2522,14 @@ window.PRACTICE_DATA = {
                     "conUnued",
                     "allowed"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-162-164",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Home Style Clothing Line Debuts \nMANILA (September 18)— Inspired by the handmade crags of the Philippines, local \ndesigner Maritess BauUsta has introduced Home Style, a clothing brand that features fabrics \nwoven by area arUsans using tradiUonal pracUces. \nBauUsta ﬁrst learned basic weaving techniques from her mother and aunts in her youth and \nbuilt on that knowledge as she studied at the Manila School of Fashion Design. — [1] —. She \nthen spent the next ten years working as a junior designer for Trendy Today. — [2] —. Finally, \nshe returned to her hometown of San Jacinto to found Home Style. \nHome Style&#x27;s debut collecUon includes clothing and hair accessories that uUlize the weaving \ntechniques and designs that the area is known for. — [3] —. Ms. BauUsta purchases all the \ntexUles she uses from local cragspeople. \nCurrently, Home Style merchandise is available only in select San Jacinto-area stores.  \n— [4] —. \n&quot;I want to keep producUon local,&quot; said Ms. BauUsta. &quot;That&#x27;s good for the arUsans, and it&#x27;s \nauthenUc. But I don&#x27;t want the products to remain local. I want to bring our designs to the \nwhole country—maybe even the world.&quot;</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Home Style Clothing Line Debuts MANILA (September 18)— Inspired by the handmade crags of the Philippines, local designer Maritess BauUsta has introduced Home Style, a clothing brand that features fabrics woven by area arUsans using tradiUonal pracUces. BauUsta ﬁrst learned basic weaving techniques from her mother and aunts in her youth and built on that knowledge as she studied at the Manila School of Fashion Design. — [1] —. She then spent the next ten years working as a junior designer for Trendy Today. — [2] —. Finally, she returned to her hometown of San Jacinto to found Home Style. Home Style&#x27;s debut collecUon includes clothing and hair accessories that uUlize the weaving techniques and designs that the area is known for. — [3] —. Ms. BauUsta purchases all the texUles she uses from local cragspeople. Currently, Home Style merchandise is available only in select San Jacinto-area stores. — [4] —. &quot;I want to keep producUon local,&quot; said Ms. BauUsta. &quot;That&#x27;s good for the arUsans, and it&#x27;s authenUc. But I don&#x27;t want the products to remain local. I want to bring our designs to the whole country—maybe even the world.&quot;</pre></div>",
               "questions": [
                 {
                   "number": 162,
@@ -2552,8 +2552,8 @@ window.PRACTICE_DATA = {
                     "She has started many businesses.",
                     "She regularly travels around the world."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 164,
@@ -2564,14 +2564,14 @@ window.PRACTICE_DATA = {
                     "[3]",
                     "[4]"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-165-167",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">[hüps://www.brandmarkproductsinc.com] \nAbout \nProducts \nStart Here \nContact Us \nMake your mark with your logo on our products! \nThere is no beüer way to adverUse your organization than with our aüracUve fashion apparel \nfeaturing your logo or company slogan. Provide us with your logo ﬁle, and Brandmark \nProducts, Inc., will adorn selected items and deliver your order within four business days. We \nwill produce your order with color prinUng or embroidery of the highest quality. \nOur 25 years in operaUon have revealed one important fact about developing name \nrecogniUon. Forget water boüles and key chains—items that are frequently put aside or \nmisplaced. Your message will be more eﬀecUve and longer lasUng with our quality shirts, \nsweatshirts, jackets, and hats. \nTo place an order, use the &quot;Start Here&quot; tab or call 1-800-555-0155 to speak with a customer \nservice representaUve.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">[hüps://www.brandmarkproductsinc.com] About Products Start Here Contact Us Make your mark with your logo on our products! There is no beüer way to adverUse your organization than with our aüracUve fashion apparel featuring your logo or company slogan. Provide us with your logo ﬁle, and Brandmark Products, Inc., will adorn selected items and deliver your order within four business days. We will produce your order with color prinUng or embroidery of the highest quality. Our 25 years in operation have revealed one important fact about developing name recogniUon. Forget water boüles and key chains—items that are frequently put aside or misplaced. Your message will be more eﬀecUve and longer lasUng with our quality shirts, sweatshirts, jackets, and hats. To place an order, use the &quot;Start Here&quot; tab or call 1-800-555-0155 to speak with a customer service representaUve.</pre></div>",
               "questions": [
                 {
                   "number": 165,
@@ -2582,8 +2582,8 @@ window.PRACTICE_DATA = {
                     "It specializes in making athleUc uniforms.",
                     "It helps companies promote"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 166,
@@ -2594,8 +2594,8 @@ window.PRACTICE_DATA = {
                     "ignored",
                     "closed up"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 167,
@@ -2606,14 +2606,14 @@ window.PRACTICE_DATA = {
                     "To set up an appointment",
                     "To finalize the design of a logo"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-168-171",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">[hüps://www.clarrellestate.com.au/about] \nAbout \nEvents \nPhotos \nThe Foundation \nWelcome to the Clarrell Estate—Ballarton&#x27;s premier centre for the arts! The exquisite \ngrounds of the estate are situated on 60 hectares of hilly terrain featuring lush English \ngardens and an impressive manor house that was designed by noted architect Owen \nBarton. Ten years ago, the Clarrell FoundaUon decided to transform the estate into an \narts centre. IniUally, the foundation opened the manor house to the public, highlighUng \nthe Clarrell family art collecUon. In the last three years, a large, mulUuse complex was \nbuilt near the property entrance, complete with art studios and a theatre. \nThe Clarrell Estate&#x27;s museum and gardens are open to the public free of charge. In \naddiUon, the theatre hosts public lectures as well as musical performances, and the \nstudios showcase individual arUsts&#x27; curated works. For a complete schedule, a list of \ncurrent arUsts, and information on admission fees for the theatre and studios, please visit \nthe Events page. \nJoin the Clarrell FoundaUon to enjoy members-only special events and discounts on \nperformances. Members also have the opportunity to reserve the gardens for private \nevents. To become a member, contact Alicia Ji at aji@clarrellestate.com.au.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">[hüps://www.clarrellestate.com.au/about] About Events Photos The Foundation Welcome to the Clarrell Estate—Ballarton&#x27;s premier centre for the arts! The exquisite grounds of the estate are situated on 60 hectares of hilly terrain featuring lush English gardens and an impressive manor house that was designed by noted architect Owen Barton. Ten years ago, the Clarrell FoundaUon decided to transform the estate into an arts centre. IniUally, the foundation opened the manor house to the public, highlighUng the Clarrell family art collecUon. In the last three years, a large, mulUuse complex was built near the property entrance, complete with art studios and a theatre. The Clarrell Estate&#x27;s museum and gardens are open to the public free of charge. In addiUon, the theatre hosts public lectures as well as musical performances, and the studios showcase individual arUsts&#x27; curated works. For a complete schedule, a list of current arUsts, and information on admission fees for the theatre and studios, please visit the Events page. Join the Clarrell FoundaUon to enjoy members-only special events and discounts on performances. Members also have the opportunity to reserve the gardens for private events. To become a member, contact Alicia Ji at aji@clarrellestate.com.au.</pre></div>",
               "questions": [
                 {
                   "number": 168,
@@ -2648,8 +2648,8 @@ window.PRACTICE_DATA = {
                     "A public park has been cleaned up.",
                     "A ﬁlm about Mr. Barton has been made."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 171,
@@ -2660,14 +2660,14 @@ window.PRACTICE_DATA = {
                     "To request an updated event schedule",
                     "To inquire about a foundation"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-172-175",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Finance Director \nThe Palliz FoundaUon seeks a ﬁnance director to be a member of our senior leadership \nteam. This is a supervisory position reporUng directly to the foundation president. — [1] —. \nThe ﬁnance director manages the seven-member ﬁnance department, including the payroll \nmanager and accounting director. The ﬁnance director is responsible for the oversight and \nmaintenance of accounting and purchasing systems. — [2] —. The person in this position \nmonitors internal control procedures and ensures compliance with legal obligaUons. — [3] \n—. AddiUonal responsibiliUes include disbursement, investment, and management of all \ncompany funds, development of ﬁnancial policies and pracUces, budget preparaUon, and \ncreaUon of reports for the board of directors. \nPreference will be given to current employees. — [4] —. Interested parties should submit a \nrésumé lisUng their qualiﬁcaUons to the human resources department at \nhumanresources@pallizfoundation.org no later than 4:30 P.M. on Friday, April 23.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Finance Director The Palliz FoundaUon seeks a ﬁnance director to be a member of our senior leadership team. This is a supervisory position reporUng directly to the foundation president. — [1] —. The ﬁnance director manages the seven-member ﬁnance department, including the payroll manager and accounting director. The ﬁnance director is responsible for the oversight and maintenance of accounting and purchasing systems. — [2] —. The person in this position monitors internal control procedures and ensures compliance with legal obligaUons. — [3] —. AddiUonal responsibiliUes include disbursement, investment, and management of all company funds, development of ﬁnancial policies and pracUces, budget preparaUon, and creaUon of reports for the board of directors. Preference will be given to current employees. — [4] —. Interested parties should submit a résumé lisUng their qualiﬁcaUons to the human resources department at humanresources@pallizfoundation.org no later than 4:30 P.M. on Friday, April 23.</pre></div>",
               "questions": [
                 {
                   "number": 172,
@@ -2678,8 +2678,8 @@ window.PRACTICE_DATA = {
                     "The accounting director",
                     "The board of directors"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 173,
@@ -2702,8 +2702,8 @@ window.PRACTICE_DATA = {
                     "By uploading a résumé to a Web page",
                     "By compleUng an online applicaUon"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 175,
@@ -2721,7 +2721,7 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part7-176-180",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">To: Bridget Morandi \nFrom: Marybeth Wright \nDate: March 23 \nSubject: Refund request \nHi Bridget, \nI was wondering if you have heard from Sujata Reddy. She was enrolled in the painUng class I \nteach on Tuesday and Thursday. She was only able to attend for the ﬁrst week because \nanother commitment came up. She said she asked someone in the Tucson Adult School \noﬃce if she could drop the class, and she has requested a refund of the course tuition. \nShe said she hasn&#x27;t received her refund yet. Did she contact you? \nBest, \nMarybeth Wright \n \nTo: Marybeth Wright \nFrom: Bridget Morandi \nDate: March 24 \nSubject: Re: Refund request \nHi Marybeth, \nThe name is familiar, but Ms. Reddy hasn&#x27;t been in touch with me personally. Actually, I&#x27;m \nnot the person she should contact. I just handle the scheduling as well as ordering supplies \nfor the art classes. \nI don&#x27;t know who Ms. Reddy spoke to. According to our refund policy on the Tucson Adult \nSchool Web site, refunds are only granted if they are requested before the class begins or if \nthere is a documented health reason for dropping the class. In the case of a health reason, \nthe amount of the refund will be based on the number of classes completed. \nMaybe Ms. Reddy can attend your second semester class instead of this semester&#x27;s. That \nwould be my suggesUon. \nBridget Morandi \n\n(B) To propose a soluUon  \n(C) To ask for information  \n(D) To reschedule a meeUng \n178. In the ﬁrst e-mail, the word &quot;drop&quot; in \nparagraph 1, line 4, is closest in meaning to  \n(A) slip  \n(B) quit  \n(C) lower  \n(D) slow \n179. Why most likely has Ms. Reddy not yet \nreceived a tuition refund?  \n(A) The registration oﬃce has been closed.  \n(B) The refund check is sUll in the mail. \n(C) She failed to submit her request in \nwriUng.  \n(D) She already attended part of the class. \n180. What does Ms. Morandi suggest that \nMs. Reddy may be able to do?  \n(A) Use her previously paid tuition to take a \nfuture class  \n(B) Find the same class at another adult \nschool  \n(C) Aüend half the class and sUll receive \ncredit  \n(D) Contact the teacher to arrange for \nprivate tutoring \n \nQuestions 181-185 refer to the following article and le¢er to the editor. \nNew Bakery Coming to Town \nOREVALE CITY (October 14)— A Cresson&#x27;s \nBakery is opening soon at the corner of \nCanton Avenue and Ridley Street. The \nlocation will be the naUonal chain&#x27;s ﬁrst \nwithin the city limits. Like all Cresson&#x27;s \nBakery stores, it will operate seven days a \nweek. \nThe only similar business in the vicinity is \nthe Donut StaUon on the Kupperman \nUniversity campus. Cresson&#x27;s Bakery will \noﬀer breakfast sandwiches and fruit juices \nin addiUon to its signature coﬀee and \nbaked goods. The company is following its \nrevised business model to open compact \nfaciliUes rather than sit-down eateries. \nThis means the Orevale City location will \noﬀer takeout and drive-through service \nonly. \nThe bakery will occupy Canton Avenue&#x27;s \nsmallest vacant lot. Approval for the \nproject followed a public hearing where \narea residents voiced mixed opinions. \nGina Holton, who lives on Paxton Road, \nsaid she liked the idea of having a new \nbakery in her neighborhood but worries \nabout traﬃc congesUon on Ridley Street. \nAs evidence, she presented pictures of \nheavy vehicle traﬃc there. Woﬀord Drive</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">To: Bridget Morandi From: Marybeth Wright Date: March 23 Subject: Refund request Hi Bridget, I was wondering if you have heard from Sujata Reddy. She was enrolled in the painting class I teach on Tuesday and Thursday. She was only able to attend for the ﬁrst week because another commitment came up. She said she asked someone in the Tucson Adult School oﬃce if she could drop the class, and she has requested a refund of the course tuition. She said she hasn&#x27;t received her refund yet. Did she contact you? Best, Marybeth Wright To: Marybeth Wright From: Bridget Morandi Date: March 24 Subject: Re: Refund request Hi Marybeth, The name is familiar, but Ms. Reddy hasn&#x27;t been in touch with me personally. Actually, I&#x27;m not the person she should contact. I just handle the scheduling as well as ordering supplies for the art classes. I don&#x27;t know who Ms. Reddy spoke to. According to our refund policy on the Tucson Adult School Web site, refunds are only granted if they are requested before the class begins or if there is a documented health reason for dropping the class. In the case of a health reason, the amount of the refund will be based on the number of classes completed. Maybe Ms. Reddy can attend your second semester class instead of this semester&#x27;s. That would be my suggesUon. Bridget Morandi (B) To propose a solution (C) To ask for information (D) To reschedule a meeUng 178. In the ﬁrst e-mail, the word &quot;drop&quot; in paragraph 1, line 4, is closest in meaning to (A) slip (B) quit (C) lower (D) slow 179. Why most likely has Ms. Reddy not yet received a tuition refund? (A) The registration oﬃce has been closed. (B) The refund check is sUll in the mail. (C) She failed to submit her request in wriUng. (D) She already attended part of the class. 180. What does Ms. Morandi suggest that Ms. Reddy may be able to do? (A) Use her previously paid tuition to take a future class (B) Find the same class at another adult school (C) Aüend half the class and sUll receive credit (D) Contact the teacher to arrange for private tutoring Questions 181-185 refer to the following article and le¢er to the editor. New Bakery Coming to Town OREVALE CITY (October 14)— A Cresson&#x27;s Bakery is opening soon at the corner of Canton Avenue and Ridley Street. The location will be the naUonal chain&#x27;s ﬁrst within the city limits. Like all Cresson&#x27;s Bakery stores, it will operate seven days a week. The only similar business in the vicinity is the Donut StaUon on the Kupperman University campus. Cresson&#x27;s Bakery will oﬀer breakfast sandwiches and fruit juices in addiUon to its signature coﬀee and baked goods. The company is following its revised business model to open compact faciliUes rather than sit-down eateries. This means the Orevale City location will oﬀer takeout and drive-through service only. The bakery will occupy Canton Avenue&#x27;s smallest vacant lot. Approval for the project followed a public hearing where area residents voiced mixed opinions. Gina Holton, who lives on Paxton Road, said she liked the idea of having a new bakery in her neighborhood but worries about traﬃc congesUon on Ridley Street. As evidence, she presented pictures of heavy vehicle traﬃc there. Woﬀord Drive</pre></div>",
               "questions": [
                 {
                   "number": 176,
@@ -2732,8 +2732,8 @@ window.PRACTICE_DATA = {
                     "An art gallery owner",
                     "An adult educaUon teacher"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 177,
@@ -2744,8 +2744,8 @@ window.PRACTICE_DATA = {
                     "To ask for information",
                     "To reschedule a meeUng"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 178,
@@ -2756,8 +2756,8 @@ window.PRACTICE_DATA = {
                     "lower",
                     "slow"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 179,
@@ -2780,14 +2780,14 @@ window.PRACTICE_DATA = {
                     "Aüend half the class and sUll receive credit",
                     "Contact the teacher to arrange for private tutoring"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-181-185",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">New Bakery Coming to Town \nOREVALE CITY (October 14)— A Cresson&#x27;s \nBakery is opening soon at the corner of \nCanton Avenue and Ridley Street. The \nlocation will be the naUonal chain&#x27;s ﬁrst \nwithin the city limits. Like all Cresson&#x27;s \nBakery stores, it will operate seven days a \nweek. \nThe only similar business in the vicinity is \nthe Donut StaUon on the Kupperman \nUniversity campus. Cresson&#x27;s Bakery will \noﬀer breakfast sandwiches and fruit juices \nin addiUon to its signature coﬀee and \nbaked goods. The company is following its \nrevised business model to open compact \nfaciliUes rather than sit-down eateries. \nThis means the Orevale City location will \noﬀer takeout and drive-through service \nonly. \nThe bakery will occupy Canton Avenue&#x27;s \nsmallest vacant lot. Approval for the \nproject followed a public hearing where \narea residents voiced mixed opinions. \nGina Holton, who lives on Paxton Road, \nsaid she liked the idea of having a new \nbakery in her neighborhood but worries \nabout traﬃc congesUon on Ridley Street. \nAs evidence, she presented pictures of \nheavy vehicle traﬃc there. Woﬀord Drive \n\nresident Steven Lu said he would enjoy \nhaving a convenient place to grab a quick \nsnack. \nCresson&#x27;s Bakery is slated to welcome its \nﬁrst customers in early March.\nDear Editor, \nAs a lifelong resident of Orevale City, I appreciate your coverage of Cresson&#x27;s Bakery. \nUnfortunately, the October 14 arUcle contained some inaccurate information. The photos \nthat I shared during the public hearing captured images of traﬃc congesUon in front of my \nhouse. Also, as a member of the city&#x27;s Historic PreservaUon Commiüee, I was primarily \nconcerned about the bakery&#x27;s architecture. The iniUal building design for Cresson&#x27;s Bakery \nwas contemporary. I am pleased to report that the chain has agreed to modify the exterior \nso that it blends in beüer with the older structures surrounding it. \nSincerely,  \nGina Holton \n\nQuestions 186-190 refer to the following le¢er, article, and noJce. \nBrandy MorJmer  \nRaxconnect, Inc.  \n620 Weir Road  \nGlasgow G91 9HX \n11 March \nAlyssa Susilo  \n29 Lefroy Street  \nGlasgow G3 7BQ \n \nDear Ms. Susilo, \nAs you may know, Raxconnect has been expanding its services in the Glasgow area over the \npast year. Our new ﬁbre-opUc cable lines oﬀer faster and more reliable service and eliminate \nthe need for aboveground wiring. In order for the system to work, we need to install \nInternet connection devices throughout the city. Phase 1 of our construction work involved \nCity Centre. Phase 2 involved West End. Although Phase 2 took longer than expected, we \nwere able to expedite Phase 3 and get back on schedule. Phase 4 is now ready to begin in \nyour area. \nRaxconnect would like to place a small Internet connection hub on your property at 29 \nLefroy Street. Because of its central location on the street, your front yard would make an \nopUmal connecUon point. Please call us at 0141 496 0001 by 10 April to let us know whether \nwe may proceed. Thank you. \nSincerely,  \nBrandy MorDmer  \nBrandy Mortimer, UUliUes Adviser \n \nRaxconnect Expands Service \nGLASGOW (14 March)— Ager unexpected delays in West End, Raxconnect has finally \ncompleted the latest phase of its project to install ﬁbre-opUc cable throughout the city. \nResidents and businesses in Southside are now enjoying faster Internet service. \nFor the next phase of the project, in Finnieston, Raxconnect has idenUﬁed key locations for \nconnecUon hubs and is currently reaching out to residents and homeowners so that work \ncan begin as soon as possible.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">New Bakery Coming to Town OREVALE CITY (October 14)— A Cresson&#x27;s Bakery is opening soon at the corner of Canton Avenue and Ridley Street. The location will be the naUonal chain&#x27;s ﬁrst within the city limits. Like all Cresson&#x27;s Bakery stores, it will operate seven days a week. The only similar business in the vicinity is the Donut StaUon on the Kupperman University campus. Cresson&#x27;s Bakery will oﬀer breakfast sandwiches and fruit juices in addiUon to its signature coﬀee and baked goods. The company is following its revised business model to open compact faciliUes rather than sit-down eateries. This means the Orevale City location will oﬀer takeout and drive-through service only. The bakery will occupy Canton Avenue&#x27;s smallest vacant lot. Approval for the project followed a public hearing where area residents voiced mixed opinions. Gina Holton, who lives on Paxton Road, said she liked the idea of having a new bakery in her neighborhood but worries about traﬃc congesUon on Ridley Street. As evidence, she presented pictures of heavy vehicle traﬃc there. Woﬀord Drive resident Steven Lu said he would enjoy having a convenient place to grab a quick snack. Cresson&#x27;s Bakery is slated to welcome its ﬁrst customers in early March. Dear Editor, As a lifelong resident of Orevale City, I appreciate your coverage of Cresson&#x27;s Bakery. Unfortunately, the October 14 arUcle contained some inaccurate information. The photos that I shared during the public hearing captured images of traﬃc congesUon in front of my house. Also, as a member of the city&#x27;s Historic Preservation Commiüee, I was primarily concerned about the bakery&#x27;s architecture. The iniUal building design for Cresson&#x27;s Bakery was contemporary. I am pleased to report that the chain has agreed to modify the exterior so that it blends in beüer with the older structures surrounding it. Sincerely, Gina Holton Questions 186-190 refer to the following le¢er, article, and noJce. Brandy MorJmer Raxconnect, Inc. 620 Weir Road Glasgow G91 9HX 11 March Alyssa Susilo 29 Lefroy Street Glasgow G3 7BQ Dear Ms. Susilo, As you may know, Raxconnect has been expanding its services in the Glasgow area over the past year. Our new ﬁbre-opUc cable lines oﬀer faster and more reliable service and eliminate the need for aboveground wiring. In order for the system to work, we need to install Internet connection devices throughout the city. Phase 1 of our construction work involved City Centre. Phase 2 involved West End. Although Phase 2 took longer than expected, we were able to expedite Phase 3 and get back on schedule. Phase 4 is now ready to begin in your area. Raxconnect would like to place a small Internet connection hub on your property at 29 Lefroy Street. Because of its central location on the street, your front yard would make an opUmal connecUon point. Please call us at 0141 496 0001 by 10 April to let us know whether we may proceed. Thank you. Sincerely, Brandy MorDmer Brandy Mortimer, UUliUes Adviser Raxconnect Expands Service GLASGOW (14 March)— Ager unexpected delays in West End, Raxconnect has finally completed the latest phase of its project to install ﬁbre-opUc cable throughout the city. Residents and businesses in Southside are now enjoying faster Internet service. For the next phase of the project, in Finnieston, Raxconnect has idenUﬁed key locations for connecUon hubs and is currently reaching out to residents and homeowners so that work can begin as soon as possible.</pre></div>",
               "questions": [
                 {
                   "number": 181,
@@ -2798,8 +2798,8 @@ window.PRACTICE_DATA = {
                     "It is home to a university.",
                     "It has a growing populaUon."
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 182,
@@ -2822,8 +2822,8 @@ window.PRACTICE_DATA = {
                     "He recently moved to Orevale City.",
                     "He is a member of a historic"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 184,
@@ -2846,14 +2846,14 @@ window.PRACTICE_DATA = {
                     "She did not attend a public hearing.",
                     "She wants to submit an arUcle to the"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-186-190",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Brandy MorJmer  \nRaxconnect, Inc.  \n620 Weir Road  \nGlasgow G91 9HX \n11 March \nAlyssa Susilo  \n29 Lefroy Street  \nGlasgow G3 7BQ \n \nDear Ms. Susilo, \nAs you may know, Raxconnect has been expanding its services in the Glasgow area over the \npast year. Our new ﬁbre-opUc cable lines oﬀer faster and more reliable service and eliminate \nthe need for aboveground wiring. In order for the system to work, we need to install \nInternet connection devices throughout the city. Phase 1 of our construction work involved \nCity Centre. Phase 2 involved West End. Although Phase 2 took longer than expected, we \nwere able to expedite Phase 3 and get back on schedule. Phase 4 is now ready to begin in \nyour area. \nRaxconnect would like to place a small Internet connection hub on your property at 29 \nLefroy Street. Because of its central location on the street, your front yard would make an \nopUmal connecUon point. Please call us at 0141 496 0001 by 10 April to let us know whether \nwe may proceed. Thank you. \nSincerely,  \nBrandy MorDmer  \nBrandy Mortimer, UUliUes Adviser \n \nRaxconnect Expands Service \nGLASGOW (14 March)— Ager unexpected delays in West End, Raxconnect has finally \ncompleted the latest phase of its project to install ﬁbre-opUc cable throughout the city. \nResidents and businesses in Southside are now enjoying faster Internet service. \nFor the next phase of the project, in Finnieston, Raxconnect has idenUﬁed key locations for \nconnecUon hubs and is currently reaching out to residents and homeowners so that work \ncan begin as soon as possible. \n\nThe moves follow an announcement made earlier this year that Raxconnect had invested \n£350 million to expand its network. Local oﬃcials hope that the project brings new business \nand spending to their neighbourhoods. \n \nNoJce of Temporary Road Closure \nPlease be aware that construction at 29 Lefroy Street will result in the closure of the enUre \nstreet. The closure will last from Monday, 31 May, unUl Tuesday, 8 June. During that period, \nautomobile access will be limited to residents who live on Lefroy Street. \n\nQuestions 191-195 refer to the following press release, e-mail, and review. \nFOR IMMEDIATE RELEASE \nContact: Kevin Oessenich, kevin.o@albertandannies.com.au \nGOOLWA (2 November)— Yesterday, Albert and Annie&#x27;s, a leading maker of gourmet frozen \ndesserts, unveiled several new treats: Triple Time Chocolate ice cream, a waltz of light and \ndark chocolate with a chocolate crumb swirl; Toﬀee Spree, a vanilla and toﬀee ice cream \nwith sweet biscuit infusions; and a raspberry sorbet, featuring bits of real fruit. The new \nproducts are expected to be in Australian stores by mid-November. \nThe company was founded 25 years ago by Albert and Annie Grundon, president and CEO, \nrespecUvely. Earlier this year, they announced the opening of a South African division. South \nAfrican retailers will get access to a number of Albert and Annie&#x27;s products in mid-\nDecember. \n \nTo: Kevin Oessenich kevin.o@albertandannies.com.au \nFrom: Skye Botha sbotha@westerncapeeats.co.za \nDate: 3 November \nSubject: Interview request \n \nDear Mr. Oessenich, \nI am a reporter for Western Cape Eats, a news site for food lovers in the Cape Town area. I \nwould very much like to interview one or both of your company&#x27;s founders about your \nproducts and to ﬁnd out which products will be available here in South Africa. My readers \nare eager to know what to expect. Readers would also like to know if Albert and Annie&#x27;s will \nbe promoUng itself at this year&#x27;s Wooden Sailboat FesUval. Most local businesses rent \nbooths there as it is a major event. \nThe interview can be conducted by phone or video chat. I look forward to your reply. \nSincerely, \nSkye Botha</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Brandy MorJmer Raxconnect, Inc. 620 Weir Road Glasgow G91 9HX 11 March Alyssa Susilo 29 Lefroy Street Glasgow G3 7BQ Dear Ms. Susilo, As you may know, Raxconnect has been expanding its services in the Glasgow area over the past year. Our new ﬁbre-opUc cable lines oﬀer faster and more reliable service and eliminate the need for aboveground wiring. In order for the system to work, we need to install Internet connection devices throughout the city. Phase 1 of our construction work involved City Centre. Phase 2 involved West End. Although Phase 2 took longer than expected, we were able to expedite Phase 3 and get back on schedule. Phase 4 is now ready to begin in your area. Raxconnect would like to place a small Internet connection hub on your property at 29 Lefroy Street. Because of its central location on the street, your front yard would make an opUmal connecUon point. Please call us at 0141 496 0001 by 10 April to let us know whether we may proceed. Thank you. Sincerely, Brandy MorDmer Brandy Mortimer, UUliUes Adviser Raxconnect Expands Service GLASGOW (14 March)— Ager unexpected delays in West End, Raxconnect has finally completed the latest phase of its project to install ﬁbre-opUc cable throughout the city. Residents and businesses in Southside are now enjoying faster Internet service. For the next phase of the project, in Finnieston, Raxconnect has idenUﬁed key locations for connecUon hubs and is currently reaching out to residents and homeowners so that work can begin as soon as possible. The moves follow an announcement made earlier this year that Raxconnect had invested £350 million to expand its network. Local oﬃcials hope that the project brings new business and spending to their neighbourhoods. NoJce of Temporary Road Closure Please be aware that construction at 29 Lefroy Street will result in the closure of the enUre street. The closure will last from Monday, 31 May, unUl Tuesday, 8 June. During that period, automobile access will be limited to residents who live on Lefroy Street. Questions 191-195 refer to the following press release, e-mail, and review. FOR IMMEDIATE RELEASE Contact: Kevin Oessenich, kevin.o@albertandannies.com.au GOOLWA (2 November)— Yesterday, Albert and Annie&#x27;s, a leading maker of gourmet frozen desserts, unveiled several new treats: Triple Time Chocolate ice cream, a waltz of light and dark chocolate with a chocolate crumb swirl; Toﬀee Spree, a vanilla and toﬀee ice cream with sweet biscuit infusions; and a raspberry sorbet, featuring bits of real fruit. The new products are expected to be in Australian stores by mid-November. The company was founded 25 years ago by Albert and Annie Grundon, president and CEO, respecUvely. Earlier this year, they announced the opening of a South African division. South African retailers will get access to a number of Albert and Annie&#x27;s products in mid- December. To: Kevin Oessenich kevin.o@albertandannies.com.au From: Skye Botha sbotha@westerncapeeats.co.za Date: 3 November Subject: Interview request Dear Mr. Oessenich, I am a reporter for Western Cape Eats, a news site for food lovers in the Cape Town area. I would very much like to interview one or both of your company&#x27;s founders about your products and to ﬁnd out which products will be available here in South Africa. My readers are eager to know what to expect. Readers would also like to know if Albert and Annie&#x27;s will be promoUng itself at this year&#x27;s Wooden Sailboat FesUval. Most local businesses rent booths there as it is a major event. The interview can be conducted by phone or video chat. I look forward to your reply. Sincerely, Skye Botha</pre></div>",
               "questions": [
                 {
                   "number": 186,
@@ -2864,8 +2864,8 @@ window.PRACTICE_DATA = {
                     "To provide an explanaUon for a delay",
                     "To persuade a customer to switch Internet providers"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 187,
@@ -2876,8 +2876,8 @@ window.PRACTICE_DATA = {
                     "It will require only one connecUon hub.",
                     "It will soon have upgraded Internet service."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 188,
@@ -2888,8 +2888,8 @@ window.PRACTICE_DATA = {
                     "Phase 3",
                     "Phase 4"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 189,
@@ -2900,8 +2900,8 @@ window.PRACTICE_DATA = {
                     "She plans to move to a diﬀerent Glasgow neighborhood.",
                     "She produces video content for the Internet."
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 190,
@@ -2912,14 +2912,14 @@ window.PRACTICE_DATA = {
                     "They will be asked to ﬁll out a form when Raxconnect's work is done.",
                     "They will be able to use the street during construction."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-191-195",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">FOR IMMEDIATE RELEASE \nContact: Kevin Oessenich, kevin.o@albertandannies.com.au \nGOOLWA (2 November)— Yesterday, Albert and Annie&#x27;s, a leading maker of gourmet frozen \ndesserts, unveiled several new treats: Triple Time Chocolate ice cream, a waltz of light and \ndark chocolate with a chocolate crumb swirl; Toﬀee Spree, a vanilla and toﬀee ice cream \nwith sweet biscuit infusions; and a raspberry sorbet, featuring bits of real fruit. The new \nproducts are expected to be in Australian stores by mid-November. \nThe company was founded 25 years ago by Albert and Annie Grundon, president and CEO, \nrespecUvely. Earlier this year, they announced the opening of a South African division. South \nAfrican retailers will get access to a number of Albert and Annie&#x27;s products in mid-\nDecember. \n \nTo: Kevin Oessenich kevin.o@albertandannies.com.au \nFrom: Skye Botha sbotha@westerncapeeats.co.za \nDate: 3 November \nSubject: Interview request \n \nDear Mr. Oessenich, \nI am a reporter for Western Cape Eats, a news site for food lovers in the Cape Town area. I \nwould very much like to interview one or both of your company&#x27;s founders about your \nproducts and to ﬁnd out which products will be available here in South Africa. My readers \nare eager to know what to expect. Readers would also like to know if Albert and Annie&#x27;s will \nbe promoUng itself at this year&#x27;s Wooden Sailboat FesUval. Most local businesses rent \nbooths there as it is a major event. \nThe interview can be conducted by phone or video chat. I look forward to your reply. \nSincerely, \nSkye Botha \n\n[hüps://www.westerncapeeats.co.za/reviews] \n \nAbout \nNews \nEvents \nReviews \n \nJim Sato, 31 December \nYour arUcle informing me about Albert and Annie&#x27;s, an ice-cream company that just came to \nSouth Africa, gave me one more reason to attend the annual Wooden Sailboat FesUval. I got to \nsample some sensaUonal ice creams at Albert and Annie&#x27;s booth. The booth oﬀered three \namazing ﬂavours: Coﬀee Truﬄe, Fudge Mint, and Chocolate Pretzel Delight. In your arUcle, Mr. \nOessenich stated that these would be the ﬁrst ﬂavours to be rolled out to grocery outlets in \nSouth Africa and that more will become available over time. I can&#x27;t wait! \n\nQuestions 196-200 refer to the following blog post and 2 online forms. \nBen&#x27;s Nonproﬁt Burst—Resources for those who work in the nonproﬁt sector \nGeöng Grants \nPosted on August 18 by Ben Fineman \nGrant wriUng is the art of compleUng applicaUons for ﬁnancial aid oﬀered by government \nagencies, schools, corporaUons, or other enUUes. There is huge competition for grants and \nno room for mediocrity in grant wriUng. To improve your grant-wriUng skills, consider taking \nan online course taught by KrisUna Gilliam of Meadow Park University. Her WriUng Great \nGrants course is divided into four 90-minute interactive sessions. It is designed for people \nwith some basic knowledge of grant wriUng. These Monday evening classes run from \nNovember 15 to December 6. For details and registration, visit \nwww.krisUnagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent \noﬀ the $350 tuition. This code expires on September 30. On October 1, only full-price \nregistration will be available unUl the final registration day, November 1. \n \nwww.krisUnagilliam.ca/feedback \nThank you for participating in my WriUng Great Grants course. Please take a moment to tell \nme about your experience by ﬁlling out the form below. \nName: Natalie Ballard \nLocaJon: Winnipeg \nComment: RelaUvely short compared to other wriUng courses I&#x27;ve taken, WriUng Great \nGrants provided a decent overview. I was impressed to learn that the instructor helped \ncompanies get millions of dollars in grants during her career, and I&#x27;m glad to now have her as \na resource if I ever get hired as a grant writer. Fortunately, I used Ben&#x27;s Nonproﬁt Burst&#x27;s \npromo code when I registered. Otherwise, I&#x27;d have considered the tuition too high. The Web \nsite gave me the impression that Ms. Gilliam would include more speciﬁcs about the actual \nwriUng process than she did. \n \nwww.krisUnagilliam.ca/feedback \nThank you for participating in my WriUng Great Grants course. Please take a moment to tell \nme about your experience by ﬁlling out the form below. \nName: Paul Voigt \nLocaJon: Toronto</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">FOR IMMEDIATE RELEASE Contact: Kevin Oessenich, kevin.o@albertandannies.com.au GOOLWA (2 November)— Yesterday, Albert and Annie&#x27;s, a leading maker of gourmet frozen desserts, unveiled several new treats: Triple Time Chocolate ice cream, a waltz of light and dark chocolate with a chocolate crumb swirl; Toﬀee Spree, a vanilla and toﬀee ice cream with sweet biscuit infusions; and a raspberry sorbet, featuring bits of real fruit. The new products are expected to be in Australian stores by mid-November. The company was founded 25 years ago by Albert and Annie Grundon, president and CEO, respecUvely. Earlier this year, they announced the opening of a South African division. South African retailers will get access to a number of Albert and Annie&#x27;s products in mid- December. To: Kevin Oessenich kevin.o@albertandannies.com.au From: Skye Botha sbotha@westerncapeeats.co.za Date: 3 November Subject: Interview request Dear Mr. Oessenich, I am a reporter for Western Cape Eats, a news site for food lovers in the Cape Town area. I would very much like to interview one or both of your company&#x27;s founders about your products and to ﬁnd out which products will be available here in South Africa. My readers are eager to know what to expect. Readers would also like to know if Albert and Annie&#x27;s will be promoUng itself at this year&#x27;s Wooden Sailboat FesUval. Most local businesses rent booths there as it is a major event. The interview can be conducted by phone or video chat. I look forward to your reply. Sincerely, Skye Botha [hüps://www.westerncapeeats.co.za/reviews] About News Events Reviews Jim Sato, 31 December Your arUcle informing me about Albert and Annie&#x27;s, an ice-cream company that just came to South Africa, gave me one more reason to attend the annual Wooden Sailboat FesUval. I got to sample some sensaUonal ice creams at Albert and Annie&#x27;s booth. The booth oﬀered three amazing ﬂavours: Coﬀee Truﬄe, Fudge Mint, and Chocolate Pretzel Delight. In your arUcle, Mr. Oessenich stated that these would be the ﬁrst ﬂavours to be rolled out to grocery outlets in South Africa and that more will become available over time. I can&#x27;t wait! Questions 196-200 refer to the following blog post and 2 online forms. Ben&#x27;s Nonproﬁt Burst—Resources for those who work in the nonproﬁt sector Geöng Grants Posted on August 18 by Ben Fineman Grant wriUng is the art of compleUng applications for ﬁnancial aid oﬀered by government agencies, schools, corporaUons, or other enUUes. There is huge competition for grants and no room for mediocrity in grant wriUng. To improve your grant-wriUng skills, consider taking an online course taught by KrisUna Gilliam of Meadow Park University. Her WriUng Great Grants course is divided into four 90-minute interactive sessions. It is designed for people with some basic knowledge of grant wriUng. These Monday evening classes run from November 15 to December 6. For details and registration, visit www.krisUnagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent oﬀ the $350 tuition. This code expires on September 30. On October 1, only full-price registration will be available unUl the final registration day, November 1. www.krisUnagilliam.ca/feedback Thank you for participating in my WriUng Great Grants course. Please take a moment to tell me about your experience by ﬁlling out the form below. Name: Natalie Ballard LocaJon: Winnipeg Comment: RelaUvely short compared to other wriUng courses I&#x27;ve taken, WriUng Great Grants provided a decent overview. I was impressed to learn that the instructor helped companies get millions of dollars in grants during her career, and I&#x27;m glad to now have her as a resource if I ever get hired as a grant writer. Fortunately, I used Ben&#x27;s Nonproﬁt Burst&#x27;s promo code when I registered. Otherwise, I&#x27;d have considered the tuition too high. The Web site gave me the impression that Ms. Gilliam would include more speciﬁcs about the actual wriUng process than she did. www.krisUnagilliam.ca/feedback Thank you for participating in my WriUng Great Grants course. Please take a moment to tell me about your experience by ﬁlling out the form below. Name: Paul Voigt LocaJon: Toronto</pre></div>",
               "questions": [
                 {
                   "number": 191,
@@ -2930,8 +2930,8 @@ window.PRACTICE_DATA = {
                     "The expansion of a product line",
                     "The relocation of a producUon plant"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 192,
@@ -2954,8 +2954,8 @@ window.PRACTICE_DATA = {
                     "Opening a business",
                     "WriUng reviews of food products"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 194,
@@ -2978,14 +2978,14 @@ window.PRACTICE_DATA = {
                     "It was one of three booths featuring frozen desserts.",
                     "It did not oﬀer samples of the"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
             {
               "id": "part7-196-200",
-              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Ben&#x27;s Nonproﬁt Burst—Resources for those who work in the nonproﬁt sector \nGeöng Grants \nPosted on August 18 by Ben Fineman \nGrant wriUng is the art of compleUng applicaUons for ﬁnancial aid oﬀered by government \nagencies, schools, corporaUons, or other enUUes. There is huge competition for grants and \nno room for mediocrity in grant wriUng. To improve your grant-wriUng skills, consider taking \nan online course taught by KrisUna Gilliam of Meadow Park University. Her WriUng Great \nGrants course is divided into four 90-minute interactive sessions. It is designed for people \nwith some basic knowledge of grant wriUng. These Monday evening classes run from \nNovember 15 to December 6. For details and registration, visit \nwww.krisUnagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent \noﬀ the $350 tuition. This code expires on September 30. On October 1, only full-price \nregistration will be available unUl the final registration day, November 1. \n \nwww.krisUnagilliam.ca/feedback \nThank you for participating in my WriUng Great Grants course. Please take a moment to tell \nme about your experience by ﬁlling out the form below. \nName: Natalie Ballard \nLocaJon: Winnipeg \nComment: RelaUvely short compared to other wriUng courses I&#x27;ve taken, WriUng Great \nGrants provided a decent overview. I was impressed to learn that the instructor helped \ncompanies get millions of dollars in grants during her career, and I&#x27;m glad to now have her as \na resource if I ever get hired as a grant writer. Fortunately, I used Ben&#x27;s Nonproﬁt Burst&#x27;s \npromo code when I registered. Otherwise, I&#x27;d have considered the tuition too high. The Web \nsite gave me the impression that Ms. Gilliam would include more speciﬁcs about the actual \nwriUng process than she did. \n \nwww.krisUnagilliam.ca/feedback \nThank you for participating in my WriUng Great Grants course. Please take a moment to tell \nme about your experience by ﬁlling out the form below. \nName: Paul Voigt \nLocaJon: Toronto \n\nComment: This was a great course overall. The instructor shared a wealth of valuable \ninsights, including her experiences as the founder of Orden InternaUonal. I never realized \nthat grant-wriUng ﬁrms even existed! I might start one of my own if I ever leave my current \ngrant-wriUng job. The course focused mainly on researching grant opportuniUes and \nanalyzing samples of successful grant applicaUons. When several of us asked for speciﬁc \nwriUng Ups during the final session, Ms. Gilliam simply referred us to other resources. The \ncourse descripUon on her Web site was a bit misleading in that regard.</pre></div>",
+              "passageHtml": "<div class=\"source-doc\"><pre style=\"white-space:pre-wrap;font-family:inherit\">Ben&#x27;s Nonproﬁt Burst—Resources for those who work in the nonproﬁt sector Geöng Grants Posted on August 18 by Ben Fineman Grant wriUng is the art of compleUng applications for ﬁnancial aid oﬀered by government agencies, schools, corporaUons, or other enUUes. There is huge competition for grants and no room for mediocrity in grant wriUng. To improve your grant-wriUng skills, consider taking an online course taught by KrisUna Gilliam of Meadow Park University. Her WriUng Great Grants course is divided into four 90-minute interactive sessions. It is designed for people with some basic knowledge of grant wriUng. These Monday evening classes run from November 15 to December 6. For details and registration, visit www.krisUnagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent oﬀ the $350 tuition. This code expires on September 30. On October 1, only full-price registration will be available unUl the final registration day, November 1. www.krisUnagilliam.ca/feedback Thank you for participating in my WriUng Great Grants course. Please take a moment to tell me about your experience by ﬁlling out the form below. Name: Natalie Ballard LocaJon: Winnipeg Comment: RelaUvely short compared to other wriUng courses I&#x27;ve taken, WriUng Great Grants provided a decent overview. I was impressed to learn that the instructor helped companies get millions of dollars in grants during her career, and I&#x27;m glad to now have her as a resource if I ever get hired as a grant writer. Fortunately, I used Ben&#x27;s Nonproﬁt Burst&#x27;s promo code when I registered. Otherwise, I&#x27;d have considered the tuition too high. The Web site gave me the impression that Ms. Gilliam would include more speciﬁcs about the actual wriUng process than she did. www.krisUnagilliam.ca/feedback Thank you for participating in my WriUng Great Grants course. Please take a moment to tell me about your experience by ﬁlling out the form below. Name: Paul Voigt LocaJon: Toronto Comment: This was a great course overall. The instructor shared a wealth of valuable insights, including her experiences as the founder of Orden InternaUonal. I never realized that grant-wriUng ﬁrms even existed! I might start one of my own if I ever leave my current grant-wriUng job. The course focused mainly on researching grant opportuniUes and analyzing samples of successful grant applications. When several of us asked for speciﬁc wriUng Ups during the final session, Ms. Gilliam simply referred us to other resources. The course description on her Web site was a bit misleading in that regard.</pre></div>",
               "questions": [
                 {
                   "number": 196,
@@ -2996,8 +2996,8 @@ window.PRACTICE_DATA = {
                     "To spotlight an employee",
                     "To preview changes to a Web site"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 197,
@@ -3008,8 +3008,8 @@ window.PRACTICE_DATA = {
                     "On November 1",
                     "On December 6"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 198,
@@ -3020,8 +3020,8 @@ window.PRACTICE_DATA = {
                     "She took a course from Ms. Gilliam on a previous occasion.",
                     "She edits Mr. Fineman's blog posts."
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 199,
@@ -3032,8 +3032,8 @@ window.PRACTICE_DATA = {
                     "They want to learn how to research grant opportuniUes.",
                     "They noUced the same weakness in the WriUng Great Grants course."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 200,
@@ -3044,8 +3044,8 @@ window.PRACTICE_DATA = {
                     "She wrote a grant for Mr. Fineman.",
                     "She authored a grant-wriUng manual."
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             }
