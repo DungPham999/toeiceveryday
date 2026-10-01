@@ -14,8 +14,8 @@ window.PRACTICE_DATA = {
           "questions": [
             {
               "number": 1,
-              "start": 115.681,
-              "end": 135.395,
+              "start": 98.681,
+              "end": 118.395,
               "image": "assets/images/q01.jpg",
               "choices": [
                 "A",
@@ -33,8 +33,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 2,
-              "start": 147.203,
-              "end": 166.106,
+           "start": 115.681,
+              "end": 135.395,
               "image": "assets/images/q02.jpg",
               "choices": [
                 "A",
@@ -52,8 +52,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 3,
-              "start": 171.191,
-              "end": 191.861,
+                "start": 147.203,
+              "end": 166.106,
               "image": "assets/images/q03.jpg",
               "choices": [
                 "A",
@@ -71,8 +71,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 4,
-              "start": 196.909,
-              "end": 218.778,
+                 "start": 171.191,
+              "end": 191.861,
               "image": "assets/images/q04.jpg",
               "choices": [
                 "A",
@@ -90,8 +90,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 5,
-              "start": 223.851,
-              "end": 245.745,
+               "start": 196.909,
+              "end": 218.778,
               "image": "assets/images/q05.jpg",
               "choices": [
                 "A",
@@ -109,8 +109,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 6,
-              "start": 257.709,
-              "end": 279.0,
+             "start": 223.851,
+              "end": 245.745,
               "image": "assets/images/q06.jpg",
               "choices": [
                 "A",
