@@ -1,4 +1,19 @@
 [
+  
+  {
+    "id": "pre-practice-1",
+    "title": "Pre-Practice 1",
+    "group": "Pre",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
+  },
+  
   {
     "id": "a-exam-1",
     "title": "A-Exam 1",
@@ -27,6 +42,19 @@
     "status": "active"
   },
 
+  {
+    "id": "a-exam-3",
+    "title": "A-Exam 3",
+    "group": "A",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
+  },
   
   {
     "id": "a-practice-1",
