@@ -561,7 +561,7 @@ window.PRACTICE_DATA = {
                 "dramatically"
               ],
               "answer": 3,
-              "explanation": "Answer: D. dramatically — has been increasing dramatically = đã tăng mạnh."
+              "explanation": "V + adv — has been increasing dramatically = đã tăng mạnh."
             },
             {
               "number": 47,
@@ -573,7 +573,7 @@ window.PRACTICE_DATA = {
                 "upcoming"
               ],
               "answer": 0,
-              "explanation": "Answer: A. previous — the previous event = sự kiện trước đó."
+              "explanation": "cụm tính danh — the previous event = sự kiện trước đó."
             },
             {
               "number": 48,
@@ -585,7 +585,7 @@ window.PRACTICE_DATA = {
                 "simply"
               ],
               "answer": 3,
-              "explanation": "Answer: D. simply — simply by registering... = đơn giản chỉ bằng cách đăng ký..."
+              "explanation": "Save + cụm danh từ +  simply by registering... = Tiết kiệm ...  đơn giản chỉ bằng cách đăng ký..."
             },
             {
               "number": 49,
@@ -597,7 +597,7 @@ window.PRACTICE_DATA = {
                 "costly"
               ],
               "answer": 0,
-              "explanation": "Answer: A. thoroughly — thoroughly inspected = được kiểm tra kỹ lưỡng."
+              "explanation": "Answer: A. thoroughly — be thoroughly inspected = được kiểm tra kỹ lưỡng."
             },
             {
               "number": 50,
@@ -609,7 +609,7 @@ window.PRACTICE_DATA = {
                 "were satisfied"
               ],
               "answer": 3,
-              "explanation": "Answer: D. were satisfied — Cấu trúc be satisfied with + N = hài lòng với."
+              "explanation": "Answer: D. were satisfied — Cấu trúc: be satisfied with + N = hài lòng với."
             },
             {
               "number": 51,
@@ -621,11 +621,11 @@ window.PRACTICE_DATA = {
                 "comfortably"
               ],
               "answer": 2,
-              "explanation": "Answer: C. comfort — ensure passenger comfort = đảm bảo sự thoải mái của hành khách."
-            },
+              "explanation": "Cụm danh danh —  passenger comfort = sự thoải mái của hành khách."
+            }
             {
               "number": 52,
-              "prompt": "The free service for two months is a one-time offer available ______ to new customers who switch service.",
+              "prompt": "The free service for two months is a one-time offer _______ available to new customers who switch service.",
               "choices": [
                 "dependently",
                 "expensively",
@@ -633,7 +633,7 @@ window.PRACTICE_DATA = {
                 "exclusively"
               ],
               "answer": 3,
-              "explanation": "Answer: D. exclusively — available exclusively to new customers = chỉ dành riêng cho khách hàng mới."
+              "explanation": "adv  + adj —  exclusively available to new customers = chỉ dành riêng cho khách hàng mới."
             },
             {
               "number": 53,
@@ -645,7 +645,7 @@ window.PRACTICE_DATA = {
                 "collectively"
               ],
               "answer": 1,
-              "explanation": "Answer: B. reluctantly — reluctantly agreed = miễn cưỡng đồng ý."
+              "explanation": "S + adv + V _ reluctantly agreed = miễn cưỡng đồng ý."
             },
             {
               "number": 54,
@@ -657,7 +657,7 @@ window.PRACTICE_DATA = {
                 "relatively"
               ],
               "answer": 3,
-              "explanation": "Answer: D. relatively — a relatively high price compared to... = mức giá tương đối cao so với..."
+              "explanation": " cụm tính danh: A (+ adv) + adj + N  : a relatively high price ... = mức giá tương đối cao ..."
             },
             {
               "number": 55,
@@ -669,7 +669,7 @@ window.PRACTICE_DATA = {
                 "appropriates"
               ],
               "answer": 0,
-              "explanation": "Answer: A. appropriately — be dealt with appropriately = được xử lý thích hợp."
+              "explanation": "be V3 + adv _ be dealt with appropriately = được xử lý thích hợp."
             },
             {
               "number": 56,
@@ -681,7 +681,7 @@ window.PRACTICE_DATA = {
                 "impressive"
               ],
               "answer": 1,
-              "explanation": "Answer: B. impressions — Cụm leave someone with strong impressions = để lại những ấn tượng mạnh."
+              "explanation": "cụm tính danh _ Cụm leave someone with strong impressions = để lại cho ai những ấn tượng mạnh."
             },
             {
               "number": 57,
@@ -693,7 +693,7 @@ window.PRACTICE_DATA = {
                 "publicize"
               ],
               "answer": 0,
-              "explanation": "Answer: A. public — public land = đất công/đất công cộng."
+              "explanation": "Cụm tính danh _ public land = đất công/đất công cộng."
             },
             {
               "number": 58,
@@ -705,7 +705,7 @@ window.PRACTICE_DATA = {
                 "instantly"
               ],
               "answer": 0,
-              "explanation": "Answer: A. instant — an instant success = thành công ngay lập tức. Đây là collocation."
+              "explanation": "cụm tính danh — an instant success = thành công ngay lập tức. Đây là collocation."
             },
             {
               "number": 59,
@@ -717,7 +717,7 @@ window.PRACTICE_DATA = {
                 "positivity"
               ],
               "answer": 0,
-              "explanation": "Answer: A. positively — impacted investors positively = tác động tích cực đến nhà đầu tư."
+              "explanation": "V + Object + adv: impacted investors positively = tác động tích cực đến nhà đầu tư."
             },
             {
               "number": 60,
@@ -729,7 +729,7 @@ window.PRACTICE_DATA = {
                 "openly"
               ],
               "answer": 3,
-              "explanation": "Answer: D. openly — will be shared openly with the public = sẽ được công khai với công chúng."
+              "explanation": "be V3 + adv : will be shared openly with the public = sẽ được công khai với công chúng."
             },
             {
               "number": 61,
@@ -741,7 +741,7 @@ window.PRACTICE_DATA = {
                 "numerous"
               ],
               "answer": 0,
-              "explanation": "Answer: A. substantial — a substantial pension = khoản lương hưu đáng kể/lớn."
+              "explanation": "cum tính danh — a substantial pension = khoản lương hưu đáng kể/lớn."
             },
             {
               "number": 62,
@@ -753,7 +753,7 @@ window.PRACTICE_DATA = {
                 "random"
               ],
               "answer": 3,
-              "explanation": "Answer: D. random — random safety inspections = các cuộc kiểm tra an toàn ngẫu nhiên."
+              "explanation": "cụm tính danh danh — random safety inspections = các cuộc kiểm tra an toàn ngẫu nhiên."
             },
             {
               "number": 63,
@@ -765,7 +765,7 @@ window.PRACTICE_DATA = {
                 "analyzed"
               ],
               "answer": 1,
-              "explanation": "Answer: B. analysis — Dr. Chan's original analysis = phân tích ban đầu của TS Chan."
+              "explanation": "cụm tính danh: Dr. Chan's original analysis = bản phân tích ban đầu của Dr. Chan."
             },
             {
               "number": 64,
@@ -777,7 +777,7 @@ window.PRACTICE_DATA = {
                 "actualize"
               ],
               "answer": 2,
-              "explanation": "Answer: C. actually — Rosalita's Necessaries actually carries... = thực tế cửa hàng có bán..."
+              "explanation": "S + adv + V:  Rosalita's Necessaries actually carries... = thực tế cửa hàng có bán..."
             },
             {
               "number": 65,
@@ -789,7 +789,7 @@ window.PRACTICE_DATA = {
                 "collaborative"
               ],
               "answer": 3,
-              "explanation": "Answer: D. collaborative — a collaborative effort = một nỗ lực hợp tác."
+              "explanation": "cụm tính danh— a collaborative effort = một nỗ lực hợp tác."
             },
             {
               "number": 66,
@@ -801,7 +801,7 @@ window.PRACTICE_DATA = {
                 "mutually"
               ],
               "answer": 2,
-              "explanation": "Answer: C. rarely — customers rarely accumulate enough... = khách hàng hiếm khi tích đủ điểm..."
+              "explanation": "S + adv + V: customers rarely accumulate enough... = khách hàng hiếm khi tích đủ điểm..."
             },
             {
               "number": 67,
@@ -813,7 +813,7 @@ window.PRACTICE_DATA = {
                 "sparsely"
               ],
               "answer": 0,
-              "explanation": "Answer: A. intentionally — were intentionally deleted = đã được cố ý xóa."
+              "explanation": "be + adv + V3 : were intentionally deleted = đã được cố ý xóa."
             },
             {
               "number": 68,
@@ -825,7 +825,7 @@ window.PRACTICE_DATA = {
                 "competent"
               ],
               "answer": 2,
-              "explanation": "Answer: C. essential — deemed essential to the position = được xem là thiết yếu đối với vị trí."
+              "explanation": "Cấu trúc: deem/consider sb/sth + noun/adj: qualifications that are deemed essential to the position = các bằng cấp mà được xem là thiết yếu đối với vị trí tuyển dụng."
             },
             {
               "number": 69,
@@ -837,7 +837,7 @@ window.PRACTICE_DATA = {
                 "projection"
               ],
               "answer": 2,
-              "explanation": "Answer: C. projects — home improvement projects = các dự án/công việc cải tạo nhà."
+              "explanation": "Cụm danh danh danh — many home improvement projects = các dự án/công việc cải tạo nhà."
             },
             {
               "number": 70,
@@ -849,7 +849,7 @@ window.PRACTICE_DATA = {
                 "failed"
               ],
               "answer": 2,
-              "explanation": "Answer: C. available — will not be available for five days = sẽ chưa có sẵn trong 5 ngày."
+              "explanation": "BT từ vựng — will not be available for five days = sẽ chưa có sẵn trong 5 ngày."
             },
             {
               "number": 71,
@@ -861,7 +861,7 @@ window.PRACTICE_DATA = {
                 "steep"
               ],
               "answer": 3,
-              "explanation": "Answer: D. steep — a steep discount = mức giảm giá lớn/sâu. Đây là collocation cần nhớ."
+              "explanation": "cụm tính danh — a steep discount = mức giảm giá lớn/sâu. Đây là collocation cần nhớ."
             },
             {
               "number": 72,
@@ -873,7 +873,7 @@ window.PRACTICE_DATA = {
                 "effects"
               ],
               "answer": 2,
-              "explanation": "Answer: C. effectively — have effectively caused... = thực tế/đã có tác động gây ra việc đóng băng tuyển dụng."
+              "explanation": "have (+ adv) + V3 : have effectively caused... = thực tế/đã có tác động gây ra việc đóng băng tuyển dụng."
             },
             {
               "number": 73,
@@ -897,7 +897,7 @@ window.PRACTICE_DATA = {
                 "specific"
               ],
               "answer": 3,
-              "explanation": "Answer: D. specific — specific feedback = phản hồi cụ thể."
+              "explanation": "cụm tính danh — specific feedback = phản hồi cụ thể."
             },
             {
               "number": 75,
@@ -909,8 +909,8 @@ window.PRACTICE_DATA = {
                 "improper"
               ],
               "answer": 0,
-              "explanation": "Answer: A. external — an external review from a third party = một cuộc đánh giá từ bên ngoài bởi bên thứ ba."
-            },
+              "explanation": "cụm tính danh — an external review from a third party = một cuộc đánh giá từ bên ngoài bởi bên thứ ba."
+            }, 
             {
               "number": 76,
               "prompt": "The economic value of hiring an assistant is disputable, but an extra pair of hands will _____ improve morale.",
@@ -921,7 +921,7 @@ window.PRACTICE_DATA = {
                 "assure"
               ],
               "answer": 2,
-              "explanation": "Answer: C. assuredly — will assuredly improve morale = chắc chắn sẽ cải thiện tinh thần."
+              "explanation": "will + (adv) + Vo : will assuredly improve morale = chắc chắn sẽ cải thiện tinh thần."
             },
             {
               "number": 77,
@@ -933,7 +933,7 @@ window.PRACTICE_DATA = {
                 "exceptional"
               ],
               "answer": 3,
-              "explanation": "Answer: D. exceptional — exceptional food services = dịch vụ ăn uống xuất sắc."
+              "explanation": "cụm tính danh danh — exceptional food services = dịch vụ ăn uống xuất sắc."
             },
             {
               "number": 78,
@@ -957,7 +957,7 @@ window.PRACTICE_DATA = {
                 "value"
               ],
               "answer": 0,
-              "explanation": "Answer: A. valuable — a valuable new member = một thành viên mới có giá trị/hữu ích."
+              "explanation": "cụm tính danh — a valuable new member = một thành viên mới có giá trị/hữu ích."
             },
             {
               "number": 80,
@@ -969,7 +969,7 @@ window.PRACTICE_DATA = {
                 "promptly"
               ],
               "answer": 3,
-              "explanation": "Answer: D. promptly — will begin promptly at 12 P.M. = sẽ bắt đầu đúng 12 giờ."
+              "explanation": "V + adv:  will begin promptly at 12 P.M. = sẽ bắt đầu đúng 12 giờ."
             },
             {
               "number": 81,
