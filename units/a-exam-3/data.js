@@ -14,8 +14,8 @@ window.PRACTICE_DATA = {
           "questions": [
             {
               "number": 1,
-              "start": 98.681,
-              "end": 118.395,
+              "start": 95.681,
+              "end": 115.395,
               "image": "assets/images/q01.jpg",
               "choices": [
                 "A",
