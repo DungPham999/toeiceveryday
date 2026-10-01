@@ -1,1 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="../auth/auth.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TOEIC Reading Practice</title>
+  <link rel="stylesheet" href="./style.css?v=1">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">TOEIC READING PRACTICE</div>
+    <h1><strong id="unitTitle">Practice Unit</strong> <span>Practice</span></h1>
+  </div>
+  <div class="top-actions">
+    <div class="progress-wrap">
+      <div id="progressText">0 / 0 answered</div>
+      <div class="progress"><div id="progressBar"></div></div>
+    </div>
+    <a class="header-btn" href="../../">← Trang chủ</a>
+    <button id="resetBtn" class="header-btn">↻ Làm lại bài</button>
+    <button id="paletteBtn" class="header-btn">☷ Danh sách câu hỏi</button>
+    <button class="header-btn" onclick="logoutToeic()">↪ Đăng xuất</button>
+  </div>
+</header>
 
+<nav id="partTabs" class="part-tabs"></nav>
+<nav id="exerciseTabs" class="exercise-tabs"></nav>
+
+<main id="mainLayout" class="layout">
+  <section id="passagePanel" class="passage-panel hidden">
+    <div id="passageHtml" class="passage-card"></div>
+  </section>
+
+  <section class="question-panel">
+    <div class="question-head">
+      <span id="partBadge" class="badge">Part</span>
+      <span id="groupLabel" class="group-label"></span>
+    </div>
+    <div id="questionArea"></div>
+    <div class="nav-row">
+      <button id="prevBtn" class="nav-btn">← Previous</button>
+      <div id="dots" class="dots"></div>
+      <button id="nextBtn" class="nav-btn primary">Next →</button>
+    </div>
+  </section>
+</main>
+
+<div id="paletteOverlay" class="palette-overlay hidden">
+  <aside class="palette-drawer">
+    <div class="palette-head">
+      <div><div class="eyebrow" id="paletteKicker">PRACTICE UNIT</div><h2>Danh sách câu hỏi</h2></div>
+      <button id="paletteClose" class="palette-close">×</button>
+    </div>
+    <div class="palette-stats">
+      <span><i class="swatch correct"></i><b id="correctCount">0</b> Đúng</span>
+      <span><i class="swatch wrong"></i><b id="wrongCount">0</b> Sai</span>
+      <span><i class="swatch todo"></i><b id="todoCount">0</b> Chưa kiểm tra</span>
+    </div>
+    <div id="paletteSections"></div>
+  </aside>
+</div>
+
+<script src="./loader.js?v=1"></script>
+</body>
+</html>
