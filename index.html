@@ -111,6 +111,18 @@
   }
 }
   
+
+    .practice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .practice-card{background:linear-gradient(180deg,#fff 0%,#fffaf2 100%);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:270px;transition:.18s ease}
+    .practice-card:hover{transform:translateY(-4px);border-color:#e9c27c;box-shadow:0 20px 50px rgba(83,53,18,.14)}
+    .practice-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+    .practice-icon{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(145deg,#4a3218,#2f2419);color:#ffd89a;font-weight:900}
+    .practice-card h3{margin:19px 0 8px;font-size:22px;letter-spacing:-.5px}
+    .practice-card p{color:var(--muted);line-height:1.65;margin:0}
+    .practice-actions{margin-top:auto;padding-top:20px}.practice-actions .btn{width:100%}
+    @media(max-width:920px){.practice-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:640px){.practice-grid{grid-template-columns:1fr}}
+
   </style>
 </head>
 <body>
@@ -120,7 +132,7 @@
         <div class="brand-mark">✓</div>
         <div class="brand-name">TOEIC <span>EVERYDAY</span></div>
       </a>
-      <nav class="nav-links"><a href="#bo-de">Bộ đề</a><a href="#cach-luyen">Cách luyện</a></nav>
+      <nav class="nav-links"><a href="#practice-units">Practice Units</a><a href="#bo-de">Bộ đề ETS</a><a href="#cach-luyen">Cách luyện</a></nav>
     </div>
   </header>
 
@@ -141,6 +153,17 @@
           <p class="hc-desc">Làm từng kỹ năng riêng, lưu tiến độ trên trình duyệt và xem đáp án, script hoặc explanation sau khi kiểm tra.</p>
           <div class="stats"><div class="stat"><strong>200</strong><span>Câu full test</span></div><div class="stat"><strong>7</strong><span>Parts</span></div><div class="stat"><strong>120′</strong><span>Full test</span></div><div class="stat"><strong>✓</strong><span>Có đáp án</span></div></div>
         </aside>
+      </div>
+    </section>
+
+
+    <section id="practice-units">
+      <div class="container">
+        <div class="section-head">
+          <div><h2>Practice Units</h2><p>Luyện theo từng Unit. Mỗi Unit có thể kết hợp nhiều Part Listening và Reading.</p></div>
+          <span class="year-tag">PRACTICE</span>
+        </div>
+        <div id="practiceGrid" class="practice-grid"><div class="loading-card">Đang tải danh sách Practice Units...</div></div>
       </div>
     </section>
 
@@ -384,6 +407,42 @@ async function loadTests() {
   }
 }
 
+
+async function loadPracticeUnits() {
+  const container = document.getElementById("practiceGrid");
+  try {
+    const response = await fetch("./units/units.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const units = await response.json();
+    if (!Array.isArray(units)) throw new Error("units.json không đúng định dạng.");
+    const activeUnits = units.filter(item => item && item.id && item.status !== "hidden");
+    if (!activeUnits.length) {
+      container.innerHTML = `<div class="error-card">Chưa có Practice Unit nào được mở.</div>`;
+      return;
+    }
+    container.innerHTML = "";
+    activeUnits.forEach(item => {
+      const parts = Array.isArray(item.parts) ? item.parts : [];
+      const partTags = parts.map(part => `<span>Part ${part}</span>`).join("");
+      const card = document.createElement("article");
+      card.className = "practice-card";
+      card.innerHTML = `
+        <div class="practice-top"><div class="practice-icon">${item.group || "P"}</div><span class="badge">Đang mở</span></div>
+        <h3>${item.title || item.id}</h3>
+        <p>${item.description || "Listening + Reading Practice"}</p>
+        <div class="meta">${partTags}</div>
+        <div class="practice-actions">
+          <a class="btn btn-primary" href="./shared/practice/practice.html?unit=${encodeURIComponent(item.id)}">Bắt đầu luyện →</a>
+        </div>`;
+      container.appendChild(card);
+    });
+  } catch (error) {
+    console.error("Không tải được units.json:", error);
+    container.innerHTML = `<div class="error-card"><strong>Không tải được danh sách Practice Units.</strong><br>Kiểm tra file <code>units/units.json</code>.</div>`;
+  }
+}
+
+loadPracticeUnits();
 loadTests();
 </script>
 

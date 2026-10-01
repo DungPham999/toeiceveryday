@@ -1,32 +1,15 @@
 [
   {
-    "id": "pre-lis-1",
-    "title": "Pre_Lis 1",
-    "skill": "listening",
-    "path": "units/pre-lis-1"
-  },
-  {
-    "id": "pre-lis-2",
-    "title": "Pre_Lis 2",
-    "skill": "listening",
-    "path": "units/pre-lis-2"
-  },
-  {
-    "id": "a-lis-1",
-    "title": "A_Lis 1",
-    "skill": "listening",
-    "path": "units/a-lis-1"
-  },
-  {
-    "id": "a-read-1",
-    "title": "A_Read 1",
-    "skill": "reading",
-    "path": "units/a-read-1"
-  },
-  {
-    "id": "a-read-2",
-    "title": "A_Read 2",
-    "skill": "reading",
-    "path": "units/a-read-2"
+    "id": "a-exam-1",
+    "title": "A-Exam 1",
+    "group": "A",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
   }
 ]
