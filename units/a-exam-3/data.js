@@ -1121,9 +1121,9 @@ window.PRACTICE_DATA = {
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
-                },
+                }
+              ],
                   "image": "assets/images/p3-q62-64-graphic.jpg"
-              ]
             },
             {
               "id": "part3-65-67",
