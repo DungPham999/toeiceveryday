@@ -885,7 +885,7 @@ window.PRACTICE_DATA = {
                 "refunded"
               ],
               "answer": 0,
-              "explanation": "Answer: A. varied — a varied selection = nhiều lựa chọn đa dạng."
+              "explanation": "cụm tính danh — a varied selection = nhiều lựa chọn đa dạng."
             },
             {
               "number": 74,
@@ -945,7 +945,7 @@ window.PRACTICE_DATA = {
                 "never"
               ],
               "answer": 1,
-              "explanation": "Answer: B. quickly — write annual reviews quickly so that... prompt feedback = viết đánh giá nhanh để nhân viên nhận phản hồi kịp thời."
+              "explanation": "V + Object + adv: write annual reviews quickly so that... prompt feedback = viết đánh giá nhanh để nhân viên nhận phản hồi kịp thời."
             },
             {
               "number": 79,
@@ -957,7 +957,7 @@ window.PRACTICE_DATA = {
                 "value"
               ],
               "answer": 0,
-              "explanation": "cụm tính danh — a valuable new member = một thành viên mới có giá trị/hữu ích."
+              "explanation": "cụm tính tính danh — a valuable new member = một thành viên mới có giá trị/hữu ích."
             },
             {
               "number": 80,
@@ -993,7 +993,7 @@ window.PRACTICE_DATA = {
                 "build"
               ],
               "answer": 0,
-              "explanation": "Answer: A. buildings — allow commercial buildings = cho phép các tòa nhà/công trình thương mại."
+              "explanation": "cụm tính danh — allow commercial buildings = cho phép các tòa nhà/công trình thương mại."
             },
             {
               "number": 83,
@@ -1005,7 +1005,7 @@ window.PRACTICE_DATA = {
                 "reasons"
               ],
               "answer": 2,
-              "explanation": "Answer: C. reasonable — reasonable financing and competitive prices = phương án tài chính hợp lý và giá cạnh tranh."
+              "explanation": "cụm tính tính danh — West Norwich Cars' reasonable financing prices = phương án tài chính hợp lý."
             },
             {
               "number": 84,
