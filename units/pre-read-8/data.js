@@ -21,7 +21,7 @@ window.PRACTICE_DATA = {
                 "curtailment"
               ],
               "answer": 0,
-              "explanation": "1. A. to curtail\nCấu trúc in order to + V = để làm gì.\n→ in order to curtail the loss or damage = nhằm hạn chế sự mất mát hoặc hư hỏng.\nB là bị động không hợp nghĩa; C/D sai cấu trúc.\nCollocation: curtail losses = hạn chế tổn thất; archive storage = nơi lưu trữ hồ sơ."
+              "explanation": "1. A. to curtail.\nCấu trúc in order to + V = để làm gì.\n→ in order to curtail the loss or damage = nhằm hạn chế sự mất mát hoặc hư hỏng.\nB là bị động không hợp nghĩa; C/D sai cấu trúc.\nCollocation: curtail losses = hạn chế tổn thất; archive storage = nơi lưu trữ hồ sơ."
             },
             {
               "number": 2,
@@ -33,7 +33,7 @@ window.PRACTICE_DATA = {
                 "reception"
               ],
               "answer": 1,
-              "explanation": "2. B. to receive\nneed + to V = cần làm gì.\n→ need to receive lengthy documents.\nA thiếu to; C/D sai dạng.\nCollocation: lengthy documents = tài liệu dài; large data transfers = việc truyền dữ liệu dung lượng lớn."
+              "explanation": "2. B. to receive. \nneed + to V = cần làm gì.\n→ need to receive lengthy documents.\nA thiếu to; C/D sai dạng.\nCollocation: lengthy documents = tài liệu dài; large data transfers = việc truyền dữ liệu dung lượng lớn."
             },
             {
               "number": 3,
@@ -45,7 +45,7 @@ window.PRACTICE_DATA = {
                 "rehearsed"
               ],
               "answer": 2,
-              "explanation": "3. C. to rehearse\nCấu trúc It is/was + adjective + to V.\n→ It was important to rehearse the presentation.\nCollocation: rehearse a presentation = tập dượt bài thuyết trình."
+              "explanation": "3. C. to rehearse.\nCấu trúc It is/was + adjective + to V.\n→ It was important to rehearse the presentation.\nCollocation: rehearse a presentation = tập dượt bài thuyết trình."
             },
             {
               "number": 4,
@@ -57,7 +57,7 @@ window.PRACTICE_DATA = {
                 "made"
               ],
               "answer": 2,
-              "explanation": "4. C. to make\nCấu trúc have the authority to V = có thẩm quyền làm gì.\n→ authority to make a decision.\nCollocation: make a decision = đưa ra quyết định; employment status = tình trạng việc làm."
+              "explanation": "4. C. to make.\nCấu trúc have the authority to V = có thẩm quyền làm gì.\n→ authority to make a decision.\nCollocation: make a decision = đưa ra quyết định; employment status = tình trạng việc làm."
             },
             {
               "number": 5,
@@ -69,7 +69,7 @@ window.PRACTICE_DATA = {
                 "to mail"
               ],
               "answer": 1,
-              "explanation": "5. B. mail\nCấu trúc sai khiến have + someone + V nguyên mẫu.\n→ had his secretary mail out copies.\nKhông dùng to mail.\nCollocation: mail out copies = gửi các bản sao; agenda = chương trình nghị sự."
+              "explanation": "5. B. mail.\nCấu trúc sai khiến have + someone + V nguyên mẫu.\n→ had his secretary mail out copies.\nKhông dùng to mail.\nCollocation: mail out copies = gửi các bản sao; agenda = chương trình nghị sự."
             },
             {
               "number": 6,
@@ -81,7 +81,7 @@ window.PRACTICE_DATA = {
                 "maintain"
               ],
               "answer": 0,
-              "explanation": "6. A. to maintain\nprefer to V rather than V.\n→ prefer to maintain a minimum balance rather than pay monthly fees.\nCollocation: maintain a minimum balance = duy trì số dư tối thiểu; monthly fees = phí hàng tháng."
+              "explanation": "6. A. to maintain.\nprefer to V rather than V.\n→ prefer to maintain a minimum balance rather than pay monthly fees.\nCollocation: maintain a minimum balance = duy trì số dư tối thiểu; monthly fees = phí hàng tháng."
             },
             {
               "number": 7,
@@ -93,7 +93,7 @@ window.PRACTICE_DATA = {
                 "been"
               ],
               "answer": 0,
-              "explanation": "7. A. to be\nCụm cố định remain to be seen = vẫn chưa biết/chưa thể kết luận.\n→ remains to be seen."
+              "explanation": "7. A. to be.\nCụm cố định remain to be seen = vẫn chưa biết/chưa thể kết luận.\n→ remains to be seen."
             },
             {
               "number": 8,
@@ -105,7 +105,7 @@ window.PRACTICE_DATA = {
                 "to be enhancing"
               ],
               "answer": 1,
-              "explanation": "8. B. to enhance\nCấu trúc a need for + someone + to V.\n→ a need for Net Manage to enhance...\nCollocation: quality assurance = đảm bảo chất lượng; monitoring systems = hệ thống giám sát."
+              "explanation": "8. B. to enhance.\nCấu trúc a need for + someone + to V.\n→ a need for Net Manage to enhance...\nCollocation: quality assurance = đảm bảo chất lượng; monitoring systems = hệ thống giám sát."
             },
             {
               "number": 9,
@@ -117,7 +117,7 @@ window.PRACTICE_DATA = {
                 "to be moved"
               ],
               "answer": 2,
-              "explanation": "9. C. move\nlet + O + V nguyên mẫu.\n→ letting lessees move...\nKhông có to sau let.\nCollocation: unoccupied unit = căn/phòng chưa có người thuê; be dissatisfied with = không hài lòng với."
+              "explanation": "9. C. move.\nlet + O + V nguyên mẫu.\n→ letting lessees move...\nKhông có to sau let.\nCollocation: unoccupied unit = căn/phòng chưa có người thuê; be dissatisfied with = không hài lòng với."
             },
             {
               "number": 10,
@@ -129,7 +129,7 @@ window.PRACTICE_DATA = {
                 "have captured"
               ],
               "answer": 0,
-              "explanation": "10. A. to capture\naim to V = nhằm/mục tiêu làm gì.\n→ aims to capture a particular motion.\nCollocation: snap the shutter = bấm nút chụp ảnh; capture motion = ghi lại chuyển động."
+              "explanation": "10. A. to capture.\naim to V = nhằm/mục tiêu làm gì.\n→ aims to capture a particular motion.\nCollocation: snap the shutter = bấm nút chụp ảnh; capture motion = ghi lại chuyển động."
             },
             {
               "number": 11,
@@ -141,7 +141,7 @@ window.PRACTICE_DATA = {
                 "mailed"
               ],
               "answer": 2,
-              "explanation": "11. C. mailing\nĐây là mệnh đề rút gọn:\nWhen mailing your tax return,...\n= Khi gửi tờ khai thuế...\nCollocation: tax return = tờ khai thuế; registered mail = thư bảo đảm."
+              "explanation": "11. C. mailing.\nĐây là mệnh đề rút gọn:\nWhen mailing your tax return,...\n= Khi gửi tờ khai thuế...\nCollocation: tax return = tờ khai thuế; registered mail = thư bảo đảm."
             },
             {
               "number": 12,
@@ -153,7 +153,7 @@ window.PRACTICE_DATA = {
                 "interesting"
               ],
               "answer": 1,
-              "explanation": "12. B. are interested\nCấu trúc be interested in + V-ing.\n→ companies are interested in exporting...\nA have interests không phù hợp cấu trúc; C thiếu are; D interesting = gây thú vị.\nCollocation: conduct market research = tiến hành nghiên cứu thị trường; relevant standards = các tiêu chuẩn liên quan."
+              "explanation": "12. B. are interested.\nCấu trúc be interested in + V-ing.\n→ companies are interested in exporting...\nA have interests không phù hợp cấu trúc; C thiếu are; D interesting = gây thú vị.\nCollocation: conduct market research = tiến hành nghiên cứu thị trường; relevant standards = các tiêu chuẩn liên quan."
             },
             {
               "number": 13,
@@ -165,7 +165,7 @@ window.PRACTICE_DATA = {
                 "have merged"
               ],
               "answer": 2,
-              "explanation": "13. C. merged\nĐây là mệnh đề rút gọn bị động:\nOnce merged, the company...\n= Một khi được sáp nhập...\nTương đương Once it is merged.\nCollocation: annual revenues = doanh thu hàng năm."
+              "explanation": "13. C. merged.\nĐây là mệnh đề rút gọn bị động:\nOnce merged, the company...\n= Một khi được sáp nhập...\nTương đương Once it is merged.\nCollocation: annual revenues = doanh thu hàng năm."
             },
             {
               "number": 14,
@@ -177,7 +177,7 @@ window.PRACTICE_DATA = {
                 "will be joining"
               ],
               "answer": 1,
-              "explanation": "14. B. joining\nThe new member joining our team this week...\n= thành viên mới gia nhập đội trong tuần này.\njoining our team là cụm V-ing rút gọn của:\nwho is joining our team.\nC/D sẽ tạo động từ chính thứ hai không phù hợp với cấu trúc hiện tại.\nCollocation: excellent credentials = hồ sơ/năng lực chuyên môn xuất sắc; highly recommended = được đánh giá/giới thiệu rất cao."
+              "explanation": "14. B. joining.\nThe new member joining our team this week...\n= thành viên mới gia nhập đội trong tuần này.\njoining our team là cụm V-ing rút gọn của:\nwho is joining our team.\nC/D sẽ tạo động từ chính thứ hai không phù hợp với cấu trúc hiện tại.\nCollocation: excellent credentials = hồ sơ/năng lực chuyên môn xuất sắc; highly recommended = được đánh giá/giới thiệu rất cao."
             },
             {
               "number": 15,
@@ -189,7 +189,7 @@ window.PRACTICE_DATA = {
                 "proposed"
               ],
               "answer": 3,
-              "explanation": "15. D. proposed\nthe proposed budget = ngân sách được đề xuất.\nV-ed mang nghĩa bị động, bổ nghĩa cho budget.\nCollocation: expansion program = chương trình mở rộng."
+              "explanation": "15. D. proposed.\nthe proposed budget = ngân sách được đề xuất.\nV-ed mang nghĩa bị động, bổ nghĩa cho budget.\nCollocation: expansion program = chương trình mở rộng."
             },
             {
               "number": 16,
@@ -201,7 +201,7 @@ window.PRACTICE_DATA = {
                 "featured"
               ],
               "answer": 2,
-              "explanation": "16. C. featuring\nA film festival featuring the work of...\n= liên hoan phim giới thiệu/trưng bày tác phẩm của...\nV-ing rút gọn cho which features."
+              "explanation": "16. C. featuring.\nA film festival featuring the work of...\n= liên hoan phim giới thiệu/trưng bày tác phẩm của...\nV-ing rút gọn cho which features."
             },
             {
               "number": 17,
@@ -213,7 +213,7 @@ window.PRACTICE_DATA = {
                 "satisfying"
               ],
               "answer": 0,
-              "explanation": "17. A. satisfied\nCấu trúc be satisfied with = hài lòng với.\n→ The staff ... is satisfied with the new equipment.\nD satisfying = làm người khác hài lòng."
+              "explanation": "17. A. satisfied.\nCấu trúc be satisfied with = hài lòng với.\n→ The staff ... is satisfied with the new equipment.\nD satisfying = làm người khác hài lòng."
             },
             {
               "number": 18,
@@ -225,7 +225,7 @@ window.PRACTICE_DATA = {
                 "anticipation"
               ],
               "answer": 2,
-              "explanation": "18. C. anticipated\nanticipated annual earnings = lợi nhuận/doanh thu hằng năm được dự kiến.\nV-ed bổ nghĩa danh từ theo nghĩa bị động.\nCollocation: annual earnings = thu nhập/lợi nhuận hằng năm."
+              "explanation": "18. C. anticipated.\nanticipated annual earnings = lợi nhuận/doanh thu hằng năm được dự kiến.\nV-ed bổ nghĩa danh từ theo nghĩa bị động.\nCollocation: annual earnings = thu nhập/lợi nhuận hằng năm."
             },
             {
               "number": 19,
@@ -237,7 +237,7 @@ window.PRACTICE_DATA = {
                 "Instructed"
               ],
               "answer": 3,
-              "explanation": "19. D. Instructed\nInstructed to work over the weekend,...\n= Vì/Do được yêu cầu làm việc cuối tuần,...\nĐây là participial clause bị động.\nCollocation: meet/finish before the deadline = hoàn thành trước hạn."
+              "explanation": "19. D. Instructed.\nInstructed to work over the weekend,...\n= Vì/Do được yêu cầu làm việc cuối tuần,...\nĐây là participial clause bị động.\nCollocation: meet/finish before the deadline = hoàn thành trước hạn."
             },
             {
               "number": 20,
@@ -249,7 +249,7 @@ window.PRACTICE_DATA = {
                 "overwhelm"
               ],
               "answer": 0,
-              "explanation": "20. A. overwhelming\nan overwhelming number of responses = một số lượng phản hồi rất lớn/áp đảo.\nOverwhelming mô tả number; overwhelmed thường mô tả người cảm thấy quá tải."
+              "explanation": "20. A. overwhelming.\nan overwhelming number of responses = một số lượng phản hồi rất lớn/áp đảo.\nOverwhelming mô tả number; overwhelmed thường mô tả người cảm thấy quá tải."
             },
             {
               "number": 21,
@@ -261,7 +261,7 @@ window.PRACTICE_DATA = {
                 "announced"
               ],
               "answer": 2,
-              "explanation": "21. C. announcement\nSau an important cần danh từ.\n→ make an important announcement = đưa ra thông báo quan trọng.\nA là động từ; B V-ing; D V-ed."
+              "explanation": "21. C. announcement.\nSau an important cần danh từ.\n→ make an important announcement = đưa ra thông báo quan trọng.\nA là động từ; B V-ing; D V-ed."
             },
             {
               "number": 22,
@@ -273,7 +273,7 @@ window.PRACTICE_DATA = {
                 "request"
               ],
               "answer": 1,
-              "explanation": "22. B. register\nCụm register for + event/course = đăng ký tham dự.\n→ register for the seminar.\nA attend không đi với for."
+              "explanation": "22. B. register.\nCụm register for + event/course = đăng ký tham dự.\n→ register for the seminar.\nA attend không đi với for."
             },
             {
               "number": 23,
@@ -285,7 +285,7 @@ window.PRACTICE_DATA = {
                 "eventually"
               ],
               "answer": 1,
-              "explanation": "23. B. steadily\nbecome steadily worse = trở nên tệ hơn một cách đều đặn/liên tục.\nA = một phần; C = theo báo cáo; D = cuối cùng → không hợp nghĩa."
+              "explanation": "23. B. steadily.\nbecome steadily worse = trở nên tệ hơn một cách đều đặn/liên tục.\nA = một phần; C = theo báo cáo; D = cuối cùng → không hợp nghĩa."
             },
             {
               "number": 24,
@@ -297,7 +297,7 @@ window.PRACTICE_DATA = {
                 "are hiring"
               ],
               "answer": 1,
-              "explanation": "24. B. will be hired\nCó over the next three months → tương lai.\nIndividuals là người được tuyển → passive.\n→ will be hired."
+              "explanation": "24. B. will be hired.\nCó over the next three months → tương lai.\nIndividuals là người được tuyển → passive.\n→ will be hired."
             },
             {
               "number": 25,
@@ -309,7 +309,7 @@ window.PRACTICE_DATA = {
                 "himself"
               ],
               "answer": 1,
-              "explanation": "25. B. his\nTrước danh từ leadership skills cần tính từ sở hữu.\n→ his excellent leadership skills.\nCollocation: on account of = vì/do; leadership skills = kỹ năng lãnh đạo."
+              "explanation": "25. B. his.\nTrước danh từ leadership skills cần tính từ sở hữu.\n→ his excellent leadership skills.\nCollocation: on account of = vì/do; leadership skills = kỹ năng lãnh đạo."
             },
             {
               "number": 26,
@@ -333,7 +333,7 @@ window.PRACTICE_DATA = {
                 "sold"
               ],
               "answer": 0,
-              "explanation": "27. A. sales\nSau launch, sales increased by more than 45% = doanh số tăng hơn 45%.\nSales là danh từ số nhiều, collocation rất phổ biến."
+              "explanation": "27. A. sales.\nSau launch, sales increased by more than 45% = doanh số tăng hơn 45%.\nSales là danh từ số nhiều, collocation rất phổ biến."
             },
             {
               "number": 28,
@@ -345,7 +345,7 @@ window.PRACTICE_DATA = {
                 "harden"
               ],
               "answer": 0,
-              "explanation": "28. A. hard\nCấu trúc:\nas + adv + as\n→ as hard as she could = chăm chỉ/hết sức có thể.\n⚠️ hardly ≠ hard\nhardly = hầu như không."
+              "explanation": "28. A. hard.\nCấu trúc:\nV (+as) + adv + (as)\n→ as hard as she could = chăm chỉ/hết sức có thể.\n⚠️ hardly ≠ hard\nhardly = hầu như không."
             },
             {
               "number": 29,
@@ -357,7 +357,7 @@ window.PRACTICE_DATA = {
                 "theirs"
               ],
               "answer": 2,
-              "explanation": "29. C. them\nĐộng từ fix cần tân ngữ.\nthem thay cho several mistakes.\nA their cần danh từ phía sau; B chủ ngữ; D đại từ sở hữu."
+              "explanation": "29. C. them.\nĐộng từ fix cần tân ngữ.\nthem thay cho several mistakes.\nA their cần danh từ phía sau; B chủ ngữ; D đại từ sở hữu."
             },
             {
               "number": 30,
@@ -369,7 +369,7 @@ window.PRACTICE_DATA = {
                 "some"
               ],
               "answer": 0,
-              "explanation": "30. A. few\nCụm a few + plural countable noun.\n→ in a few moments = trong vài phút/chốc nữa.\nlittle dùng với danh từ không đếm được."
+              "explanation": "30. A. few.\nCụm a few + plural countable noun.\n→ in a few moments = trong vài phút/chốc nữa.\nlittle dùng với danh từ không đếm được."
             },
             {
               "number": 31,
@@ -381,7 +381,7 @@ window.PRACTICE_DATA = {
                 "with"
               ],
               "answer": 1,
-              "explanation": "31. B. off\nCụm drop off a package = giao/để lại bưu kiện.\n→ the package was not dropped off."
+              "explanation": "31. B. off.\nCụm drop off a package = giao/để lại bưu kiện.\n→ the package was not dropped off."
             },
             {
               "number": 32,
@@ -393,7 +393,7 @@ window.PRACTICE_DATA = {
                 "had been working"
               ],
               "answer": 2,
-              "explanation": "32. C. will have been working\nCó for the past three weeks as of tomorrow → đến một thời điểm trong tương lai, hành động đã kéo dài một khoảng thời gian.\n→ Future Perfect Continuous:\nwill have been working."
+              "explanation": "32. C. will have been working.\nCó for the past three weeks as of tomorrow → đến một thời điểm trong tương lai, hành động đã kéo dài một khoảng thời gian.\n→ Future Perfect Continuous:\nwill have been working."
             },
             {
               "number": 33,
@@ -405,7 +405,7 @@ window.PRACTICE_DATA = {
                 "according to"
               ],
               "answer": 0,
-              "explanation": "33. A. thanks to\n= nhờ/vì một nguyên nhân tích cực.\n→ thanks to the recent construction...\nCollocation: sporting facilities = cơ sở vật chất thể thao."
+              "explanation": "33. A. thanks to.\n= nhờ/vì một nguyên nhân tích cực.\n→ thanks to the recent construction...\nCollocation: sporting facilities = cơ sở vật chất thể thao."
             },
             {
               "number": 34,
@@ -417,7 +417,7 @@ window.PRACTICE_DATA = {
                 "relegation"
               ],
               "answer": 2,
-              "explanation": "34. C. advantage\nCụm cố định:\ntake advantage of = tận dụng.\n→ tận dụng mức thuế thấp."
+              "explanation": "34. C. advantage.\nCụm cố định:\ntake advantage of = tận dụng.\n→ tận dụng mức thuế thấp."
             },
             {
               "number": 35,
@@ -429,7 +429,7 @@ window.PRACTICE_DATA = {
                 "removable"
               ],
               "answer": 2,
-              "explanation": "35. C. removed\nCấu trúc:\norder + object + V3\n→ ordered the software removed from the computers\n= ra lệnh cho phần mềm được gỡ bỏ."
+              "explanation": "35. C. removed.\nCấu trúc:\norder + object + V3\n→ ordered the software removed from the computers\n= ra lệnh cho phần mềm được gỡ bỏ."
             },
             {
               "number": 36,
@@ -441,7 +441,7 @@ window.PRACTICE_DATA = {
                 "combine"
               ],
               "answer": 1,
-              "explanation": "36. B. combined\na combined $1.3 billion = tổng cộng 1,3 tỷ đô la.\nCollocation: sign contracts worth... = ký các hợp đồng trị giá..."
+              "explanation": "36. B. combined.\na combined $1.3 billion = tổng cộng 1,3 tỷ đô la.\nCollocation: sign contracts worth... = ký các hợp đồng trị giá..."
             },
             {
               "number": 37,
@@ -453,7 +453,7 @@ window.PRACTICE_DATA = {
                 "partial"
               ],
               "answer": 1,
-              "explanation": "37. B. daily\nCụm on a daily basis = hàng ngày/thường xuyên.\nĐây là collocation cố định."
+              "explanation": "37. B. daily.\nCụm on a daily basis = hàng ngày/thường xuyên.\nĐây là collocation cố định."
             },
             {
               "number": 38,
@@ -465,7 +465,7 @@ window.PRACTICE_DATA = {
                 "of"
               ],
               "answer": 3,
-              "explanation": "38. D. of\nCụm the majority of + noun = phần lớn...\n→ the majority of the work."
+              "explanation": "38. D. of.\nCụm the majority of + noun = phần lớn...\n→ the majority of the work."
             },
             {
               "number": 39,
@@ -477,7 +477,7 @@ window.PRACTICE_DATA = {
                 "accuracies"
               ],
               "answer": 1,
-              "explanation": "39. B. accurately\nBổ nghĩa cho counted → cần trạng từ.\n→ accurately counted = được kiểm đếm chính xác."
+              "explanation": "39. B. accurately.\nBổ nghĩa cho counted → cần trạng từ.\n→ accurately counted = được kiểm đếm chính xác."
             },
             {
               "number": 40,
@@ -489,7 +489,7 @@ window.PRACTICE_DATA = {
                 "constructing"
               ],
               "answer": 3,
-              "explanation": "40. D. constructing\nSau in favor of → noun/V-ing.\n→ in favor of constructing bicycle lanes.\nCollocation: vote in favor of = bỏ phiếu ủng hộ; bicycle lanes = làn đường dành cho xe đạp."
+              "explanation": "40. D. constructing.\nSau in favor of → noun/V-ing.\n→ in favor of constructing bicycle lanes.\nCollocation: vote in favor of = bỏ phiếu ủng hộ; bicycle lanes = làn đường dành cho xe đạp."
             },
             {
               "number": 41,
@@ -501,7 +501,7 @@ window.PRACTICE_DATA = {
                 "overall"
               ],
               "answer": 0,
-              "explanation": "41. A. entire\nCụm tự nhiên:\nthe entire day = cả ngày.\nTotal/complete/overall day không tự nhiên."
+              "explanation": "41. A. entire.\nCụm tự nhiên:\nthe entire day = cả ngày.\nTotal/complete/overall day không tự nhiên."
             },
             {
               "number": 42,
@@ -513,7 +513,7 @@ window.PRACTICE_DATA = {
                 "Moreover"
               ],
               "answer": 1,
-              "explanation": "42. B. Unless\n= trừ khi.\n→ Nếu tuyết không sớm giảm, các chuyến bay sẽ bị hủy.\nCollocation: let up = giảm bớt/ngớt; cancel flights = hủy chuyến bay."
+              "explanation": "42. B. Unless.\n= trừ khi.\n→ Nếu tuyết không sớm giảm, các chuyến bay sẽ bị hủy.\nCollocation: let up = giảm bớt/ngớt; cancel flights = hủy chuyến bay."
             },
             {
               "number": 43,
@@ -525,7 +525,7 @@ window.PRACTICE_DATA = {
                 "by herself"
               ],
               "answer": 0,
-              "explanation": "43. A. she\nCần đại từ chủ ngữ của would be arriving.\n→ she would be arriving..."
+              "explanation": "43. A. she.\nCần đại từ chủ ngữ của would be arriving.\n→ she would be arriving..."
             },
             {
               "number": 44,
@@ -537,7 +537,7 @@ window.PRACTICE_DATA = {
                 "With respect to"
               ],
               "answer": 0,
-              "explanation": "44. A. In spite of\nSau đó là noun phrase the bad weather.\n→ In spite of the bad weather = mặc dù thời tiết xấu."
+              "explanation": "44. A. In spite of.\nSau đó là noun phrase the bad weather.\n→ In spite of the bad weather = mặc dù thời tiết xấu."
             },
             {
               "number": 45,
@@ -549,7 +549,7 @@ window.PRACTICE_DATA = {
                 "immediacies"
               ],
               "answer": 2,
-              "explanation": "45. C. immediately\nBổ nghĩa cho submitted → trạng từ.\n→ submitted immediately = nộp ngay lập tức."
+              "explanation": "45. C. immediately.\nBổ nghĩa cho submitted → trạng từ.\n→ submitted immediately = nộp ngay lập tức."
             },
             {
               "number": 46,
@@ -561,7 +561,7 @@ window.PRACTICE_DATA = {
                 "whose"
               ],
               "answer": 2,
-              "explanation": "46. C. who\nĐại từ quan hệ chỉ người, làm chủ ngữ của possess.\n→ individuals who possess...\nCollocation: possess a driver's license = có giấy phép lái xe."
+              "explanation": "46. C. who.\nĐại từ quan hệ chỉ người, làm chủ ngữ của possess.\n→ individuals who possess...\nCollocation: possess a driver's license = có giấy phép lái xe."
             },
             {
               "number": 47,
@@ -573,7 +573,7 @@ window.PRACTICE_DATA = {
                 "matter"
               ],
               "answer": 0,
-              "explanation": "47. A. period\nCụm:\nfor a period of one month = trong khoảng thời gian một tháng."
+              "explanation": "47. A. period.\nCụm:\nfor a period of one month = trong khoảng thời gian một tháng."
             },
             {
               "number": 48,
@@ -585,7 +585,7 @@ window.PRACTICE_DATA = {
                 "to have arrived"
               ],
               "answer": 1,
-              "explanation": "48. B. to arrive\nCấu trúc:\nbe sure to V = nhớ/chắc chắn làm gì.\n→ be sure to arrive at least 10 minutes prior to...\nCollocation: prior to = trước."
+              "explanation": "48. B. to arrive.\nCấu trúc:\nbe sure to V = nhớ/chắc chắn làm gì.\n→ be sure to arrive at least 10 minutes prior to...\nCollocation: prior to = trước."
             },
             {
               "number": 49,
@@ -597,7 +597,7 @@ window.PRACTICE_DATA = {
                 "location"
               ],
               "answer": 2,
-              "explanation": "49. C. locations\nWe recently changed locations.\n= gần đây chúng tôi đã chuyển địa điểm.\nLocations thường dùng khi doanh nghiệp chuyển sang một địa điểm khác.\nD location có thể gặp trong vài ngữ cảnh nhưng change locations là cách nói tự nhiên hơn ở đây."
+              "explanation": "49. C. locations.\nWe recently changed locations.\n= gần đây chúng tôi đã chuyển địa điểm.\nLocations thường dùng khi doanh nghiệp chuyển sang một địa điểm khác.\nD location có thể gặp trong vài ngữ cảnh nhưng change locations là cách nói tự nhiên hơn ở đây."
             },
             {
               "number": 50,
@@ -609,7 +609,7 @@ window.PRACTICE_DATA = {
                 "request"
               ],
               "answer": 1,
-              "explanation": "50. B. require\nrequire assistance = cần sự hỗ trợ.\n→ if you require assistance.\nD. request assistance cũng là collocation đúng, nhưng nghĩa là yêu cầu trợ giúp; trong câu điều kiện này, require = “cần” tự nhiên hơn."
+              "explanation": "50. B. require.\nrequire assistance = cần sự hỗ trợ.\n→ if you require assistance.\nD. request assistance cũng là collocation đúng, nhưng nghĩa là yêu cầu trợ giúp; trong câu điều kiện này, require = “cần” tự nhiên hơn."
             },
             {
               "number": 51,
@@ -621,7 +621,7 @@ window.PRACTICE_DATA = {
                 "situated"
               ],
               "answer": 3,
-              "explanation": "51. D. situated\nCụm:\nbe situated on/in... = tọa lạc tại...\n→ will be situated on a plot of land.\nCollocation: a plot of land = một lô/mảnh đất; acquire land = mua/thu được đất."
+              "explanation": "51. D. situated.\nCụm:\nbe situated on/in... = tọa lạc tại...\n→ will be situated on a plot of land.\nCollocation: a plot of land = một lô/mảnh đất; acquire land = mua/thu được đất."
             },
             {
               "number": 52,
@@ -633,7 +633,7 @@ window.PRACTICE_DATA = {
                 "latest"
               ],
               "answer": 1,
-              "explanation": "52. B. last\nthe last week of July = tuần cuối cùng của tháng 7.\n⚠️ A. latter không phù hợp. Latter thường chỉ cái thứ hai trong hai đối tượng:\nthe former... / the latter...\nKhông nói tự nhiên the latter week of July."
+              "explanation": "52. B. last.\nthe last week of July = tuần cuối cùng của tháng 7.\n⚠️ A. latter không phù hợp. Latter thường chỉ cái thứ hai trong hai đối tượng:\nthe former... / the latter...\nKhông nói tự nhiên the latter week of July."
             },
             {
               "number": 53,
@@ -645,7 +645,7 @@ window.PRACTICE_DATA = {
                 "nor"
               ],
               "answer": 0,
-              "explanation": "53. A. but also\nCấu trúc:\nnot only A but also B\n→ not only in Poland but also in all of Europe."
+              "explanation": "53. A. but also.\nCấu trúc:\nnot only A but also B\n→ not only in Poland but also in all of Europe."
             },
             {
               "number": 54,
@@ -657,7 +657,7 @@ window.PRACTICE_DATA = {
                 "Because of"
               ],
               "answer": 1,
-              "explanation": "54. B. As for\nAs for + N = còn về/nói về...\n→ As for our kitchen, it looks amazing.\n⚠️ C With regard phải có to: with regard to our kitchen."
+              "explanation": "54. B. As for.\nAs for + N = còn về/nói về...\n→ As for our kitchen, it looks amazing.\n⚠️ C With regard phải có to: with regard to our kitchen."
             },
             {
               "number": 55,
@@ -669,7 +669,7 @@ window.PRACTICE_DATA = {
                 "Each"
               ],
               "answer": 2,
-              "explanation": "55. C. Both\nCấu trúc:\nBoth A and B\n→ Both my wife and I enjoy cooking."
+              "explanation": "55. C. Both.\nCấu trúc:\nBoth A and B\n→ Both my wife and I enjoy cooking."
             },
             {
               "number": 56,
@@ -681,7 +681,7 @@ window.PRACTICE_DATA = {
                 "regard"
               ],
               "answer": 0,
-              "explanation": "56. A. quality\nCụm the quality of your work = chất lượng công việc của bạn.\nCác danh từ còn lại không phù hợp nghĩa."
+              "explanation": "56. A. quality.\nCụm the quality of your work = chất lượng công việc của bạn.\nCác danh từ còn lại không phù hợp nghĩa."
             },
             {
               "number": 57,
@@ -693,7 +693,7 @@ window.PRACTICE_DATA = {
                 "field"
               ],
               "answer": 3,
-              "explanation": "57. D. field\nCụm:\nthe field of robotics = lĩnh vực robot học.\nRegion = khu vực; genre = thể loại; type = loại."
+              "explanation": "57. D. field.\nCụm:\nthe field of robotics = lĩnh vực robot học.\nRegion = khu vực; genre = thể loại; type = loại."
             },
             {
               "number": 58,
@@ -705,7 +705,7 @@ window.PRACTICE_DATA = {
                 "purposely"
               ],
               "answer": 1,
-              "explanation": "58. B. actually\nis actually coming to us from Florence = thực ra/thực tế là đến với chúng ta từ Florence.\nCác trạng từ khác sai nghĩa."
+              "explanation": "58. B. actually.\nis actually coming to us from Florence = thực ra/thực tế là đến với chúng ta từ Florence.\nCác trạng từ khác sai nghĩa."
             },
             {
               "number": 59,
@@ -717,7 +717,7 @@ window.PRACTICE_DATA = {
                 "theirs"
               ],
               "answer": 0,
-              "explanation": "59. A. they\nPhân tích:\nany assistance they require\n= bất kỳ sự hỗ trợ nào họ cần.\nthey là chủ ngữ của require."
+              "explanation": "59. A. they.\nPhân tích:\nany assistance they require\n= bất kỳ sự hỗ trợ nào họ cần.\nthey là chủ ngữ của require."
             },
             {
               "number": 60,
@@ -729,7 +729,7 @@ window.PRACTICE_DATA = {
                 "because"
               ],
               "answer": 3,
-              "explanation": "60. D. because\nVế sau giải thích lý do:\ndon't have a precise rank because the differences ... are minor.\n= không có thứ hạng chính xác vì sự khác biệt giữa họ rất nhỏ."
+              "explanation": "60. D. because.\nVế sau giải thích lý do:\ndon't have a precise rank because the differences ... are minor.\n= không có thứ hạng chính xác vì sự khác biệt giữa họ rất nhỏ."
             },
             {
               "number": 61,
@@ -741,7 +741,7 @@ window.PRACTICE_DATA = {
                 "however"
               ],
               "answer": 2,
-              "explanation": "61. C. and\nHai tính từ cùng bổ nghĩa cho means:\nan immediate and convenient means of communication\n= một phương tiện liên lạc nhanh chóng và tiện lợi.\nCollocation: means of communication = phương tiện giao tiếp."
+              "explanation": "61. C. and.\nHai tính từ cùng bổ nghĩa cho means:\nan immediate and convenient means of communication\n= một phương tiện liên lạc nhanh chóng và tiện lợi.\nCollocation: means of communication = phương tiện giao tiếp."
             },
             {
               "number": 62,
@@ -753,7 +753,7 @@ window.PRACTICE_DATA = {
                 "Though"
               ],
               "answer": 1,
-              "explanation": "62. B. If\nCâu đầy đủ:\nIf the Internet is used correctly, ...\nRút gọn:\nIf used correctly, ...\n= Nếu được sử dụng đúng cách."
+              "explanation": "62. B. If.\nCâu đầy đủ:\nIf the Internet is used correctly, ...\nRút gọn:\nIf used correctly, ...\n= Nếu được sử dụng đúng cách."
             },
             {
               "number": 63,
@@ -777,7 +777,7 @@ window.PRACTICE_DATA = {
                 "however"
               ],
               "answer": 3,
-              "explanation": "64. D. however\nHai ý tương phản:\nInternet rất mạnh; however, cần sử dụng có trách nhiệm.\nA for example không thể hiện tương phản.\nB although là conjunction, không dùng sau dấu chấm phẩy theo cách này."
+              "explanation": "64. D. however.\nHai ý tương phản:\nInternet rất mạnh; however, cần sử dụng có trách nhiệm.\nA for example không thể hiện tương phản.\nB although là conjunction, không dùng sau dấu chấm phẩy theo cách này."
             },
             {
               "number": 65,
@@ -801,7 +801,7 @@ window.PRACTICE_DATA = {
                 "both"
               ],
               "answer": 0,
-              "explanation": "66. A. because\nVế sau nêu nguyên nhân:\neliminated many jobs because they needed to save money.\nCollocation: eliminate jobs = cắt giảm/xóa bỏ vị trí việc làm."
+              "explanation": "66. A. because.\nVế sau nêu nguyên nhân:\neliminated many jobs because they needed to save money.\nCollocation: eliminate jobs = cắt giảm/xóa bỏ vị trí việc làm."
             },
             {
               "number": 67,
@@ -813,7 +813,7 @@ window.PRACTICE_DATA = {
                 "however"
               ],
               "answer": 1,
-              "explanation": "67. B. not only\nCấu trúc:\nnot only ... but also...\n→ educators who not only are serious ... but also know when to relax..."
+              "explanation": "67. B. not only.\nCấu trúc:\nnot only ... but also...\n→ educators who not only are serious ... but also know when to relax..."
             },
             {
               "number": 68,
@@ -825,7 +825,7 @@ window.PRACTICE_DATA = {
                 "whether"
               ],
               "answer": 0,
-              "explanation": "68. A. so that\n→ Review what to say and how to leave so that your departure is polished and professional.\n= xem lại cách nói và cách rời đi để việc nghỉ việc/rời đi chuyên nghiệp.\nCollocation: polished and professional = chỉn chu và chuyên nghiệp."
+              "explanation": "68. A. so that.\n→ Review what to say and how to leave so that your departure is polished and professional.\n= xem lại cách nói và cách rời đi để việc nghỉ việc/rời đi chuyên nghiệp.\nCollocation: polished and professional = chỉn chu và chuyên nghiệp."
             },
             {
               "number": 69,
@@ -837,7 +837,7 @@ window.PRACTICE_DATA = {
                 "nor"
               ],
               "answer": 3,
-              "explanation": "69. D. nor\nCấu trúc:\nNeither A nor B\n→ Neither the CEO nor his assistant..."
+              "explanation": "69. D. nor.\nCấu trúc:\nNeither A nor B\n→ Neither the CEO nor his assistant..."
             },
             {
               "number": 70,
@@ -849,7 +849,7 @@ window.PRACTICE_DATA = {
                 "In spite of"
               ],
               "answer": 1,
-              "explanation": "70. B. Nevertheless\nTrời xám và nhiều mây. Tuy nhiên, chúng tôi vẫn đi biển.\n→ cần từ nối tương phản.\nConsequently = do đó, sai logic.\nC/D không thể đứng độc lập như trạng từ nối trong cấu trúc này."
+              "explanation": "70. B. Nevertheless.\nTrời xám và nhiều mây. Tuy nhiên, chúng tôi vẫn đi biển.\n→ cần từ nối tương phản.\nConsequently = do đó, sai logic.\nC/D không thể đứng độc lập như trạng từ nối trong cấu trúc này."
             },
             {
               "number": 71,
@@ -861,7 +861,7 @@ window.PRACTICE_DATA = {
                 "because"
               ],
               "answer": 3,
-              "explanation": "71. D. because\nI turned on the fan because the room was hot.\n= Tôi bật quạt vì phòng nóng.\nA due to phải đi với noun phrase: due to the heat."
+              "explanation": "71. D. because.\nI turned on the fan because the room was hot.\n= Tôi bật quạt vì phòng nóng.\nA due to phải đi với noun phrase: due to the heat."
             },
             {
               "number": 72,
@@ -873,7 +873,7 @@ window.PRACTICE_DATA = {
                 "only if"
               ],
               "answer": 3,
-              "explanation": "72. D. only if\n= chỉ khi.\n→ Chúng tôi sẽ gặp bạn ở nhà hàng chỉ khi tìm được người trông con.\nUnless = trừ khi, sẽ đảo nghĩa."
+              "explanation": "72. D. only if.\n= chỉ khi.\n→ Chúng tôi sẽ gặp bạn ở nhà hàng chỉ khi tìm được người trông con.\nUnless = trừ khi, sẽ đảo nghĩa."
             },
             {
               "number": 73,
@@ -885,7 +885,7 @@ window.PRACTICE_DATA = {
                 "because"
               ],
               "answer": 0,
-              "explanation": "73. A. even though\n= mặc dù.\n→ Carol vẫn đến họp mặc dù tôi đã bảo cô ấy đừng đến.\nDespite phải + noun/V-ing, không + clause."
+              "explanation": "73. A. even though.\n= mặc dù.\n→ Carol vẫn đến họp mặc dù tôi đã bảo cô ấy đừng đến.\nDespite phải + noun/V-ing, không + clause."
             },
             {
               "number": 74,
@@ -897,7 +897,7 @@ window.PRACTICE_DATA = {
                 "Although"
               ],
               "answer": 2,
-              "explanation": "74. C. Otherwise\n= nếu không thì.\nLend me the money. Otherwise, I won't be able to go."
+              "explanation": "74. C. Otherwise.\n= nếu không thì.\nLend me the money. Otherwise, I won't be able to go."
             },
             {
               "number": 75,
@@ -909,7 +909,7 @@ window.PRACTICE_DATA = {
                 "since"
               ],
               "answer": 1,
-              "explanation": "75. B. unless\nThe road will remain safe unless the flood washes out the bridge.\n= Con đường sẽ vẫn an toàn trừ khi lũ cuốn trôi cây cầu.\n⚠️ A as long as sẽ tạo nghĩa “miễn là lũ cuốn trôi cầu”, hoàn toàn vô lý.\nCollocation: wash out a bridge = lũ làm sập/cuốn trôi cầu."
+              "explanation": "75. B. unless.\nThe road will remain safe unless the flood washes out the bridge.\n= Con đường sẽ vẫn an toàn trừ khi lũ cuốn trôi cây cầu.\n⚠️ A as long as sẽ tạo nghĩa “miễn là lũ cuốn trôi cầu”, hoàn toàn vô lý.\nCollocation: wash out a bridge = lũ làm sập/cuốn trôi cầu."
             },
             {
               "number": 76,
@@ -921,7 +921,7 @@ window.PRACTICE_DATA = {
                 "Otherwise"
               ],
               "answer": 2,
-              "explanation": "76. C. Consequently\nCửa sổ bị để mở → do đó, sau bão căn phòng rất bừa bộn.\n→ quan hệ nguyên nhân → kết quả."
+              "explanation": "76. C. Consequently.\nCửa sổ bị để mở → do đó, sau bão căn phòng rất bừa bộn.\n→ quan hệ nguyên nhân → kết quả."
             },
             {
               "number": 77,
@@ -933,7 +933,7 @@ window.PRACTICE_DATA = {
                 "yet"
               ],
               "answer": 0,
-              "explanation": "77. A. despite\nSau chỗ trống là noun phrase:\ndespite their present difficulties\n= bất chấp những khó khăn hiện tại.\nC even though phải + clause."
+              "explanation": "77. A. despite.\nSau chỗ trống là noun phrase:\ndespite their present difficulties\n= bất chấp những khó khăn hiện tại.\nC even though phải + clause."
             },
             {
               "number": 78,
@@ -945,7 +945,7 @@ window.PRACTICE_DATA = {
                 "In the event that"
               ],
               "answer": 2,
-              "explanation": "78. C. Though\nSau đó là clause:\nThough Marge is an honest person, ...\n= Mặc dù Marge là người trung thực...\nA in spite of cần N/V-ing."
+              "explanation": "78. C. Though.\nSau đó là clause:\nThough Marge is an honest person, ...\n= Mặc dù Marge là người trung thực...\nA in spite of cần N/V-ing."
             },
             {
               "number": 79,
@@ -957,7 +957,7 @@ window.PRACTICE_DATA = {
                 "because"
               ],
               "answer": 0,
-              "explanation": "79. A. so\nHai ý:\nTuần tới sẽ có đánh giá hiệu suất, vì vậy tôi muốn nói với bạn về quy trình.\nA. so là từ nối phù hợp"
+              "explanation": "79. A. so.\nHai ý:\nTuần tới sẽ có đánh giá hiệu suất, vì vậy tôi muốn nói với bạn về quy trình.\nA. so là từ nối phù hợp"
             },
             {
               "number": 80,
@@ -969,7 +969,7 @@ window.PRACTICE_DATA = {
                 "now that"
               ],
               "answer": 2,
-              "explanation": "80. C. and\nHai hành động nối tiếp:\nfill out the evaluation form and return it...\n= điền phiếu đánh giá và gửi lại.\nA so that cần một mệnh đề chỉ mục đích phía sau; B thể hiện tương phản; D now that = giờ đây khi..., không phù hợp."
+              "explanation": "80. C. and.\nHai hành động nối tiếp:\nfill out the evaluation form and return it...\n= điền phiếu đánh giá và gửi lại.\nA so that cần một mệnh đề chỉ mục đích phía sau; B thể hiện tương phản; D now that = giờ đây khi..., không phù hợp."
             }
           ]
         }
