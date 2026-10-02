@@ -1093,7 +1093,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 91,
-              "prompt": "According to the survey results, area residents are ____ that more care was not taken to protect the neighboring forest from pollution.",
+              "prompt": "According to the survey results, local residents are ____ that more care was not taken to protect the neighboring forest from pollution.",
               "choices": [
                 "disappointed",
                 "disappointing",
@@ -1101,7 +1101,7 @@ window.PRACTICE_DATA = {
                 "disappointment"
               ],
               "answer": 0,
-              "explanation": "Answer: A. disappointed — residents are disappointed that... = người dân thất vọng rằng... Người → -ed: I am disappointed.\nSự vật/sự việc → -ing: The result is disappointing."
+              "explanation": "be + adj — residents are disappointed that... = người dân thất vọng rằng... Người → -ed: I am disappointed.\nSự vật/sự việc → -ing: The result is disappointing."
             },
             {
               "number": 92,
@@ -1113,7 +1113,7 @@ window.PRACTICE_DATA = {
                 "patiently"
               ],
               "answer": 3,
-              "explanation": "Answer: D. patiently — is patiently waiting = đang kiên nhẫn chờ đợi."
+              "explanation": "be (+ adv) + Ving : is patiently waiting = đang kiên nhẫn chờ đợi."
             },
             {
               "number": 93,
@@ -1125,7 +1125,7 @@ window.PRACTICE_DATA = {
                 "stubborn"
               ],
               "answer": 3,
-              "explanation": "Answer: D. stubborn — stubborn stains = vết bẩn cứng đầu/khó tẩy. Collocation rất phổ biến trong quảng cáo sản phẩm tẩy rửa."
+              "explanation": "cụm tính danh — the most stubborn stains = những vết bẩn cứng đầu nhất. Clarifent bleach pens: bút tẩy Clarifent."
             },
             {
               "number": 94,
@@ -1137,7 +1137,7 @@ window.PRACTICE_DATA = {
                 "primarily"
               ],
               "answer": 2,
-              "explanation": "Answer: C. lately — hasn't had any lately = gần đây không có lượt giới thiệu nào."
+              "explanation": "V + Object + adv : hasn't had any lately = gần đây không có lượt giới thiệu nào."
             },
             {
               "number": 95,
@@ -1149,7 +1149,7 @@ window.PRACTICE_DATA = {
                 "corrected"
               ],
               "answer": 0,
-              "explanation": "Answer: A. correction — make an immediate correction = thực hiện một chỉnh sửa ngay lập tức."
+              "explanation": "cụm tính danh — make an immediate correction = thực hiện một chỉnh sửa ngay lập tức."
             },
             {
               "number": 96,
@@ -1161,7 +1161,7 @@ window.PRACTICE_DATA = {
                 "notation"
               ],
               "answer": 2,
-              "explanation": "Answer: C. notable — one notable exception = một ngoại lệ đáng chú ý."
+              "explanation": "cụm tính danh — one notable exception = một ngoại lệ đáng chú ý."
             },
             {
               "number": 97,
@@ -1173,7 +1173,7 @@ window.PRACTICE_DATA = {
                 "likelier"
               ],
               "answer": 2,
-              "explanation": "Answer: C. likely — the most likely outcome = kết quả có khả năng xảy ra nhất."
+              "explanation": "cụm tính danh - likely là tính từ: the most likely outcome = kết quả có khả năng xảy ra nhất."
             },
             {
               "number": 98,
@@ -1185,7 +1185,7 @@ window.PRACTICE_DATA = {
                 "carefully"
               ],
               "answer": 3,
-              "explanation": "Answer: D. carefully — fill out the form carefully = điền biểu mẫu cẩn thận."
+              "explanation": "V + Object + adv : fill out the form carefully = điền biểu mẫu một cách cẩn thận."
             },
             {
               "number": 99,
@@ -1197,7 +1197,7 @@ window.PRACTICE_DATA = {
                 "specified"
               ],
               "answer": 2,
-              "explanation": "Answer: C. specifically — is specifically designed to... = được thiết kế đặc biệt/cụ thể để..."
+              "explanation": "be + (adv) + V3: is specifically designed to... = được thiết kế đặc biệt/cụ thể để..."
             },
             {
               "number": 100,
@@ -1209,7 +1209,7 @@ window.PRACTICE_DATA = {
                 "dispute"
               ],
               "answer": 3,
-              "explanation": "Answer: D. dispute — handled a dispute between two colleagues = xử lý một tranh chấp giữa hai đồng nghiệp."
+              "explanation": "cụm danh từ _ a dispute : handled a dispute between two colleagues = xử lý một tranh chấp giữa hai đồng nghiệp."
             },
             {
               "number": 101,
@@ -1221,7 +1221,7 @@ window.PRACTICE_DATA = {
                 "minimum"
               ],
               "answer": 2,
-              "explanation": "Answer: C. delicate — a delicate balance of herbs and spices = sự cân bằng tinh tế giữa các loại thảo mộc và gia vị."
+              "explanation": "cụm tính danh — a delicate balance of herbs and spices = sự cân bằng tinh tế giữa các loại thảo mộc và gia vị."
             },
             {
               "number": 102,
@@ -1233,7 +1233,7 @@ window.PRACTICE_DATA = {
                 "energies"
               ],
               "answer": 1,
-              "explanation": "Answer: B. energetic — an energetic attitude = thái độ tràn đầy năng lượng/nhiệt huyết."
+              "explanation": "cụm tính danh — an energetic attitude = thái độ tràn đầy năng lượng/nhiệt huyết."
             },
             {
               "number": 103,
@@ -1245,7 +1245,7 @@ window.PRACTICE_DATA = {
                 "closely"
               ],
               "answer": 2,
-              "explanation": "Answer: C. slightly — was slightly bruised = bị dập nhẹ."
+              "explanation": "be (+ adv) + V3 : was slightly bruised = bị dập/bầm nhẹ. the produce (n): nông sản"
             },
             {
               "number": 104,
@@ -1257,7 +1257,7 @@ window.PRACTICE_DATA = {
                 "stubbornly"
               ],
               "answer": 3,
-              "explanation": "Answer: D. stubbornly — he stubbornly refused to support... = ông ấy kiên quyết/cương quyết từ chối ủng hộ."
+              "explanation": "S (+adv) + V : he stubbornly refused to support... = ông ấy kiên quyết/cương quyết từ chối ủng hộ."
             }
           ]
         }
