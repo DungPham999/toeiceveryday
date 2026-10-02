@@ -224,7 +224,7 @@ window.PRACTICE_DATA = {
                 "installed",
                 "installing"
               ],
-              "answer": 2,
+              "answer": 1,
               "explanation": "18. C. to install\nCụm:\nan attempt + to V\n=sự nỗ lực cài đặt chương trình."
             },
             {
