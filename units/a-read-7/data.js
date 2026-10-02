@@ -622,7 +622,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "explanation": "Cụm danh danh —  passenger comfort = sự thoải mái của hành khách."
-            }
+            },
             {
               "number": 52,
               "prompt": "The free service for two months is a one-time offer _______ available to new customers who switch service.",
