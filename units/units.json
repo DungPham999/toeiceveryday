@@ -23,6 +23,15 @@
   "status": "active"
 },
 
+  {
+  "id": "pre-read-8",
+  "title": "Pre-Read 8",
+  "group": "Pre",
+  "parts": [5],
+  "description": "Part 5 – BT động từ + liên giới",
+  "status": "active"
+},
+
 {
   "id": "a-read-1",
   "title": "A-Read 1",
