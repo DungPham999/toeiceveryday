@@ -21,7 +21,7 @@ window.PRACTICE_DATA = {
                 "curtailment"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to curtail"
+              "explanation": "1. A. to curtail\nCấu trúc in order to + V nguyên mẫu = để làm gì.\n→ in order to curtail the loss... = nhằm hạn chế mất mát.\nB là bị động, nhưng Mr. Couler chủ động muốn hạn chế sự mất mát; C/D sai cấu trúc."
             },
             {
               "number": 2,
@@ -33,7 +33,7 @@ window.PRACTICE_DATA = {
                 "reception"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to receive"
+              "explanation": "2. B. to receive\nCấu trúc need + to V khi chủ ngữ là người cần thực hiện hành động.\n→ Customers who need to receive...\nA thiếu to; C receiving không đi trực tiếp sau need theo nghĩa này; D là danh từ."
             },
             {
               "number": 3,
@@ -45,7 +45,7 @@ window.PRACTICE_DATA = {
                 "rehearsed"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to rehearse"
+              "explanation": "3. C. to rehearse\nCấu trúc It is + adjective + to V.\n→ It was important to rehearse...\nA thiếu to; B danh từ; D V-ed."
             },
             {
               "number": 4,
@@ -57,7 +57,7 @@ window.PRACTICE_DATA = {
                 "made"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to make"
+              "explanation": "4. C. to make\nCụm the authority to do something = quyền làm việc gì.\n→ authority to make a decision.\nA/B/D không đúng cấu trúc bổ nghĩa cho authority."
             },
             {
               "number": 5,
@@ -69,7 +69,7 @@ window.PRACTICE_DATA = {
                 "to mail"
               ],
               "answer": 1,
-              "explanation": "Answer: B. mail have + someone + V nguyên mẫu → had his secretary mail out copies.\nKhông dùng to mail sau have + person."
+              "explanation": "5. B. mail\nCấu trúc sai khiến:\nhave + someone + V nguyên mẫu\n→ had his secretary mail out copies.\nKhông dùng to mail sau have + person."
             },
             {
               "number": 6,
@@ -81,7 +81,7 @@ window.PRACTICE_DATA = {
                 "maintain"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to maintain"
+              "explanation": "6. A. to maintain\nprefer to V rather than V = thích làm A hơn làm B.\n→ prefer to maintain ... rather than pay...\nD maintain thiếu to; B/C sai dạng."
             },
             {
               "number": 7,
@@ -93,7 +93,7 @@ window.PRACTICE_DATA = {
                 "been"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to be remain to be seen = vẫn chưa biết/chưa thể kết luận. → How the public will react ... remains to be seen."
+              "explanation": "7. A. to be\nCụm cố định:\nremain to be seen = vẫn chưa biết/chưa thể kết luận.\n→ How the public will react ... remains to be seen."
             },
             {
               "number": 8,
@@ -105,7 +105,7 @@ window.PRACTICE_DATA = {
                 "to be enhancing"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to enhance a need for somebody/something to V → a need for Net Manage to enhance...\nA thiếu to; C/D không hợp cấu trúc."
+              "explanation": "8. B. to enhance\nCấu trúc:\na need for somebody/something to V\n→ a need for Net Manage to enhance...\nA thiếu to; C/D không hợp cấu trúc."
             },
             {
               "number": 9,
@@ -117,7 +117,7 @@ window.PRACTICE_DATA = {
                 "to be moved"
               ],
               "answer": 2,
-              "explanation": "Answer: C. move"
+              "explanation": "9. C. move\nlet + O + V nguyên mẫu\n→ letting lessees move to unoccupied units.\nKhông dùng let someone to V."
             },
             {
               "number": 10,
@@ -129,7 +129,7 @@ window.PRACTICE_DATA = {
                 "have captured"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to capture"
+              "explanation": "10. A. to capture\naim to V = nhằm/mục tiêu làm gì.\n→ aims to capture a particular motion.\nB/C/D không theo cấu trúc aim."
             },
             {
               "number": 11,
@@ -141,7 +141,7 @@ window.PRACTICE_DATA = {
                 "find"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to find We called the mall to find out whether... = Chúng tôi gọi đến trung tâm thương mại để tìm hiểu liệu..."
+              "explanation": "11. C. to find\nỞ đây to find out diễn tả mục đích:\nWe called the mall to find out whether...\n= Chúng tôi gọi đến trung tâm thương mại để tìm hiểu liệu..."
             },
             {
               "number": 12,
@@ -153,7 +153,7 @@ window.PRACTICE_DATA = {
                 "to lower"
               ],
               "answer": 3,
-              "explanation": "Answer: D. to lower"
+              "explanation": "12. D. to lower\npromise to V = hứa sẽ làm gì.\n→ promised to lower prescription drug prices.\nNgoài ra động từ đúng là lower, không phải low."
             },
             {
               "number": 13,
@@ -165,7 +165,7 @@ window.PRACTICE_DATA = {
                 "if"
               ],
               "answer": 0,
-              "explanation": "Answer: A. for It is necessary for + someone + to V → It is necessary for all factory employees to sign out..."
+              "explanation": "13. A. for\nCấu trúc:\nIt is necessary for + someone + to V\n→ It is necessary for all factory employees to sign out..."
             },
             {
               "number": 14,
@@ -177,7 +177,7 @@ window.PRACTICE_DATA = {
                 "start"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to start return to the drawing board to start over: quay lại vạch xuất phát để làm lại từ đầu to V diễn tả mục đích. Dịch: Nếu khách hàng không hoàn toàn hài lòng với chiến dịch quảng cáo, chúng ta sẽ làm lại từ đầu."
+              "explanation": "14. C. to start\nreturn to the drawing board to start over: quay lại vạch xuất phát để làm lại từ đầu\nto V diễn tả mục đích.\nDịch: Nếu khách hàng không hoàn toàn hài lòng với chiến dịch quảng cáo, chúng ta sẽ làm lại từ đầu."
             },
             {
               "number": 15,
@@ -189,7 +189,7 @@ window.PRACTICE_DATA = {
                 "bringing"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to bring ways to V = những cách để làm gì → ways to bring non-taxable imported goods..."
+              "explanation": "15. C. to bring\nCấu trúc:\nways to V = những cách để làm gì\n→ ways to bring non-taxable imported goods..."
             },
             {
               "number": 16,
@@ -201,7 +201,7 @@ window.PRACTICE_DATA = {
                 "conserving"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to conserve A thiếu to; B/C? B V-ed; D V-ing đều sai cấu trúc."
+              "explanation": "16. C. to conserve\nencourage + someone + to V\n→ encouraging people to conserve energy.\nA thiếu to; B/C? B V-ed; D V-ing đều sai cấu trúc."
             },
             {
               "number": 17,
@@ -213,7 +213,7 @@ window.PRACTICE_DATA = {
                 "implemented"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to implement"
+              "explanation": "17. B. to implement\nbe ready to V = sẵn sàng làm gì.\n→ ready to implement the new project."
             },
             {
               "number": 18,
@@ -225,7 +225,7 @@ window.PRACTICE_DATA = {
                 "installing"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to install an attempt + to V =sự nỗ lực cài đặt chương trình."
+              "explanation": "18. C. to install\nCụm:\nan attempt + to V\n=sự nỗ lực cài đặt chương trình."
             },
             {
               "number": 19,
@@ -237,7 +237,7 @@ window.PRACTICE_DATA = {
                 "to talk"
               ],
               "answer": 3,
-              "explanation": "Answer: D. to talk"
+              "explanation": "19. D. to talk\nadvise + someone + to V\n→ advised the proposal writer to talk..."
             },
             {
               "number": 20,
@@ -249,7 +249,7 @@ window.PRACTICE_DATA = {
                 "to be handled"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to handle"
+              "explanation": "20. A. to handle\nwere hired to handle...\n→ to V chỉ mục đích: được thuê để xử lý/phục vụ lượng khách tăng lên."
             },
             {
               "number": 21,
@@ -261,7 +261,7 @@ window.PRACTICE_DATA = {
                 "sleeping"
               ],
               "answer": 3,
-              "explanation": "Answer: D. sleeping have problems + V-ing → having problems sleeping soundly = gặp vấn đề trong việc ngủ ngon."
+              "explanation": "21. D. sleeping\nCấu trúc:\nhave problems + V-ing\n→ having problems sleeping soundly = gặp vấn đề trong việc ngủ ngon."
             },
             {
               "number": 22,
@@ -273,7 +273,7 @@ window.PRACTICE_DATA = {
                 "has secured"
               ],
               "answer": 2,
-              "explanation": "Answer: C. securing steps in securing the building's cash vault"
+              "explanation": "22. C. securing\nSau giới từ in → dùng V-ing.\nsteps in securing the building's cash vault"
             },
             {
               "number": 23,
@@ -285,7 +285,7 @@ window.PRACTICE_DATA = {
                 "were hired"
               ],
               "answer": 2,
-              "explanation": "Answer: C. having hired despite having hired more employees... = mặc dù đã tuyển thêm nhân viên."
+              "explanation": "23. C. having hired\nSau despite → N/V-ing.\nỞ đây việc tuyển nhân viên xảy ra trước, nên:\ndespite having hired more employees...\n= mặc dù đã tuyển thêm nhân viên."
             },
             {
               "number": 24,
@@ -297,7 +297,7 @@ window.PRACTICE_DATA = {
                 "to make"
               ],
               "answer": 1,
-              "explanation": "Answer: B. making Không dùng discontinue to make trong nghĩa này."
+              "explanation": "24. B. making\ndiscontinue + V-ing = ngừng làm/sản xuất thứ gì.\n→ discontinue making this particular style.\nKhông dùng discontinue to make trong nghĩa này."
             },
             {
               "number": 25,
@@ -309,7 +309,7 @@ window.PRACTICE_DATA = {
                 "providing"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to providing be committed to + N/V-ing Ở đây to là giới từ, không phải dấu hiệu infinitive. → be committed to providing customers... Dịch: Bộ phận này cam kết mang đến cho khách hàng giải pháp thỏa đáng."
+              "explanation": "25. B. to providing\nĐây là bẫy rất phổ biến:\nbe committed to + N/V-ing\nỞ đây to là giới từ, không phải dấu hiệu infinitive.\n→ be committed to providing customers...\nDịch: Bộ phận này cam kết mang đến cho khách hàng giải pháp thỏa đáng."
             },
             {
               "number": 26,
@@ -321,7 +321,7 @@ window.PRACTICE_DATA = {
                 "receiving"
               ],
               "answer": 3,
-              "explanation": "Answer: D. receiving within ten days of receiving this notice."
+              "explanation": "26. D. receiving\nSau giới từ of → V-ing:\nwithin ten days of receiving this notice."
             },
             {
               "number": 27,
@@ -333,7 +333,7 @@ window.PRACTICE_DATA = {
                 "purchases"
               ],
               "answer": 3,
-              "explanation": "Answer: D. purchases The factory supervisor purchases equipment... Chủ ngữ số ít cần động từ số ít → purchases."
+              "explanation": "27. D. purchases\nCâu cần động từ chính:\nThe factory supervisor purchases equipment...\nChủ ngữ số ít cần động từ số ít → purchases."
             },
             {
               "number": 28,
@@ -345,7 +345,7 @@ window.PRACTICE_DATA = {
                 "introduced"
               ],
               "answer": 1,
-              "explanation": "Answer: B. introducing Không dùng consider to V."
+              "explanation": "28. B. introducing\nconsider + V-ing\n→ is considering introducing a product line...\nKhông dùng consider to V."
             },
             {
               "number": 29,
@@ -357,7 +357,7 @@ window.PRACTICE_DATA = {
                 "conclusion"
               ],
               "answer": 3,
-              "explanation": "Answer: D. conclusion a mutually beneficial conclusion Cần danh từ.\nA. infinitive; B. V-ed; C. V-ing."
+              "explanation": "29. D. conclusion\nSau tính từ:\na mutually beneficial conclusion\nCần danh từ.\nA. infinitive; B. V-ed; C. V-ing."
             },
             {
               "number": 30,
@@ -369,7 +369,7 @@ window.PRACTICE_DATA = {
                 "reduction"
               ],
               "answer": 2,
-              "explanation": "Answer: C. reducing be aimed at + N/V-ing → were aimed at reducing the company's deficit. Ở đây at là giới từ, nên phải dùng V-ing. Pre Toeic_Read 5+6 (hw)"
+              "explanation": "30. C. reducing\nCấu trúc:\nbe aimed at + N/V-ing\n→ were aimed at reducing the company's deficit.\nỞ đây at là giới từ, nên phải dùng V-ing. Pre Toeic_Read 5+6 (hw)"
             },
             {
               "number": 31,
@@ -381,7 +381,7 @@ window.PRACTICE_DATA = {
                 "attraction"
               ],
               "answer": 2,
-              "explanation": "Answer: C. 31. ⚠️ CÂU CÓ VẤN ĐỀ Shopping websites can continue ______ shoppers by ensuring product quality and low prices. A. attractive\nB. attract\nC. attracting\nD. attraction Do: continue + Ving/ to V nên chọn C: continue attracting shoppers"
+              "explanation": "31. ⚠️ CÂU CÓ VẤN ĐỀ\nShopping websites can continue ______ shoppers by ensuring product quality and low prices.\nA. attractive\nB. attract\nC. attracting\nD. attraction\nDo: continue + Ving/ to V\nnên chọn C:\ncontinue attracting shoppers"
             },
             {
               "number": 32,
@@ -393,7 +393,7 @@ window.PRACTICE_DATA = {
                 "to shopping"
               ],
               "answer": 1,
-              "explanation": "Answer: B. shopping go shopping → Rather than go shopping at local supermarkets... Sau rather than, cấu trúc song song với go."
+              "explanation": "32. B. shopping\nCụm:\ngo shopping\n→ Rather than go shopping at local supermarkets...\nSau rather than, cấu trúc song song với go."
             },
             {
               "number": 33,
@@ -405,7 +405,7 @@ window.PRACTICE_DATA = {
                 "Handing"
               ],
               "answer": 3,
-              "explanation": "Answer: D. Handing Handing your business card to individuals allows... V-ing có thể đóng vai trò danh từ/chủ ngữ."
+              "explanation": "33. D. Handing\nToàn bộ cụm làm chủ ngữ:\nHanding your business card to individuals allows...\nV-ing có thể đóng vai trò danh từ/chủ ngữ."
             },
             {
               "number": 34,
@@ -417,7 +417,7 @@ window.PRACTICE_DATA = {
                 "attendance"
               ],
               "answer": 1,
-              "explanation": "Answer: B. attending information on attending the symposium."
+              "explanation": "34. B. attending\nSau giới từ on:\ninformation on attending the symposium."
             },
             {
               "number": 35,
@@ -429,7 +429,7 @@ window.PRACTICE_DATA = {
                 "have taken"
               ],
               "answer": 0,
-              "explanation": "Answer: A. take take place = diễn ra Sau will → V nguyên mẫu: will take place. Không dùng bị động be taken place vì take place là cụm nội động từ, không có bị động."
+              "explanation": "35. A. take\nCụm cố định:\ntake place = diễn ra\nSau will → V nguyên mẫu:\nwill take place.\nKhông dùng bị động be taken place vì take place là cụm nội động từ, không có bị động."
             },
             {
               "number": 36,
@@ -441,7 +441,7 @@ window.PRACTICE_DATA = {
                 "stayed"
               ],
               "answer": 2,
-              "explanation": "Answer: C. staying permit staying in the basement. Nếu có người: permit employees to stay... C là đáp án tốt nhất."
+              "explanation": "36. C. staying\npermit + V-ing khi không nêu người thực hiện:\npermit staying in the basement.\nNếu có người:\npermit employees to stay...\nC là đáp án tốt nhất."
             },
             {
               "number": 37,
@@ -453,7 +453,7 @@ window.PRACTICE_DATA = {
                 "Having passed"
               ],
               "answer": 1,
-              "explanation": "Answer: B. To pass To pass the difficult exam, he spent his time reading... A Passing dễ tạo nghĩa “việc vượt qua”; D Having passed = sau khi đã thi đậu, trái logic vì lúc đó không cần học nữa."
+              "explanation": "37. B. To pass\n“To pass the difficult exam” = để vượt qua kỳ thi khó, chỉ mục đích.\nTo pass the difficult exam, he spent his time reading...\nA Passing dễ tạo nghĩa “việc vượt qua”; D Having passed = sau khi đã thi đậu, trái logic vì lúc đó không cần học nữa."
             },
             {
               "number": 38,
@@ -465,7 +465,7 @@ window.PRACTICE_DATA = {
                 "to talk"
               ],
               "answer": 2,
-              "explanation": "Answer: C. talking Không dùng enjoy to V."
+              "explanation": "38. C. talking\nenjoy + V-ing\n→ enjoys talking with potential clients.\nKhông dùng enjoy to V."
             },
             {
               "number": 39,
@@ -477,7 +477,7 @@ window.PRACTICE_DATA = {
                 "converted"
               ],
               "answer": 1,
-              "explanation": "Answer: B. converting Trong options chỉ có: begin converting"
+              "explanation": "39. B. converting\nbegin + V-ing / to V đều được.\nTrong options chỉ có: begin converting"
             },
             {
               "number": 40,
@@ -489,7 +489,7 @@ window.PRACTICE_DATA = {
                 "establishment"
               ],
               "answer": 1,
-              "explanation": "Answer: B. establishing In establishing an atmosphere... = Trong quá trình tạo ra một môi trường..."
+              "explanation": "40. B. establishing\nSau giới từ in → sử dụng V-ing:\nIn establishing an atmosphere...\n= Trong quá trình tạo ra một môi trường..."
             },
             {
               "number": 41,
@@ -501,7 +501,7 @@ window.PRACTICE_DATA = {
                 "to work"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to working be used to + N/V-ing = quen với việc gì → is used to working under deadlines. Đừng nhầm: used to + V nguyên mẫu = từng làm gì trong quá khứ."
+              "explanation": "41. B. to working\nCấu trúc:\nbe used to + N/V-ing = quen với việc gì\n→ is used to working under deadlines.\nĐừng nhầm:\nused to + V nguyên mẫu = từng làm gì trong quá khứ."
             },
             {
               "number": 42,
@@ -513,7 +513,7 @@ window.PRACTICE_DATA = {
                 "to giving"
               ],
               "answer": 0,
-              "explanation": "Answer: A. to give forgot to give sufficient notice = quên báo trước. Trong khi: forget V-ing = quên rằng mình đã từng làm việc đó."
+              "explanation": "42. A. to give\nforget to V = quên chưa làm việc gì.\nforgot to give sufficient notice\n= quên báo trước.\nTrong khi:\nforget V-ing\n= quên rằng mình đã từng làm việc đó."
             },
             {
               "number": 43,
@@ -525,7 +525,7 @@ window.PRACTICE_DATA = {
                 "wordings"
               ],
               "answer": 1,
-              "explanation": "Answer: B. wording appropriate wording when writing the contract. A word = một từ đơn lẻ; D wordings hiếm khi được sử dụng, thường chỉ sử dụng danh từ số ít wording ."
+              "explanation": "43. B. wording\nwording (n) = cách diễn đạt/cách dùng từ.\nappropriate wording when writing the contract.\nA word = một từ đơn lẻ; D wordings hiếm khi được sử dụng, thường chỉ sử dụng danh từ số ít wording ."
             },
             {
               "number": 44,
@@ -537,7 +537,7 @@ window.PRACTICE_DATA = {
                 "work"
               ],
               "answer": 0,
-              "explanation": "Answer: A. working keep working through most of her pregnancy."
+              "explanation": "44. A. working\nkeep + V-ing = tiếp tục làm gì.\nkeep working through most of her pregnancy."
             },
             {
               "number": 45,
@@ -549,7 +549,7 @@ window.PRACTICE_DATA = {
                 "effective"
               ],
               "answer": 0,
-              "explanation": "Answer: A. effectiveness workers' ______ cần danh từ. effectiveness = hiệu quả/năng suất làm việc.\nD effective là adjective."
+              "explanation": "45. A. effectiveness\nSau sở hữu cách:\nworkers' ______\ncần danh từ.\neffectiveness = hiệu quả/năng suất làm việc.\nD effective là adjective."
             },
             {
               "number": 46,
@@ -561,7 +561,7 @@ window.PRACTICE_DATA = {
                 "raise"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to raising contribute to + N/V-ing → contributed to raising environmental awareness. Lại là bẫy to = giới từ, nên sau đó dùng V-ing."
+              "explanation": "46. C. to raising\nCấu trúc:\ncontribute to + N/V-ing\n→ contributed to raising environmental awareness.\nLại là bẫy to = giới từ, nên sau đó dùng V-ing."
             },
             {
               "number": 47,
@@ -573,7 +573,7 @@ window.PRACTICE_DATA = {
                 "wondering"
               ],
               "answer": 3,
-              "explanation": "Answer: D. wondering cannot help + V-ing = không thể không... → cannot help wondering why..."
+              "explanation": "47. D. wondering\nCụm cố định:\ncannot help + V-ing\n= không thể không...\n→ cannot help wondering why..."
             },
             {
               "number": 48,
@@ -585,7 +585,7 @@ window.PRACTICE_DATA = {
                 "to winning"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to win will be happy to win a vote of confidence."
+              "explanation": "48. B. to win\nbe happy to V = vui khi/sẵn lòng làm gì.\nwill be happy to win a vote of confidence."
             },
             {
               "number": 49,
@@ -597,7 +597,7 @@ window.PRACTICE_DATA = {
                 "to customize"
               ],
               "answer": 3,
-              "explanation": "Answer: D. to customize It is possible to V → It is possible to customize this program."
+              "explanation": "49. D. to customize\nCấu trúc:\nIt is possible to V\n→ It is possible to customize this program."
             },
             {
               "number": 50,
@@ -609,7 +609,7 @@ window.PRACTICE_DATA = {
                 "typing"
               ],
               "answer": 2,
-              "explanation": "Answer: C. to type the ability to V → the ability to type quickly and accurately."
+              "explanation": "50. C. to type\nCụm:\nthe ability to V\n→ the ability to type quickly and accurately."
             },
             {
               "number": 51,
@@ -621,7 +621,7 @@ window.PRACTICE_DATA = {
                 "influences"
               ],
               "answer": 1,
-              "explanation": "Answer: B. influence let + O + V nguyên mẫu → let problems ... influence his performance. Không dùng let O to V."
+              "explanation": "51. B. influence\nCấu trúc:\nlet + O + V nguyên mẫu\n→ let problems ... influence his performance.\nKhông dùng let O to V."
             },
             {
               "number": 52,
@@ -633,7 +633,7 @@ window.PRACTICE_DATA = {
                 "to proceeding"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to proceed Your presence ... is required for the wage claim to proceed. Ở đây: for + N + to V =wage claim có thể tiếp tục được xử lý."
+              "explanation": "52. B. to proceed\nCấu trúc:\nYour presence ... is required for the wage claim to proceed.\nỞ đây:\nfor + N + to V\n=wage claim có thể tiếp tục được xử lý."
             },
             {
               "number": 53,
@@ -645,7 +645,7 @@ window.PRACTICE_DATA = {
                 "delivering"
               ],
               "answer": 1,
-              "explanation": "Answer: B. delivered have + object + V3 = nhờ/thu xếp để thứ gì được làm. → have the package delivered. Ghi nhớ: have someone deliver the package\nhave the package delivered"
+              "explanation": "53. B. delivered\nCấu trúc sai khiến:\nhave + object + V3\n= nhờ/thu xếp để thứ gì được làm.\n→ have the package delivered.\nGhi nhớ:\nhave someone deliver the package\nhave the package delivered"
             },
             {
               "number": 54,
@@ -657,7 +657,7 @@ window.PRACTICE_DATA = {
                 "improve"
               ],
               "answer": 1,
-              "explanation": "Answer: B. to improve enable us to improve the quality."
+              "explanation": "54. B. to improve\nenable + someone + to V\nenable us to improve the quality."
             },
             {
               "number": 55,
@@ -669,7 +669,7 @@ window.PRACTICE_DATA = {
                 "discover"
               ],
               "answer": 1,
-              "explanation": "Answer: B. discovered was + V3 → The error was discovered two days ago."
+              "explanation": "55. B. discovered\nCấu trúc bị động:\nwas + V3\n→ The error was discovered two days ago."
             },
             {
               "number": 56,
@@ -681,7 +681,7 @@ window.PRACTICE_DATA = {
                 "shipping"
               ],
               "answer": 2,
-              "explanation": "Answer: C. shipped products are shipped to retailers = sản phẩm được vận chuyển đến các nhà bán lẻ."
+              "explanation": "56. C. shipped\nCẤu trúc bị động:\nproducts are shipped to retailers\n= sản phẩm được vận chuyển đến các nhà bán lẻ."
             },
             {
               "number": 57,
@@ -693,7 +693,7 @@ window.PRACTICE_DATA = {
                 "had been taken"
               ],
               "answer": 2,
-              "explanation": "Answer: C. took place The accident took place... phương án B. was taken place  là bẫy TOEIC rất hay gặp."
+              "explanation": "57. C. took place\ntake place = diễn ra/xảy ra, không dùng bị động.\nThe accident took place...\nphương án B. was taken place  là bẫy TOEIC rất hay gặp."
             },
             {
               "number": 58,
@@ -705,7 +705,7 @@ window.PRACTICE_DATA = {
                 "are submitted"
               ],
               "answer": 3,
-              "explanation": "Answer: D. are submitted before they are submitted... Ngoài ra trong mệnh đề thời gian với before, không dùng will."
+              "explanation": "58. D. are submitted\nChủ ngữ sales figures là thứ được nộp → passive.\nbefore they are submitted...\nNgoài ra trong mệnh đề thời gian với before, không dùng will."
             },
             {
               "number": 59,
@@ -717,7 +717,7 @@ window.PRACTICE_DATA = {
                 "be conducted"
               ],
               "answer": 3,
-              "explanation": "Answer: D. be conducted will + be + V3 → will be conducted."
+              "explanation": "59. D. be conducted\nInterviews = các cuộc phỏng vấn được tiến hành.\nwill + be + V3\n→ will be conducted."
             },
             {
               "number": 60,
@@ -729,7 +729,7 @@ window.PRACTICE_DATA = {
                 "to rise"
               ],
               "answer": 1,
-              "explanation": "Answer: B. have risen during the past year → khoảng thời gian kéo dài tới hiện tại, Present Perfect rất phù hợp. prices have risen by 20 percent. Ngoài ra rise là nội động từ, không có bị động: prices rise ✅\nprices are risen ❌."
+              "explanation": "60. B. have risen\nCó:\nduring the past year\n→ khoảng thời gian kéo dài tới hiện tại, Present Perfect rất phù hợp.\nprices have risen by 20 percent.\nNgoài ra rise là nội động từ, không có bị động:\nprices rise ✅\nprices are risen ❌."
             },
             {
               "number": 61,
@@ -741,7 +741,7 @@ window.PRACTICE_DATA = {
                 "be checked"
               ],
               "answer": 1,
-              "explanation": "Answer: B. checked After the engineer checked the system, he noticed an error. Cần một động từ chia thì làm vị ngữ cho the engineer.\nA infinitive, C V-ing, D passive sai. Do \"noticed\" ở quá khứ nên từ cần điền cũng phải ở quá khứ nên B hoàn toàn hợp lý."
+              "explanation": "61. B. checked\nHai hành động quá khứ:\nAfter the engineer checked the system, he noticed an error.\nCần một động từ chia thì làm vị ngữ cho the engineer.\nA infinitive, C V-ing, D passive sai.\nDo \"noticed\" ở quá khứ nên từ cần điền cũng phải ở quá khứ nên B hoàn toàn hợp lý."
             },
             {
               "number": 62,
@@ -753,7 +753,7 @@ window.PRACTICE_DATA = {
                 "informed"
               ],
               "answer": 0,
-              "explanation": "Answer: A. inform Inform me as soon as possible. → dùng V nguyên mẫu đầu câu."
+              "explanation": "62. A. inform\nĐây là câu mệnh lệnh:\nInform me as soon as possible.\n→ dùng V nguyên mẫu đầu câu."
             },
             {
               "number": 63,
@@ -765,7 +765,7 @@ window.PRACTICE_DATA = {
                 "to rise"
               ],
               "answer": 1,
-              "explanation": "Answer: B. rising cụm tính danh: the rising cost = chi phí đang tăng. rising là tính từ/V-ing bổ nghĩa cho danh từ cost."
+              "explanation": "63. B. rising\ncụm tính danh: the rising cost = chi phí đang tăng.\nrising là tính từ/V-ing bổ nghĩa cho danh từ cost."
             }
           ]
         }
