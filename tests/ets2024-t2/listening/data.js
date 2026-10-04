@@ -6929,7 +6929,7 @@ window.TEST_DATA = [
         "choices": [
           "She thinks a project deadline should be talk extended.",
           "She is surprised by a suggestion.",
-          "Ascheduled meeting should take place.",
+          "A scheduled meeting should take place.",
           "A project leader will not be hired."
         ],
         "answer": 2
@@ -7117,9 +7117,9 @@ window.TEST_DATA = [
         "n": 56,
         "prompt": "Where is the woman calling from?",
         "choices": [
-          "Aclothing store",
+          "A clothing store",
           "A furniture store",
-          "Arestaurant supply company",
+          "A restaurant supply company",
           "A graphic design firm"
         ],
         "answer": 2
@@ -7344,7 +7344,7 @@ window.TEST_DATA = [
           "Look for some materials",
           "Train an assistant",
           "Transplant some trees",
-          "Work extra hours Areai Areal” bet a Electric cars Area 3 Area 4 Gasoline cars Vans"
+          "Work extra hours"
         ],
         "answer": 0
       }
