@@ -30,7 +30,16 @@
   "description": "Part 5 – To inf & Gerund",
   "status": "active"
 },
-
+  
+{
+  "id": "pre-read-7",
+  "title": "Pre-Read 7",
+  "group": "Pre",
+  "parts": [5],
+  "description": "Part 5 – BT Verb phụ _ Participles",
+  "status": "active"
+},
+  
   {
   "id": "pre-read-8",
   "title": "Pre-Read 8",
