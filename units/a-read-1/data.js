@@ -164,8 +164,8 @@ window.PRACTICE_DATA = {
                 "to provide",
                 "provides"
               ],
-              "answer": 2,
-              "explanation": "13. C. Conducting\nV-ing phrase làm chủ ngữ:\n→ Conducting a survey provides insights...\nA Conduct là động từ nguyên mẫu, không phù hợp làm chủ ngữ theo cấu trúc này."
+              "answer": 3,
+              "explanation": "13. C. Conducting là V-ing phrase làm chủ ngữ -> số ít, cần động từ chính số ít:\n→ to conduct a survey: tiến hành khảo sát; to provide insights into sth: cung cấp hiểu biết về.. "
             },
             {
               "number": 14,
@@ -248,8 +248,8 @@ window.PRACTICE_DATA = {
                 "eats",
                 "ate"
               ],
-              "answer": 2,
-              "explanation": "20. C. makes\nVới either A or B, động từ thường hòa hợp với chủ ngữ gần nhất.\nGần nhất là his wife → số ít.\n→ Either John or his wife makes breakfast. A_Read 1 _ Keys"
+              "answer": 0,
+              "explanation": "20. C. makes\nVới either A or B, động từ thường hòa hợp với chủ ngữ gần nhất.\nGần nhất là his children → số nhiều -> cần V số nhiều.\n→ Either John or his children eat breakfast."
             },
             {
               "number": 21,
