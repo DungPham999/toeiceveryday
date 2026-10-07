@@ -205,7 +205,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 17,
-              "prompt": "For further help ______ the program, please refer to the instructions.",
+              "prompt": "For further help in ______ the program, please refer to the instructions.",
               "choices": [
                 "install",
                 "to install",
@@ -213,7 +213,7 @@ window.PRACTICE_DATA = {
                 "installing"
               ],
               "answer": 3,
-              "explanation": "17. D. installing\nCấu trúc help + V-ing có thể dùng khi help là danh từ:\n→ further help installing the program.\nB to install nghe kém tự nhiên hơn trong cấu trúc cụ thể này.\nCollocation: refer to the instructions = tham khảo hướng dẫn; install a program = cài chương trình."
+              "explanation": "17. D. installing\nCấu trúc prep + V-ing ;  help ở đây là danh từ:\n→ further help in installing the program.\nCollocation: refer to the instructions = tham khảo hướng dẫn; install a program = cài chương trình."
             },
             {
               "number": 18,
