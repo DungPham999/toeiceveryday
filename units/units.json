@@ -1,5 +1,17 @@
 [
-  
+    {
+    "id": "pre-practice-0",
+    "title": "Pre-Practice",
+    "group": "Pre",
+    "parts": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "description": "Practice Unit kết hợp Listening và Reading.",
+    "status": "active"
+  },
   {
     "id": "pre-practice-1",
     "title": "Pre-Practice 1",
