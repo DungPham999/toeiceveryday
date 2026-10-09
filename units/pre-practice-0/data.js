@@ -46,8 +46,8 @@ window.PRACTICE_DATA = {
                 "(C) A building is being painted.",
                 "(D) A walkway is covered with leaves."
               ],
-              "start": 149.42,
-              "end": 168.54
+                "start": 122.47,
+              "end": 145.88
             },
             {
               "number": 3,
@@ -65,8 +65,8 @@ window.PRACTICE_DATA = {
                 "(C) He’s drying some dishes with a towel.",
                 "(D) He’s leaning over a sink."
               ],
-              "start": 173.4,
-              "end": 193.22
+              "start": 149.42,
+              "end": 168.54
             },
             {
               "number": 4,
@@ -84,8 +84,8 @@ window.PRACTICE_DATA = {
                 "(C) She’s rolling up a poster.",
                 "(D) She’s mailing some packages."
               ],
-              "start": 198.1,
-              "end": 219.1
+              "start": 173.4,
+              "end": 193.22
             },
             {
               "number": 5,
@@ -103,8 +103,8 @@ window.PRACTICE_DATA = {
                 "(C) A plant’s been placed on top of a desk.",
                 "(D) A patterned rug’s been placed over a floor."
               ],
-              "start": 224.01,
-              "end": 247.79
+                "start": 198.1,
+              "end": 219.1
             },
             {
               "number": 6,
@@ -122,8 +122,8 @@ window.PRACTICE_DATA = {
                 "(C) Some potted plants are hanging from a pole.",
                 "(D) Some vegetables have been arranged on wooden platforms."
               ],
-              "start": 259.59,
-              "end": 281.84
+             "start": 224.01,
+              "end": 247.79
             }
           ],
           "audio": "assets/audio/source.mp3"
