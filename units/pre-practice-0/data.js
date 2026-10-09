@@ -694,7 +694,7 @@ window.PRACTICE_DATA = {
                 "some"
               ],
               "answer": 0,
-              "explanation": "“A few moments” là cụm chỉ một khoảng thời gian ngắn; "few" đi với danh từ đếm được số nhiều "moments"."
+              "explanation": "“A few moments” là cụm chỉ một khoảng thời gian ngắn; “few” đi với danh từ đếm được số nhiều “moments”."
             },
             {
               "number": 111,
@@ -706,7 +706,7 @@ window.PRACTICE_DATA = {
                 "satisfied"
               ],
               "answer": 3,
-              "explanation": "Đáp án chứa các từ loại của "satisfy" -> BT từ loại hoặc BT phân từ cảm xúc -> chủ ngữ "customer is" là ngừoi nên cần chọn “satisfied” nghĩa là cảm thấy hài lòng."
+              "explanation": "Đáp án chứa các từ loại của “satisfy” -> BT từ loại hoặc BT phân từ cảm xúc -> chủ ngữ “customer is” là ngừoi nên cần chọn “satisfied” nghĩa là cảm thấy hài lòng."
             },
             {
               "number": 112,
@@ -730,7 +730,7 @@ window.PRACTICE_DATA = {
                 "had been working"
               ],
               "answer": 2,
-              "explanation": " "for the past three weeks" dấu hiệu của thì hoàn thành + “tomorrow” là dấu hiệu tương lai => chỉ có thể chọn “C. will have been working”; nghĩa là đã làm được ba tuần tính đến ngày mai."
+              "explanation": " “for the past three weeks” dấu hiệu của thì hoàn thành + “tomorrow” là dấu hiệu tương lai => chỉ có thể chọn “C. will have been working”; nghĩa là đã làm được ba tuần tính đến ngày mai."
             },
             {
               "number": 114,
@@ -778,7 +778,7 @@ window.PRACTICE_DATA = {
                 "combine"
               ],
               "answer": 1,
-              "explanation": "BT Verb phụ trọng cụm danh từ: "combined" bổ nghĩa cho tổng giá trị nhiều hợp đồng được cộng lại. “A combined $1.3 billion” nghĩa là tổng cộng 1,3 tỷ đô la."
+              "explanation": "BT Verb phụ trọng cụm danh từ: “combined” bổ nghĩa cho tổng giá trị nhiều hợp đồng được cộng lại. “A combined $1.3 billion” nghĩa là tổng cộng 1,3 tỷ đô la."
             },
             {
               "number": 118,
@@ -814,7 +814,7 @@ window.PRACTICE_DATA = {
                 "accuracies"
               ],
               "answer": 1,
-              "explanation": "“Accurately” là trạng từ bổ nghĩa cho động từ bị động "counted", chỉ việc kiểm phiếu một cách chính xác."
+              "explanation": "“Accurately” là trạng từ bổ nghĩa cho động từ bị động “counted”, chỉ việc kiểm phiếu một cách chính xác."
             },
             {
               "number": 121,
@@ -850,7 +850,7 @@ window.PRACTICE_DATA = {
                 "Moreover"
               ],
               "answer": 1,
-              "explanation": " Sau Therefore và Moreover cần liền dấu phẩy, sau Thoughout cần danh từ, sau Unless cần S + V. Xét vế sau khoảng trống, ta thấy đó là S + V nên chọn "Unless". Unless mang nghĩa “nếu không”; nếu tuyết không sớm giảm thì các chuyến bay sẽ bị hủy."
+              "explanation": " Sau Therefore và Moreover cần liền dấu phẩy, sau Thoughout cần danh từ, sau Unless cần S + V. Xét vế sau khoảng trống, ta thấy đó là S + V nên chọn “Unless”. Unless mang nghĩa “nếu không”; nếu tuyết không sớm giảm thì các chuyến bay sẽ bị hủy."
             },
             {
               "number": 124,
@@ -934,7 +934,7 @@ window.PRACTICE_DATA = {
                 "matter"
               ],
               "answer": 0,
-              "explanation": "“For a period of one month” là cụm chỉ khoảng thời gian một tháng; "be renovated": được cải tạo"
+              "explanation": "“For a period of one month” là cụm chỉ khoảng thời gian một tháng; “be renovated”: được cải tạo"
             }
           ]
         }
