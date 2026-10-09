@@ -27,8 +27,8 @@ window.PRACTICE_DATA = {
                 "(C) He’s taking off an apron.",
                 "(D) He’s putting some food in a basket."
               ],
-              "start": 117.47,
-              "end": 137.88
+              "start": 92.47,
+              "end": 112.88
             },
             {
               "number": 2,
@@ -46,8 +46,8 @@ window.PRACTICE_DATA = {
                 "(C) A building is being painted.",
                 "(D) A walkway is covered with leaves."
               ],
-                "start": 122.47,
-              "end": 145.88
+               "start": 117.47,
+              "end": 137.88
             },
             {
               "number": 3,
