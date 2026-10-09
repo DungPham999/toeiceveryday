@@ -682,7 +682,7 @@ window.PRACTICE_DATA = {
                 "theirs"
               ],
               "answer": 2,
-              "explanation": "“Fix” là động từ, cần tân ngữ theo sau; "them" là đại từ tân ngữ số nhiều thay cho “several mistakes”."
+              "explanation": "“Fix” là động từ, cần tân ngữ theo sau; 'them' là đại từ tân ngữ số nhiều thay cho “several mistakes”."
             },
             {
               "number": 110,
