@@ -1,7 +1,7 @@
 window.PRACTICE_DATA = {
   "title": "Pre-Practice",
   "storageKey": "pre-practice-0",
-  "sourceNote": "TOEIC PRE – Progress Test 1. Reading transcribed from PDF; Listening script reconstructed from provided key. Audio timestamps require verification before publishing.",
+  "sourceNote": "TOEIC PRE – Progress Test 1; answer keys retained verbatim. Audio timestamps derived from original recording pause boundaries. Reading explanations authored from grammar and passage context.",
   "sections": [
     {
       "label": "Part 1",
@@ -26,7 +26,9 @@ window.PRACTICE_DATA = {
                 "(B) He’s looking down at some notes.",
                 "(C) He’s taking off an apron.",
                 "(D) He’s putting some food in a basket."
-              ]
+              ],
+              "start": 117.47,
+              "end": 137.88
             },
             {
               "number": 2,
@@ -43,7 +45,9 @@ window.PRACTICE_DATA = {
                 "(B) Some umbrellas are being installed.",
                 "(C) A building is being painted.",
                 "(D) A walkway is covered with leaves."
-              ]
+              ],
+              "start": 149.42,
+              "end": 168.54
             },
             {
               "number": 3,
@@ -60,7 +64,9 @@ window.PRACTICE_DATA = {
                 "(B) He’s washing some clothes.",
                 "(C) He’s drying some dishes with a towel.",
                 "(D) He’s leaning over a sink."
-              ]
+              ],
+              "start": 173.4,
+              "end": 193.22
             },
             {
               "number": 4,
@@ -77,7 +83,9 @@ window.PRACTICE_DATA = {
                 "(B) She’s standing next to her car.",
                 "(C) She’s rolling up a poster.",
                 "(D) She’s mailing some packages."
-              ]
+              ],
+              "start": 198.1,
+              "end": 219.1
             },
             {
               "number": 5,
@@ -94,7 +102,9 @@ window.PRACTICE_DATA = {
                 "(B) Some curtains are closed.",
                 "(C) A plant’s been placed on top of a desk.",
                 "(D) A patterned rug’s been placed over a floor."
-              ]
+              ],
+              "start": 224.01,
+              "end": 247.79
             },
             {
               "number": 6,
@@ -111,7 +121,9 @@ window.PRACTICE_DATA = {
                 "(B) A man is standing on the roof of a building.",
                 "(C) Some potted plants are hanging from a pole.",
                 "(D) Some vegetables have been arranged on wooden platforms."
-              ]
+              ],
+              "start": 259.59,
+              "end": 281.84
             }
           ],
           "audio": "assets/audio/source.mp3"
@@ -139,7 +151,9 @@ window.PRACTICE_DATA = {
                 "(A) Sure, sounds great.",
                 "(B) How much does it cost?",
                 "(C) Ms. Kim is."
-              ]
+              ],
+              "start": 282.86,
+              "end": 301.7
             },
             {
               "number": 8,
@@ -154,7 +168,9 @@ window.PRACTICE_DATA = {
                 "(A) The folders are on the desk.",
                 "(B) The pile on the shelf.",
                 "(C) Next to the water cooler."
-              ]
+              ],
+              "start": 306.57,
+              "end": 320.48
             },
             {
               "number": 9,
@@ -169,7 +185,9 @@ window.PRACTICE_DATA = {
                 "(A) Early in the morning.",
                 "(B) Yes, I’ve been trained.",
                 "(C) There’s room for four."
-              ]
+              ],
+              "start": 325.36,
+              "end": 338.89
             },
             {
               "number": 10,
@@ -184,7 +202,9 @@ window.PRACTICE_DATA = {
                 "(A) No, last week.",
                 "(B) Yes, I’ll come by after lunch.",
                 "(C) I started here last year."
-              ]
+              ],
+              "start": 343.79,
+              "end": 358.42
             },
             {
               "number": 11,
@@ -199,7 +219,9 @@ window.PRACTICE_DATA = {
                 "(A) At two P.M.",
                 "(B) Because the report hasn’t been finalized.",
                 "(C) Yes, I need to go to the post office."
-              ]
+              ],
+              "start": 363.29,
+              "end": 378.38
             },
             {
               "number": 12,
@@ -214,7 +236,9 @@ window.PRACTICE_DATA = {
                 "(A) By the park down the road.",
                 "(B) Photographs and paintings.",
                 "(C) Tomorrow afternoon."
-              ]
+              ],
+              "start": 383.27,
+              "end": 397.26
             },
             {
               "number": 13,
@@ -229,7 +253,9 @@ window.PRACTICE_DATA = {
                 "(A) The downtown supermarket is the best.",
                 "(B) They’re at a meeting now.",
                 "(C) No, not usually."
-              ]
+              ],
+              "start": 402.17,
+              "end": 417.63
             },
             {
               "number": 14,
@@ -244,7 +270,9 @@ window.PRACTICE_DATA = {
                 "(A) I didn’t see the memo.",
                 "(B) No, only since last year.",
                 "(C) Two glasses of water, please."
-              ]
+              ],
+              "start": 422.52,
+              "end": 437.81
             },
             {
               "number": 15,
@@ -259,7 +287,9 @@ window.PRACTICE_DATA = {
                 "(A) I can order that part for you.",
                 "(B) Actually, it was rented yesterday.",
                 "(C) It’s on the third floor."
-              ]
+              ],
+              "start": 442.69,
+              "end": 459.09
             },
             {
               "number": 16,
@@ -274,7 +304,9 @@ window.PRACTICE_DATA = {
                 "(A) It was good, thanks.",
                 "(B) At the travel agency.",
                 "(C) Yes, that sounds like a good idea."
-              ]
+              ],
+              "start": 463.99,
+              "end": 478.5
             },
             {
               "number": 17,
@@ -289,7 +321,9 @@ window.PRACTICE_DATA = {
                 "(A) It’s usually held in November.",
                 "(B) We discussed the latest project.",
                 "(C) Press this button first."
-              ]
+              ],
+              "start": 483.43,
+              "end": 499.73
             },
             {
               "number": 18,
@@ -304,7 +338,9 @@ window.PRACTICE_DATA = {
                 "(A) I’m writing a first draft.",
                 "(B) Yeah, they’re selling quickly.",
                 "(C) Please print five copies."
-              ]
+              ],
+              "start": 504.63,
+              "end": 519.93
             },
             {
               "number": 19,
@@ -319,7 +355,9 @@ window.PRACTICE_DATA = {
                 "(A) Didn’t you get the memo from Julia?",
                 "(B) No, in the conference room.",
                 "(C) Generally they do."
-              ]
+              ],
+              "start": 524.85,
+              "end": 539.77
             },
             {
               "number": 20,
@@ -334,7 +372,9 @@ window.PRACTICE_DATA = {
                 "(A) Sorry, are you in line?",
                 "(B) The long table.",
                 "(C) Yes, I think so."
-              ]
+              ],
+              "start": 544.67,
+              "end": 558.47
             },
             {
               "number": 21,
@@ -349,7 +389,9 @@ window.PRACTICE_DATA = {
                 "(A) Thanks, it was a gift.",
                 "(B) That’s a great idea.",
                 "(C) Rock music is my favorite."
-              ]
+              ],
+              "start": 563.43,
+              "end": 580.79
             },
             {
               "number": 22,
@@ -364,7 +406,9 @@ window.PRACTICE_DATA = {
                 "(A) A famous fashion designer.",
                 "(B) No, our customers like it.",
                 "(C) Yes, I did."
-              ]
+              ],
+              "start": 585.7,
+              "end": 601.23
             },
             {
               "number": 23,
@@ -379,7 +423,9 @@ window.PRACTICE_DATA = {
                 "(A) Yes, by the committee.",
                 "(B) The survey results.",
                 "(C) I agree, there’s room to improve."
-              ]
+              ],
+              "start": 606.23,
+              "end": 621.89
             },
             {
               "number": 24,
@@ -394,7 +440,9 @@ window.PRACTICE_DATA = {
                 "(A) The audience was delighted.",
                 "(B) My coworker will be here in a minute.",
                 "(C) I don’t have a reservation."
-              ]
+              ],
+              "start": 626.79,
+              "end": 642.29
             },
             {
               "number": 25,
@@ -409,7 +457,9 @@ window.PRACTICE_DATA = {
                 "(A) I enjoyed the retirement party, too.",
                 "(B) No, they’re in alphabetical order.",
                 "(C) Great, I’ll check our inventory."
-              ]
+              ],
+              "start": 647.19,
+              "end": 665.22
             },
             {
               "number": 26,
@@ -424,7 +474,9 @@ window.PRACTICE_DATA = {
                 "(A) The main course was delicious.",
                 "(B) Our finance office handles billing.",
                 "(C) It costs about 200 dollars."
-              ]
+              ],
+              "start": 670.2,
+              "end": 687.75
             },
             {
               "number": 27,
@@ -439,7 +491,9 @@ window.PRACTICE_DATA = {
                 "(A) I just left the file you requested on your desk.",
                 "(B) There’s a café right around the corner.",
                 "(C) Yes, the session was really interesting."
-              ]
+              ],
+              "start": 692.64,
+              "end": 711.43
             },
             {
               "number": 28,
@@ -454,7 +508,9 @@ window.PRACTICE_DATA = {
                 "(A) I just joined the team.",
                 "(B) Where’s the supply cabinet?",
                 "(C) There’s no extra charge."
-              ]
+              ],
+              "start": 716.28,
+              "end": 731.01
             },
             {
               "number": 29,
@@ -469,7 +525,9 @@ window.PRACTICE_DATA = {
                 "(A) I have some extras in my desk.",
                 "(B) That clock is an hour ahead.",
                 "(C) The batteries are on sale."
-              ]
+              ],
+              "start": 735.93,
+              "end": 752.53
             },
             {
               "number": 30,
@@ -484,7 +542,9 @@ window.PRACTICE_DATA = {
                 "(A) We requested a view of the city.",
                 "(B) I ordered that the last time.",
                 "(C) For the furniture delivery."
-              ]
+              ],
+              "start": 757.44,
+              "end": 772.91
             },
             {
               "number": 31,
@@ -499,7 +559,9 @@ window.PRACTICE_DATA = {
                 "(A) I’m signed up for automatic renewal.",
                 "(B) Pick me up at the station, please.",
                 "(C) It’s in the parking lot."
-              ]
+              ],
+              "start": 777.78,
+              "end": 793.26
             }
           ],
           "audio": "assets/audio/source.mp3"
@@ -524,7 +586,7 @@ window.PRACTICE_DATA = {
                 "announced"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) announcement. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Make an announcement” là cụm cố định: sau mạo từ an và tính từ important cần danh từ announcement (thông báo)."
             },
             {
               "number": 102,
@@ -536,7 +598,7 @@ window.PRACTICE_DATA = {
                 "request"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) register. This form fits the grammar and meaning of the sentence."
+              "explanation": "Sau “attempted to” cần động từ nguyên mẫu register; “register for a seminar” nghĩa là đăng ký tham dự hội thảo."
             },
             {
               "number": 103,
@@ -548,7 +610,7 @@ window.PRACTICE_DATA = {
                 "eventually"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) steadily. This form fits the grammar and meaning of the sentence."
+              "explanation": "Steadily là trạng từ bổ nghĩa cho tính từ so sánh hơn worse, diễn tả tình trạng giao thông xấu đi đều đặn."
             },
             {
               "number": 104,
@@ -560,7 +622,7 @@ window.PRACTICE_DATA = {
                 "are hiring"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) will be hired. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Over the next three months” chỉ tương lai; chủ ngữ individuals nhận hành động tuyển dụng nên dùng bị động tương lai “will be hired”."
             },
             {
               "number": 105,
@@ -572,7 +634,7 @@ window.PRACTICE_DATA = {
                 "himself"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) his. This form fits the grammar and meaning of the sentence."
+              "explanation": "Trước cụm danh từ “excellent leadership skills” cần tính từ sở hữu his, chỉ kỹ năng lãnh đạo của David Chamberlain."
             },
             {
               "number": 106,
@@ -584,7 +646,7 @@ window.PRACTICE_DATA = {
                 "around"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) except for. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Except for” diễn tả ngoại lệ: tiệm mở hằng ngày, ngoại trừ các ngày lễ quốc gia và đêm giao thừa."
             },
             {
               "number": 107,
@@ -596,7 +658,7 @@ window.PRACTICE_DATA = {
                 "sold"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) sales. This form fits the grammar and meaning of the sentence."
+              "explanation": "Sales là danh từ số nhiều làm chủ ngữ của “increased”; ngữ cảnh nói doanh số tăng hơn 45% sau khi ra mắt sản phẩm."
             },
             {
               "number": 108,
@@ -608,7 +670,7 @@ window.PRACTICE_DATA = {
                 "harden"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) hard. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Work hard” là kết hợp đúng, nghĩa là làm việc chăm chỉ; “as hard as she could” là cấu trúc so sánh mức độ."
             },
             {
               "number": 109,
@@ -620,7 +682,7 @@ window.PRACTICE_DATA = {
                 "theirs"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) them. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Fix” cần tân ngữ; them là đại từ tân ngữ số nhiều thay cho “several mistakes”."
             },
             {
               "number": 110,
@@ -632,7 +694,7 @@ window.PRACTICE_DATA = {
                 "some"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) few. This form fits the grammar and meaning of the sentence."
+              "explanation": "“A few moments” là cụm chỉ một khoảng thời gian ngắn; few đi với danh từ đếm được số nhiều moments."
             },
             {
               "number": 111,
@@ -644,7 +706,7 @@ window.PRACTICE_DATA = {
                 "satisfied"
               ],
               "answer": 3,
-              "explanation": "The correct answer is (D) satisfied. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Be satisfied” nghĩa là hài lòng; satisfied là tính từ mô tả trạng thái của khách hàng sau động từ be."
             },
             {
               "number": 112,
@@ -656,7 +718,7 @@ window.PRACTICE_DATA = {
                 "with"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) off. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Drop off a package” là cụm động từ nghĩa là giao/để lại bưu kiện; trong câu bị động, off đứng sau dropped."
             },
             {
               "number": 113,
@@ -668,7 +730,7 @@ window.PRACTICE_DATA = {
                 "had been working"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) will have been working. This form fits the grammar and meaning of the sentence."
+              "explanation": "“As of tomorrow” nhìn lại khoảng ba tuần đã kéo dài đến một mốc tương lai; dùng future perfect continuous “will have been working”."
             },
             {
               "number": 114,
@@ -680,7 +742,7 @@ window.PRACTICE_DATA = {
                 "according to"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) thanks to. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Thanks to + noun phrase” nêu nguyên nhân tích cực: công viên trở nên nổi tiếng nhờ việc xây dựng các cơ sở thể thao."
             },
             {
               "number": 115,
@@ -692,7 +754,7 @@ window.PRACTICE_DATA = {
                 "delegation"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) advantage. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Take advantage of” là cụm cố định nghĩa là tận dụng; ở đây là tận dụng mức thuế thấp."
             },
             {
               "number": 116,
@@ -704,7 +766,7 @@ window.PRACTICE_DATA = {
                 "removable"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) removed. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Order + object + past participle” diễn tả yêu cầu một việc được thực hiện; software là đối tượng bị gỡ bỏ nên dùng removed."
             },
             {
               "number": 117,
@@ -716,7 +778,7 @@ window.PRACTICE_DATA = {
                 "combine"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) combined. This form fits the grammar and meaning of the sentence."
+              "explanation": "“A combined $1.3 billion” nghĩa là tổng cộng 1,3 tỷ đô la; combined bổ nghĩa cho tổng giá trị nhiều hợp đồng."
             },
             {
               "number": 118,
@@ -728,7 +790,7 @@ window.PRACTICE_DATA = {
                 "partial"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) daily. This form fits the grammar and meaning of the sentence."
+              "explanation": "“On a daily basis” là cụm cố định nghĩa là hằng ngày; daily là tính từ bổ nghĩa cho basis."
             },
             {
               "number": 119,
@@ -740,7 +802,7 @@ window.PRACTICE_DATA = {
                 "of"
               ],
               "answer": 3,
-              "explanation": "The correct answer is (D) of. This form fits the grammar and meaning of the sentence."
+              "explanation": "“The majority of + noun” là cấu trúc cố định, ở đây nghĩa là phần lớn công việc."
             },
             {
               "number": 120,
@@ -752,7 +814,7 @@ window.PRACTICE_DATA = {
                 "accuracies"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) accurately. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Accurately” là trạng từ bổ nghĩa cho động từ bị động counted, chỉ việc kiểm phiếu một cách chính xác."
             },
             {
               "number": 121,
@@ -764,7 +826,7 @@ window.PRACTICE_DATA = {
                 "constructing"
               ],
               "answer": 3,
-              "explanation": "The correct answer is (D) constructing. This form fits the grammar and meaning of the sentence."
+              "explanation": "Sau giới từ “in favor of” cần danh từ hoặc V-ing; constructing là danh động từ chỉ việc xây dựng làn xe đạp."
             },
             {
               "number": 122,
@@ -776,7 +838,7 @@ window.PRACTICE_DATA = {
                 "overall"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) entire. This form fits the grammar and meaning of the sentence."
+              "explanation": "“The entire day” nghĩa là cả ngày; entire bổ nghĩa cho danh từ số ít day."
             },
             {
               "number": 123,
@@ -788,7 +850,7 @@ window.PRACTICE_DATA = {
                 "Moreover"
               ],
               "answer": 1,
-              "explanation": "The correct answer is (B) Unless. This form fits the grammar and meaning of the sentence."
+              "explanation": "Unless mang nghĩa “nếu không/trừ khi”; nếu tuyết không sớm giảm thì các chuyến bay sẽ bị hủy."
             },
             {
               "number": 124,
@@ -800,7 +862,7 @@ window.PRACTICE_DATA = {
                 "by herself"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) she. This form fits the grammar and meaning of the sentence."
+              "explanation": "Chỗ trống là chủ ngữ của “would be arriving”; she là đại từ chủ ngữ phù hợp, chỉ người giao hàng nữ."
             },
             {
               "number": 125,
@@ -812,7 +874,7 @@ window.PRACTICE_DATA = {
                 "With respect to"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) In spite of. This form fits the grammar and meaning of the sentence."
+              "explanation": "“In spite of + noun phrase” diễn tả sự tương phản: bất chấp thời tiết xấu, lễ khởi công vẫn diễn ra."
             },
             {
               "number": 126,
@@ -824,7 +886,7 @@ window.PRACTICE_DATA = {
                 "immediacies"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) immediately. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Immediately” là trạng từ bổ nghĩa cho submitted, nghĩa là các đề cử phải được nộp ngay."
             },
             {
               "number": 127,
@@ -836,7 +898,7 @@ window.PRACTICE_DATA = {
                 "whose"
               ],
               "answer": 2,
-              "explanation": "The correct answer is (C) who. This form fits the grammar and meaning of the sentence."
+              "explanation": "Who là đại từ quan hệ chỉ người, làm chủ ngữ của possess trong mệnh đề bổ nghĩa cho individuals."
             },
             {
               "number": 128,
@@ -848,7 +910,7 @@ window.PRACTICE_DATA = {
                 "is confirming"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) confirmed. This form fits the grammar and meaning of the sentence."
+              "explanation": "Confirmed là động từ quá khứ đơn, phù hợp với lời xác nhận rằng các tin đồn là thật."
             },
             {
               "number": 129,
@@ -860,7 +922,7 @@ window.PRACTICE_DATA = {
                 "instructed"
               ],
               "answer": 3,
-              "explanation": "The correct answer is (D) instructed. This form fits the grammar and meaning of the sentence."
+              "explanation": "“Instruct somebody to do something” nghĩa là chỉ đạo ai làm gì; instructed phù hợp với cấu trúc này."
             },
             {
               "number": 130,
@@ -872,7 +934,7 @@ window.PRACTICE_DATA = {
                 "matter"
               ],
               "answer": 0,
-              "explanation": "The correct answer is (A) period. This form fits the grammar and meaning of the sentence."
+              "explanation": "“For a period of one month” là cụm chỉ khoảng thời gian một tháng; period là danh từ đúng."
             }
           ]
         }
@@ -900,7 +962,7 @@ window.PRACTICE_DATA = {
                     "to have arrived"
                   ],
                   "answer": 1,
-                  "explanation": "(B) to arrive — fits the context of the email."
+                  "explanation": "“Be sure to + V” là cấu trúc nhắc nhở phải làm gì; “be sure to arrive” yêu cầu đến trước giờ hẹn ít nhất 10 phút."
                 },
                 {
                   "number": 132,
@@ -912,7 +974,7 @@ window.PRACTICE_DATA = {
                     "location"
                   ],
                   "answer": 2,
-                  "explanation": "(C) locations — fits the context of the email."
+                  "explanation": "“Change locations” nghĩa là đổi địa điểm/vị trí. Bức thư nói phòng khám vẫn ở cùng tòa nhà nhưng đã chuyển tầng; danh từ số nhiều locations phù hợp."
                 },
                 {
                   "number": 133,
@@ -924,7 +986,7 @@ window.PRACTICE_DATA = {
                     "Thus, you can visit our new location on the ground floor."
                   ],
                   "answer": 0,
-                  "explanation": "(A) Instead, we have moved to the tenth floor. — fits the context of the email."
+                  "explanation": "Trước chỗ trống nói phòng khám không còn ở tầng bốn; câu “Instead, we have moved to the tenth floor” cung cấp vị trí mới, sau đó là hướng dẫn đi đến phòng khám."
                 },
                 {
                   "number": 134,
@@ -936,7 +998,7 @@ window.PRACTICE_DATA = {
                     "request"
                   ],
                   "answer": 1,
-                  "explanation": "(B) require — fits the context of the email."
+                  "explanation": "“Require assistance” là kết hợp từ tự nhiên, nghĩa là cần sự hỗ trợ; lời nhắn cung cấp số điện thoại nếu người nhận cần giúp đỡ."
                 }
               ]
             },
@@ -954,7 +1016,7 @@ window.PRACTICE_DATA = {
                     "situated"
                   ],
                   "answer": 3,
-                  "explanation": "(D) situated — fits the context of the press release."
+                  "explanation": "“Situated on a plot of land” nghĩa là tọa lạc trên một khu đất; situated là phân từ phù hợp để mô tả vị trí nhà máy."
                 },
                 {
                   "number": 136,
@@ -966,7 +1028,7 @@ window.PRACTICE_DATA = {
                     "latest"
                   ],
                   "answer": 1,
-                  "explanation": "(B) last — fits the context of the press release."
+                  "explanation": "“The last week of July” chỉ tuần cuối của tháng Bảy, phù hợp với thời điểm dự kiến bắt đầu xây dựng."
                 },
                 {
                   "number": 137,
@@ -978,7 +1040,7 @@ window.PRACTICE_DATA = {
                     "The assembly lines are under construction at this time."
                   ],
                   "answer": 2,
-                  "explanation": "(C) Oswego’s newest product line will be built there. — fits the context of the press release."
+                  "explanation": "Đoạn thông cáo nói về nhà máy mới và dây chuyền lắp ráp; câu “Oswego’s newest product line will be built there” nối hợp lý với thông tin về hoạt động sản xuất tại nhà máy."
                 },
                 {
                   "number": 138,
@@ -990,7 +1052,7 @@ window.PRACTICE_DATA = {
                     "nor"
                   ],
                   "answer": 0,
-                  "explanation": "(A) but also — fits the context of the press release."
+                  "explanation": "Cấu trúc song hành “not only ... but also ...” nhấn mạnh nhà máy phục vụ không chỉ Ba Lan mà còn cả châu Âu."
                 }
               ]
             },
@@ -1008,7 +1070,7 @@ window.PRACTICE_DATA = {
                     "I couldn’t be happier with the results."
                   ],
                   "answer": 3,
-                  "explanation": "(D) I couldn’t be happier with the results. — fits the context of the letter."
+                  "explanation": "Người viết đánh giá tích cực việc cải tạo nhà; câu “I couldn’t be happier with the results” giới thiệu nhận xét khen ngợi ở các câu tiếp theo."
                 },
                 {
                   "number": 140,
@@ -1020,7 +1082,7 @@ window.PRACTICE_DATA = {
                     "Because of"
                   ],
                   "answer": 1,
-                  "explanation": "(B) As for — fits the context of the letter."
+                  "explanation": "“As for the changes made” chuyển chủ đề sang các thay đổi đã thực hiện; sau đó người viết giải thích có thêm không gian và có thể ăn uống sau khi công việc hoàn tất."
                 },
                 {
                   "number": 141,
@@ -1032,7 +1094,7 @@ window.PRACTICE_DATA = {
                     "Each"
                   ],
                   "answer": 2,
-                  "explanation": "(C) Both — fits the context of the letter."
+                  "explanation": "Both đi với hai người “my wife and I”: cả vợ và người viết đều thích nấu ăn trong căn bếp mới."
                 },
                 {
                   "number": 142,
@@ -1044,13 +1106,13 @@ window.PRACTICE_DATA = {
                     "regard"
                   ],
                   "answer": 0,
-                  "explanation": "(A) quality — fits the context of the letter."
+                  "explanation": "“Quality of your work” là cụm tự nhiên nghĩa là chất lượng công việc; người viết khen chất lượng thi công."
                 }
               ]
             },
             {
               "id": "set-04",
-              "passageHtml": "<div class=\"source-doc\"><p><strong>To:</strong> All Staff, R&amp;D Department<br><strong>From:</strong> Judy Rutledge, HR Department<br><strong>Subject:</strong> Changes</p><p><strong>[143]</strong> Their names are Marco Romano and Erich Schafer. Both men will begin their employment here at Roth Technology on Monday, January 12. They will be assigned to Ms. Creighton’s team as they are experts in the <strong>[144]</strong> of robotics. Neither of them is from the local area. Mr. Romano is coming to us from Florence, Italy. So I encourage all of you to make them feel as welcome <strong>[145]</strong> as possible. I would also greatly appreciate it if you would offer the two any assistance <strong>[146]</strong> require to make their transition to life here in Austin comfortable.</p></div>",
+              "passageHtml": "<div class=\"source-doc\"><p><strong>To:</strong> All Staff, R&amp;D Department<br><strong>From:</strong> Judy Rutledge, HR Department<br><strong>Subject:</strong> Changes</p><p><strong>[143]</strong> Their names are Marco Romano and Erich Schafer. Both men will begin their employment here at Roth Technology on Monday, January 12. They will be assigned to Ms. Creighton’s team as they are experts in the <strong>[144]</strong> of robotics. Neither of them is from the local area. Mr. Romano is <strong>[145]</strong> coming to us from Florence, Italy. So I encourage all of you to make them feel as welcome as possible. I would also greatly appreciate it if you would offer the two any assistance <strong>[146]</strong> require to make their transition to life here in Austin comfortable.</p></div>",
               "questions": [
                 {
                   "number": 143,
@@ -1062,7 +1124,7 @@ window.PRACTICE_DATA = {
                     "Two individuals have been hired for the R&D Department."
                   ],
                   "answer": 3,
-                  "explanation": "(D) Two individuals have been hired for the R&D Department. — fits the context of the memo."
+                  "explanation": "Thông báo HR giới thiệu hai nhân viên mới; câu “Two individuals have been hired for the R&D Department” tạo tiền đề cho câu kế tiếp nêu tên Marco Romano và Erich Schafer."
                 },
                 {
                   "number": 144,
@@ -1074,7 +1136,7 @@ window.PRACTICE_DATA = {
                     "field"
                   ],
                   "answer": 3,
-                  "explanation": "(D) field — fits the context of the memo."
+                  "explanation": "“Field” nghĩa là lĩnh vực chuyên môn; “an expert in the field” chỉ người có chuyên môn trong lĩnh vực liên quan."
                 },
                 {
                   "number": 145,
@@ -1086,7 +1148,7 @@ window.PRACTICE_DATA = {
                     "purposely"
                   ],
                   "answer": 1,
-                  "explanation": "(B) actually — fits the context of the memo."
+                  "explanation": "Actually là trạng từ nhấn mạnh hoặc làm rõ thông tin: Mr. Romano thực tế đến từ Florence, Italy. Cụm “as welcome as possible” ở câu sau không chứa chỗ trống."
                 },
                 {
                   "number": 146,
@@ -1098,7 +1160,7 @@ window.PRACTICE_DATA = {
                     "theirs"
                   ],
                   "answer": 0,
-                  "explanation": "(A) they — fits the context of the memo."
+                  "explanation": "They là đại từ chủ ngữ số nhiều, thay cho hai nhân viên mới, đứng trước động từ “require” trong mệnh đề."
                 }
               ]
             }
