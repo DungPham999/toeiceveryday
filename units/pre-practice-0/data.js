@@ -974,7 +974,7 @@ window.PRACTICE_DATA = {
                     "location"
                   ],
                   "answer": 2,
-                  "explanation": "“Change locations” nghĩa là đổi địa điểm/vị trí. Bức thư nói phòng khám vẫn ở cùng tòa nhà nhưng đã chuyển tầng; danh từ số nhiều locations phù hợp."
+                  "explanation": " location là danh từ đếm được, cần viết ở dạng số ít (a location) hoặc dạng số nhiều (locations) phù hợp; “change locations” nghĩa là đổi địa điểm/vị trí."
                 },
                 {
                   "number": 133,
@@ -1004,7 +1004,7 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "set-02",
-              "passageHtml": "<div class=\"source-doc\"><p style=\"text-align:center\"><strong>FOR IMMEDIATE RELEASE</strong></p><p>July 11 – Oswego Manufacturing is going to open a new factory in Warsaw, Poland. The facility will be <strong>[135]</strong> on a plot of land that has been acquired on the northern side of the city. Construction on the factory will begin in the <strong>[136]</strong> week of July and is anticipated to take approximately eight months to complete. The factory will employ more than 340 full-time workers, and the assembly lines in it will utilize state-of-the-art technology. <strong>[137]</strong> This will be Oswego’s first facility to open not only in Poland <strong>[138]</strong> in all of Europe.</p></div>",
+              "passageHtml": "<div class=\"source-doc\"><p style=\"text-align:center\"><strong>FOR IMMEDIATE RELEASE</strong></p><p>July 11 – Oswego Manufacturing is going to open a new factory in Warsaw, Poland. The facility will be <strong>[135]</strong>_____ on a plot of land that has been acquired on the northern side of the city. Construction on the factory will begin in the <strong>[136]</strong>_____ week of July and is anticipated to take approximately eight months to complete. The factory will employ more than 340 full-time workers, and the assembly lines in it will utilize state-of-the-art technology. <strong>[137]</strong>_____. This will be Oswego’s first facility to open not only in Poland <strong>[138]</strong> _____ in all of Europe.</p></div>",
               "questions": [
                 {
                   "number": 135,
@@ -1058,7 +1058,7 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "set-03",
-              "passageHtml": "<div class=\"source-doc\"><p>November 2</p><p>Dear Mr. Randolph,</p><p>A work crew from your company renovated several rooms in my home a month ago. <strong>[139]</strong> The master bedroom looks much better than before, and the bathroom attached to it has been vastly improved. <strong>[140]</strong> our kitchen, it looks amazing. <strong>[141]</strong> my wife and I enjoy cooking, and thanks to the changes made, we have plenty of space to cook and enjoy our meals after they are done.</p><p>I have spoken about the <strong>[142]</strong> of your work to several of my colleagues, so you may receive phone calls from them in the future. I will be contacting you in the near future as well.</p><p>Best,<br>Craig Jordan</p></div>",
+              "passageHtml": "<div class=\"source-doc\"><p>November 2</p><p>Dear Mr. Randolph,</p><p>A work crew from your company renovated several rooms in my home a month ago. <strong>[139]</strong> _____. The master bedroom looks much better than before, and the bathroom attached to it has been vastly improved. <strong>[140]</strong> _____ our kitchen, it looks amazing. <strong>[141]</strong> _____ my wife and I enjoy cooking, and thanks to the changes made, we have plenty of space to cook and enjoy our meals after they are done.</p><p>I have spoken about the <strong>[142]</strong> _____ of your work to several of my colleagues, so you may receive phone calls from them in the future. I will be contacting you in the near future as well.</p><p>Best,<br>Craig Jordan</p></div>",
               "questions": [
                 {
                   "number": 139,
@@ -1112,7 +1112,7 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "set-04",
-              "passageHtml": "<div class=\"source-doc\"><p><strong>To:</strong> All Staff, R&amp;D Department<br><strong>From:</strong> Judy Rutledge, HR Department<br><strong>Subject:</strong> Changes</p><p><strong>[143]</strong> Their names are Marco Romano and Erich Schafer. Both men will begin their employment here at Roth Technology on Monday, January 12. They will be assigned to Ms. Creighton’s team as they are experts in the <strong>[144]</strong> of robotics. Neither of them is from the local area. Mr. Romano is <strong>[145]</strong> coming to us from Florence, Italy. So I encourage all of you to make them feel as welcome as possible. I would also greatly appreciate it if you would offer the two any assistance <strong>[146]</strong> require to make their transition to life here in Austin comfortable.</p></div>",
+              "passageHtml": "<div class=\"source-doc\"><p><strong>To:</strong> All Staff, R&amp;D Department<br><strong>From:</strong> Judy Rutledge, HR Department<br><strong>Subject:</strong> Changes</p><p><strong>[143]</strong> _____. Their names are Marco Romano and Erich Schafer. Both men will begin their employment here at Roth Technology on Monday, January 12. They will be assigned to Ms. Creighton’s team as they are experts in the <strong>[144]</strong> _____ of robotics. Neither of them is from the local area. Mr. Romano is <strong>[145]</strong> _____ coming to us from Florence, Italy. So I encourage all of you to make them feel as welcome as possible. I would also greatly appreciate it if you would offer the two any assistance <strong>[146]</strong> _____ require to make their transition to life here in Austin comfortable.</p></div>",
               "questions": [
                 {
                   "number": 143,
