@@ -150,9 +150,9 @@ window.PRACTICE_DATA = {
                 "Who’s in charge of the storeroom inventory?",
                 "(A) Sure, sounds great.",
                 "(B) How much does it cost?",
-                "(C) Ms. Kim is."
+                "(C) Ms. Kim takes care of it."
               ],
-              "start": 282.86,
+              "start": 286.86,
               "end": 301.7
             },
             {
@@ -165,7 +165,7 @@ window.PRACTICE_DATA = {
               ],
               "script": [
                 "Where’s the filing cabinet?",
-                "(A) The folders are on the desk.",
+                "(A) We'll need sixteen folders.",
                 "(B) The pile on the shelf.",
                 "(C) Next to the water cooler."
               ],
@@ -235,7 +235,7 @@ window.PRACTICE_DATA = {
                 "When are you going to the art gallery?",
                 "(A) By the park down the road.",
                 "(B) Photographs and paintings.",
-                "(C) Tomorrow afternoon."
+                "(C) Probably right after work."
               ],
               "start": 383.27,
               "end": 397.26
@@ -283,10 +283,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Isn’t that apartment we looked at last week available?",
+                "Isn’t that apartment we looked at last week still available?",
                 "(A) I can order that part for you.",
                 "(B) Actually, it was rented yesterday.",
-                "(C) It’s on the third floor."
+                "(C) It’s in the hallway."
               ],
               "start": 442.69,
               "end": 459.09
@@ -303,7 +303,7 @@ window.PRACTICE_DATA = {
                 "Why don’t we go on vacation to London?",
                 "(A) It was good, thanks.",
                 "(B) At the travel agency.",
-                "(C) Yes, that sounds like a good idea."
+                "(C) Yes, that sounds wonderful."
               ],
               "start": 463.99,
               "end": 478.5
@@ -317,10 +317,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "How do I start a conference call on this phone?",
+                "How do I start a conference call on this system?",
                 "(A) It’s usually held in November.",
                 "(B) We discussed the latest project.",
-                "(C) Press this button first."
+                "(C) Just press the green button."
               ],
               "start": 483.43,
               "end": 499.73
@@ -368,7 +368,7 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Will you meet the deadline?",
+                "Are your sure we'll able to meet this deadline?",
                 "(A) Sorry, are you in line?",
                 "(B) The long table.",
                 "(C) Yes, I think so."
@@ -387,7 +387,7 @@ window.PRACTICE_DATA = {
               "script": [
                 "Why don’t we make special T-shirts to sell at the music festival?",
                 "(A) Thanks, it was a gift.",
-                "(B) That’s a great idea.",
+                "(B) The event is in three days.",
                 "(C) Rock music is my favorite."
               ],
               "start": 563.43,
@@ -404,8 +404,8 @@ window.PRACTICE_DATA = {
               "script": [
                 "We should update our logo design, shouldn’t we?",
                 "(A) A famous fashion designer.",
-                "(B) No, our customers like it.",
-                "(C) Yes, I did."
+                "(B) No, our customers like this one.",
+                "(C) He left yesterday."
               ],
               "start": 585.7,
               "end": 601.23
@@ -420,7 +420,7 @@ window.PRACTICE_DATA = {
               ],
               "script": [
                 "Was the research project approved?",
-                "(A) Yes, by the committee.",
+                "(A) There isn't enough money in the budget.",
                 "(B) The survey results.",
                 "(C) I agree, there’s room to improve."
               ],
@@ -453,7 +453,7 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Fairway Motors just ordered another shipment of tires.",
+                "Fairway Motors just ordered another thousand extra-large tires.",
                 "(A) I enjoyed the retirement party, too.",
                 "(B) No, they’re in alphabetical order.",
                 "(C) Great, I’ll check our inventory."
@@ -470,10 +470,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "The labor costs will be itemized on the invoice.",
+                "The labor costs will be itemized on the receipt, right?",
                 "(A) The main course was delicious.",
                 "(B) Our finance office handles billing.",
-                "(C) It costs about 200 dollars."
+                "(C) Approximately 200 dollars."
               ],
               "start": 670.2,
               "end": 687.75
@@ -487,7 +487,7 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "How did you like the seminar?",
+                "I don't think we'll have time to eat before the next conference session.",
                 "(A) I just left the file you requested on your desk.",
                 "(B) There’s a café right around the corner.",
                 "(C) Yes, the session was really interesting."
@@ -504,10 +504,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Who is responsible for ordering office supplies?",
+                "Are you in charge of supply chain management?",
                 "(A) I just joined the team.",
                 "(B) Where’s the supply cabinet?",
-                "(C) There’s no extra charge."
+                "(C) For no extra charge."
               ],
               "start": 716.28,
               "end": 731.01
@@ -521,10 +521,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Do you have an extra battery for this clock?",
+                "I think we should ask Ms. Sato for her opinion.",
                 "(A) I have some extras in my desk.",
                 "(B) That clock is an hour ahead.",
-                "(C) The batteries are on sale."
+                "(C) All the supervisors are at a seminar."
               ],
               "start": 735.93,
               "end": 752.53
@@ -538,7 +538,7 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "script": [
-                "Would you like a table by the window or the entrance?",
+                "Would you like a table by the window or the buffet area?",
                 "(A) We requested a view of the city.",
                 "(B) I ordered that the last time.",
                 "(C) For the furniture delivery."
@@ -558,7 +558,7 @@ window.PRACTICE_DATA = {
                 "Hasn’t your parking permit expired?",
                 "(A) I’m signed up for automatic renewal.",
                 "(B) Pick me up at the station, please.",
-                "(C) It’s in the parking lot."
+                "(C) You can transfer here."
               ],
               "start": 777.78,
               "end": 793.26
