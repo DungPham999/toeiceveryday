@@ -622,7 +622,7 @@ window.PRACTICE_DATA = {
                 "are hiring"
               ],
               "answer": 1,
-              "explanation": "“Over the next three months” chỉ tương lai; chủ ngữ individuals nhận hành động tuyển dụng nên dùng bị động tương lai “will be hired”."
+              "explanation": "“Over the next three months” chỉ tương lai; chủ ngữ individuals được tuyển dụng nên dùng bị động ở tương lai “will be hired”."
             },
             {
               "number": 105,
@@ -658,7 +658,7 @@ window.PRACTICE_DATA = {
                 "sold"
               ],
               "answer": 0,
-              "explanation": "Sales là danh từ số nhiều làm chủ ngữ của “increased”; ngữ cảnh nói doanh số tăng hơn 45% sau khi ra mắt sản phẩm."
+              "explanation": "Sales (n) doanh số bán hàng, làm chủ ngữ của “increased”; ngữ cảnh nói doanh số tăng thêm hơn 45% sau khi ra mắt sản phẩm."
             },
             {
               "number": 108,
@@ -670,7 +670,7 @@ window.PRACTICE_DATA = {
                 "harden"
               ],
               "answer": 0,
-              "explanation": "“Work hard” là kết hợp đúng, nghĩa là làm việc chăm chỉ; “as hard as she could” là cấu trúc so sánh mức độ."
+              "explanation": "“Work hard” là kết hợp đúng, nghĩa là làm việc chăm chỉ; “as hard as she could” là cấu trúc so sánh ngang bằng."
             },
             {
               "number": 109,
@@ -682,7 +682,7 @@ window.PRACTICE_DATA = {
                 "theirs"
               ],
               "answer": 2,
-              "explanation": "“Fix” cần tân ngữ; them là đại từ tân ngữ số nhiều thay cho “several mistakes”."
+              "explanation": "“Fix” là động từ, cần tân ngữ theo sau; "them" là đại từ tân ngữ số nhiều thay cho “several mistakes”."
             },
             {
               "number": 110,
@@ -694,7 +694,7 @@ window.PRACTICE_DATA = {
                 "some"
               ],
               "answer": 0,
-              "explanation": "“A few moments” là cụm chỉ một khoảng thời gian ngắn; few đi với danh từ đếm được số nhiều moments."
+              "explanation": "“A few moments” là cụm chỉ một khoảng thời gian ngắn; "few" đi với danh từ đếm được số nhiều "moments"."
             },
             {
               "number": 111,
@@ -706,7 +706,7 @@ window.PRACTICE_DATA = {
                 "satisfied"
               ],
               "answer": 3,
-              "explanation": "“Be satisfied” nghĩa là hài lòng; satisfied là tính từ mô tả trạng thái của khách hàng sau động từ be."
+              "explanation": "Đáp án chứa các từ loại của "satisfy" -> BT từ loại hoặc BT phân từ cảm xúc -> chủ ngữ "customer is" là ngừoi nên cần chọn “satisfied” nghĩa là cảm thấy hài lòng."
             },
             {
               "number": 112,
@@ -718,7 +718,7 @@ window.PRACTICE_DATA = {
                 "with"
               ],
               "answer": 1,
-              "explanation": "“Drop off a package” là cụm động từ nghĩa là giao/để lại bưu kiện; trong câu bị động, off đứng sau dropped."
+              "explanation": "“Drop off a package” là cụm động từ nghĩa là giao/để lại bưu kiện."
             },
             {
               "number": 113,
@@ -730,7 +730,7 @@ window.PRACTICE_DATA = {
                 "had been working"
               ],
               "answer": 2,
-              "explanation": "“As of tomorrow” nhìn lại khoảng ba tuần đã kéo dài đến một mốc tương lai; dùng future perfect continuous “will have been working”."
+              "explanation": " "for the past three weeks" dấu hiệu của thì hoàn thành + “tomorrow” là dấu hiệu tương lai => chỉ có thể chọn “C. will have been working”; nghĩa là đã làm được ba tuần tính đến ngày mai."
             },
             {
               "number": 114,
@@ -766,7 +766,7 @@ window.PRACTICE_DATA = {
                 "removable"
               ],
               "answer": 2,
-              "explanation": "“Order + object + past participle” diễn tả yêu cầu một việc được thực hiện; software là đối tượng bị gỡ bỏ nên dùng removed."
+              "explanation": " BT Verb phụ sau danh từ: software là đối tượng bị gỡ bỏ nên dùng removed; “to order + something + V3” diễn tả yêu cầu một việc được thực hiện."
             },
             {
               "number": 117,
@@ -778,7 +778,7 @@ window.PRACTICE_DATA = {
                 "combine"
               ],
               "answer": 1,
-              "explanation": "“A combined $1.3 billion” nghĩa là tổng cộng 1,3 tỷ đô la; combined bổ nghĩa cho tổng giá trị nhiều hợp đồng."
+              "explanation": "BT Verb phụ trọng cụm danh từ: "combined" bổ nghĩa cho tổng giá trị nhiều hợp đồng được cộng lại. “A combined $1.3 billion” nghĩa là tổng cộng 1,3 tỷ đô la."
             },
             {
               "number": 118,
@@ -814,7 +814,7 @@ window.PRACTICE_DATA = {
                 "accuracies"
               ],
               "answer": 1,
-              "explanation": "“Accurately” là trạng từ bổ nghĩa cho động từ bị động counted, chỉ việc kiểm phiếu một cách chính xác."
+              "explanation": "“Accurately” là trạng từ bổ nghĩa cho động từ bị động "counted", chỉ việc kiểm phiếu một cách chính xác."
             },
             {
               "number": 121,
@@ -826,7 +826,7 @@ window.PRACTICE_DATA = {
                 "constructing"
               ],
               "answer": 3,
-              "explanation": "Sau giới từ “in favor of” cần danh từ hoặc V-ing; constructing là danh động từ chỉ việc xây dựng làn xe đạp."
+              "explanation": "Sau giới từ “in favor of” (=ủng hộ cho) cần danh từ hoặc V-ing, nhưng sau khoảng trống đã có cụm danh từ hoàn chỉnh rồi nên giờ phải chọn Ving; constructing là danh động từ chỉ việc xây dựng làn đường dành cho xe đạp."
             },
             {
               "number": 122,
@@ -838,7 +838,7 @@ window.PRACTICE_DATA = {
                 "overall"
               ],
               "answer": 0,
-              "explanation": "“The entire day” nghĩa là cả ngày; entire bổ nghĩa cho danh từ số ít day."
+              "explanation": "“The entire day” nghĩa là cả ngày; to reserve the large conference room: đặt một phòng hội nghị lớn "
             },
             {
               "number": 123,
@@ -850,7 +850,7 @@ window.PRACTICE_DATA = {
                 "Moreover"
               ],
               "answer": 1,
-              "explanation": "Unless mang nghĩa “nếu không/trừ khi”; nếu tuyết không sớm giảm thì các chuyến bay sẽ bị hủy."
+              "explanation": " Sau Therefore và Moreover cần liền dấu phẩy, sau Thoughout cần danh từ, sau Unless cần S + V. Xét vế sau khoảng trống, ta thấy đó là S + V nên chọn "Unless". Unless mang nghĩa “nếu không”; nếu tuyết không sớm giảm thì các chuyến bay sẽ bị hủy."
             },
             {
               "number": 124,
@@ -886,7 +886,7 @@ window.PRACTICE_DATA = {
                 "immediacies"
               ],
               "answer": 2,
-              "explanation": "“Immediately” là trạng từ bổ nghĩa cho submitted, nghĩa là các đề cử phải được nộp ngay."
+              "explanation": "“immediately” là trạng từ bổ nghĩa cho submitted, nghĩa là các đề cử phải được nộp ngay."
             },
             {
               "number": 127,
@@ -910,7 +910,7 @@ window.PRACTICE_DATA = {
                 "is confirming"
               ],
               "answer": 0,
-              "explanation": "Confirmed là động từ quá khứ đơn, phù hợp với lời xác nhận rằng các tin đồn là thật."
+              "explanation": "Confirmed là động từ quá khứ đơn, phù hợp với thì của các động từ chia ở đằng sau (were, would) = đã xác nhận rằng các tin đồn là thật."
             },
             {
               "number": 129,
@@ -934,7 +934,7 @@ window.PRACTICE_DATA = {
                 "matter"
               ],
               "answer": 0,
-              "explanation": "“For a period of one month” là cụm chỉ khoảng thời gian một tháng; period là danh từ đúng."
+              "explanation": "“For a period of one month” là cụm chỉ khoảng thời gian một tháng; "be renovated": được cải tạo"
             }
           ]
         }
