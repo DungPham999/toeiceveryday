@@ -13,6 +13,6 @@
   try {
     await load(`../../units/${unit}/data.js?v=${Date.now()}`);
     if (!window.PRACTICE_DATA) throw new Error("Không tìm thấy PRACTICE_DATA.");
-    await load("./app.js?v=1");
+    await load("./app.js?v=3");
   } catch(e) { console.error(e); fail(e.message); }
 })();
