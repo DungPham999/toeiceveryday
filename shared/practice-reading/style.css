@@ -23,32 +23,290 @@ button,a{font:inherit}.hidden{display:none!important}
 @media(max-width:900px){.topbar{position:static;align-items:flex-start;flex-direction:column}.top-actions{justify-content:flex-start}.progress-wrap{width:100%;text-align:left}.layout,.layout.single{display:block}.passage-panel{border-right:0;border-bottom:1px solid var(--line)}.passage-panel,.question-panel{padding:20px}.part-tabs,.exercise-tabs{padding-left:20px}.palette-grid{grid-template-columns:repeat(5,1fr)}}
 
 
-/* PART 6 + PART 7: passage và questions cuộn độc lập */
-@media (min-width:901px){
+/* ==================================================
+   READING PART 6 + 7
+   Independent scroll + draggable resizer
+   ================================================== */
 
-  .layout:not(.single){
-    height:calc(100vh - 150px);
-    min-height:0;
-    overflow:hidden;
-    align-items:stretch;
+(function(){
+
+  const STORAGE_KEY =
+    "toeic-reading-passage-width";
+
+
+  function fitReadingLayout(layout){
+
+    if(!layout) return;
+
+    const top =
+      layout.getBoundingClientRect().top;
+
+    const available =
+      window.innerHeight - top;
+
+    layout.style.height =
+      Math.max(420, available) + "px";
+
   }
 
-  .layout:not(.single) .passage-panel{
-    height:100%;
-    min-height:0;
-    overflow-y:auto;
-    overflow-x:hidden;
-    overscroll-behavior:contain;
-    scrollbar-gutter:stable;
+
+  function setupReadingLayout(layout){
+
+    if(
+      !layout ||
+      layout.classList.contains("single")
+    ){
+      return;
+    }
+
+
+    const passage =
+      layout.querySelector(
+        ".passage-panel"
+      );
+
+    const questions =
+      layout.querySelector(
+        ".question-panel"
+      );
+
+
+    if(!passage || !questions){
+      return;
+    }
+
+
+    /* Tự tính chiều cao còn lại của màn hình */
+    fitReadingLayout(layout);
+
+
+    /* Khôi phục độ rộng giáo viên/học viên kéo lần trước */
+
+    const saved =
+      parseFloat(
+        localStorage.getItem(
+          STORAGE_KEY
+        )
+      );
+
+
+    if(
+      !Number.isNaN(saved) &&
+      saved >= 25 &&
+      saved <= 75
+    ){
+
+      layout.style.setProperty(
+        "--passage-width",
+        saved + "%"
+      );
+
+    }
+
+
+    /* Nếu chưa có thanh kéo thì tạo */
+
+    let resizer =
+      layout.querySelector(
+        ":scope > .column-resizer"
+      );
+
+
+    if(!resizer){
+
+      resizer =
+        document.createElement("div");
+
+      resizer.className =
+        "column-resizer";
+
+      resizer.title =
+        "Kéo để chỉnh độ rộng. Nhấp đúp để đặt lại.";
+
+      layout.insertBefore(
+        resizer,
+        questions
+      );
+
+    }
+
+
+    /* Không gắn event lần thứ hai */
+
+    if(resizer.dataset.ready === "1"){
+      return;
+    }
+
+    resizer.dataset.ready = "1";
+
+
+    let dragging = false;
+
+
+    resizer.addEventListener(
+      "pointerdown",
+      function(event){
+
+        dragging = true;
+
+        resizer.setPointerCapture(
+          event.pointerId
+        );
+
+        document.body.classList.add(
+          "resizing-reading"
+        );
+
+        event.preventDefault();
+
+      }
+    );
+
+
+    resizer.addEventListener(
+      "pointermove",
+      function(event){
+
+        if(!dragging) return;
+
+
+        const rect =
+          layout.getBoundingClientRect();
+
+
+        let percent =
+          (
+            (
+              event.clientX -
+              rect.left
+            )
+            /
+            rect.width
+          )
+          * 100;
+
+
+        /* Không cho cột quá hẹp */
+
+        percent =
+          Math.max(
+            25,
+            Math.min(
+              75,
+              percent
+            )
+          );
+
+
+        layout.style.setProperty(
+          "--passage-width",
+          percent + "%"
+        );
+
+
+        localStorage.setItem(
+          STORAGE_KEY,
+          percent.toFixed(2)
+        );
+
+      }
+    );
+
+
+    function stopDragging(){
+
+      dragging = false;
+
+      document.body.classList.remove(
+        "resizing-reading"
+      );
+
+    }
+
+
+    resizer.addEventListener(
+      "pointerup",
+      stopDragging
+    );
+
+
+    resizer.addEventListener(
+      "pointercancel",
+      stopDragging
+    );
+
+
+    /* Nhấp đúp thanh giữa = trở về 50/50 */
+
+    resizer.addEventListener(
+      "dblclick",
+      function(){
+
+        layout.style.removeProperty(
+          "--passage-width"
+        );
+
+        localStorage.removeItem(
+          STORAGE_KEY
+        );
+
+      }
+    );
+
   }
 
-  .layout:not(.single) .question-panel{
-    height:100%;
-    min-height:0;
-    overflow-y:auto;
-    overflow-x:hidden;
-    overscroll-behavior:contain;
-    scrollbar-gutter:stable;
+
+  function setupAllReadingLayouts(){
+
+    document
+      .querySelectorAll(
+        ".layout:not(.single)"
+      )
+      .forEach(
+        setupReadingLayout
+      );
+
   }
 
-}
+
+  /* app.js render lại Part/Set thì tự gắn resizer lại */
+
+  const observer =
+    new MutationObserver(
+      setupAllReadingLayouts
+    );
+
+
+  observer.observe(
+    document.body,
+    {
+      childList:true,
+      subtree:true
+    }
+  );
+
+
+  if(
+    document.readyState ===
+    "loading"
+  ){
+
+    document.addEventListener(
+      "DOMContentLoaded",
+      setupAllReadingLayouts
+    );
+
+  }
+  else{
+
+    setupAllReadingLayouts();
+
+  }
+
+
+  window.addEventListener(
+    "resize",
+    setupAllReadingLayouts
+  );
+
+})();
