@@ -30,31 +30,44 @@ body.reading-resizing{cursor:col-resize!important;user-select:none!important}
 @media(max-width:900px){.column-resizer{display:none!important}.topbar{position:static;align-items:flex-start;flex-direction:column}.top-actions{justify-content:flex-start}.progress-wrap{width:100%;text-align:left}.layout,.layout.single{display:block;height:auto;min-height:0;overflow:visible}.passage-panel{border-right:0;border-bottom:1px solid var(--line)}.passage-panel,.question-panel{padding:20px;height:auto;overflow:visible}.part-tabs,.exercise-tabs{padding-left:20px}.palette-grid{grid-template-columns:repeat(5,1fr)}}
 
 
-/* ===== PART 6/7: 2 vùng cuộn độc lập ===== */
+
+/* ===== PART 6 + PART 7: HAI VÙNG CUỘN ĐỘC LẬP ===== */
 @media (min-width: 901px){
 
+  /* Khóa chiều cao khu vực làm bài */
   #mainLayout.layout:not(.single){
-    height: 65vh !important;
-    min-height: 0 !important;
+    height: calc(100vh - 185px) !important;
+    min-height: 480px !important;
+
     overflow: hidden !important;
+    align-items: stretch !important;
   }
 
-  #mainLayout.layout:not(.single) > .passage-panel{
+  /* CỘT BÀI ĐỌC */
+  #mainLayout.layout:not(.single) > #passagePanel{
     height: 100% !important;
     min-height: 0 !important;
 
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
     overflow-x: hidden !important;
+
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
 
     border-right: 1px solid var(--line);
   }
 
+  /* CỘT CÂU HỎI */
   #mainLayout.layout:not(.single) > .question-panel{
     height: 100% !important;
     min-height: 0 !important;
 
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
     overflow-x: hidden !important;
+
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
   }
 
 }
+
