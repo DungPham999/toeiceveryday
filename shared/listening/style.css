@@ -979,3 +979,187 @@ body.palette-open-body{overflow:hidden}
   }
 
 }
+
+/* =========================================================
+   LISTENING - SMALL SCREEN / MOBILE FINAL FIX
+   1. 4 action buttons on ONE row
+   2. Part 1–4 stay pinned at top when scrolling
+   ========================================================= */
+
+@media (max-width:900px){
+
+  /* ---------------------------------------------------------
+     HEADER: không sticky
+     Khi cuộn xuống, header biến mất để dành chỗ cho bài
+     --------------------------------------------------------- */
+  .topbar{
+    position:relative !important;
+    top:auto !important;
+
+    display:grid;
+    grid-template-columns:1fr;
+
+    gap:8px;
+    padding:10px 12px;
+  }
+
+
+  /* Khu progress + buttons */
+  .topbar-actions{
+    width:100%;
+
+    display:grid;
+    grid-template-columns:1fr;
+
+    gap:6px;
+  }
+
+
+  /* Giữ progress bar */
+  .progress-wrap{
+    display:block;
+    width:100%;
+
+    text-align:left;
+
+    font-size:11px;
+  }
+
+  .progress{
+    height:5px;
+    margin-top:4px;
+  }
+
+
+  /* =========================================================
+     4 NÚT TRÊN CÙNG 1 HÀNG
+     ========================================================= */
+
+  .header-actions{
+    width:100%;
+
+    display:grid !important;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+
+    gap:4px;
+
+    flex-wrap:nowrap !important;
+  }
+
+  .header-action-btn{
+    width:100%;
+    min-width:0;
+
+    height:34px;
+    min-height:34px;
+
+    padding:0 4px;
+
+    border-width:1.5px;
+    border-radius:8px;
+
+    /*
+      Tự co chữ theo chiều rộng màn hình.
+      Desktop nhỏ: ~11px
+      Mobile: ~8–10px
+    */
+    font-size:clamp(8px,2.15vw,11px);
+    font-weight:800;
+
+    line-height:1;
+    letter-spacing:-0.15px;
+
+    white-space:nowrap;
+
+    gap:2px;
+  }
+
+
+  /* =========================================================
+     PART 1–4: LUÔN DÍNH TRÊN ĐẦU KHI CUỘN
+     ========================================================= */
+
+  .part-tabs{
+    position:sticky !important;
+    top:0 !important;
+    z-index:100 !important;
+
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+
+    gap:4px;
+
+    padding:5px 8px;
+
+    overflow:visible;
+
+    background:rgba(255,250,243,.98);
+
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+
+    border-bottom:1px solid var(--line);
+
+    box-shadow:
+      0 2px 7px rgba(70,45,15,.08);
+  }
+
+  .part-tabs button{
+    width:100%;
+    min-width:0;
+
+    min-height:34px;
+
+    padding:0 4px;
+
+    border-radius:8px;
+
+    font-size:12px;
+    font-weight:850;
+
+    white-space:nowrap;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL PHONE
+   ========================================================= */
+
+@media (max-width:480px){
+
+  .topbar{
+    padding:8px 7px;
+    gap:6px;
+  }
+
+  .header-actions{
+    gap:3px;
+  }
+
+  .header-action-btn{
+    height:32px;
+    min-height:32px;
+
+    padding:0 2px;
+
+    font-size:8px;
+    border-radius:7px;
+  }
+
+  .part-tabs{
+    padding:4px 5px;
+    gap:3px;
+  }
+
+  .part-tabs button{
+    min-height:32px;
+
+    padding:0 2px;
+
+    font-size:11px;
+    border-radius:7px;
+  }
+
+}
