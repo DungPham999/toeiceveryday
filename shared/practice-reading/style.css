@@ -30,44 +30,105 @@ body.reading-resizing{cursor:col-resize!important;user-select:none!important}
 @media(max-width:900px){.column-resizer{display:none!important}.topbar{position:static;align-items:flex-start;flex-direction:column}.top-actions{justify-content:flex-start}.progress-wrap{width:100%;text-align:left}.layout,.layout.single{display:block;height:auto;min-height:0;overflow:visible}.passage-panel{border-right:0;border-bottom:1px solid var(--line)}.passage-panel,.question-panel{padding:20px;height:auto;overflow:visible}.part-tabs,.exercise-tabs{padding-left:20px}.palette-grid{grid-template-columns:repeat(5,1fr)}}
 
 
-
-/* ===== PART 6 + PART 7: HAI VÙNG CUỘN ĐỘC LẬP ===== */
+/* ===== DESKTOP: 2 VÙNG CUỘN ĐỘC LẬP ===== */
 @media (min-width: 901px){
 
-  /* Khóa chiều cao khu vực làm bài */
-  #mainLayout.layout:not(.single){
-    height: calc(100vh - 185px) !important;
-    min-height: 480px !important;
-
-    overflow: hidden !important;
-    align-items: stretch !important;
+  html,
+  body{
+    height:100%;
   }
 
-  /* CỘT BÀI ĐỌC */
-  #mainLayout.layout:not(.single) > #passagePanel{
-    height: 100% !important;
-    min-height: 0 !important;
+  body{
+    height:100vh;
+    overflow:hidden;
 
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
-
-    border-right: 1px solid var(--line);
+    display:flex;
+    flex-direction:column;
   }
 
-  /* CỘT CÂU HỎI */
-  #mainLayout.layout:not(.single) > .question-panel{
-    height: 100% !important;
-    min-height: 0 !important;
+  .topbar,
+  .part-tabs,
+  .exercise-tabs{
+    flex:0 0 auto;
+  }
 
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
+  #mainLayout.layout{
+    flex:1 1 auto;
 
-    overscroll-behavior: contain;
-    scrollbar-gutter: stable;
+    height:auto !important;
+    min-height:0 !important;
+
+    overflow:hidden !important;
+
+    display:grid;
+    grid-template-columns:50% minmax(0,1fr);
+    align-items:stretch;
+  }
+
+  /* BÀI ĐỌC BÊN TRÁI */
+  #passagePanel{
+    min-width:0;
+    min-height:0;
+
+    height:100%;
+
+    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+
+    overscroll-behavior:contain;
+
+    border-right:1px solid var(--line);
+  }
+
+  /* CÂU HỎI BÊN PHẢI */
+  #mainLayout > .question-panel{
+    min-width:0;
+    min-height:0;
+
+    height:100%;
+
+    overflow-y:scroll !important;
+    overflow-x:hidden !important;
+
+    overscroll-behavior:contain;
+  }
+
+  /* PART 5: chỉ còn cột câu hỏi */
+  #mainLayout.layout.single{
+    grid-template-columns:minmax(500px,900px);
+    justify-content:center;
+  }
+
+  #mainLayout.layout.single > .question-panel{
+    overflow-y:auto !important;
   }
 
 }
 
+
+/* ===== MOBILE: trở về cuộn trang bình thường ===== */
+@media (max-width:900px){
+
+  html,
+  body{
+    height:auto;
+  }
+
+  body{
+    overflow:auto;
+    display:block;
+  }
+
+  #mainLayout.layout{
+    display:block;
+    height:auto !important;
+    overflow:visible !important;
+  }
+
+  #passagePanel,
+  #mainLayout > .question-panel{
+    height:auto !important;
+    overflow:visible !important;
+  }
+
+}
