@@ -36,13 +36,35 @@ function render(){
  $("prevBtn").disabled=itemIndex===0&&exIndex===0&&parts.indexOf(part)===0;
  if(part!==5)window.scrollTo({top:0,behavior:"smooth"});
 }
+
+
 function layoutMode(){
  const m=$("mainLayout"),sp=$("splitter"),src=$("sourcePanel"),nav=$("navRow");
- m.className="layout";sp.classList.add("hidden");src.classList.remove("hidden");nav.classList.remove("hidden");
- if(part===5){m.classList.add("part5");src.classList.add("hidden")}
- else if(part===7){m.classList.add("part7");sp.classList.remove("hidden");m.style.setProperty("--left",p7width+"%")}
- else m.style.removeProperty("--left");
+
+ m.className="layout";
+ sp.classList.add("hidden");
+ src.classList.remove("hidden");
+ nav.classList.remove("hidden");
+
+ if(part===5){
+   m.classList.add("part5");
+   src.classList.add("hidden");
+   m.style.removeProperty("--left");
+ }
+
+ else if([3,4,6,7].includes(part)){
+   m.classList.add("split-layout");
+   sp.classList.remove("hidden");
+   m.style.setProperty("--left",p7width+"%");
+ }
+
+ else{
+   m.style.removeProperty("--left");
+ }
 }
+
+ 
+ 
 function source(){
  $("visualWrap").innerHTML="";$("passageWrap").classList.add("hidden");$("audioCard").classList.add("hidden");$("scriptBox").classList.add("hidden");
  if(part<=4){
@@ -128,7 +150,9 @@ canvas.onclick=e=>{let r=canvas.getBoundingClientRect(),b=bounds(),f=(e.clientX-
 // Part 7 resizable split
 let dragging=false;
 $("splitter").addEventListener("mousedown",e=>{dragging=true;document.body.classList.add("resizing");e.preventDefault()});
-addEventListener("mousemove",e=>{if(!dragging||part!==7)return;let r=$("mainLayout").getBoundingClientRect(),pct=(e.clientX-r.left)/r.width*100;p7width=Math.max(30,Math.min(70,pct));$("mainLayout").style.setProperty("--left",p7width+"%")});
+addEventListener("mousemove",e=>{if(!dragging||![3,4,6,7].includes(part))return;
+                                 
+                                    let r=$("mainLayout").getBoundingClientRect(),pct=(e.clientX-r.left)/r.width*100;p7width=Math.max(30,Math.min(70,pct));$("mainLayout").style.setProperty("--left",p7width+"%")});
 addEventListener("mouseup",()=>{if(dragging){dragging=false;document.body.classList.remove("resizing");localStorage.setItem(K.w,p7width)}});
 
 addEventListener("keydown",e=>{if(e.key==="Escape")closePalette();if(["1","2","3","4"].includes(e.key)&&part!==5){let q=currentItem?.questions.find(x=>!answered(x));if(q)choose(q,+e.key-1)}});
