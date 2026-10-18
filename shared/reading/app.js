@@ -37,9 +37,12 @@ if(testTitleEl){
   let currentNumber = 101;
 
   const load = (suffix, fallback) => {
-    try { return JSON.parse(localStorage.getItem(`${key}-${suffix}`) || JSON.stringify(fallback)); }
+    try { return JSON.parse(sessionStorage.getItem(`${key}-${suffix}`) || JSON.stringify(fallback)); }
     catch { return fallback; }
   };
+
+
+  
 
   let answers = load('answers', {});
   let checkedSets = new Set(load('checkedSets', []));
@@ -52,14 +55,15 @@ if(testTitleEl){
     ...data.part7.flatMap(s => s.questions.map(q => ({...q, part:7, setId:s.id})))
   ];
 
-  const save = () => {
-    localStorage.setItem(`${key}-answers`, JSON.stringify(answers));
-    localStorage.setItem(`${key}-checkedSets`, JSON.stringify([...checkedSets]));
-    localStorage.setItem(`${key}-checkedSingle`, JSON.stringify([...checkedSingle]));
-    localStorage.setItem(`${key}-marked`, JSON.stringify([...marked]));
-    updateProgress();
-    renderPalette();
-  };
+const save = () => {
+  sessionStorage.setItem(`${key}-answers`, JSON.stringify(answers));
+  sessionStorage.setItem(`${key}-checkedSets`, JSON.stringify([...checkedSets]));
+  sessionStorage.setItem(`${key}-checkedSingle`, JSON.stringify([...checkedSingle]));
+  sessionStorage.setItem(`${key}-marked`, JSON.stringify([...marked]));
+
+  updateProgress();
+  renderPalette();
+};
 
   const isChecked = q => q.part === 5 ? checkedSingle.has(q.number) : checkedSets.has(q.setId);
   const explanationText = q => {
@@ -435,10 +439,12 @@ if(testTitleEl){
   resetBtn.onclick = () => {
     if(!confirm('Bạn có chắc muốn làm lại toàn bộ bài Reading từ đầu?\\n\\nToàn bộ đáp án, kết quả đúng/sai và câu đã đánh dấu sẽ bị xóa.')) return;
     answers={}; checkedSets=new Set(); checkedSingle=new Set(); marked=new Set();
-    localStorage.removeItem(`${key}-answers`);
-    localStorage.removeItem(`${key}-checkedSets`);
-    localStorage.removeItem(`${key}-checkedSingle`);
-    localStorage.removeItem(`${key}-marked`);
+    
+sessionStorage.removeItem(`${key}-answers`);
+sessionStorage.removeItem(`${key}-checkedSets`);
+sessionStorage.removeItem(`${key}-checkedSingle`);
+sessionStorage.removeItem(`${key}-marked`);
+    
     part=5; currentNumber=101;
     tabs.forEach(b=>b.classList.toggle('active',Number(b.dataset.part)===5));
     updateProgress(); render(); window.scrollTo({top:0,behavior:'smooth'});
