@@ -871,3 +871,111 @@ body.palette-open-body{overflow:hidden}
   }
 
 }
+
+
+/* =========================================================
+   PART 3 + PART 4
+   INDEPENDENT LEFT / RIGHT SCROLL
+   ========================================================= */
+
+@media (min-width:901px){
+
+  /*
+    Header = 66px
+    Part tabs ≈ 42px
+    Phần làm bài chiếm toàn bộ chiều cao còn lại
+  */
+
+  body:has(.part-tabs button:nth-child(3).active) .layout,
+  body:has(.part-tabs button:nth-child(4).active) .layout{
+
+    height:calc(100vh - 108px);
+    height:calc(100dvh - 108px);
+
+    min-height:0;
+
+    overflow:hidden;
+
+    align-items:stretch;
+  }
+
+
+  /* =========================
+     PANEL TRÁI
+     Audio / graphic / script
+     ========================= */
+
+  body:has(.part-tabs button:nth-child(3).active) .left-panel,
+  body:has(.part-tabs button:nth-child(4).active) .left-panel{
+
+    height:100%;
+    min-height:0;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    overscroll-behavior:contain;
+
+    scrollbar-gutter:stable;
+
+    padding-bottom:30px;
+  }
+
+
+  /* =========================
+     PANEL PHẢI
+     Questions
+     ========================= */
+
+  body:has(.part-tabs button:nth-child(3).active) .right-panel,
+  body:has(.part-tabs button:nth-child(4).active) .right-panel{
+
+    height:100%;
+    min-height:0;
+
+    overflow-y:auto;
+    overflow-x:hidden;
+
+    overscroll-behavior:contain;
+
+    scrollbar-gutter:stable;
+
+    padding-bottom:40px;
+  }
+
+
+  /* =========================
+     SCROLLBAR
+     ========================= */
+
+  body:has(.part-tabs button:nth-child(3).active) .left-panel::-webkit-scrollbar,
+  body:has(.part-tabs button:nth-child(3).active) .right-panel::-webkit-scrollbar,
+  body:has(.part-tabs button:nth-child(4).active) .left-panel::-webkit-scrollbar,
+  body:has(.part-tabs button:nth-child(4).active) .right-panel::-webkit-scrollbar{
+    width:8px;
+  }
+
+
+  body:has(.part-tabs button:nth-child(3).active) .left-panel::-webkit-scrollbar-thumb,
+  body:has(.part-tabs button:nth-child(3).active) .right-panel::-webkit-scrollbar-thumb,
+  body:has(.part-tabs button:nth-child(4).active) .left-panel::-webkit-scrollbar-thumb,
+  body:has(.part-tabs button:nth-child(4).active) .right-panel::-webkit-scrollbar-thumb{
+
+    background:#ddc7a6;
+
+    border:2px solid transparent;
+    background-clip:padding-box;
+
+    border-radius:999px;
+  }
+
+
+  body:has(.part-tabs button:nth-child(3).active) .left-panel::-webkit-scrollbar-track,
+  body:has(.part-tabs button:nth-child(3).active) .right-panel::-webkit-scrollbar-track,
+  body:has(.part-tabs button:nth-child(4).active) .left-panel::-webkit-scrollbar-track,
+  body:has(.part-tabs button:nth-child(4).active) .right-panel::-webkit-scrollbar-track{
+
+    background:#fffaf2;
+  }
+
+}
