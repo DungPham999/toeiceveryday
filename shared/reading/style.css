@@ -150,6 +150,10 @@ a{text-decoration:none;color:inherit}
 @media(max-width:1050px){
   .test-header{grid-template-columns:1fr;gap:12px}.header-actions{justify-content:flex-start}
   .part-tabs{top:187px}.passage-card{top:278px}.reading-set{grid-template-columns:1fr}.column-resizer{display:none!important}.passage-card{position:relative;top:auto}
+  .test-header{
+  position:relative;
+  top:auto;
+}
 }
 @media(max-width:760px){
   .landing-hero{grid-template-columns:1fr}
