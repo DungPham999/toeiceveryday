@@ -954,3 +954,37 @@ body.is-resizing{
   }
 }
 
+/* =========================================================
+   FIX MEDIUM SCREEN: PART TABS STICK TO TOP
+   761px - 900px
+   ========================================================= */
+
+@media (min-width:761px) and (max-width:900px){
+
+  .part-tabs{
+    position:sticky;
+    top:0;
+    z-index:29;
+
+    padding:6px 10px;
+    gap:6px;
+
+    background:rgba(255,250,243,.98);
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 2px 7px rgba(70,45,15,.06);
+  }
+
+  .part-tabs button{
+    flex:1;
+
+    min-width:0;
+    min-height:36px;
+
+    padding:0 10px;
+
+    font-size:13px;
+    border-radius:9px;
+  }
+
+}
