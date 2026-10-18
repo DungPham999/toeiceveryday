@@ -621,131 +621,247 @@ body.is-resizing{
 
 }
 
+
+
+
 /* =========================================================
-   COMPACT QUESTION PALETTE - DESKTOP
-   Thu gọn danh sách Q101-Q200
+   COMPACT QUESTION PALETTE - ALL SCREEN SIZES
+   Desktop / Tablet / Mobile
    ========================================================= */
 
-@media (min-width: 761px){
+/* ===== ÁP DỤNG CHUNG ===== */
 
-  /* Panel */
+.palette-panel{
+  width:min(560px,96vw);
+  height:100vh;
+  overflow-y:auto;
+}
+
+/* Header */
+.palette-head{
+  padding:12px 16px;
+  align-items:center;
+}
+
+.palette-head h2{
+  font-size:24px;
+  line-height:1.1;
+  margin:0;
+}
+
+.palette-head p{
+  margin:3px 0 0;
+  font-size:13px;
+}
+
+.palette-head button{
+  width:34px;
+  height:34px;
+  border-radius:9px;
+  font-size:23px;
+}
+
+/* Summary */
+.palette-summary{
+  gap:6px;
+  padding:7px 14px;
+}
+
+.palette-summary span{
+  padding:5px 6px;
+  border-radius:9px;
+  font-size:12px;
+  line-height:1.15;
+}
+
+.palette-summary b{
+  font-size:17px;
+  line-height:1;
+  margin-bottom:2px;
+}
+
+/* Legend */
+.palette-legend{
+  gap:9px;
+  padding:7px 14px;
+  font-size:11px;
+}
+
+.palette-legend span{
+  gap:4px;
+}
+
+.palette-legend i{
+  width:14px;
+  height:14px;
+  border-radius:4px;
+}
+
+.legend-star{
+  font-size:17px;
+}
+
+/* Part sections */
+.palette-section{
+  padding:8px 14px 3px;
+}
+
+.palette-section h3{
+  margin:0 0 5px;
+  font-size:15px;
+  line-height:1.15;
+}
+
+/* Mặc định: desktop = 10 câu / hàng */
+.palette-grid{
+  display:grid;
+  grid-template-columns:repeat(10,minmax(0,1fr));
+  gap:5px;
+}
+
+/* Question buttons */
+.palette-tile{
+  height:34px;
+  min-width:0;
+  padding:0;
+  border-width:1.5px;
+  border-radius:8px;
+
+  font-size:12px;
+  line-height:1;
+}
+
+/* Mark star */
+.palette-tile.marked::after{
+  top:-5px;
+  right:-4px;
+
+  width:14px;
+  height:14px;
+
+  font-size:8px;
+  border-width:1px;
+}
+
+
+/* =========================================================
+   TABLET / CỬA SỔ NHỎ
+   ========================================================= */
+
+@media (max-width:760px){
+
   .palette-panel{
-    width:min(560px,96vw);
-    height:100vh;
-    overflow-y:auto;
+    width:100vw;
+    max-width:none;
   }
 
-  /* ===== HEADER ===== */
-  .palette-head{
-    padding:12px 16px;
-    align-items:center;
-  }
-
-  .palette-head h2{
-    font-size:24px;
-    line-height:1.1;
-    margin:0;
-  }
-
-  .palette-head p{
-    margin:3px 0 0;
-    font-size:13px;
-  }
-
-  .palette-head button{
-    width:34px;
-    height:34px;
-    border-radius:9px;
-    font-size:23px;
-  }
-
-
-  /* ===== SUMMARY: ĐÚNG / SAI / CHƯA CHẤM ===== */
-  .palette-summary{
-    gap:6px;
-    padding:7px 14px;
-  }
-
-  .palette-summary span{
-    padding:5px 6px;
-    border-radius:9px;
-    font-size:12px;
-    line-height:1.15;
-  }
-
-  .palette-summary b{
-    font-size:17px;
-    line-height:1;
-    margin-bottom:2px;
-  }
-
-
-  /* ===== CHÚ THÍCH ===== */
-  .palette-legend{
-    gap:9px;
-    padding:7px 14px;
-    font-size:11px;
-  }
-
-  .palette-legend span{
+  /* 8 câu / hàng */
+  .palette-grid{
+    grid-template-columns:repeat(8,minmax(0,1fr));
     gap:4px;
   }
 
-  .palette-legend i{
-    width:14px;
-    height:14px;
-    border-radius:4px;
+  .palette-tile{
+    height:32px;
+    font-size:11px;
+    border-radius:7px;
   }
 
-  .legend-star{
-    font-size:17px;
-  }
-
-
-  /* ===== PART 5 / PART 6 / PART 7 ===== */
   .palette-section{
-    padding:8px 14px 3px;
+    padding:7px 10px 2px;
   }
 
   .palette-section h3{
-    margin:0 0 5px;
-    font-size:15px;
-    line-height:1.15;
+    margin-bottom:4px;
+    font-size:14px;
   }
 
+  .palette-head{
+    padding:9px 12px;
+  }
 
-  /* 10 CÂU / 1 HÀNG */
-  .palette-grid{
-    display:grid;
-    grid-template-columns:repeat(10,minmax(0,1fr));
+  .palette-head h2{
+    font-size:20px;
+  }
+
+  .palette-head p{
+    font-size:11px;
+    margin-top:2px;
+  }
+
+  .palette-head button{
+    width:31px;
+    height:31px;
+    font-size:20px;
+  }
+
+  .palette-summary{
+    padding:5px 10px;
     gap:5px;
   }
 
+  .palette-summary span{
+    padding:4px;
+    font-size:11px;
+  }
 
-  /* Ô SỐ CÂU */
+  .palette-summary b{
+    font-size:15px;
+  }
+
+  .palette-legend{
+    padding:6px 10px;
+    gap:7px;
+    font-size:10px;
+  }
+
+  .palette-legend i{
+    width:13px;
+    height:13px;
+  }
+
+  .legend-star{
+    font-size:15px;
+  }
+}
+
+
+/* =========================================================
+   ĐIỆN THOẠI RẤT NHỎ
+   ========================================================= */
+
+@media (max-width:420px){
+
+  .palette-grid{
+    grid-template-columns:repeat(8,minmax(0,1fr));
+    gap:3px;
+  }
+
   .palette-tile{
-    height:34px;
-    min-width:0;
-    padding:0;
-    border-width:1.5px;
-    border-radius:8px;
-
-    font-size:12px;
-    line-height:1;
+    height:30px;
+    font-size:10px;
+    border-radius:6px;
   }
 
-
-  /* Ngôi sao câu đánh dấu cũng thu nhỏ */
-  .palette-tile.marked::after{
-    top:-5px;
-    right:-4px;
-
-    width:14px;
-    height:14px;
-
-    font-size:8px;
-    border-width:1px;
+  .palette-section{
+    padding:6px 8px 1px;
   }
 
+  .palette-head{
+    padding:8px 10px;
+  }
+
+  .palette-head h2{
+    font-size:19px;
+  }
+
+  .palette-summary{
+    padding:4px 8px;
+  }
+
+  .palette-legend{
+    padding:5px 8px;
+    gap:6px;
+  }
 }
 
