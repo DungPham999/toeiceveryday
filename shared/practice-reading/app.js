@@ -165,50 +165,5 @@
   $("resetBtn").onclick=()=>{if(!confirm("Bạn có chắc muốn làm lại toàn bộ Reading Practice?"))return;
     answers={};checked=new Set();marked=new Set();Object.values(K).forEach(k=>localStorage.removeItem(k));part=parts[0];exIndex=0;itemIndex=0;focus=null;progress();render()};
   addEventListener("keydown",e=>{if(e.key==="Escape")closePalette();if(["1","2","3","4"].includes(e.key)){const q=currentItem?.questions.find(x=>!answered(x));if(q)choose(q,Number(e.key)-1)}});
-
-  /* Draggable divider for Part 6/7 */
-  (() => {
-    const layout = $("mainLayout");
-    const bar = $("columnResizer");
-    if (!layout || !bar) return;
-
-    const WIDTH_KEY = `${base}-reading-passage-width`;
-    let width = parseFloat(localStorage.getItem(WIDTH_KEY));
-    if (!Number.isFinite(width) || width < 25 || width > 75) width = 50;
-    layout.style.setProperty("--passage-width", `${width}%`);
-
-    let dragging = false;
-
-    bar.addEventListener("pointerdown", e => {
-      if (layout.classList.contains("single")) return;
-      dragging = true;
-      bar.setPointerCapture(e.pointerId);
-      document.body.classList.add("reading-resizing");
-      e.preventDefault();
-    });
-
-    bar.addEventListener("pointermove", e => {
-      if (!dragging) return;
-      const rect = layout.getBoundingClientRect();
-      let pct = ((e.clientX - rect.left) / rect.width) * 100;
-      pct = Math.max(25, Math.min(75, pct));
-      layout.style.setProperty("--passage-width", `${pct}%`);
-      localStorage.setItem(WIDTH_KEY, pct.toFixed(2));
-    });
-
-    const stop = () => {
-      dragging = false;
-      document.body.classList.remove("reading-resizing");
-    };
-
-    bar.addEventListener("pointerup", stop);
-    bar.addEventListener("pointercancel", stop);
-
-    bar.addEventListener("dblclick", () => {
-      layout.style.setProperty("--passage-width", "50%");
-      localStorage.removeItem(WIDTH_KEY);
-    });
-  })();
-
   progress();render();
 })();
