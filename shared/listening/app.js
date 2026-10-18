@@ -60,16 +60,46 @@
   let editingScript = false;
   const speeds = [0.75, 1, 1.25];
 
-  const loadJSON = (key, fallback) => {
-    try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
-    catch(e) { return fallback; }
-  };
+const loadSessionJSON = (key, fallback) => {
+  try {
+    return JSON.parse(
+      sessionStorage.getItem(key) ||
+      JSON.stringify(fallback)
+    );
+  }
+  catch(e) {
+    return fallback;
+  }
+};
 
-  let answers = loadJSON(STORAGE.answers, {});
-  let checkedGroups = new Set(loadJSON(STORAGE.checkedGroups, []));
-  let marked = new Set(loadJSON(STORAGE.marked, []));
-  let scriptOverrides = loadJSON(STORAGE.scriptOverrides, {});
+const loadLocalJSON = (key, fallback) => {
+  try {
+    return JSON.parse(
+      localStorage.getItem(key) ||
+      JSON.stringify(fallback)
+    );
+  }
+  catch(e) {
+    return fallback;
+  }
+};
 
+/* Tiến độ làm bài: chỉ tồn tại trong tab hiện tại */
+let answers = loadSessionJSON(STORAGE.answers, {});
+let checkedGroups = new Set(
+  loadSessionJSON(STORAGE.checkedGroups, [])
+);
+let marked = new Set(
+  loadSessionJSON(STORAGE.marked, [])
+);
+
+/* Script đã chỉnh: vẫn lưu lâu dài */
+let scriptOverrides = loadLocalJSON(
+  STORAGE.scriptOverrides,
+  {}
+);
+
+  
   const byPart = p => data.filter(x => x.part === p);
   const allQuestions = data.flatMap(x => x.questions.map(q => ({ q, item: x })));
   const fmt = s => {
@@ -90,14 +120,35 @@
   }
   function relTime(){ const b=bounds(); return Math.max(0,audio.currentTime-b.start); }
 
+
   function saveState(){
-    localStorage.setItem(STORAGE.answers, JSON.stringify(answers));
-    localStorage.setItem(STORAGE.checkedGroups, JSON.stringify([...checkedGroups]));
-    localStorage.setItem(STORAGE.marked, JSON.stringify([...marked]));
-    localStorage.setItem(STORAGE.scriptOverrides, JSON.stringify(scriptOverrides));
-    updateProgress();
-    renderPalette();
-  }
+
+  /* Tiến độ bài làm */
+  sessionStorage.setItem(
+    STORAGE.answers,
+    JSON.stringify(answers)
+  );
+
+  sessionStorage.setItem(
+    STORAGE.checkedGroups,
+    JSON.stringify([...checkedGroups])
+  );
+
+  sessionStorage.setItem(
+    STORAGE.marked,
+    JSON.stringify([...marked])
+  );
+
+  /* Script correction vẫn giữ lâu dài */
+  localStorage.setItem(
+    STORAGE.scriptOverrides,
+    JSON.stringify(scriptOverrides)
+  );
+
+  updateProgress();
+  renderPalette();
+}
+  
 
   function updateProgress(){
     const n = Object.keys(answers).length, total = allQuestions.length;
@@ -493,9 +544,9 @@
       checkedGroups = new Set();
       marked = new Set();
 
-      localStorage.removeItem(STORAGE.answers);
-      localStorage.removeItem(STORAGE.checkedGroups);
-      localStorage.removeItem(STORAGE.marked);
+sessionStorage.removeItem(STORAGE.answers);
+sessionStorage.removeItem(STORAGE.checkedGroups);
+sessionStorage.removeItem(STORAGE.marked);
 
       part = 1;
       indexInPart = 0;
