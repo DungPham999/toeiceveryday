@@ -511,3 +511,113 @@ body.is-resizing{
   font-size: 22px;
   line-height: 1;
 }
+
+
+
+
+/* ===== COMPACT STICKY READING HEADER ===== */
+@media (min-width:901px){
+
+  /* 1. Thu nhỏ header */
+  .test-header{
+    position:sticky;
+    top:0;
+    z-index:30;
+
+    grid-template-columns:
+      minmax(220px,1fr)
+      minmax(170px,240px)
+      auto;
+
+    gap:14px;
+    padding:9px 18px;
+
+    align-items:center;
+  }
+
+  .kicker{
+    font-size:10px;
+    letter-spacing:1.4px;
+  }
+
+  .title-line h1{
+    font-size:21px;
+    margin:1px 0 0;
+  }
+
+
+  /* 2. Progress nhỏ hơn */
+  .progress-wrap{
+    min-width:150px;
+    font-size:11px;
+  }
+
+  .progress-track{
+    height:6px;
+    margin-top:5px;
+  }
+
+
+  /* 3. 4 nút luôn nằm trên 1 hàng */
+  .header-actions{
+    display:flex !important;
+    flex-wrap:nowrap !important;
+    align-items:center;
+    justify-content:flex-end;
+
+    gap:6px;
+  }
+
+  .header-action-btn{
+    min-height:34px;
+    height:34px;
+
+    padding:0 9px;
+
+    border-width:1.5px;
+    border-radius:9px;
+
+    font-size:12px;
+    font-weight:800;
+
+    white-space:nowrap;
+  }
+
+
+  /* 4. Part 5/6/7 cố định ngay dưới header */
+  .part-tabs{
+    position:sticky;
+    top:59px;
+    z-index:29;
+
+    padding:6px 18px;
+    gap:6px;
+
+    background:#fffaf3;
+  }
+
+  .part-tabs button{
+    min-width:72px;
+    min-height:34px;
+
+    padding:0 12px;
+
+    border-radius:9px;
+    font-size:13px;
+  }
+
+
+  /* 5. Đưa bài đọc lên sát hơn */
+  .test-shell{
+    margin-top:12px;
+  }
+
+
+  /* 6. Tận dụng thêm chiều cao cho Part 6/7 */
+  .reading-set{
+    height:calc(100vh - 125px);
+    min-height:500px;
+  }
+
+}
+
