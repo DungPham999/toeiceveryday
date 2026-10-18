@@ -13,6 +13,6 @@
      (e.questions||[]).forEach(q=>{q.image=fix(q.image);q.graphic=fix(q.graphic)});
      (e.sets||[]).forEach(t=>{t.image=fix(t.image);t.graphic=fix(t.graphic)});
    }));
-   await load("./app.js?v=1");
+   await load("./app.js?v=2");
  }catch(e){console.error(e);fail(e.message)}
 })();
