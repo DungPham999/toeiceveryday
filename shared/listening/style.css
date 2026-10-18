@@ -698,3 +698,176 @@ body.palette-open-body{overflow:hidden}
     font-size:12px;
   }
 }
+
+
+
+/* =========================================================
+   LISTENING - COMPACT STICKY HEADER
+   ========================================================= */
+
+@media (min-width: 761px){
+
+  :root{
+    --listening-topbar-height:66px;
+  }
+
+  /* ===== HEADER CHÍNH ===== */
+  .topbar{
+    position:sticky;
+    top:0;
+    z-index:50;
+
+    height:var(--listening-topbar-height);
+    min-height:var(--listening-topbar-height);
+
+    padding:7px 18px;
+    gap:14px;
+
+    background:rgba(255,253,248,.97);
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 2px 8px rgba(70,45,15,.05);
+  }
+
+
+  /* TOEIC LISTENING PRACTICE */
+  .eyebrow{
+    font-size:9px;
+    line-height:1;
+    letter-spacing:1.4px;
+  }
+
+
+  /* ETS 2026 · Test 4 */
+  .topbar h1{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    flex-wrap:nowrap;
+
+    margin:3px 0 0;
+
+    font-size:20px;
+    line-height:1.05;
+
+    white-space:nowrap;
+  }
+
+
+  /* Full Test */
+  .topbar h1 span{
+    flex:0 0 auto;
+
+    padding:3px 6px;
+
+    font-size:9px;
+    line-height:1;
+
+    border-radius:999px;
+  }
+
+
+  /* ===== KHU VỰC BÊN PHẢI ===== */
+  .topbar-actions{
+    flex:1;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+
+    gap:8px;
+    min-width:0;
+  }
+
+
+  /* Progress */
+  .progress-wrap{
+    width:150px;
+    flex:0 0 150px;
+
+    font-size:10px;
+  }
+
+  .progress{
+    height:4px;
+    margin-top:3px;
+  }
+
+
+  /* ===== 4 NÚT CHỨC NĂNG ===== */
+  .header-actions{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+
+    flex-wrap:nowrap;
+
+    gap:6px;
+  }
+
+  .header-action-btn{
+    width:auto;
+    min-height:34px;
+
+    padding:0 11px;
+
+    border-width:1.5px;
+    border-radius:9px;
+
+    font-size:12px;
+    font-weight:800;
+
+    gap:5px;
+
+    white-space:nowrap;
+  }
+
+
+  /* Nếu Danh sách câu hỏi dùng class palette-open riêng */
+  .palette-open{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    min-height:34px;
+
+    padding:0 11px;
+
+    border-width:1.5px;
+    border-radius:9px;
+
+    font-size:12px;
+    font-weight:800;
+
+    white-space:nowrap;
+  }
+
+
+  /* ===== PART 1 / 2 / 3 / 4 ===== */
+  .part-tabs{
+    position:sticky;
+    top:var(--listening-topbar-height);
+    z-index:49;
+
+    padding:5px 18px;
+    gap:6px;
+
+    background:rgba(255,250,243,.97);
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 2px 6px rgba(70,45,15,.04);
+  }
+
+  .part-tabs button{
+    min-width:72px;
+    min-height:32px;
+
+    padding:0 13px;
+
+    border-radius:8px;
+
+    font-size:12px;
+    font-weight:850;
+  }
+
+}
