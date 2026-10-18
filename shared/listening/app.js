@@ -182,7 +182,7 @@
 
       const title = document.createElement('div');
       title.className = 'q-title';
-      const hide = part <= 2 && = currentItem.hideBeforeAnswer && !checked;
+      const hide  = currentItem.hideBeforeAnswer && !checked;
       title.textContent = `${q.n}. ${q.prompt}`;
       if (hide && part === 2) title.classList.add('hidden-text');
       if (part === 1) title.textContent = `${q.n}. Select the best response.`;
