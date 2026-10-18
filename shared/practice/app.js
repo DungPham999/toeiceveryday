@@ -4,7 +4,7 @@ const exercises=[];(D.sections||[]).forEach(s=>(s.exercises||[]).forEach(e=>exer
 if(!exercises.length)throw new Error("Unit chưa có Exercise.");
 const parts=[...new Set(exercises.map(e=>+e.part))].sort((a,b)=>a-b);
 const base=D.storageKey||"toeic-practice",K={a:base+"-answers",c:base+"-checked",m:base+"-marked",w:base+"-p7-width"};
-const load=(k,f)=>{try{return JSON.parse(localStorage.getItem(k)||JSON.stringify(f))}catch{return f}};
+const load=(k,f)=>{try{return JSON.parse(sessionStorage.getItem(k)||JSON.stringify(f))}catch{return f}};
 let answers=load(K.a,{}),checked=new Set(load(K.c,[])),marked=new Set(load(K.m,[])),p7width=+localStorage.getItem(K.w)||52;
 let part=parts[0],exIndex=0,itemIndex=0,focus=null,currentEx,currentItem,speedIndex=1;const speeds=[.75,1,1.25];
 $("unitTitle").textContent=D.title||"Practice Unit";$("paletteKicker").textContent=(D.title||"Practice Unit").toUpperCase();
@@ -23,7 +23,16 @@ const itemDone=it=>it.questions.every(answered);
 const qChecked=(q,it,e)=>[1,2,5].includes(+e.part)?answered(q):checked.has(it.id);
 const correct=(q,it,e)=>qChecked(q,it,e)&&answers[q.n]===q.answer, wrong=(q,it,e)=>qChecked(q,it,e)&&answers[q.n]!==q.answer;
 const esc=s=>String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
-function save(){localStorage.setItem(K.a,JSON.stringify(answers));localStorage.setItem(K.c,JSON.stringify([...checked]));localStorage.setItem(K.m,JSON.stringify([...marked]));progress();palette()}
+
+function save(){
+  sessionStorage.setItem(K.a,JSON.stringify(answers));
+  sessionStorage.setItem(K.c,JSON.stringify([...checked]));
+  sessionStorage.setItem(K.m,JSON.stringify([...marked]));
+
+  progress();
+  palette();
+}
+ 
 function tabs(){
  $("partTabs").innerHTML="";parts.forEach(p=>{let b=document.createElement("button");b.textContent=`Part ${p}`;b.classList.toggle("active",p===part);b.onclick=()=>{part=p;exIndex=0;itemIndex=0;focus=null;render()};$("partTabs").appendChild(b)});
  $("exerciseTabs").innerHTML="";exs(part).forEach((e,i)=>{let b=document.createElement("button");b.textContent=e.label||`Exercise ${i+1}`;b.classList.toggle("active",i===exIndex);b.onclick=()=>{exIndex=i;itemIndex=0;focus=null;render()};$("exerciseTabs").appendChild(b)})
@@ -133,7 +142,7 @@ function move(dir){
 $("prevBtn").onclick=()=>move(-1);$("nextBtn").onclick=()=>move(1);
 const openPalette=()=>{$("paletteOverlay").classList.remove("hidden");palette()},closePalette=()=>$("paletteOverlay").classList.add("hidden");
 $("paletteBtn").onclick=openPalette;$("paletteClose").onclick=closePalette;$("paletteOverlay").onclick=e=>{if(e.target===$("paletteOverlay"))closePalette()};
-$("resetBtn").onclick=()=>{if(!confirm("Bạn có chắc muốn làm lại toàn bộ Practice Unit?"))return;answers={};checked=new Set();marked=new Set();[K.a,K.c,K.m].forEach(k=>localStorage.removeItem(k));part=parts[0];exIndex=0;itemIndex=0;focus=null;progress();render()};
+$("resetBtn").onclick=()=>{if(!confirm("Bạn có chắc muốn làm lại toàn bộ Practice Unit?"))return;answers={};checked=new Set();marked=new Set();[K.a,K.c,K.m].forEach(k=>sessionStorage.removeItem(k));part=parts[0];exIndex=0;itemIndex=0;focus=null;progress();render()};
 
 // Audio
 function fmt(s){if(!isFinite(s))return"00:00";return`${String(Math.floor(s/60)).padStart(2,"0")}:${String(Math.floor(s%60)).padStart(2,"0")}`}
