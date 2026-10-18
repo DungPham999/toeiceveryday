@@ -5813,7 +5813,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 32–34",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 32,
@@ -6023,7 +6023,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 35–37",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 35,
@@ -6233,7 +6233,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 38–40",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 38,
@@ -6445,7 +6445,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 41–43",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 41,
@@ -6656,7 +6656,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 44–46",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 44,
@@ -6866,7 +6866,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 47–49",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 47,
@@ -7076,7 +7076,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 50–52",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 50,
@@ -7285,7 +7285,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 53–55",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 53,
@@ -7500,7 +7500,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 56–58",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 56,
@@ -7712,7 +7712,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 59–61",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 59,
@@ -7923,7 +7923,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 62–64",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 62,
@@ -8136,7 +8136,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 65–67",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 65,
@@ -8349,7 +8349,7 @@ window.TEST_DATA = [
     "part": 3,
     "label": "Questions 68–70",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 68,
@@ -8561,7 +8561,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 71–73",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 71,
@@ -8768,7 +8768,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 74–76",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 74,
@@ -8975,7 +8975,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 77–79",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 77,
@@ -9182,7 +9182,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 80–82",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 80,
@@ -9389,7 +9389,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 83–85",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 83,
@@ -9596,7 +9596,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 86–88",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 86,
@@ -9803,7 +9803,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 89–91",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 89,
@@ -10010,7 +10010,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 92–94",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 92,
@@ -10217,7 +10217,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 95–97",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 95,
@@ -10425,7 +10425,7 @@ window.TEST_DATA = [
     "part": 4,
     "label": "Questions 98–100",
     "audio": "assets/audio/Test_05.mp3",
-    "hideBeforeAnswer": true,
+    "hideBeforeAnswer": false,
     "questions": [
       {
         "n": 98,
