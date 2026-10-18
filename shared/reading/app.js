@@ -47,7 +47,7 @@ if(testTitleEl){
   let marked = new Set(load('marked', []));
 
   const allQuestions = [
-    ...data.part5.map(q => ({...q, setId:q.id})),
+    ...data.part5.map(q => ({...q, part:5, setId:q.id})),
     ...data.part6.flatMap(s => s.questions.map(q => ({...q, part:6, setId:s.id}))),
     ...data.part7.flatMap(s => s.questions.map(q => ({...q, part:7, setId:s.id})))
   ];
