@@ -80,7 +80,21 @@ function source(){
    $("audioCard").classList.remove("hidden");
    const src=currentItem.image||currentItem.graphic;if(src){const im=document.createElement("img");im.src=src;im.alt="TOEIC visual";$("visualWrap").appendChild(im)}
    if(currentEx.audio&&audio.getAttribute("src")!==currentEx.audio)audio.src=currentEx.audio;
-   const b=bounds();if(audio.readyState>=1)audio.currentTime=b.start;$("duration").textContent=fmt(Math.max(0,b.end-b.start));drawWave();
+const b=bounds();
+
+if(
+  audio.readyState>=1 &&
+  (
+    audio.currentTime < b.start ||
+    audio.currentTime > b.end
+  )
+){
+  audio.currentTime=b.start;
+}
+
+$("duration").textContent=fmt(Math.max(0,b.end-b.start));
+drawWave();
+  
    if(([1,2].includes(part)&&currentItem.questions.every(answered))||([3,4].includes(part)&&checked.has(currentItem.id)))showScript();
  } else if([6,7].includes(part)){
    $("passageWrap").classList.remove("hidden");$("passageHtml").innerHTML=currentItem.passageHtml||currentEx.passageHtml||"<p>Passage unavailable.</p>";
