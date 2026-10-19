@@ -11,7 +11,7 @@ window.PRACTICE_DATA = {
         { number:3, start:98.88, end:122.34, image:"assets/images/q03.jpg", choices:["A", "B", "C", "D"], answer:1, script:["(A) One of the women is leaning over a trash can.", "(B) One of the women is looking at a post on a bulletin board.", "(C) One of the women is standing next to an entrance.", "(D) One of the women is counting money from a machine."] },
         { number:4, start:127.53, end:149.57, image:"assets/images/q04.jpg", choices:["A", "B", "C", "D"], answer:0, script:["(A) A car has been parked beside a building.", "(B) A door has been propped open.", "(C) There’s a sign posted on a fence.", "(D) Some plants have been arranged in a row."] },
         { number:5, start:154.73, end:175.02, image:"assets/images/q05.jpg", choices:["A", "B", "C", "D"], answer:3, script:["(A) Some light fixtures are being installed.", "(B) A display case is being wiped.", "(C) A server is distributing menus.", "(D) A server is taking an order."] },
-        { number:6, start:180.11, end:201.80, image:"assets/images/q06.jpg", choices:["A", "B", "C", "D"], answer:1, script:["(A) A vehicle is covered in snow.", "(B) Some equipment is leaning against a truck.", "(C) He’s driving a vehicle through some snow.", "(D) He’s closing the back of a truck."] },
+        { number:6, start:180.11, end:204.80, image:"assets/images/q06.jpg", choices:["A", "B", "C", "D"], answer:1, script:["(A) A vehicle is covered in snow.", "(B) Some equipment is leaning against a truck.", "(C) He’s driving a vehicle through some snow.", "(D) He’s closing the back of a truck."] },
       ]
     }]},
     { label: "Part 2", exercises: [{
