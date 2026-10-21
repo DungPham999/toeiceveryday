@@ -1318,10 +1318,10 @@ window.PRACTICE_DATA = {
                 },
                 {
                   "number": 76,
-                  "prompt": "What will the listeners do a´er opening the facility?",
+                  "prompt": "What will the listeners do after opening the facility?",
                   "choices": [
                     "Rent lockers to guests",
-                    "Check membership idenUﬁcaUon cards",
+                    "Check membership identiﬁcation cards",
                     "Fold towels",
                     "Answer phones"
                   ],
@@ -1456,7 +1456,7 @@ window.PRACTICE_DATA = {
                 },
                 {
                   "number": 85,
-                  "prompt": "What will happen next in the meeJng?",
+                  "prompt": "What will happen next in the meeting?",
                   "choices": [
                     "A product demonstraUon",
                     "A brainstorming session",
@@ -1551,7 +1551,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Why should tenants stop at the main oﬃce?",
                   "choices": [
                     "To pay a laundry fee",
-                    "To pick up a quesUonnaire",
+                    "To pick up a questionnaire",
                     "To sign a permission form",
                     "To receive a new key"
                   ],
@@ -1633,7 +1633,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "It does not oﬀer discounts.",
                     "It operates outside the local area.",
-                    "It is a compeUtor.",
+                    "It is a competitor.",
                     "It has strict rules for employees."
                   ],
                   "answer": 2,
