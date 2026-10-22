@@ -1,7 +1,7 @@
 [
     {
     "id": "pre-practice-0",
-    "title": "Pre-Practice 1-2025",
+    "title": "Pre-Progress 1-2024",
     "group": "Pre",
     "parts": [
       1,
@@ -9,12 +9,12 @@
       5,
       6
     ],
-    "description": "Practice Unit kết hợp Listening và Reading.",
+    "description": "Toeic Practice Listening and Reading",
     "status": "active"
   },
   {
     "id": "pre-practice-1",
-    "title": "Pre-Practice 1-2026",
+    "title": "Pre-Practice-2026",
     "group": "Pre",
     "parts": [
       1,
@@ -22,7 +22,7 @@
       5,
       6
     ],
-    "description": "Practice Unit kết hợp Listening và Reading.",
+    "description": "Toeic Practice Listening and Reading",
     "status": "active"
   },
 {
@@ -183,7 +183,7 @@
       5,
       6
     ],
-    "description": "Practice Unit kết hợp Listening và Reading.",
+    "description": "A_Progress Test 1_2024",
     "status": "active"
   }
   
