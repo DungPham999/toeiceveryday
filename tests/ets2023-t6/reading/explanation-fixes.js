@@ -21,7 +21,7 @@ window.READING_EXPLANATION_FIXES = {
   "120": "Cần một trạng từ để bổ nghĩa cho động từ “states”, nên đáp án đúng là D.",
   "121": "Câu đang cần một đại từ phản thân để nhấn mạnh hành động của chủ ngữ, nên đáp án đúng là D.",
   "122": "Chủ ngữ là “his train” nên cần một động từ ở dạng bị động để tạo thành câu hoàn chỉnh ở mệnh đề “as his train was unexpectedly-----”, nên đáp án đúng là C.",
-  "123": "Chọn đáp án đúng dựa vào nghĩa của câu. \nA. trong khi \nB. vì vậy \nC. tại vì \nD. cũng",
+  "123": "Chọn đáp án đúng dựa vào nghĩa của câu. \nA. trong khi_nói về thời gian \nB. vì vậy \nC. trong khi_nói về 2 việc đối lập \nD. cũng",
   "124": "Loại B và C do không phù hợp về nghĩa A và D phù hợp về nghĩa tuy nhiên loại A do “objectionable” đi kèm với sự vật, sự việc Eg: objectionable things, find the idea objectionable → Đáp án đúng là D (opposed to sth)",
   "125": "Chọn đáp án đúng dựa vào nghĩa của câu. \nA. Làm thế nào \nB. Sau đó \nC. Khi nào \nD. Ở đâu",
   "126": "Câu đang cần một tính từ đứng sau động từ to be, nên đáp án đúng là A.",
