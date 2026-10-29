@@ -254,7 +254,7 @@ window.PRACTICE_DATA = {
                   "explanation": "that We agree with you that the instructions ... are potentially confusing. agree with someone that + clause = đồng ý với ai rằng... On có thể dùng trong agree on a plan, nhưng ở đây theo sau là cả clause. Collocation: agree with someone that...; instruction manual = sách hướng dẫn."
                 },
                 {
-                  "number": 132,
+                  "number": 18,
                   "prompt": "Question 132",
                   "choices": [
                     "The BX2000 camera is one of our top-selling models.",
@@ -266,7 +266,7 @@ window.PRACTICE_DATA = {
                   "explanation": "We received similar feedback from other customers. Collocation: receive feedback from customers = nhận phản hồi khách hàng."
                 },
                 {
-                  "number": 133,
+                  "number": 19,
                   "prompt": "Question 133",
                   "choices": [
                     "instead",
@@ -278,7 +278,7 @@ window.PRACTICE_DATA = {
                   "explanation": "therefore"
                 },
                 {
-                  "number": 134,
+                  "number": 20,
                   "prompt": "Question 134",
                   "choices": [
                     "original",
@@ -296,7 +296,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Saul Ortega &lt;Saul_ortega@jmail.net&gt;\nFrom: Karen Morris &lt;k_morris@tknmanufacturing.com&gt;\nDate: October 18\nSubject: Factory Manager position</div><p>Dear Mr. Ortega,</p><p>You are officially invited to a second interview. This time, I will be meeting only with the top candidates to determine who is most <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span> for the manager position. I believe you possess many of the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> we are looking for.</p><p>I trust that you remain interested in this job opportunity. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span>, would a 1:00 p.m. appointment next Tuesday work for you? Please prepare a proposal that explains how you would increase production at our plant without decreasing quality. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span></p><p>Best regards,<br>Karen Morris<br>TKN Manufacturing<br>202-555-0127 ext. 23</p></div>",
               "questions": [
                 {
-                  "number": 135,
+                  "number": 21,
                   "prompt": "Question 135",
                   "choices": [
                     "suiting",
@@ -308,7 +308,7 @@ window.PRACTICE_DATA = {
                   "explanation": "suitable who is most suitable for the manager position be suitable for = phù hợp với. A suiting; C suit verb; D suits verb. Collocation: suitable for a position = phù hợp với vị trí."
                 },
                 {
-                  "number": 136,
+                  "number": 22,
                   "prompt": "Question 136",
                   "choices": [
                     "agreements",
@@ -320,7 +320,7 @@ window.PRACTICE_DATA = {
                   "explanation": "qualities possess many of the qualities we are looking for = có nhiều phẩm chất mà chúng tôi tìm kiếm. Agreements/performances/promotions sai nghĩa. Collocation: possess qualities = có phẩm chất; look for qualities in a candidate."
                 },
                 {
-                  "number": 137,
+                  "number": 23,
                   "prompt": "Question 137",
                   "choices": [
                     "Despite that",
@@ -332,7 +332,7 @@ window.PRACTICE_DATA = {
                   "explanation": "If so"
                 },
                 {
-                  "number": 138,
+                  "number": 24,
                   "prompt": "Question 138",
                   "choices": [
                     "I would certainly be happy to write a job reference for you.",
@@ -350,7 +350,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Do You Wear Eyeglasses? Contact Culler Solutions Today!</p><p>In June, Culler Solutions will be conducting a consumer study on behalf of Optometrica 21. To this end, we are <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> eyeglass wearers between the ages of 21 and 65. Participants must have a prescription that is less than two years old <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> the start of the study. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span></p><p>Interested individuals are requested to fill out a short survey at cullersolutions.com/eyeglass_study. Qualified applicants will be contacted by a member of our staff. Upon completion of the study, each participant <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> a gift card valued at $100.</p></div>",
               "questions": [
                 {
-                  "number": 139,
+                  "number": 25,
                   "prompt": "Question 139",
                   "choices": [
                     "seeking",
@@ -362,7 +362,7 @@ window.PRACTICE_DATA = {
                   "explanation": "seeking we are seeking eyeglass wearers... Present continuous: are seeking = đang tìm kiếm/tuyển người tham gia. B insuring, C promoting, D showing sai nghĩa. Collocation: seek participants = tìm người tham gia; conduct a consumer study = thực hiện nghiên cứu người tiêu dùng."
                 },
                 {
-                  "number": 140,
+                  "number": 26,
                   "prompt": "Question 140",
                   "choices": [
                     "except for",
@@ -374,7 +374,7 @@ window.PRACTICE_DATA = {
                   "explanation": "at less than two years old at the start of the study = chưa quá hai năm tại thời điểm nghiên cứu bắt đầu. Collocation: at the start of = vào lúc bắt đầu."
                 },
                 {
-                  "number": 141,
+                  "number": 27,
                   "prompt": "Question 141",
                   "choices": [
                     "We reserve the right to order discounted eyeglass frames.",
@@ -386,7 +386,7 @@ window.PRACTICE_DATA = {
                   "explanation": "We will need to request a copy of the document for confirmation. Collocation: request a copy of a document; for confirmation = để xác nhận."
                 },
                 {
-                  "number": 142,
+                  "number": 28,
                   "prompt": "Question 142",
                   "choices": [
                     "will receive",
@@ -404,7 +404,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Sunnyville Daily Times<br>Local News</p><p>(5 May)—On Monday, following a city council meeting, Mayor Tom Biel announced the introduction of training programs for aspiring city transportation workers. During the press conference, he noted the current <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> for both drivers and mechanics. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span>, he pointed to a wave of employee retirements as having triggered these urgent staffing needs. The announcement <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> with approval by most city officials. However, Nelton District Representative Laura Ochoa was unconvinced. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span></p></div>",
               "questions": [
                 {
-                  "number": 143,
+                  "number": 29,
                   "prompt": "Question 143",
                   "choices": [
                     "settlement",
@@ -416,7 +416,7 @@ window.PRACTICE_DATA = {
                   "explanation": "demand the current demand for both drivers and mechanics = nhu cầu hiện tại đối với tài xế và thợ máy. Settlement/reduction/difficulty sai nghĩa. Collocation: demand for + N = nhu cầu đối với."
                 },
                 {
-                  "number": 144,
+                  "number": 30,
                   "prompt": "Question 144",
                   "choices": [
                     "Specifically",
@@ -428,7 +428,7 @@ window.PRACTICE_DATA = {
                   "explanation": "Specifically"
                 },
                 {
-                  "number": 145,
+                  "number": 31,
                   "prompt": "Question 145",
                   "choices": [
                     "will be meeting",
@@ -440,7 +440,7 @@ window.PRACTICE_DATA = {
                   "explanation": "was met The announcement was met with approval by most city officials. Cụm bị động cố định. Collocation: be met with approval = nhận được sự tán thành; staffing needs = nhu cầu nhân sự."
                 },
                 {
-                  "number": 146,
+                  "number": 32,
                   "prompt": "Question 146",
                   "choices": [
                     "She expects ticket prices to fall in response to complaints.",
@@ -470,7 +470,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: jaredkho@pharmacon.com.au\nFrom: angelazucker@umedvic.edu.au\nDate: 22 June\nSubject: Thanks!</div><p>Dear Dr. Kho,</p><p>Thanks for <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> our laboratory yesterday. As always, your expertise <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span>. Our technicians especially benefited from your demonstration of the updated imaging systems, as well as from the general discussion of principles behind the technological advances in the lab setting.</p><p>Over the next few months, I will be hiring several more technicians. Would <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> be available to lead another session in October? <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> Please let me know so we can discuss the details.</p><p>Sincerely,<br>Angela Zucker</p></div>",
               "questions": [
                 {
-                  "number": 131,
+                  "number": 33,
                   "prompt": "Question 131",
                   "choices": [
                     "calling",
@@ -482,7 +482,7 @@ window.PRACTICE_DATA = {
                   "explanation": "visiting Thanks for visiting our laboratory yesterday. thanks for + V-ing. Collocation: thanks for V-ing; visit a laboratory."
                 },
                 {
-                  "number": 132,
+                  "number": 34,
                   "prompt": "Question 132",
                   "choices": [
                     "appreciates",
@@ -494,7 +494,7 @@ window.PRACTICE_DATA = {
                   "explanation": "was appreciated your expertise was appreciated. Collocation: expertise is appreciated = chuyên môn được đánh giá cao."
                 },
                 {
-                  "number": 133,
+                  "number": 35,
                   "prompt": "Question 133",
                   "choices": [
                     "theirs",
@@ -506,7 +506,7 @@ window.PRACTICE_DATA = {
                   "explanation": "you Would you be available to lead another session...? Sau modal would cần chủ ngữ → you. Collocation: be available to V; lead a session = dẫn dắt một buổi."
                 },
                 {
-                  "number": 134,
+                  "number": 36,
                   "prompt": "Question 134",
                   "choices": [
                     "Many of the candidates seem very promising.",
@@ -524,7 +524,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>BRENTON (March 22)—Yesterday, Brenton Railway won a $37 million grant from the Federal Transit Agency. Thanks to the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>, construction of the proposed train terminal in Kirk Valley can now begin.</p><p>The expansion of the rail system is certainly good news for many in the community. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> Drivers, too, are pleased about the grant. Edgar Simental, <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> lives near the planned Kirk Valley Station, says, “What a relief for commuters like me. We have had to endure steadily worsening road traffic <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> some time now. I anticipate taking the train instead of my car to work every day as soon as the station opens.”</p></div>",
               "questions": [
                 {
-                  "number": 135,
+                  "number": 37,
                   "prompt": "Question 135",
                   "choices": [
                     "funding",
@@ -536,7 +536,7 @@ window.PRACTICE_DATA = {
                   "explanation": "funding Thanks to the funding, construction ... can now begin. Khoản grant 37 triệu chính là funding. Collocation: receive/win funding = nhận nguồn tài trợ; thanks to = nhờ vào."
                 },
                 {
-                  "number": 136,
+                  "number": 38,
                   "prompt": "Question 136",
                   "choices": [
                     "Riders will no longer be able to park their cars at the terminal.",
@@ -548,7 +548,7 @@ window.PRACTICE_DATA = {
                   "explanation": "The project will create about 75 permanent jobs at the station. Collocation: create permanent jobs."
                 },
                 {
-                  "number": 137,
+                  "number": 39,
                   "prompt": "Question 137",
                   "choices": [
                     "likewise",
@@ -560,7 +560,7 @@ window.PRACTICE_DATA = {
                   "explanation": "who Edgar Simental, who lives near... Non-defining relative clause → who chỉ người."
                 },
                 {
-                  "number": 138,
+                  "number": 40,
                   "prompt": "Question 138",
                   "choices": [
                     "for",
@@ -578,7 +578,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Josephine Blum &lt;jblum@serenelakerestaurant.net&gt;\nFrom: Charlie Timmer &lt;ctimmer@serenelakerestaurant.net&gt;\nRe: Outstanding reviews\nDate: April 2</div><p>Dear Josephine,</p><p>The other managers and I were pleased to read the recent glowing reviews in both the Gazette Daily Press and the Downtowner. We agree that your contributions to Serene Lake Restaurant have been <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span>. We are happy <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> you a bonus that will be paid with your next weekly paycheck on April 8.</p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> We are raising your salary by 10 percent, effective May 1. Since you began as Executive Chef in December, our sales have more than doubled. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> These positive trends are directly linked to your stellar performance.</p><p>Many thanks from the management team of Serene Lake Restaurant.</p></div>",
               "questions": [
                 {
-                  "number": 139,
+                  "number": 41,
                   "prompt": "Question 139",
                   "choices": [
                     "withdrawn",
@@ -590,7 +590,7 @@ window.PRACTICE_DATA = {
                   "explanation": "exceptional your contributions ... have been exceptional = những đóng góp của bạn rất xuất sắc. Các đáp án khác sai nghĩa. Collocation: exceptional contribution/performance."
                 },
                 {
-                  "number": 140,
+                  "number": 42,
                   "prompt": "Question 140",
                   "choices": [
                     "to award",
@@ -602,7 +602,7 @@ window.PRACTICE_DATA = {
                   "explanation": "to award we are happy to award you a bonus be happy to + V. Collocation: award someone a bonus = trao thưởng cho ai."
                 },
                 {
-                  "number": 141,
+                  "number": 43,
                   "prompt": "Question 141",
                   "choices": [
                     "For example",
@@ -614,7 +614,7 @@ window.PRACTICE_DATA = {
                   "explanation": "In addition"
                 },
                 {
-                  "number": 142,
+                  "number": 44,
                   "prompt": "Question 142",
                   "choices": [
                     "An assistant manager will be hired as soon as possible.",
@@ -632,7 +632,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Education Fair</p><p>(9 July)—The annual International Higher Education Fair came to Jakarta for the third consecutive year on Saturday, 7 July. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> As usual, American and Australian universities were <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> represented. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span>, observers noted that participation from European and Asian universities has been increasing year by year. Also noticeable was the fact that many more graduate students attended the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> this year than in the past.</p></div>",
               "questions": [
                 {
-                  "number": 143,
+                  "number": 45,
                   "prompt": "Question 143",
                   "choices": [
                     "A teachers’ conference was also held at the same hotel.",
@@ -644,7 +644,7 @@ window.PRACTICE_DATA = {
                   "explanation": "The fair featured hundreds of institutions from all over the world."
                 },
                 {
-                  "number": 144,
+                  "number": 46,
                   "prompt": "Question 144",
                   "choices": [
                     "heavy",
@@ -656,7 +656,7 @@ window.PRACTICE_DATA = {
                   "explanation": "heavily universities were heavily represented = các trường được đại diện/tham gia với số lượng lớn. Collocation: be heavily represented = có sự hiện diện đông đảo."
                 },
                 {
-                  "number": 145,
+                  "number": 47,
                   "prompt": "Question 145",
                   "choices": [
                     "Moreover",
@@ -668,7 +668,7 @@ window.PRACTICE_DATA = {
                   "explanation": "Moreover"
                 },
                 {
-                  "number": 146,
+                  "number": 48,
                   "prompt": "Question 146",
                   "choices": [
                     "class",
@@ -698,7 +698,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: Young Ho Woo, Office of Professional Development\nTo: All employees\nSubject: Lecture series\nDate: Tuesday, October 1</div><p>Dear Colleagues,</p><p>The first of our Surveying the Field lectures will be held on October 3. This <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> lecture will be led by Roberto Colon, founder of the successful Start-up Radio Dedicate. Mr. Colon <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span> what established technology companies can learn from start-up businesses. Mr. Colon’s talk is the only one in the series that addresses start-ups. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span></p><p>As you know, Mr. Colon is a great leader in the industry, so we hope all staff will be present. Nevertheless, you must seek <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> your manager before attending.</p><p>Thank you,<br>Young Ho Woo</p></div>",
               "questions": [
                 {
-                  "number": 131,
+                  "number": 49,
                   "prompt": "Question 131",
                   "choices": [
                     "final",
@@ -710,7 +710,7 @@ window.PRACTICE_DATA = {
                   "explanation": "upcoming This upcoming lecture will be led by... = bài giảng sắp tới. Final/daily/revised không phù hợp ngữ cảnh bài đầu tiên. Collocation: upcoming lecture/event = bài giảng/sự kiện sắp tới."
                 },
                 {
-                  "number": 132,
+                  "number": 50,
                   "prompt": "Question 132",
                   "choices": [
                     "discussed",
@@ -722,7 +722,7 @@ window.PRACTICE_DATA = {
                   "explanation": "will discuss Mr. Colon will discuss... Collocation: discuss what companies can learn from..."
                 },
                 {
-                  "number": 133,
+                  "number": 51,
                   "prompt": "Question 133",
                   "choices": [
                     "Many large technology companies are privately owned.",
@@ -734,7 +734,7 @@ window.PRACTICE_DATA = {
                   "explanation": "The rest will deal with various other topics, including marketing and customer service. Collocation: deal with a topic = đề cập/xử lý chủ đề."
                 },
                 {
-                  "number": 134,
+                  "number": 52,
                   "prompt": "Question 134",
                   "choices": [
                     "approving",
@@ -752,7 +752,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>January 28</p><p>Ojas Ramachandran<br>Sawat Clothing Company<br>Bengaluru 560 001<br>Karnataka, India</p><p>Dear Mr. Ramachandran:</p><p>We are writing to let you know about a temporary <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span> in our order fulfillment service. On March 20, we will begin moving all of our inventory to a new warehouse in Kyoto. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> The move will take up to two weeks, <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> which time we will be unable to ship overseas orders. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> any delays, please place your next order by March 14. If you have any questions, please don’t hesitate to contact me.</p><p>Sincerely,<br>Aiko Oba<br>Customer Service Director</p></div>",
               "questions": [
                 {
-                  "number": 135,
+                  "number": 53,
                   "prompt": "Question 135",
                   "choices": [
                     "extension",
@@ -764,7 +764,7 @@ window.PRACTICE_DATA = {
                   "explanation": "disruption a temporary disruption in our order fulfillment service = sự gián đoạn tạm thời. Extension = gia hạn; solution = giải pháp; improvement = cải thiện → sai nghĩa. Collocation: temporary disruption; order fulfillment = xử lý/hoàn tất đơn hàng."
                 },
                 {
-                  "number": 136,
+                  "number": 54,
                   "prompt": "Question 136",
                   "choices": [
                     "This will allow us to keep a larger variety of items in stock.",
@@ -776,7 +776,7 @@ window.PRACTICE_DATA = {
                   "explanation": "This will allow us to keep a larger variety of items in stock. Collocation: keep items in stock = duy trì hàng tồn kho."
                 },
                 {
-                  "number": 137,
+                  "number": 55,
                   "prompt": "Question 137",
                   "choices": [
                     "rather than",
@@ -788,7 +788,7 @@ window.PRACTICE_DATA = {
                   "explanation": "during during which time we will be unable to ship... = trong khoảng thời gian đó."
                 },
                 {
-                  "number": 138,
+                  "number": 56,
                   "prompt": "Question 138",
                   "choices": [
                     "To avoid",
@@ -806,7 +806,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>GTC Public Meeting<br>May 7<br>By Josip Kovach</p><p>The Greenville Transportation Commission (GTC) will hold a public meeting at City Hall on Thursday, May 15, at 7 p.m., to discuss its proposal to extend light rail service to Greenville Industrial Park. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span></p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span>, the GTC has been studying the feasibility of installing noise barriers along the tracks. At the meeting, Leora Kelman, CEO of Acoustic Engineering, will explain how much noise reduction the GTC can <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> to achieve with the barriers. A <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> by Mayor Joe Rowan will follow.</p></div>",
               "questions": [
                 {
-                  "number": 139,
+                  "number": 57,
                   "prompt": "Question 139",
                   "choices": [
                     "The GTC completed the project ahead of schedule.",
@@ -818,7 +818,7 @@ window.PRACTICE_DATA = {
                   "explanation": "The rail line will run through a residential area. Collocation: residential area = khu dân cư; rail line = tuyến đường sắt."
                 },
                 {
-                  "number": 140,
+                  "number": 58,
                   "prompt": "Question 140",
                   "choices": [
                     "In addition",
@@ -830,7 +830,7 @@ window.PRACTICE_DATA = {
                   "explanation": "In response"
                 },
                 {
-                  "number": 141,
+                  "number": 59,
                   "prompt": "Question 141",
                   "choices": [
                     "remind",
@@ -842,7 +842,7 @@ window.PRACTICE_DATA = {
                   "explanation": "expect how much noise reduction the GTC can expect to achieve = GTC có thể kỳ vọng đạt được mức giảm tiếng ồn bao nhiêu. Collocation: expect to achieve; noise reduction = giảm tiếng ồn."
                 },
                 {
-                  "number": 142,
+                  "number": 60,
                   "prompt": "Question 142",
                   "choices": [
                     "present",
@@ -860,7 +860,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: rosgrove@lavilli.com\nTo: henriksson@skanenursery.se\nSubject: Svenska Yellow\nDate: April 2</div><p>Dear Mr. Henriksson,</p><p>I represent the Lavilli Garden Stores chain, which is now in the process of <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> its product range to include newly developed kinds of trees. We are interested in carrying Svenska Yellow apple saplings in our stores. Since this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> originated in Sweden, we contacted the Association of Swedish Fruit Producers, which recommended your apple nursery to us. On your Web site, it appears you do <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> have the product in stock. Initially, we would be interested in buying a small sample of saplings. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> Do you offer discounts for bulk purchases?</p><p>I look forward to hearing from you.</p><p>Sincerely,<br>Roger Osgrove<br>Lavilli Garden Stores</p></div>",
               "questions": [
                 {
-                  "number": 143,
+                  "number": 61,
                   "prompt": "Question 143",
                   "choices": [
                     "expanding",
@@ -872,7 +872,7 @@ window.PRACTICE_DATA = {
                   "explanation": "expanding in the process of expanding its product range. Note: \"of\" + N/ V-ing. Collocation: be in the process of V-ing; expand a product range = mở rộng danh mục sản phẩm."
                 },
                 {
-                  "number": 144,
+                  "number": 62,
                   "prompt": "Question 144",
                   "choices": [
                     "response",
@@ -884,7 +884,7 @@ window.PRACTICE_DATA = {
                   "explanation": "variety Since this variety originated in Sweden... = vì giống này có nguồn gốc Thụy Điển. Collocation: a variety of apple = một giống táo; originate in = bắt nguồn từ."
                 },
                 {
-                  "number": 145,
+                  "number": 63,
                   "prompt": "Question 145",
                   "choices": [
                     "indeed",
@@ -896,7 +896,7 @@ window.PRACTICE_DATA = {
                   "explanation": "indeed it appears you do indeed have the product in stock do indeed + V = quả thực/thực sự có. Alone/quite/ever không hợp. Collocation: have something in stock = có hàng sẵn."
                 },
                 {
-                  "number": 146,
+                  "number": 64,
                   "prompt": "Question 146",
                   "choices": [
                     "Our nursery has been family-owned for over 100 years.",
@@ -926,7 +926,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>B-B Chang International to buy Sieng Technology</p><p>SINGAPORE—B-B Chang International (BBCI) announced Wednesday that <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> would buy Sieng Technology in a deal valued at $450 million.</p><p>A spokesperson for BBCI said the company expects to double its profits by the end of next year. It will accomplish this by making full use of Sieng’s recently updated production facilities. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span></p><p>Financial experts believe the Sieng acquisition will make BBCI the world’s leading producer of circuits. “They will be well ahead of their <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span>,” said top analyst Rhoda Sutton.</p><p>B-B Chang plans to maintain Sieng’s current workforce, with each of Sieng’s factories continuing normal operations for the next five years. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span>, BBCI will evaluate whether additional staff are needed.</p></div>",
               "questions": [
                 {
-                  "number": 131,
+                  "number": 65,
                   "prompt": "Question 131",
                   "choices": [
                     "it",
@@ -938,7 +938,7 @@ window.PRACTICE_DATA = {
                   "explanation": "it BBCI announced that it would buy Sieng Technology. \"it\" thay cho công ty số ít. \"He/someone\" dùng cho người; \"those\" số nhiều. Collocation: buy/acquire a company; a deal valued at $450 million."
                 },
                 {
-                  "number": 132,
+                  "number": 66,
                   "prompt": "Question 132",
                   "choices": [
                     "Offers from other firms were rejected.",
@@ -950,7 +950,7 @@ window.PRACTICE_DATA = {
                   "explanation": "All four are operating at maximum capacity. Collocation: operate at maximum capacity = vận hành hết công suất."
                 },
                 {
-                  "number": 133,
+                  "number": 67,
                   "prompt": "Question 133",
                   "choices": [
                     "critics",
@@ -962,7 +962,7 @@ window.PRACTICE_DATA = {
                   "explanation": "competitors They will be well ahead of their competitors. = vượt xa các đối thủ. Collocation: be ahead of competitors = dẫn trước đối thủ; leading producer = nhà sản xuất hàng đầu."
                 },
                 {
-                  "number": 134,
+                  "number": 68,
                   "prompt": "Question 134",
                   "choices": [
                     "After all",
@@ -980,7 +980,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>The Treviso Inn: Reservations</p><p>We recommend reservations because hotel accommodations in Treviso are very <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>.</p><p>Reservations will be held with a one-night deposit or 50 percent of total room charges for stays of longer than one night. Cancellations made more than seven days prior to your scheduled arrival date <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> in full. If, for some reason, a reservation must be cancelled within one week of your scheduled arrival date, charges for the entire <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> of your stay will be billed to you. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span></p></div>",
               "questions": [
                 {
-                  "number": 135,
+                  "number": 69,
                   "prompt": "Question 135",
                   "choices": [
                     "limitation",
@@ -992,7 +992,7 @@ window.PRACTICE_DATA = {
                   "explanation": "limited hotel accommodations ... are very limited Sau are very cần adjective → limited. Collocation: limited accommodation/availability = chỗ ở/số chỗ hạn chế."
                 },
                 {
-                  "number": 136,
+                  "number": 70,
                   "prompt": "Question 136",
                   "choices": [
                     "will be refunded",
@@ -1004,7 +1004,7 @@ window.PRACTICE_DATA = {
                   "explanation": "will be refunded Collocation: be refunded in full = được hoàn tiền toàn bộ."
                 },
                 {
-                  "number": 137,
+                  "number": 71,
                   "prompt": "Question 137",
                   "choices": [
                     "area",
@@ -1016,7 +1016,7 @@ window.PRACTICE_DATA = {
                   "explanation": "length charges for the entire length of your stay = phí cho toàn bộ thời gian lưu trú. Collocation: length of stay = thời gian lưu trú."
                 },
                 {
-                  "number": 138,
+                  "number": 72,
                   "prompt": "Question 138",
                   "choices": [
                     "Hotel guests are welcome to use our fitness center.",
@@ -1034,7 +1034,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Laptop Funds Approved</p><p>New technology <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> to the students of Fairmont. On Tuesday, Mayor Suzanne Kuiper announced that her “Tech Now” proposal was approved by the Board of Supervisors. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span></p><p>The program allots $35,000 to each school in the city for the purchase of laptop computers. Students will be allowed to take home the laptops <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> of the time for special assignments and class projects, but they will normally be available to the students only <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> school hours.</p></div>",
               "questions": [
                 {
-                  "number": 139,
+                  "number": 73,
                   "prompt": "Question 139",
                   "choices": [
                     "came",
@@ -1046,7 +1046,7 @@ window.PRACTICE_DATA = {
                   "explanation": "is coming New technology is coming to the students of Fairmont. Present continuous diễn tả thay đổi/sự việc sắp xảy ra theo kế hoạch."
                 },
                 {
-                  "number": 140,
+                  "number": 74,
                   "prompt": "Question 140",
                   "choices": [
                     "The vote took place on Monday, June 2.",
@@ -1058,7 +1058,7 @@ window.PRACTICE_DATA = {
                   "explanation": "The vote took place on Monday, June 2. Collocation: proposal is approved; vote takes place = cuộc bỏ phiếu diễn ra."
                 },
                 {
-                  "number": 141,
+                  "number": 75,
                   "prompt": "Question 141",
                   "choices": [
                     "some",
@@ -1070,7 +1070,7 @@ window.PRACTICE_DATA = {
                   "explanation": "some take home the laptops some of the time = có thể mang laptop về nhà một số lúc/trong một số trường hợp."
                 },
                 {
-                  "number": 142,
+                  "number": 76,
                   "prompt": "Question 142",
                   "choices": [
                     "at",
@@ -1088,7 +1088,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>September 20</p><p>Ms. Amy Ellerson<br>Belgore Insurance Group<br>126 Sunrise Road<br>Teaneck, NJ 07666</p><p>Dear Ms. Ellerson:</p><p>Thank you for your purchase of 25 cases of premium paper from Bernstein Paper Products. Your online order was received on September 18 and is ready for shipping. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span></p><p>We appreciate that you have chosen to make the switch to Bernstein Paper Products for your company’s paper needs. To show our gratitude, we are applying a 5 percent discount to this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> order. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span>, we are including a reimbursement of shipping charges. Enclosed please find the adjusted invoice and a check for $58.38.</p><p>Bernstein Paper Products is pleased <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> you. We look forward to working with you in the future.</p><p>Sincerely,<br>Duri Yun</p></div>",
               "questions": [
                 {
-                  "number": 143,
+                  "number": 77,
                   "prompt": "Question 143",
                   "choices": [
                     "Your years of continued patronage are truly valued.",
@@ -1100,7 +1100,7 @@ window.PRACTICE_DATA = {
                   "explanation": "You may expect to receive your order in 5–7 business days. Collocation: ready for shipping = sẵn sàng giao; business days = ngày làm việc."
                 },
                 {
-                  "number": 144,
+                  "number": 78,
                   "prompt": "Question 144",
                   "choices": [
                     "upcoming",
@@ -1112,7 +1112,7 @@ window.PRACTICE_DATA = {
                   "explanation": "initial a 5 percent discount to this initial order = giảm 5% cho đơn hàng đầu tiên. Upcoming = sắp tới; complimentary = miễn phí/tặng; sequential = tuần tự. Collocation: initial order = đơn hàng đầu tiên; apply a discount to an order."
                 },
                 {
-                  "number": 145,
+                  "number": 79,
                   "prompt": "Question 145",
                   "choices": [
                     "However",
@@ -1124,7 +1124,7 @@ window.PRACTICE_DATA = {
                   "explanation": "In addition Collocation: in addition; reimbursement of shipping charges = hoàn lại phí vận chuyển."
                 },
                 {
-                  "number": 146,
+                  "number": 80,
                   "prompt": "Question 146",
                   "choices": [
                     "welcoming",
