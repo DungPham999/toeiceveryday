@@ -409,7 +409,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 34,
-              "prompt": "If it had rained one hour ago, the streets ………… wet.",
+              "prompt": "If it had rained one hour ago, the streets ………… wet now.",
               "choices": [
                 "would have been",
                 "will be",
