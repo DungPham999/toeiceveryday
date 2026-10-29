@@ -33,6 +33,16 @@
   "description": "Part 5 – Active & Passive, Pronoun, Word forms",
   "status": "active"
 },
+
+    {
+  "id": "2018-part-6",
+  "title": "Practice - Part 6 - 2018",
+  "group": "Part6",
+  "parts": [6],
+  "description": "Part 6",
+  "status": "active"
+},
+    
   
 {
   "id": "pre-read-5-6",
