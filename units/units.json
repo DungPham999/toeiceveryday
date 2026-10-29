@@ -42,7 +42,14 @@
   "description": "Part 6",
   "status": "active"
 },
-    
+     {
+  "id": "2019-part-6a",
+  "title": "Practice - Part 6 - 2019a",
+  "group": "Part6",
+  "parts": [6],
+  "description": "Part 6",
+  "status": "active"
+}, 
   
 {
   "id": "pre-read-5-6",
