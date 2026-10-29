@@ -1,5 +1,5 @@
 window.PRACTICE_DATA = {
-  "storageKey": "practice-2018-part-6",
+  "storageKey": "practice-2018-part-6-v2",
   "sections": [
     {
       "label": "Exercise 1 – Part 6",
