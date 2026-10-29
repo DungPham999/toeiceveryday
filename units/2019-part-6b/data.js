@@ -19,7 +19,7 @@ window.PRACTICE_DATA = {
                   "number": 1,
                   "prompt": "Question 131",
                   "choices": [
-                    "complication 1",
+                    "complication",
                     "complicated",
                     "complicates",
                     "complicate"
@@ -127,7 +127,7 @@ window.PRACTICE_DATA = {
                   "number": 9,
                   "prompt": "Question 139",
                   "choices": [
-                    "Between 1",
+                    "Between",
                     "After",
                     "Over",
                     "Inside"
@@ -475,7 +475,7 @@ window.PRACTICE_DATA = {
                   "number": 33,
                   "prompt": "Question 131",
                   "choices": [
-                    "local 1",
+                    "local",
                     "locals",
                     "locally",
                     "more locally"
@@ -490,7 +490,7 @@ window.PRACTICE_DATA = {
                     "reviews",
                     "issues",
                     "menus",
-                    "images 1:"
+                    "images"
                   ],
                   "answer": 3,
                   "explanation": "D. images; câu trước nói photographs of the critics sẽ được đặt tại welcome station, nên using these images = sử dụng những hình ảnh này; reviews = bài đánh giá, issues = vấn đề/số báo, menus = thực đơn, không thay thế photographs; collocation: use images to identify someone = dùng hình ảnh để nhận diện ai, welcome station = quầy tiếp đón."
@@ -583,7 +583,7 @@ window.PRACTICE_DATA = {
                   "number": 41,
                   "prompt": "Question 139",
                   "choices": [
-                    "to operate 14",
+                    "to operate",
                     "will operate",
                     "is operating",
                     "has operated"
@@ -610,7 +610,7 @@ window.PRACTICE_DATA = {
                     "Payment System 4.0 offers a variety of benefits.",
                     "New payroll software will be released soon.",
                     "We are having a special sale in June.",
-                    "| will e-mail each of you the exact installation date."
+                    "I will e-mail each of you the exact installation date."
                   ],
                   "answer": 0,
                   "explanation": "A. Payment System 4.0 offers a variety of benefits; câu sau liệt kê các lợi ích như nhanh hơn, xử lý nhiều loại giao dịch hơn và giảm verification, nên A là câu chủ đề phù hợp; B payroll software lệch chủ đề, C sale không liên quan, D ngày lắp đặt không dẫn sang lợi ích; collocation: offer a variety of benefits = mang lại nhiều lợi ích, handle transaction types = xử lý các loại giao dịch."
@@ -703,7 +703,7 @@ window.PRACTICE_DATA = {
                   "number": 49,
                   "prompt": "Question 131",
                   "choices": [
-                    "election 13",
+                    "election",
                     "broadcast",
                     "conference",
                     "performance"
@@ -718,7 +718,7 @@ window.PRACTICE_DATA = {
                     "can benefit",
                     "is benefiting",
                     "has benefited",
-                    "will have benefited 13"
+                    "will have benefited"
                   ],
                   "answer": 0,
                   "explanation": "A. can benefit; \"ASA membership can benefit your career\" = tư cách thành viên có thể mang lại lợi ích cho sự nghiệp; is benefiting hiện tại tiếp diễn kém tự nhiên, has benefited nói quá khứ đến hiện tại nhưng không phù hợp lời giới thiệu chung, will have benefited future perfect sai; collocation: benefit your career = có lợi cho sự nghiệp, networking opportunities = cơ hội kết nối nghề nghiệp."
@@ -757,7 +757,7 @@ window.PRACTICE_DATA = {
                   "number": 53,
                   "prompt": "Question 135",
                   "choices": [
-                    "offer 1",
+                    "offer",
                     "direct",
                     "pass",
                     "instruct"
@@ -811,7 +811,7 @@ window.PRACTICE_DATA = {
                   "number": 57,
                   "prompt": "Question 139",
                   "choices": [
-                    "Carefully 141",
+                    "Carefully",
                     "Apparently",
                     "Formerly",
                     "Rarely"
@@ -823,7 +823,7 @@ window.PRACTICE_DATA = {
                   "number": 58,
                   "prompt": "Question 140",
                   "choices": [
-                    "Fresh food can be refrigerated for up 142 to two days.",
+                    "Fresh food can be refrigerated for up to two days.",
                     "Many grocery stores have been extending their hours.",
                     "Most studies are published in consumer magazines.",
                     "The number increases to 20 percent in large cities."
@@ -865,7 +865,7 @@ window.PRACTICE_DATA = {
                   "number": 61,
                   "prompt": "Question 143",
                   "choices": [
-                    "financially ‘",
+                    "financially",
                     "financed",
                     "financial",
                     "finances"
@@ -931,7 +931,7 @@ window.PRACTICE_DATA = {
                   "number": 65,
                   "prompt": "Question 131",
                   "choices": [
-                    "suggest 1",
+                    "suggest",
                     "perform",
                     "cancel",
                     "revise"
@@ -943,10 +943,10 @@ window.PRACTICE_DATA = {
                   "number": 66,
                   "prompt": "Question 132",
                   "choices": [
-                    "The updates will be e-mailed to all 13 employees.",
+                    "The updates will be e-mailed to all employees.",
                     "Please reply if you would like to participate.",
                     "The process will begin tomorrow evening.",
-                    "Amemo will be distributed indicating the start time."
+                    "A memo will be distributed indicating the start time."
                   ],
                   "answer": 2,
                   "explanation": "C. The process will begin tomorrow evening; câu sau nêu chính xác Internet ngừng từ 7 P.M. tối hôm sau, nên C giới thiệu thời điểm bắt đầu quá trình; A gửi updates không liên quan, B reply vô lý, D memo sẽ phát trong tương lai dù đây chính là memo; collocation: process begins = quá trình bắt đầu, tomorrow evening = tối mai."
@@ -985,7 +985,7 @@ window.PRACTICE_DATA = {
                   "number": 69,
                   "prompt": "Question 135",
                   "choices": [
-                    "speeches aK",
+                    "speeches",
                     "shops",
                     "visits",
                     "efforts"
@@ -1039,7 +1039,7 @@ window.PRACTICE_DATA = {
                   "number": 73,
                   "prompt": "Question 139",
                   "choices": [
-                    "retired 1",
+                    "retired",
                     "will be retiring",
                     "would retire",
                     "was to retire"
@@ -1093,7 +1093,7 @@ window.PRACTICE_DATA = {
                   "number": 77,
                   "prompt": "Question 143",
                   "choices": [
-                    "spend 1",
+                    "spend",
                     "spends",
                     "spender",
                     "spending"
