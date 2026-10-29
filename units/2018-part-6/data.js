@@ -1,5 +1,5 @@
 window.PRACTICE_DATA = {
-  "storageKey": "practice-2018-part-6-v2",
+  "storageKey": "practice-2018-part-6-v3-unique-sets",
   "sections": [
     {
       "label": "Exercise 1 – Part 6",
@@ -10,7 +10,7 @@ window.PRACTICE_DATA = {
           "part": 6,
           "sets": [
             {
-              "id": "set-01",
+              "id": "exercise-1-set-01",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Cecil Munrow, founder and president of Munrow’s, Liverpool’s largest retail clothier, announced that he <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> £4,000 to the city’s new community center. The funds derive from the sale of tickets to a party held last night at his company’s <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span>. Mr. Munrow will present a check to the center tomorrow at its opening ceremony.</p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> the past twenty years, Mr. Munrow has organized several fund-raising events for charitable institutions and community services. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span></p></div>",
               "questions": [
                 {
@@ -64,7 +64,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-02",
+              "id": "exercise-1-set-02",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>WXO Radio Turns 50!</p><p>On February 3 WXO Radio will celebrate its fiftieth anniversary. That’s half a century of stimulating <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>. Over the years, we <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> our listeners breaking news, thought-provoking stories, and popular music from around the world. Now we invite you to celebrate with us during an open house from 5:00 p.m. to 6:30 p.m. on February 3 at our Eighth Street studio. Take a tour and see some of the behind-the-scenes magic. Watch a demonstration of our digital audio equipment. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> The open house is free, but registration is required. We hope you can join us for this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> occasion.</p></div>",
               "questions": [
                 {
@@ -118,7 +118,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-03",
+              "id": "exercise-1-set-03",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>June 8—Today the Bratton City Council approved an agreement with KGRM Enterprises. Under the agreement, KGRM <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> the 22-acre lot on Mueller Street. The proposal calls for building both offices and retail stores on the site. Bratton’s mayor, Keith Wercler, says he welcomes the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> opportunities this project will bring to the area. “We expect the project to create 700 permanent full-time jobs,” he said. “I am glad it was finally approved after so many postponements.” <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span></p><p>KGRM spokesperson Katie Cornyn expects the project will take five years to complete, yet cautions that setbacks may still occur. “We’ve provided the council our best <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span>, but it’s not possible to foresee all issues that may arise,” Cornyn said.</p></div>",
               "questions": [
                 {
@@ -172,7 +172,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-04",
+              "id": "exercise-1-set-04",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: Customer Care &lt;custcare@arttodaymag.ca&gt;\nTo: Karina Bhat &lt;kbhat871@5mail.ca&gt;\nDate: November 5\nSubject: Welcome to Art Today\nAttachment: Form</div><p>Dear Ms. Bhat:</p><p>Thank you for subscribing to Art Today! <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> you will be among the first to know about exciting art exhibits, concerts, auctions, and festivals throughout Western Canada. Your first issue will arrive within the next few days, and then each issue will be sent at the beginning of the month. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> Your subscription also allows you unlimited <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> to articles, videos, and other multimedia on our Web site. All you need to do is log in using your subscriber number and password, which you will find <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> the enclosed enrollment form.</p><p>Sincerely,<br>Ken Suzuki<br>Customer Representative</p></div>",
               "questions": [
                 {
@@ -238,7 +238,7 @@ window.PRACTICE_DATA = {
           "part": 6,
           "sets": [
             {
-              "id": "set-01",
+              "id": "exercise-2-set-01",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Dominic Campion &lt;campion571@email.co.uk&gt;\nFrom: Customer Service &lt;cust-serv@takada.co.jp&gt;\nDate: Friday, 2 November 9:49 P.M.\nSubject: Web site inquiry</div><p>Dear Mr. Campion:</p><p>Thank you for your recent comment on our Web site about the instruction manual for the BX2000 miniature camera. We agree with you <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> the instructions for uploading pictures to a mobile phone are potentially confusing. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span> Our documentation team has <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> revised the section to clarify the type of cable and software needed in order to transfer pictures from your camera. You can find the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> version of the manual in the Product Information section of our Web site, or we can send you a print version in the mail if you prefer. Delivery usually takes 1 to 2 weeks.</p><p>Sincerely,<br>Madoka Kanemitsu<br>Customer service representative<br>Takada Camera Company</p></div>",
               "questions": [
                 {
@@ -292,7 +292,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-02",
+              "id": "exercise-2-set-02",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Saul Ortega &lt;Saul_ortega@jmail.net&gt;\nFrom: Karen Morris &lt;k_morris@tknmanufacturing.com&gt;\nDate: October 18\nSubject: Factory Manager position</div><p>Dear Mr. Ortega,</p><p>You are officially invited to a second interview. This time, I will be meeting only with the top candidates to determine who is most <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span> for the manager position. I believe you possess many of the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> we are looking for.</p><p>I trust that you remain interested in this job opportunity. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span>, would a 1:00 p.m. appointment next Tuesday work for you? Please prepare a proposal that explains how you would increase production at our plant without decreasing quality. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span></p><p>Best regards,<br>Karen Morris<br>TKN Manufacturing<br>202-555-0127 ext. 23</p></div>",
               "questions": [
                 {
@@ -346,7 +346,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-03",
+              "id": "exercise-2-set-03",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Do You Wear Eyeglasses? Contact Culler Solutions Today!</p><p>In June, Culler Solutions will be conducting a consumer study on behalf of Optometrica 21. To this end, we are <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> eyeglass wearers between the ages of 21 and 65. Participants must have a prescription that is less than two years old <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> the start of the study. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span></p><p>Interested individuals are requested to fill out a short survey at cullersolutions.com/eyeglass_study. Qualified applicants will be contacted by a member of our staff. Upon completion of the study, each participant <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> a gift card valued at $100.</p></div>",
               "questions": [
                 {
@@ -400,7 +400,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-04",
+              "id": "exercise-2-set-04",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Sunnyville Daily Times<br>Local News</p><p>(5 May)—On Monday, following a city council meeting, Mayor Tom Biel announced the introduction of training programs for aspiring city transportation workers. During the press conference, he noted the current <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> for both drivers and mechanics. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span>, he pointed to a wave of employee retirements as having triggered these urgent staffing needs. The announcement <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> with approval by most city officials. However, Nelton District Representative Laura Ochoa was unconvinced. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span></p></div>",
               "questions": [
                 {
@@ -466,7 +466,7 @@ window.PRACTICE_DATA = {
           "part": 6,
           "sets": [
             {
-              "id": "set-01",
+              "id": "exercise-3-set-01",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: jaredkho@pharmacon.com.au\nFrom: angelazucker@umedvic.edu.au\nDate: 22 June\nSubject: Thanks!</div><p>Dear Dr. Kho,</p><p>Thanks for <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> our laboratory yesterday. As always, your expertise <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span>. Our technicians especially benefited from your demonstration of the updated imaging systems, as well as from the general discussion of principles behind the technological advances in the lab setting.</p><p>Over the next few months, I will be hiring several more technicians. Would <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> be available to lead another session in October? <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> Please let me know so we can discuss the details.</p><p>Sincerely,<br>Angela Zucker</p></div>",
               "questions": [
                 {
@@ -520,7 +520,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-02",
+              "id": "exercise-3-set-02",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>BRENTON (March 22)—Yesterday, Brenton Railway won a $37 million grant from the Federal Transit Agency. Thanks to the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>, construction of the proposed train terminal in Kirk Valley can now begin.</p><p>The expansion of the rail system is certainly good news for many in the community. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> Drivers, too, are pleased about the grant. Edgar Simental, <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> lives near the planned Kirk Valley Station, says, “What a relief for commuters like me. We have had to endure steadily worsening road traffic <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> some time now. I anticipate taking the train instead of my car to work every day as soon as the station opens.”</p></div>",
               "questions": [
                 {
@@ -574,7 +574,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-03",
+              "id": "exercise-3-set-03",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Josephine Blum &lt;jblum@serenelakerestaurant.net&gt;\nFrom: Charlie Timmer &lt;ctimmer@serenelakerestaurant.net&gt;\nRe: Outstanding reviews\nDate: April 2</div><p>Dear Josephine,</p><p>The other managers and I were pleased to read the recent glowing reviews in both the Gazette Daily Press and the Downtowner. We agree that your contributions to Serene Lake Restaurant have been <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span>. We are happy <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> you a bonus that will be paid with your next weekly paycheck on April 8.</p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> We are raising your salary by 10 percent, effective May 1. Since you began as Executive Chef in December, our sales have more than doubled. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> These positive trends are directly linked to your stellar performance.</p><p>Many thanks from the management team of Serene Lake Restaurant.</p></div>",
               "questions": [
                 {
@@ -628,7 +628,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-04",
+              "id": "exercise-3-set-04",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Education Fair</p><p>(9 July)—The annual International Higher Education Fair came to Jakarta for the third consecutive year on Saturday, 7 July. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> As usual, American and Australian universities were <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> represented. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span>, observers noted that participation from European and Asian universities has been increasing year by year. Also noticeable was the fact that many more graduate students attended the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> this year than in the past.</p></div>",
               "questions": [
                 {
@@ -694,7 +694,7 @@ window.PRACTICE_DATA = {
           "part": 6,
           "sets": [
             {
-              "id": "set-01",
+              "id": "exercise-4-set-01",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: Young Ho Woo, Office of Professional Development\nTo: All employees\nSubject: Lecture series\nDate: Tuesday, October 1</div><p>Dear Colleagues,</p><p>The first of our Surveying the Field lectures will be held on October 3. This <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> lecture will be led by Roberto Colon, founder of the successful Start-up Radio Dedicate. Mr. Colon <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span> what established technology companies can learn from start-up businesses. Mr. Colon’s talk is the only one in the series that addresses start-ups. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span></p><p>As you know, Mr. Colon is a great leader in the industry, so we hope all staff will be present. Nevertheless, you must seek <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> your manager before attending.</p><p>Thank you,<br>Young Ho Woo</p></div>",
               "questions": [
                 {
@@ -748,7 +748,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-02",
+              "id": "exercise-4-set-02",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>January 28</p><p>Ojas Ramachandran<br>Sawat Clothing Company<br>Bengaluru 560 001<br>Karnataka, India</p><p>Dear Mr. Ramachandran:</p><p>We are writing to let you know about a temporary <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span> in our order fulfillment service. On March 20, we will begin moving all of our inventory to a new warehouse in Kyoto. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> The move will take up to two weeks, <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> which time we will be unable to ship overseas orders. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> any delays, please place your next order by March 14. If you have any questions, please don’t hesitate to contact me.</p><p>Sincerely,<br>Aiko Oba<br>Customer Service Director</p></div>",
               "questions": [
                 {
@@ -802,7 +802,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-03",
+              "id": "exercise-4-set-03",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>GTC Public Meeting<br>May 7<br>By Josip Kovach</p><p>The Greenville Transportation Commission (GTC) will hold a public meeting at City Hall on Thursday, May 15, at 7 p.m., to discuss its proposal to extend light rail service to Greenville Industrial Park. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span></p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span>, the GTC has been studying the feasibility of installing noise barriers along the tracks. At the meeting, Leora Kelman, CEO of Acoustic Engineering, will explain how much noise reduction the GTC can <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> to achieve with the barriers. A <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> by Mayor Joe Rowan will follow.</p></div>",
               "questions": [
                 {
@@ -856,7 +856,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-04",
+              "id": "exercise-4-set-04",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: rosgrove@lavilli.com\nTo: henriksson@skanenursery.se\nSubject: Svenska Yellow\nDate: April 2</div><p>Dear Mr. Henriksson,</p><p>I represent the Lavilli Garden Stores chain, which is now in the process of <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> its product range to include newly developed kinds of trees. We are interested in carrying Svenska Yellow apple saplings in our stores. Since this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> originated in Sweden, we contacted the Association of Swedish Fruit Producers, which recommended your apple nursery to us. On your Web site, it appears you do <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> have the product in stock. Initially, we would be interested in buying a small sample of saplings. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> Do you offer discounts for bulk purchases?</p><p>I look forward to hearing from you.</p><p>Sincerely,<br>Roger Osgrove<br>Lavilli Garden Stores</p></div>",
               "questions": [
                 {
@@ -922,7 +922,7 @@ window.PRACTICE_DATA = {
           "part": 6,
           "sets": [
             {
-              "id": "set-01",
+              "id": "exercise-5-set-01",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>B-B Chang International to buy Sieng Technology</p><p>SINGAPORE—B-B Chang International (BBCI) announced Wednesday that <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> would buy Sieng Technology in a deal valued at $450 million.</p><p>A spokesperson for BBCI said the company expects to double its profits by the end of next year. It will accomplish this by making full use of Sieng’s recently updated production facilities. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span></p><p>Financial experts believe the Sieng acquisition will make BBCI the world’s leading producer of circuits. “They will be well ahead of their <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span>,” said top analyst Rhoda Sutton.</p><p>B-B Chang plans to maintain Sieng’s current workforce, with each of Sieng’s factories continuing normal operations for the next five years. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span>, BBCI will evaluate whether additional staff are needed.</p></div>",
               "questions": [
                 {
@@ -976,7 +976,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-02",
+              "id": "exercise-5-set-02",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>The Treviso Inn: Reservations</p><p>We recommend reservations because hotel accommodations in Treviso are very <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>.</p><p>Reservations will be held with a one-night deposit or 50 percent of total room charges for stays of longer than one night. Cancellations made more than seven days prior to your scheduled arrival date <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> in full. If, for some reason, a reservation must be cancelled within one week of your scheduled arrival date, charges for the entire <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> of your stay will be billed to you. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span></p></div>",
               "questions": [
                 {
@@ -1030,7 +1030,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-03",
+              "id": "exercise-5-set-03",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Laptop Funds Approved</p><p>New technology <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> to the students of Fairmont. On Tuesday, Mayor Suzanne Kuiper announced that her “Tech Now” proposal was approved by the Board of Supervisors. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span></p><p>The program allots $35,000 to each school in the city for the purchase of laptop computers. Students will be allowed to take home the laptops <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span> of the time for special assignments and class projects, but they will normally be available to the students only <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span> school hours.</p></div>",
               "questions": [
                 {
@@ -1084,7 +1084,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "set-04",
+              "id": "exercise-5-set-04",
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>September 20</p><p>Ms. Amy Ellerson<br>Belgore Insurance Group<br>126 Sunrise Road<br>Teaneck, NJ 07666</p><p>Dear Ms. Ellerson:</p><p>Thank you for your purchase of 25 cases of premium paper from Bernstein Paper Products. Your online order was received on September 18 and is ready for shipping. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span></p><p>We appreciate that you have chosen to make the switch to Bernstein Paper Products for your company’s paper needs. To show our gratitude, we are applying a 5 percent discount to this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> order. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span>, we are including a reimbursement of shipping charges. Enclosed please find the adjusted invoice and a check for $58.38.</p><p>Bernstein Paper Products is pleased <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> you. We look forward to working with you in the future.</p><p>Sincerely,<br>Duri Yun</p></div>",
               "questions": [
                 {
