@@ -112,16 +112,28 @@
 }
   
 
-    .practice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-    .practice-card{background:linear-gradient(180deg,#fff 0%,#fffaf2 100%);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:270px;transition:.18s ease}
-    .practice-card:hover{transform:translateY(-4px);border-color:#e9c27c;box-shadow:0 20px 50px rgba(83,53,18,.14)}
-    .practice-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
-    .practice-icon{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(145deg,#4a3218,#2f2419);color:#ffd89a;font-weight:900}
-    .practice-card h3{margin:19px 0 8px;font-size:22px;letter-spacing:-.5px}
-    .practice-card p{color:var(--muted);line-height:1.65;margin:0}
-    .practice-actions{margin-top:auto;padding-top:20px}.practice-actions .btn{width:100%}
-    @media(max-width:920px){.practice-grid{grid-template-columns:1fr 1fr}}
-    @media(max-width:640px){.practice-grid{grid-template-columns:1fr}}
+    /* Practice Units: group by the "group" field in units.json */
+    .practice-groups{display:flex;flex-direction:column;gap:30px}
+    .practice-group{width:100%;min-width:0}
+    .practice-group-head{display:flex;align-items:center;gap:12px;margin:0 0 14px}
+    .practice-group-title{margin:0;font-size:23px;font-weight:900;letter-spacing:-.6px;color:var(--dark)}
+    .practice-group-line{height:1px;flex:1;background:var(--line)}
+    .practice-group-count{flex-shrink:0;padding:5px 9px;border-radius:999px;background:#fff0cf;border:1px solid #f0d5a0;color:#995700;font-size:12px;font-weight:850}
+    .practice-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .practice-card{min-width:0;background:linear-gradient(180deg,#fff 0%,#fffaf2 100%);border:1px solid var(--line);border-radius:18px;padding:15px;box-shadow:0 8px 24px rgba(83,53,18,.07);display:flex;flex-direction:column;min-height:205px;transition:.18s ease}
+    .practice-card:hover{transform:translateY(-3px);border-color:#e9c27c;box-shadow:0 14px 30px rgba(83,53,18,.12)}
+    .practice-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+    .practice-icon{min-width:38px;max-width:90px;min-height:38px;padding:0 8px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(145deg,#4a3218,#2f2419);color:#ffd89a;font-size:12px;font-weight:900;overflow-wrap:anywhere;text-align:center}
+    .practice-card .badge{font-size:11px;padding:5px 7px}
+    .practice-card h3{margin:13px 0 6px;font-size:17px;line-height:1.35;letter-spacing:-.3px;overflow-wrap:anywhere}
+    .practice-card p{color:var(--muted);font-size:13px;line-height:1.5;margin:0}
+    .practice-card .meta{gap:5px;margin:11px 0 13px}
+    .practice-card .meta span{padding:5px 7px;font-size:10px}
+    .practice-actions{margin-top:auto;padding-top:10px}
+    .practice-actions .btn{width:100%;min-height:39px;padding:0 9px;border-radius:11px;font-size:12px}
+    @media(max-width:1050px){.practice-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:760px){.practice-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.practice-card{padding:12px;min-height:195px}.practice-group-title{font-size:21px}}
+    @media(max-width:440px){.practice-grid{grid-template-columns:1fr}.practice-card{min-height:0}.practice-card h3{font-size:17px}.practice-actions .btn{min-height:42px}}
 
   </style>
 </head>
@@ -410,36 +422,112 @@ async function loadTests() {
 
 async function loadPracticeUnits() {
   const container = document.getElementById("practiceGrid");
+
   try {
     const response = await fetch("./units/units.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
     const units = await response.json();
-    if (!Array.isArray(units)) throw new Error("units.json không đúng định dạng.");
-    const activeUnits = units.filter(item => item && item.id && item.status !== "hidden");
+    if (!Array.isArray(units)) {
+      throw new Error("units.json không đúng định dạng.");
+    }
+
+    const activeUnits = units.filter(
+      item => item && item.id && item.status !== "hidden"
+    );
+
     if (!activeUnits.length) {
       container.innerHTML = `<div class="error-card">Chưa có Practice Unit nào được mở.</div>`;
       return;
     }
-    container.innerHTML = "";
+
+    // Nhóm các bài tập theo trường "group" trong units.json.
+    const groups = new Map();
     activeUnits.forEach(item => {
-      const parts = Array.isArray(item.parts) ? item.parts : [];
-      const partTags = parts.map(part => `<span>Part ${part}</span>`).join("");
-      const card = document.createElement("article");
-      card.className = "practice-card";
-      card.innerHTML = `
-        <div class="practice-top"><div class="practice-icon">${item.group || "P"}</div><span class="badge">Đang mở</span></div>
-        <h3>${item.title || item.id}</h3>
-        <p>${item.description || "Listening + Reading Practice"}</p>
-        <div class="meta">${partTags}</div>
-        <div class="practice-actions">
-          <a class="btn btn-primary" href="./shared/practice/practice.html?unit=${encodeURIComponent(item.id)}">Bắt đầu luyện →</a>
-        </div>`;
-      container.appendChild(card);
+      const groupName = String(item.group || "Khác").trim() || "Khác";
+      if (!groups.has(groupName)) groups.set(groupName, []);
+      groups.get(groupName).push(item);
     });
+
+    // Ưu tiên thứ tự Pre, A, Part6; nhóm mới sẽ tự động xếp sau.
+    const preferredOrder = ["Pre", "A", "Part6"];
+    const groupNames = [...groups.keys()].sort((a, b) => {
+      const ia = preferredOrder.indexOf(a);
+      const ib = preferredOrder.indexOf(b);
+      if (ia !== -1 && ib !== -1) return ia - ib;
+      if (ia !== -1) return -1;
+      if (ib !== -1) return 1;
+      return a.localeCompare(b, "vi", { numeric: true });
+    });
+
+    container.classList.add("practice-groups");
+    container.classList.remove("practice-grid");
+    container.innerHTML = "";
+
+    groupNames.forEach(groupName => {
+      const items = groups.get(groupName);
+      const groupSection = document.createElement("section");
+      groupSection.className = "practice-group";
+
+      const groupHead = document.createElement("div");
+      groupHead.className = "practice-group-head";
+      groupHead.innerHTML = `
+        <h3 class="practice-group-title">${escapePracticeHtml(groupName)}</h3>
+        <div class="practice-group-line"></div>
+        <span class="practice-group-count">${items.length} bài</span>
+      `;
+
+      const grid = document.createElement("div");
+      grid.className = "practice-grid";
+
+      items.forEach(item => {
+        const parts = Array.isArray(item.parts) ? item.parts : [];
+        const partTags = parts
+          .map(part => `<span>Part ${escapePracticeHtml(part)}</span>`)
+          .join("");
+
+        const card = document.createElement("article");
+        card.className = "practice-card";
+        card.innerHTML = `
+          <div class="practice-top">
+            <div class="practice-icon">${escapePracticeHtml(groupName)}</div>
+            <span class="badge">Đang mở</span>
+          </div>
+          <h3>${escapePracticeHtml(item.title || item.id)}</h3>
+          <p>${escapePracticeHtml(item.description || "Listening + Reading Practice")}</p>
+          <div class="meta">${partTags}</div>
+          <div class="practice-actions">
+            <a class="btn btn-primary" href="./shared/practice/practice.html?unit=${encodeURIComponent(item.id)}">Bắt đầu luyện →</a>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      groupSection.appendChild(groupHead);
+      groupSection.appendChild(grid);
+      container.appendChild(groupSection);
+    });
+
   } catch (error) {
     console.error("Không tải được units.json:", error);
-    container.innerHTML = `<div class="error-card"><strong>Không tải được danh sách Practice Units.</strong><br>Kiểm tra file <code>units/units.json</code>.</div>`;
+    container.innerHTML = `
+      <div class="error-card">
+        <strong>Không tải được danh sách Practice Units.</strong><br>
+        Kiểm tra file <code>units/units.json</code>.
+      </div>
+    `;
   }
+}
+
+// Bảo vệ ký tự đặc biệt trong nội dung lấy từ units.json.
+function escapePracticeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
 }
 
 loadPracticeUnits();
