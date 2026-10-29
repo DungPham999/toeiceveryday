@@ -50,6 +50,14 @@
   "description": "Exercise 1-5",
   "status": "active"
 }, 
+         {
+  "id": "2019-part-6b",
+  "title": "Practice - Part 6 - 2019b",
+  "group": "Part6",
+  "parts": [6],
+  "description": "Exercise 1-5",
+  "status": "active"
+}, 
   
 {
   "id": "pre-read-5-6",
