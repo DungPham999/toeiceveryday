@@ -14,7 +14,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>Cecil Munrow, founder and president of Munrow’s, Liverpool’s largest retail clothier, announced that he <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> £4,000 to the city’s new community center. The funds derive from the sale of tickets to a party held last night at his company’s <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span>. Mr. Munrow will present a check to the center tomorrow at its opening ceremony.</p><p><span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> the past twenty years, Mr. Munrow has organized several fund-raising events for charitable institutions and community services. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span></p></div>",
               "questions": [
                 {
-                  "number": 131,
+                  "number": 1,
                   "prompt": "Question 131",
                   "choices": [
                     "will donate",
@@ -26,7 +26,7 @@ window.PRACTICE_DATA = {
                   "explanation": "will donate Collocation: donate money to + organization = quyên góp tiền cho; community center = trung tâm cộng đồng."
                 },
                 {
-                  "number": 132,
+                  "number": 2,
                   "prompt": "Question 132",
                   "choices": [
                     "museum",
@@ -38,7 +38,7 @@ window.PRACTICE_DATA = {
                   "explanation": "store Collocation: retail store = cửa hàng bán lẻ; hold a party/event = tổ chức sự kiện."
                 },
                 {
-                  "number": 133,
+                  "number": 3,
                   "prompt": "Question 133",
                   "choices": [
                     "Despite",
@@ -50,7 +50,7 @@ window.PRACTICE_DATA = {
                   "explanation": "Over Over the past twenty years = trong suốt 20 năm qua. Đây là cụm rất phổ biến với present perfect. Collocation: over the past + period; organize fund-raising events = tổ chức sự kiện gây quỹ."
                 },
                 {
-                  "number": 134,
+                  "number": 4,
                   "prompt": "Question 134",
                   "choices": [
                     "The opening ceremony will begin at 10:00 a.m.",
@@ -68,7 +68,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>WXO Radio Turns 50!</p><p>On February 3 WXO Radio will celebrate its fiftieth anniversary. That’s half a century of stimulating <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">135</span>. Over the years, we <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">136</span> our listeners breaking news, thought-provoking stories, and popular music from around the world. Now we invite you to celebrate with us during an open house from 5:00 p.m. to 6:30 p.m. on February 3 at our Eighth Street studio. Take a tour and see some of the behind-the-scenes magic. Watch a demonstration of our digital audio equipment. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">137</span> The open house is free, but registration is required. We hope you can join us for this <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">138</span> occasion.</p></div>",
               "questions": [
                 {
-                  "number": 135,
+                  "number": 5,
                   "prompt": "Question 135",
                   "choices": [
                     "concerts",
@@ -80,7 +80,7 @@ window.PRACTICE_DATA = {
                   "explanation": "programming half a century of stimulating programming programming trong broadcasting = nội dung/chương trình phát sóng nói chung. Concepts, discussions, development không phù hợp nghĩa. Collocation: radio programming = chương trình phát thanh; stimulating programming = nội dung hấp dẫn/kích thích tư duy."
                 },
                 {
-                  "number": 136,
+                  "number": 6,
                   "prompt": "Question 136",
                   "choices": [
                     "offers",
@@ -92,7 +92,7 @@ window.PRACTICE_DATA = {
                   "explanation": "have offered we have offered our listeners breaking news... A offers sai chủ ngữ; B offering thiếu động từ; C future không phù hợp. Collocation: offer listeners news/music; breaking news = tin nóng; thought-provoking stories = câu chuyện kích thích suy nghĩ."
                 },
                 {
-                  "number": 137,
+                  "number": 7,
                   "prompt": "Question 137",
                   "choices": [
                     "We plan to merge with another local radio station next year.",
@@ -104,7 +104,7 @@ window.PRACTICE_DATA = {
                   "explanation": "You can even meet some of your favorite broadcasters. Collocation: meet a broadcaster = gặp phát thanh viên/người dẫn chương trình."
                 },
                 {
-                  "number": 138,
+                  "number": 8,
                   "prompt": "Question 138",
                   "choices": [
                     "special",
@@ -122,7 +122,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><p>June 8—Today the Bratton City Council approved an agreement with KGRM Enterprises. Under the agreement, KGRM <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">139</span> the 22-acre lot on Mueller Street. The proposal calls for building both offices and retail stores on the site. Bratton’s mayor, Keith Wercler, says he welcomes the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">140</span> opportunities this project will bring to the area. “We expect the project to create 700 permanent full-time jobs,” he said. “I am glad it was finally approved after so many postponements.” <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">141</span></p><p>KGRM spokesperson Katie Cornyn expects the project will take five years to complete, yet cautions that setbacks may still occur. “We’ve provided the council our best <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">142</span>, but it’s not possible to foresee all issues that may arise,” Cornyn said.</p></div>",
               "questions": [
                 {
-                  "number": 139,
+                  "number": 9,
                   "prompt": "Question 139",
                   "choices": [
                     "to develop",
@@ -134,7 +134,7 @@ window.PRACTICE_DATA = {
                   "explanation": "will develop Collocation: develop a site/lot = phát triển khu đất; approve an agreement = phê duyệt thỏa thuận."
                 },
                 {
-                  "number": 140,
+                  "number": 10,
                   "prompt": "Question 140",
                   "choices": [
                     "economic",
@@ -146,7 +146,7 @@ window.PRACTICE_DATA = {
                   "explanation": "economic economic opportunities Cần adjective bổ nghĩa opportunities. Unforeseen về ngữ pháp được nhưng không hợp nghĩa; volunteer/frequent sai nghĩa. Collocation: economic opportunities = cơ hội kinh tế; create permanent jobs = tạo việc làm lâu dài."
                 },
                 {
-                  "number": 141,
+                  "number": 11,
                   "prompt": "Question 141",
                   "choices": [
                     "While the city is anxious for work to get underway, delays are typical for major commercial endeavors such as this.",
@@ -158,7 +158,7 @@ window.PRACTICE_DATA = {
                   "explanation": "While the city is anxious to get work underway, delays are typical for major commercial endeavors such as this. Collocation: get work underway = bắt đầu triển khai công việc; commercial endeavor = dự án/nỗ lực thương mại; setback = trở ngại."
                 },
                 {
-                  "number": 142,
+                  "number": 12,
                   "prompt": "Question 142",
                   "choices": [
                     "argument",
@@ -176,7 +176,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">From: Customer Care &lt;custcare@arttodaymag.ca&gt;\nTo: Karina Bhat &lt;kbhat871@5mail.ca&gt;\nDate: November 5\nSubject: Welcome to Art Today\nAttachment: Form</div><p>Dear Ms. Bhat:</p><p>Thank you for subscribing to Art Today! <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">143</span> you will be among the first to know about exciting art exhibits, concerts, auctions, and festivals throughout Western Canada. Your first issue will arrive within the next few days, and then each issue will be sent at the beginning of the month. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">144</span> Your subscription also allows you unlimited <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">145</span> to articles, videos, and other multimedia on our Web site. All you need to do is log in using your subscriber number and password, which you will find <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">146</span> the enclosed enrollment form.</p><p>Sincerely,<br>Ken Suzuki<br>Customer Representative</p></div>",
               "questions": [
                 {
-                  "number": 143,
+                  "number": 13,
                   "prompt": "Question 143",
                   "choices": [
                     "Now",
@@ -188,7 +188,7 @@ window.PRACTICE_DATA = {
                   "explanation": "Now Now you will be among the first to know... = Bây giờ bạn sẽ là một trong những người đầu tiên biết... Afterward/Then/Meanwhile không tự nhiên bằng."
                 },
                 {
-                  "number": 144,
+                  "number": 14,
                   "prompt": "Question 144",
                   "choices": [
                     "To place a subscription, call our service desk during business hours.",
@@ -200,7 +200,7 @@ window.PRACTICE_DATA = {
                   "explanation": "If you do not receive your copy in a week, please contact us immediately. Collocation: receive a copy/issue = nhận một bản/số báo."
                 },
                 {
-                  "number": 145,
+                  "number": 15,
                   "prompt": "Question 145",
                   "choices": [
                     "accessing",
@@ -212,7 +212,7 @@ window.PRACTICE_DATA = {
                   "explanation": "access unlimited access to articles, videos... access là noun sau unlimited. A V-ing; B verb; C V3. Collocation: have/gain access to = có quyền truy cập; unlimited access to = truy cập không giới hạn."
                 },
                 {
-                  "number": 146,
+                  "number": 16,
                   "prompt": "Question 146",
                   "choices": [
                     "for",
@@ -242,7 +242,7 @@ window.PRACTICE_DATA = {
               "passageHtml": "<div class=\"source-doc\" style=\"border:1px solid #a8adb5;padding:18px 22px;line-height:1.9;border-radius:3px;white-space:normal\"><div style=\"white-space:pre-line\">To: Dominic Campion &lt;campion571@email.co.uk&gt;\nFrom: Customer Service &lt;cust-serv@takada.co.jp&gt;\nDate: Friday, 2 November 9:49 P.M.\nSubject: Web site inquiry</div><p>Dear Mr. Campion:</p><p>Thank you for your recent comment on our Web site about the instruction manual for the BX2000 miniature camera. We agree with you <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">131</span> the instructions for uploading pictures to a mobile phone are potentially confusing. <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">132</span> Our documentation team has <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">133</span> revised the section to clarify the type of cable and software needed in order to transfer pictures from your camera. You can find the <span class=\"toeic-blank\" style=\"display:inline-block;border-bottom:1px solid currentColor;min-width:4.5em;text-align:center;font-weight:600;white-space:nowrap\">134</span> version of the manual in the Product Information section of our Web site, or we can send you a print version in the mail if you prefer. Delivery usually takes 1 to 2 weeks.</p><p>Sincerely,<br>Madoka Kanemitsu<br>Customer service representative<br>Takada Camera Company</p></div>",
               "questions": [
                 {
-                  "number": 131,
+                  "number": 17,
                   "prompt": "Question 131",
                   "choices": [
                     "that",
