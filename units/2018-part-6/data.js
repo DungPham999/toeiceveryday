@@ -1,4 +1,5 @@
 window.PRACTICE_DATA = {
+   "title": "2018 Part 6",
   "storageKey": "practice-2018-part-6-v3-unique-sets",
   "sections": [
     {
