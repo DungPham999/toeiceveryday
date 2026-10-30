@@ -1,21 +1,18 @@
 
 (() => {
-  const cfg = window.READING_CONFIG;
-  const testTitleEl =
-  document.getElementById('testTitle');
+ const cfg = window.READING_CONFIG;
 
-if(testTitleEl){
+if (cfg && cfg.title) {
+    const testTitleEl = document.getElementById('testTitle');
+    const paletteTestTitleEl = document.getElementById('paletteTestTitle');
 
-  if(
-    window.READING_CONFIG &&
-    window.READING_CONFIG.title
-  ){
+    if (testTitleEl) {
+        testTitleEl.textContent = cfg.title;
+    }
 
-    testTitleEl.textContent =
-      window.READING_CONFIG.title;
-
-  }
-
+    if (paletteTestTitleEl) {
+        paletteTestTitleEl.textContent = cfg.title;
+    }
 }
   const data = window.READING_DATA;
   const key = cfg.storageKey;
