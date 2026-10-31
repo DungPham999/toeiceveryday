@@ -219,7 +219,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "There is more rainfall in the region in August and September.",
                     "Nentique believes diversification of this kind will lead to greater profits.",
-                    "Acommon name for the new species is yet to be determined.",
+                    "A common name for the new species is yet to be determined.",
                     "This merger will also help streamline Nentique’s production process."
                   ],
                   "answer": 1,
@@ -247,7 +247,7 @@ window.PRACTICE_DATA = {
                   "number": 17,
                   "prompt": "Question 131",
                   "choices": [
-                    "to provide 1",
+                    "to provide",
                     "provided",
                     "providing",
                     "to be provided"
@@ -337,9 +337,9 @@ window.PRACTICE_DATA = {
                   "number": 24,
                   "prompt": "Question 138",
                   "choices": [
-                    "| have four additional questions to ask you.",
+                    "I have four additional questions to ask you.",
                     "I would be able to begin during the first week of February.",
-                    "| am confident | have the potential for this position.",
+                    "I am confident I have the potential for this position.",
                     "Thank you for the offer of employment."
                   ],
                   "answer": 1,
@@ -355,10 +355,10 @@ window.PRACTICE_DATA = {
                   "number": 25,
                   "prompt": "Question 139",
                   "choices": [
-                    "| can meet you when you arrive. 1",
+                    "I can meet you when you arrive.",
                     "Scheduling flights can be quite tricky.",
                     "I have long admired your work on regional airports.",
-                    "There are several dining options at the airport. 4"
+                    "There are several dining options at the airport."
                   ],
                   "answer": 2,
                   "explanation": "C. I have long admired your work on regional airports; người viết cảm ơn ông Wu nhận lời tư vấn, câu C giải thích vì sao họ muốn mời ông và dẫn hợp lý sang \"As a result, I am particularly eager to hear your ideas\"; A gặp khi tới nơi chưa liên quan, B scheduling khó tạo logic với As a result, D nhà hàng ở sân bay lệch chủ đề; collocation: admire someone’s work = ngưỡng mộ công việc của ai, regional airport = sân bay khu vực."
@@ -469,7 +469,7 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "exercise-3-set-01",
-              "passageHtml": "<div class=\"source-doc\" style=\"max-width:850px;margin:0 auto;padding:22px 26px;border:1px solid #c8c1b6;background:#fff;color:#2c2925;font-size:1rem\"><div style=\"font-weight:700;margin-bottom:14px\">E-mail</div><p style=\"margin:0 0 1em;line-height:1.85\">To: All Staff<br>From: George Ruiz<br>Date: Wednesday, 18 July<br>Subject: Important guests</p><p style=\"margin:0 0 1em;line-height:1.85\">Food critics from two <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">131</strong></span> newspapers, the Toronto Day and Toronto Rising, are expected to dine here this week. Let&#x27;s make a special effort to do our work flawlessly.</p><p style=\"margin:0 0 1em;line-height:1.85\">Photographs of the critics will be placed at our welcome station. Using these <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">132</strong></span>, hosts will be responsible for identifying the critics and telling the wait staff, who should alert the kitchen. Servers must strive to be prompt. They should also recommend our daily specials.</p><p style=\"margin:0 0 1em;line-height:1.85\"><span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">133</strong></span>.</p><p style=\"margin:0 0 1em;line-height:1.85\">I am confident that everyone <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">134</strong></span> these critics with our great food and service.</p><p style=\"margin:0 0 1em;line-height:1.85\">Thank you,<br>George Ruiz<br>General Manager</p></div>",
+              "passageHtml": "<div class=\"source-doc\" style=\"max-width:850px;margin:0 auto;padding:22px 26px;border:1px solid #c8c1b6;background:#fff;color:#2c2925;font-size:1rem\"><div style=\"font-weight:700;margin-bottom:14px\">E-mail</div><p style=\"margin:0 0 1em;line-height:1.85\">To: All Staff<br>From: George Ruiz<br>Date: Wednesday, 18 July<br>Subject: Important guests</p><p style=\"margin:0 0 1em;line-height:1.85\">Food critics from two <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">131</strong></span> newspapers, the Toronto Day and Toronto Rising, are expected to dine here this week. Let&#x27;s make a special effort to do our work flawlessly.</p><p style=\"margin:0 0 1em;line-height:1.85\">Photographs of the critics will be placed at our welcome station. Using these <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">132</strong></span>, hosts will be responsible for identifying the critics and telling the wait staff, who should alert the kitchen. Servers must strive to be prompt. They should also recommend our daily specials. <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">133</strong></span>.</p><p style=\"margin:0 0 1em;line-height:1.85\">I am confident that everyone <span class=\"toeic-blank\" style=\"display:inline-block;min-width:78px;border-bottom:1.5px solid #38332e;text-align:center;vertical-align:baseline;white-space:nowrap\"><strong style=\"font-size:.8em\">134</strong></span> these critics with our great food and service.</p><p style=\"margin:0 0 1em;line-height:1.85\">Thank you,<br>George Ruiz<br>General Manager</p></div>",
               "questions": [
                 {
                   "number": 33,
