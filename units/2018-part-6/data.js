@@ -24,7 +24,7 @@ window.PRACTICE_DATA = {
                     "donating"
                   ],
                   "answer": 0,
-                  "explanation": "will donate Collocation: donate money to + organization = quyên góp tiền cho; community center = trung tâm cộng đồng."
+                  "explanation": "chọn A. will donate, không chọn B. donated, vì hành động quyên góp vẫn chưa hoàn tất tại thời điểm bài báo được viết; bằng chứng là ngay sau đó “Mr. Munrow will present a check to the center tomorrow”, tức là ngày mai ông ấy mới trao tấm séc £4,000 cho trung tâm. Collocation: donate money to + organization = quyên góp tiền cho; community center = trung tâm cộng đồng."
                 },
                 {
                   "number": 2,
