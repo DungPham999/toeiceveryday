@@ -637,7 +637,7 @@ window.PRACTICE_DATA = {
                   "number": 45,
                   "prompt": "Question 143",
                   "choices": [
-                    "translation :",
+                    "translation",
                     "fitness",
                     "landscaping",
                     "navigation"
@@ -817,7 +817,7 @@ window.PRACTICE_DATA = {
                     "Rarely"
                   ],
                   "answer": 1,
-                  "explanation": "B. Apparently; câu hỏi \"Who cares where tomatoes came from?\" rồi trả lời \"Apparently, an increasing number of people do\" = rõ ràng là ngày càng nhiều người quan tâm; Carefully, Formerly, Rarely không hợp; collocation: apparently = rõ ràng/xem ra, an increasing number of = số lượng ngày càng tăng."
+                  "explanation": "B. Apparently; câu hỏi \"Who cares where tomatoes came from?\" rồi trả lời \"Apparently, an increasing number of people do\" = Có vẻ như ngày càng nhiều người quan tâm; Carefully, Formerly, Rarely không hợp; collocation: apparently = rõ ràng/xem ra, an increasing number of = số lượng ngày càng tăng."
                 },
                 {
                   "number": 58,
