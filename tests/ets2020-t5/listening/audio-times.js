@@ -1,6 +1,6 @@
 window.AUDIO_TIMES = {
   "p1-q1": {
-    "start": 83.63,
+    "start": 97.63,
     "end": 117.26
   },
   "p1-q2": {
