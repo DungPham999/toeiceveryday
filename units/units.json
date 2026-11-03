@@ -42,6 +42,22 @@
   "status": "active"
 },
    
+    {
+  "id": "part-1-2",
+  "title": "Practice - Part 1 - Test 2",
+  "group": "Part1",
+  "parts": [1],
+  "description": "Exercise 1-3",
+  "status": "active"
+},
+{
+  "id": "part-1-3",
+  "title": "Practice - Part 1 - Test 3",
+  "group": "Part1",
+  "parts": [1],
+  "description": "Exercise 1-3",
+  "status": "active"
+},
     
     {
   "id": "2018-part-6",
