@@ -112,6 +112,21 @@
 }
   
 
+    
+     /* Quick map */
+     .quick-map-section{padding:8px 0 22px}
+     .quick-map-panel{background:rgba(255,255,255,.82);border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 8px 24px rgba(83,53,18,.06)}
+     .quick-map-title{margin:0 0 5px;font-size:21px;font-weight:900;letter-spacing:-.5px}
+     .quick-map-subtitle{margin:0 0 16px;color:var(--muted);font-size:13px;line-height:1.5}
+     .quick-map-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+     .quick-map-heading{margin:0 0 10px;color:#8d4c00;font-size:12px;font-weight:900;letter-spacing:.7px;text-transform:uppercase}
+     .quick-map-links{display:flex;flex-wrap:wrap;gap:8px}
+     .quick-map-link{display:inline-flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid #efdbb6;border-radius:12px;background:#fff8eb;color:#68451d;font-size:13px;font-weight:850;transition:.16s ease}
+     .quick-map-link:hover{background:#ffedc9;border-color:#e9bd6e;transform:translateY(-1px)}
+     .quick-map-link small{color:#947957;font-size:11px;font-weight:750}
+     .quick-map-empty{color:var(--muted);font-size:12px}
+     @media(max-width:640px){.quick-map-panel{padding:15px}.quick-map-columns{grid-template-columns:1fr;gap:14px}.quick-map-title{font-size:19px}}
+
     /* Practice Units: group by the "group" field in units.json */
     .practice-groups{display:flex;flex-direction:column;gap:30px}
     .practice-group{width:100%;min-width:0}
@@ -169,6 +184,18 @@
     </section>
 
 
+    <section id="quick-map" class="quick-map-section">
+      <div class="container">
+        <div class="quick-map-panel">
+          <h2 class="quick-map-title">Truy cập nhanh</h2>
+          <p class="quick-map-subtitle">Chọn nhóm bài thi hoặc nhóm Practice để chuyển thẳng đến danh sách cần luyện.</p>
+          <div id="quickMap" class="quick-map-columns">
+            <div class="quick-map-empty">Đang tải các nhóm bài luyện tập...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="practice-units">
       <div class="container">
         <div class="section-head">
@@ -203,6 +230,34 @@
 
   
  <script>
+const quickMapData = { practice: [], tests: [] };
+
+function renderQuickMap() {
+  const map = document.getElementById("quickMap");
+  if (!map) return;
+
+  const makeLinks = items => {
+    if (!items.length) return '<span class="quick-map-empty">Chưa có nhóm nào.</span>';
+    return items.map(item => `
+      <a class="quick-map-link" href="#${item.id}">
+        ${escapePracticeHtml(item.label)}
+        <small>${escapePracticeHtml(item.count)}</small>
+      </a>
+    `).join("");
+  };
+
+  map.innerHTML = `
+    <div>
+      <h3 class="quick-map-heading">Practice Units</h3>
+      <div class="quick-map-links">${makeLinks(quickMapData.practice)}</div>
+    </div>
+    <div>
+      <h3 class="quick-map-heading">Bộ đề Test</h3>
+      <div class="quick-map-links">${makeLinks(quickMapData.tests)}</div>
+    </div>
+  `;
+}
+
 async function loadTests() {
   const container = document.getElementById("testGrid");
 
@@ -275,6 +330,7 @@ async function loadTests() {
 
       const yearSection = document.createElement("section");
       yearSection.className = "year-group";
+      yearSection.id = `quick-test-${year}`;
 
       const yearHead = document.createElement("div");
       yearHead.className = "year-group-head";
@@ -399,7 +455,14 @@ async function loadTests() {
       container.appendChild(yearSection);
     });
 
-  } catch (error) {
+  
+    quickMapData.tests = years.map(year => ({
+      id: `quick-test-${year}`,
+      label: `ETS ${year}`,
+      count: `${groups[year].length} đề`
+    }));
+    renderQuickMap();
+} catch (error) {
 
     console.error(
       "Không tải được tests.json:",
@@ -468,6 +531,7 @@ async function loadPracticeUnits() {
       const items = groups.get(groupName);
       const groupSection = document.createElement("section");
       groupSection.className = "practice-group";
+      groupSection.id = `quick-practice-${slugifyPracticeGroup(groupName)}`;
 
       const groupHead = document.createElement("div");
       groupHead.className = "practice-group-head";
@@ -508,7 +572,14 @@ async function loadPracticeUnits() {
       container.appendChild(groupSection);
     });
 
-  } catch (error) {
+  
+    quickMapData.practice = groupNames.map(groupName => ({
+      id: `quick-practice-${slugifyPracticeGroup(groupName)}`,
+      label: groupName,
+      count: `${groups.get(groupName).length} bài`
+    }));
+    renderQuickMap();
+} catch (error) {
     console.error("Không tải được units.json:", error);
     container.innerHTML = `
       <div class="error-card">
@@ -517,6 +588,18 @@ async function loadPracticeUnits() {
       </div>
     `;
   }
+}
+
+// Tạo ID ổn định cho từng nhóm Practice.
+function slugifyPracticeGroup(value) {
+  return String(value ?? "khac")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/Đ/g, "D")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "") || "khac";
 }
 
 // Bảo vệ ký tự đặc biệt trong nội dung lấy từ units.json.
