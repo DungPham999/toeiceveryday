@@ -95,10 +95,32 @@
   "description": "Exercise 1-3",
   "status": "active"
 },
+ {
+  "id": "part-2-3",
+  "title": "Practice - Part 2 - Test 3",
+  "group": "Part2",
+  "parts": [2],
+  "description": "Exercise 1-3",
+  "status": "active"
+},
+     {
+  "id": "part-2-4",
+  "title": "Practice - Part 2 - Test 4",
+  "group": "Part2",
+  "parts": [2],
+  "description": "Exercise 1-3",
+  "status": "active"
+},
+     {
+  "id": "part-2-5",
+  "title": "Practice - Part 2 - Test 5",
+  "group": "Part2",
+  "parts": [2],
+  "description": "Exercise 1-3",
+  "status": "active"
+},
 
     
-    
-
     {
   "id": "part-1-1",
   "title": "Practice - Part 1 - Test 1",
