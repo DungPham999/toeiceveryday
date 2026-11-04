@@ -15,7 +15,7 @@ window.PRACTICE_DATA = {
             {
               "number": 1,
               "start": 0.0,
-              "end": 17.76,
+              "end": 15.76,
               "choices": [
                 "A",
                 "B",
