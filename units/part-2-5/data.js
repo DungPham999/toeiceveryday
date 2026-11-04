@@ -14,7 +14,7 @@ window.PRACTICE_DATA = {
           "questions": [
             {
               "number": 1,
-              "start": 0.0,
+              "start": 0,
               "end": 15.76,
               "choices": [
                 "A",
@@ -441,8 +441,8 @@ window.PRACTICE_DATA = {
           "audio": "assets/audio/ex02.mp3",
           "questions": [
             {
-              "number": 1,
-              "start": 0.0,
+              "number": 31,
+              "start": 0,
               "end": 18.88,
               "choices": [
                 "A",
@@ -455,7 +455,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 2,
+              "number": 32,
               "start": 18.88,
               "end": 37.76,
               "choices": [
@@ -469,7 +469,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 3,
+              "number": 33,
               "start": 37.76,
               "end": 56.64,
               "choices": [
@@ -483,7 +483,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 4,
+              "number": 34,
               "start": 56.64,
               "end": 75.52,
               "choices": [
@@ -497,7 +497,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 5,
+              "number": 35,
               "start": 75.52,
               "end": 94.4,
               "choices": [
@@ -511,7 +511,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 6,
+              "number": 36,
               "start": 94.4,
               "end": 113.28,
               "choices": [
@@ -525,7 +525,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 7,
+              "number": 37,
               "start": 113.28,
               "end": 132.16,
               "choices": [
@@ -539,7 +539,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 8,
+              "number": 38,
               "start": 132.16,
               "end": 151.04,
               "choices": [
@@ -553,7 +553,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 9,
+              "number": 39,
               "start": 151.04,
               "end": 169.92,
               "choices": [
@@ -567,7 +567,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 10,
+              "number": 40,
               "start": 169.92,
               "end": 188.8,
               "choices": [
@@ -581,7 +581,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 11,
+              "number": 41,
               "start": 188.8,
               "end": 207.68,
               "choices": [
@@ -595,7 +595,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 12,
+              "number": 42,
               "start": 207.68,
               "end": 226.55,
               "choices": [
@@ -609,7 +609,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 13,
+              "number": 43,
               "start": 226.55,
               "end": 245.43,
               "choices": [
@@ -623,7 +623,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 14,
+              "number": 44,
               "start": 245.43,
               "end": 264.31,
               "choices": [
@@ -637,7 +637,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 15,
+              "number": 45,
               "start": 264.31,
               "end": 283.19,
               "choices": [
@@ -651,7 +651,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 16,
+              "number": 46,
               "start": 283.19,
               "end": 302.07,
               "choices": [
@@ -665,7 +665,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 17,
+              "number": 47,
               "start": 302.07,
               "end": 320.95,
               "choices": [
@@ -679,7 +679,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 18,
+              "number": 48,
               "start": 320.95,
               "end": 339.83,
               "choices": [
@@ -693,7 +693,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 19,
+              "number": 49,
               "start": 339.83,
               "end": 358.71,
               "choices": [
@@ -707,7 +707,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 20,
+              "number": 50,
               "start": 358.71,
               "end": 377.59,
               "choices": [
@@ -721,7 +721,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 21,
+              "number": 51,
               "start": 377.59,
               "end": 396.47,
               "choices": [
@@ -735,7 +735,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 22,
+              "number": 52,
               "start": 396.47,
               "end": 415.35,
               "choices": [
@@ -749,7 +749,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 23,
+              "number": 53,
               "start": 415.35,
               "end": 434.23,
               "choices": [
@@ -763,7 +763,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 24,
+              "number": 54,
               "start": 434.23,
               "end": 453.11,
               "choices": [
@@ -777,7 +777,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 25,
+              "number": 55,
               "start": 453.11,
               "end": 471.99,
               "choices": [
@@ -791,7 +791,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 26,
+              "number": 56,
               "start": 471.99,
               "end": 490.87,
               "choices": [
@@ -805,7 +805,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 27,
+              "number": 57,
               "start": 490.87,
               "end": 509.75,
               "choices": [
@@ -819,7 +819,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 28,
+              "number": 58,
               "start": 509.75,
               "end": 528.63,
               "choices": [
@@ -833,7 +833,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 29,
+              "number": 59,
               "start": 528.63,
               "end": 547.51,
               "choices": [
@@ -847,7 +847,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 30,
+              "number": 60,
               "start": 547.51,
               "end": 566.39,
               "choices": [
@@ -869,8 +869,8 @@ window.PRACTICE_DATA = {
           "audio": "assets/audio/ex03.mp3",
           "questions": [
             {
-              "number": 1,
-              "start": 0.0,
+              "number": 61,
+              "start": 0,
               "end": 18.98,
               "choices": [
                 "A",
@@ -883,7 +883,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 2,
+              "number": 62,
               "start": 18.98,
               "end": 37.96,
               "choices": [
@@ -897,7 +897,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 3,
+              "number": 63,
               "start": 37.96,
               "end": 56.95,
               "choices": [
@@ -911,7 +911,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 4,
+              "number": 64,
               "start": 56.95,
               "end": 75.93,
               "choices": [
@@ -925,7 +925,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 5,
+              "number": 65,
               "start": 75.93,
               "end": 94.91,
               "choices": [
@@ -939,7 +939,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 6,
+              "number": 66,
               "start": 94.91,
               "end": 113.89,
               "choices": [
@@ -953,7 +953,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 7,
+              "number": 67,
               "start": 113.89,
               "end": 132.88,
               "choices": [
@@ -967,7 +967,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 8,
+              "number": 68,
               "start": 132.88,
               "end": 151.86,
               "choices": [
@@ -981,7 +981,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 9,
+              "number": 69,
               "start": 151.86,
               "end": 170.84,
               "choices": [
@@ -995,7 +995,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 10,
+              "number": 70,
               "start": 170.84,
               "end": 189.82,
               "choices": [
@@ -1009,7 +1009,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 11,
+              "number": 71,
               "start": 189.82,
               "end": 208.81,
               "choices": [
@@ -1023,7 +1023,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 12,
+              "number": 72,
               "start": 208.81,
               "end": 227.79,
               "choices": [
@@ -1037,7 +1037,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 13,
+              "number": 73,
               "start": 227.79,
               "end": 246.77,
               "choices": [
@@ -1051,7 +1051,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 14,
+              "number": 74,
               "start": 246.77,
               "end": 265.75,
               "choices": [
@@ -1065,7 +1065,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 15,
+              "number": 75,
               "start": 265.75,
               "end": 284.73,
               "choices": [
@@ -1079,7 +1079,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 16,
+              "number": 76,
               "start": 284.73,
               "end": 303.72,
               "choices": [
@@ -1093,7 +1093,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 17,
+              "number": 77,
               "start": 303.72,
               "end": 322.7,
               "choices": [
@@ -1107,7 +1107,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 18,
+              "number": 78,
               "start": 322.7,
               "end": 341.68,
               "choices": [
@@ -1121,7 +1121,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 19,
+              "number": 79,
               "start": 341.68,
               "end": 360.66,
               "choices": [
@@ -1135,7 +1135,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 20,
+              "number": 80,
               "start": 360.66,
               "end": 379.65,
               "choices": [
@@ -1149,7 +1149,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 21,
+              "number": 81,
               "start": 379.65,
               "end": 398.63,
               "choices": [
@@ -1163,7 +1163,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 22,
+              "number": 82,
               "start": 398.63,
               "end": 417.61,
               "choices": [
@@ -1177,7 +1177,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 23,
+              "number": 83,
               "start": 417.61,
               "end": 436.59,
               "choices": [
@@ -1191,7 +1191,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 24,
+              "number": 84,
               "start": 436.59,
               "end": 455.58,
               "choices": [
@@ -1205,7 +1205,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 25,
+              "number": 85,
               "start": 455.58,
               "end": 474.56,
               "choices": [
@@ -1219,7 +1219,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 26,
+              "number": 86,
               "start": 474.56,
               "end": 493.54,
               "choices": [
@@ -1233,7 +1233,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 27,
+              "number": 87,
               "start": 493.54,
               "end": 512.52,
               "choices": [
@@ -1247,7 +1247,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 28,
+              "number": 88,
               "start": 512.52,
               "end": 531.5,
               "choices": [
@@ -1261,7 +1261,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 29,
+              "number": 89,
               "start": 531.5,
               "end": 550.49,
               "choices": [
@@ -1275,7 +1275,7 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "number": 30,
+              "number": 90,
               "start": 550.49,
               "end": 569.47,
               "choices": [
