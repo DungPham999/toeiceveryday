@@ -57,7 +57,7 @@ window.PRACTICE_DATA = {
             {
               "number": 4,
               "start": 53.29,
-              "end": 74.02,
+              "end": 70.02,
               "choices": [
                 "A",
                 "B",
@@ -70,8 +70,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 5,
-              "start": 74.02,
-              "end": 91.61,
+              "start": 71.02,
+              "end": 87.61,
               "choices": [
                 "A",
                 "B",
@@ -84,8 +84,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 6,
-              "start": 91.61,
-              "end": 110.54,
+              "start": 90.61,
+              "end": 107.54,
               "choices": [
                 "A",
                 "B",
@@ -98,8 +98,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 7,
-              "start": 111.58,
-              "end": 130.34,
+              "start": 108.58,
+              "end": 125.34,
               "choices": [
                 "A",
                 "B",
@@ -112,8 +112,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 8,
-              "start": 131.34,
-              "end": 150.1,
+              "start": 126.34,
+              "end": 143.1,
               "choices": [
                 "A",
                 "B",
@@ -126,8 +126,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 9,
-              "start": 150.1,
-              "end": 168.87,
+              "start": 144.1,
+              "end": 151.87,
               "choices": [
                 "A",
                 "B",
@@ -140,8 +140,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 10,
-              "start": 168.87,
-              "end": 187.63,
+              "start": 153.87,
+              "end": 170.63,
               "choices": [
                 "A",
                 "B",
