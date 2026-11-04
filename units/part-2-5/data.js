@@ -43,7 +43,7 @@ window.PRACTICE_DATA = {
             {
               "number": 3,
               "start": 37.53,
-              "end": 56.29,
+              "end": 53.29,
               "choices": [
                 "A",
                 "B",
@@ -56,8 +56,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 4,
-              "start": 56.29,
-              "end": 75.05,
+              "start": 54.29,
+              "end": 75.02,
               "choices": [
                 "A",
                 "B",
@@ -70,8 +70,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 5,
-              "start": 75.05,
-              "end": 93.81,
+              "start": 75.02,
+              "end": 93.61,
               "choices": [
                 "A",
                 "B",
@@ -84,8 +84,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 6,
-              "start": 93.81,
-              "end": 112.58,
+              "start": 93.61,
+              "end": 112.54,
               "choices": [
                 "A",
                 "B",
