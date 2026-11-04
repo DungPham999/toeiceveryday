@@ -15,7 +15,7 @@ window.PRACTICE_DATA = {
             {
               "number": 1,
               "start": 0.0,
-              "end": 18.76,
+              "end": 17.76,
               "choices": [
                 "A",
                 "B",
@@ -28,8 +28,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 2,
-              "start": 18.76,
-              "end": 37.53,
+              "start": 18.06,
+              "end": 36.53,
               "choices": [
                 "A",
                 "B",
