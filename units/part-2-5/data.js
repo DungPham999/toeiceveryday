@@ -29,7 +29,7 @@ window.PRACTICE_DATA = {
             {
               "number": 2,
               "start": 18.06,
-              "end": 36.53,
+              "end": 35.53,
               "choices": [
                 "A",
                 "B",
@@ -42,8 +42,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 3,
-              "start": 37.53,
-              "end": 53.29,
+              "start": 36.53,
+              "end": 52.29,
               "choices": [
                 "A",
                 "B",
@@ -56,8 +56,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 4,
-              "start": 54.29,
-              "end": 75.02,
+              "start": 53.29,
+              "end": 74.02,
               "choices": [
                 "A",
                 "B",
@@ -70,8 +70,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 5,
-              "start": 75.02,
-              "end": 93.61,
+              "start": 74.02,
+              "end": 91.61,
               "choices": [
                 "A",
                 "B",
@@ -84,8 +84,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 6,
-              "start": 93.61,
-              "end": 112.54,
+              "start": 91.61,
+              "end": 110.54,
               "choices": [
                 "A",
                 "B",
@@ -98,8 +98,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 7,
-              "start": 112.58,
-              "end": 131.34,
+              "start": 111.58,
+              "end": 130.34,
               "choices": [
                 "A",
                 "B",
