@@ -168,8 +168,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 12,
-              "start": 206.39,
-              "end": 225.15,
+              "start": 202.39,
+              "end": 220.15,
               "choices": [
                 "A",
                 "B",
@@ -182,8 +182,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 13,
-              "start": 225.15,
-              "end": 243.92,
+              "start": 221.15,
+              "end": 238.92,
               "choices": [
                 "A",
                 "B",
@@ -196,8 +196,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 14,
-              "start": 243.92,
-              "end": 262.68,
+              "start": 239.92,
+              "end": 256.68,
               "choices": [
                 "A",
                 "B",
@@ -210,8 +210,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 15,
-              "start": 262.68,
-              "end": 281.44,
+              "start": 257.68,
+              "end": 274.44,
               "choices": [
                 "A",
                 "B",
@@ -224,8 +224,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 16,
-              "start": 281.44,
-              "end": 300.21,
+              "start": 275.44,
+              "end": 292.21,
               "choices": [
                 "A",
                 "B",
@@ -238,8 +238,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 17,
-              "start": 300.21,
-              "end": 318.97,
+              "start": 293.21,
+              "end": 310.97,
               "choices": [
                 "A",
                 "B",
@@ -252,8 +252,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 18,
-              "start": 318.97,
-              "end": 337.73,
+              "start": 311.97,
+              "end": 326.73,
               "choices": [
                 "A",
                 "B",
@@ -266,8 +266,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 19,
-              "start": 337.73,
-              "end": 356.49,
+              "start": 327.73,
+              "end": 344.49,
               "choices": [
                 "A",
                 "B",
@@ -280,8 +280,8 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 20,
-              "start": 356.49,
-              "end": 375.26,
+              "start": 345.49,
+              "end": 362.26,
               "choices": [
                 "A",
                 "B",
