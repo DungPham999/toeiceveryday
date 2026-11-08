@@ -24,7 +24,7 @@ window.AUDIO_TIMES = {
     "end": 253.007
   },
 "p2-q7": {
-    "start": 290.867,
+    "start": 291.867,
     "end": 306.28
   },
 
