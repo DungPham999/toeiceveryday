@@ -145,7 +145,7 @@ window.PRACTICE_DATA = {
             },
             {
               "number": 12,
-              "prompt": "Ms. Page in the Marketing Department is excellent at _____.",
+              "prompt": "Ms. Page in the Marketing Department is excellent at _____ ideas.",
               "choices": [
                 "present",
                 "presenting",
