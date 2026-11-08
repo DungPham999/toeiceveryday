@@ -1,6 +1,6 @@
 window.AUDIO_TIMES = {
   "p1-q1": {
-    "start": 96.153,
+    "start": 98.153,
     "end": 116.577
   },
   "p1-q2": {
@@ -24,7 +24,7 @@ window.AUDIO_TIMES = {
     "end": 255.754
   },
   "p2-q7": {
-    "start": 298.097,
+    "start": 296.097,
     "end": 309.997
   },
   "p2-q8": {
