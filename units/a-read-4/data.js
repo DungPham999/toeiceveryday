@@ -30,7 +30,7 @@ window.PRACTICE_DATA = {
                 "yours",
                 "her",
                 "himself",
-                "Your"
+                "your"
               ],
               "answer": 2,
               "explanation": "2. C. himself\nCấu trúc introduce oneself = tự giới thiệu.\n→ Peter introduced himself.\nCollocation: introduce oneself = tự giới thiệu."
