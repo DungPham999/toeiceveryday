@@ -837,7 +837,7 @@ window.PRACTICE_DATA = {
                 "expensive"
               ],
               "answer": 0,
-              "explanation": "69. A. expenses\nSau any và nghĩa là chi phí phát sinh → noun plural.\n→ any expenses incurred during business travel.\nCollocation: incur expenses = phát sinh chi phí; business travel = công tác."
+              "explanation": "69. A. expenses\nSau any cần danh từ  → chọn A.\n→ any expenses (which are) incurred during business travel.\nCollocation: to incur expenses = phát sinh chi phí; business travel = công tác."
             },
             {
               "number": 70,
