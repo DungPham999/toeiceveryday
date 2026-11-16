@@ -549,7 +549,7 @@ window.PRACTICE_DATA = {
                 "himself"
               ],
               "answer": 0,
-              "explanation": "45. A. his\nTrước overheated engine cần possessive adjective.\n→ his overheated engine.\nCollocation: pull over = tấp xe vào lề; engine overheat = động cơ quá nóng; cool off = nguội đi."
+              "explanation": "45. A. Sau `so` cần SV, mà sau khoảng trong đã có `could Vo` -> cụm `.... overheated engine` phải là chủ ngữ -> cụm danh từ-> chỗ trống cần possessive adjective.\n→ his overheated engine.\nCollocation: pull over = tấp xe vào lề; engine overheat = động cơ quá nóng; cool off = nguội đi."
             },
             {
               "number": 46,
@@ -669,7 +669,7 @@ window.PRACTICE_DATA = {
                 "combined"
               ],
               "answer": 2,
-              "explanation": "55. C. combining\nV-ing rút gọn cho which combines.\n→ a skincare line combining...\nCollocation: moisturizing effects = tác dụng dưỡng ẩm."
+              "explanation": "55. C. combining là dạng rút gọn cho which combines the moisturizing effects.\n→ a skincare line combiningthe moisturizing effects = dòng sản phẩm skincare kết hợp tác dụng dưỡng ẩm."
             },
             {
               "number": 56,
