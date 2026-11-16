@@ -549,7 +549,7 @@ window.PRACTICE_DATA = {
                 "himself"
               ],
               "answer": 0,
-              "explanation": "45. A. Sau `so` cần SV, mà sau khoảng trong đã có `could Vo` -> cụm `.... overheated engine` phải là chủ ngữ -> cụm danh từ-> chỗ trống cần possessive adjective.\n→ his overheated engine.\nCollocation: pull over = tấp xe vào lề; engine overheat = động cơ quá nóng; cool off = nguội đi."
+              "explanation": "45. A. Sau `so` cần SV, mà sau khoảng trong đã có `could Vo` -> cụm `.... overheated engine` phải là chủ ngữ -> cụm danh từ-> chỗ trống cần possessive adjective.\n→ his overheated engine = động cơ quá nóng.\nCollocation: pull over = tấp xe vào lề; cool off = nguội đi."
             },
             {
               "number": 46,
