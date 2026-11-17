@@ -89,6 +89,20 @@
     "listening": false,
     "reading": true
   },
+   {
+    "id": "ets2023-t9",
+    "year": 2023,
+    "test": 9,
+    "listening": false,
+    "reading": true
+  },
+   {
+    "id": "ets2023-t10",
+    "year": 2023,
+    "test": 10,
+    "listening": false,
+    "reading": true
+  },
   {
     "id": "ets2024-t1",
     "year": 2024,
