@@ -955,7 +955,7 @@ window.READING_DATA = {
             "[3]",
             "[4]"
           ],
-          "answer": 1,
+          "answer": 2,
           "explanation": ""
         }
       ]
