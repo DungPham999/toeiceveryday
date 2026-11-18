@@ -13,6 +13,8 @@ if (cfg && cfg.title) {
     if (paletteTestTitleEl) {
         paletteTestTitleEl.textContent = cfg.title;
     }
+  // Cập nhật tên trang trên điện thoại
+    document.title = cfg.title;
 }
   const data = window.READING_DATA;
   const key = cfg.storageKey;
