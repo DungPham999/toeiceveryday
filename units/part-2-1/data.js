@@ -122,8 +122,6 @@ window.PRACTICE_DATA = {
               "answer": 1,
               "script": [https://github.com/DungPham999/toeiceveryday/blob/main/units/part-2-1/data.js
                 "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to `Tôi đã định làm việc đó từ lâu rồi _ nhưng vẫn chưa thực hiện`. (C) I’ve never worked for a charity."
-
-              
               ]
             },
             {
@@ -291,7 +289,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Aren’t you going to the movies tonight? (A) L attended the film festival. (B) No, we’ve changed our plans. (C) Well, I have done some acting work before."
+                "Aren’t you going to the movies tonight? (A) I attended the film festival. (B) No, we’ve changed our plans. (C) Well, I have done some acting work before."
               ]
             },
             {
@@ -305,7 +303,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Would you like a paper bag, or a plastic one? (A) I'll take a paper one, please. (8) No, I didn’t buy a plastic bag. (C) I don’t often read the newspaper."
+                "Would you like a paper bag, or a plastic one? (A) I'll take a paper one, please. (B) No, I didn’t buy a plastic bag. (C) I don’t often read the newspaper."
               ]
             },
             {
@@ -319,7 +317,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Do you know how to run this software? (A) Sure. I'll help you in a minute. (8) From the hardware store. (C) I don’t know who did it."
+                "Do you know how to run this software? (A) Sure. I'll help you in a minute. (B) From the hardware store. (C) I don’t know who did it."
               ]
             },
             {
@@ -389,7 +387,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Haven’t we gone over this proposal already? A) Yes, we looked at it yesterday (B) He’s working overtime. (C) She accepted my proposal yesterday. i"
+                "Haven’t we gone over this proposal already? A) Yes, we looked at it yesterday (B) He’s working overtime. (C) She accepted my proposal yesterday."
               ]
             },
             {
