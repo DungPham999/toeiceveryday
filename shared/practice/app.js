@@ -143,7 +143,8 @@ function palette(){
  $("correctCount").textContent=c;$("wrongCount").textContent=w;$("todoCount").textContent=all.length-c-w;
  const totalChecked=c+w, accuracy=totalChecked?(c/totalChecked)*100:0;
  const accuracyText=$("accuracyText"),accuracyBar=$("accuracyBar");
- if(accuracyText)accuracyText.textContent=`Tỷ lệ đúng: ${accuracy.toFixed(2).replace(".",",")}% (${c}/${totalChecked} câu đã kiểm tra)`;
+ if(accuracyText)accuracyText.textContent=`Accuracy: ${accuracy.toFixed(2)}% (${c} out of ${totalChecked} questions answered)`;
+ 
  if(accuracyBar)accuracyBar.style.width=accuracy+"%";
  const box=$("paletteSections");box.innerHTML="";
  parts.forEach(p=>{let sec=document.createElement("section");sec.className="palette-section";sec.innerHTML=`<h3>Part ${p}</h3>`;
