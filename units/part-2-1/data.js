@@ -120,7 +120,7 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "answer": 1,
-              "script": [https://github.com/DungPham999/toeiceveryday/blob/main/units/part-2-1/data.js
+              "script": [
                 "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to `Tôi đã định làm việc đó từ lâu rồi _ nhưng vẫn chưa thực hiện`. (C) I’ve never worked for a charity."
               ]
             },
