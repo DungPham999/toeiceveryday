@@ -877,6 +877,36 @@ body.palette-open-body{overflow:hidden}
 .stat-swatch.wrong{background:#ffe1e1;border-color:#ef5350}
 .stat-swatch.todo{background:#f7f5f2;border-color:#cfc6ba}
 
+.palette-accuracy{
+  padding:12px 16px 14px;
+  border-bottom:1px solid var(--line);
+  background:#fffdf9;
+}
+
+.palette-accuracy-text{
+  margin-bottom:9px;
+  color:#5d452e;
+  font-size:15px;
+  font-weight:850;
+  line-height:1.35;
+}
+
+.palette-accuracy-track{
+  width:100%;
+  height:9px;
+  overflow:hidden;
+  border-radius:999px;
+  background:#eee6dc;
+}
+
+.palette-accuracy-fill{
+  width:0;
+  height:100%;
+  border-radius:inherit;
+  background:linear-gradient(90deg,#15966b,#48a77e);
+  transition:width .25s ease;
+}
+
 .palette-legend{
   display:flex;
   align-items:center;
@@ -1322,6 +1352,19 @@ body.palette-open-body{overflow:hidden}
   .stat-swatch{
     width:13px;
     height:13px;
+  }
+
+  .palette-accuracy{
+    padding:9px 8px 10px;
+  }
+
+  .palette-accuracy-text{
+    margin-bottom:7px;
+    font-size:12px;
+  }
+
+  .palette-accuracy-track{
+    height:7px;
   }
 
   .palette-legend{

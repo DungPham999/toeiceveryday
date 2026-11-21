@@ -40,6 +40,9 @@
   const correctCount = document.getElementById('correctCount');
   const wrongCount = document.getElementById('wrongCount');
   const todoCount = document.getElementById('todoCount');
+  const accuracyText = document.getElementById('accuracyText');
+  const accuracyBar = document.getElementById('accuracyBar');
+  const accuracyTrack = document.getElementById('accuracyTrack');
   const editScriptBtn = document.getElementById('editScriptBtn');
   const exportCorrectionsBtn = document.getElementById('exportCorrectionsBtn');
   const scriptEditNote = document.getElementById('scriptEditNote');
@@ -404,9 +407,19 @@ let scriptOverrides = loadLocalJSON(
       if (questionCorrect(q,item)) correct++;
       else if (questionWrong(q,item)) wrong++;
     });
+    const checkedTotal = correct + wrong;
+    const accuracy = checkedTotal ? (correct / checkedTotal) * 100 : 0;
+
     correctCount.textContent = correct;
     wrongCount.textContent = wrong;
-    todoCount.textContent = allQuestions.length - correct - wrong;
+    todoCount.textContent = allQuestions.length - checkedTotal;
+
+    if (accuracyText) {
+      accuracyText.textContent =
+        `Accuracy: ${accuracy.toFixed(2)}% (${correct}/${checkedTotal} questions checked)`;
+    }
+    if (accuracyBar) accuracyBar.style.width = `${accuracy}%`;
+    if (accuracyTrack) accuracyTrack.setAttribute('aria-valuenow', accuracy.toFixed(2));
 
     paletteSections.innerHTML = '';
     [1,2,3,4].forEach(p => {
@@ -417,7 +430,7 @@ let scriptOverrides = loadLocalJSON(
       const h = document.createElement('h3');
       const partName = p === 1 ? 'Photographs' : p === 2 ? 'Question–Response' : p === 3 ? 'Conversations' : 'Talks';
       const count = items.reduce((sum,it) => sum + it.questions.length, 0);
-      h.textContent = `Part ${p} – ${partName} (${count} câu)`;
+      h.textContent = `Part ${p} – ${partName} (${count} questions)`;
       section.appendChild(h);
 
       const grid = document.createElement('div');

@@ -98,27 +98,34 @@
   </main>
 
   <div id="paletteOverlay" class="palette-overlay hidden" aria-hidden="true">
-    <aside class="palette-drawer" role="dialog" aria-modal="true" aria-label="Danh sách câu hỏi">
+    <aside class="palette-drawer" role="dialog" aria-modal="true" aria-label="Question List">
       <div class="palette-head">
         <div>
           <div id="paletteKicker" class="palette-kicker">TOEIC TEST</div>
-          <h2>Danh sách câu hỏi</h2>
+          <h2>Question List</h2>
         </div>
         <button id="paletteClose" class="palette-close" aria-label="Close">×</button>
       </div>
 
       <div class="palette-stats">
-        <div><span class="stat-swatch correct"></span><b id="correctCount">0</b> Đúng</div>
-        <div><span class="stat-swatch wrong"></span><b id="wrongCount">0</b> Sai</div>
-        <div><span class="stat-swatch todo"></span><b id="todoCount">100</b> Chưa kiểm tra</div>
+        <div><span class="stat-swatch correct"></span><b id="correctCount">0</b> Correct</div>
+        <div><span class="stat-swatch wrong"></span><b id="wrongCount">0</b> Incorrect</div>
+        <div><span class="stat-swatch todo"></span><b id="todoCount">100</b> Not checked</div>
+      </div>
+
+      <div class="palette-accuracy" aria-live="polite">
+        <div class="palette-accuracy-text" id="accuracyText">Accuracy: 0.00% (0/0 questions checked)</div>
+        <div class="palette-accuracy-track" role="progressbar" aria-label="Accuracy rate" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="accuracyTrack">
+          <div class="palette-accuracy-fill" id="accuracyBar"></div>
+        </div>
       </div>
 
       <div class="palette-legend">
-        <span><i class="legend-box current"></i>Đang xem</span>
-        <span><i class="legend-box correct"></i>Đúng</span>
-        <span><i class="legend-box wrong"></i>Sai</span>
-        <span><i class="legend-box todo"></i>Chưa kiểm tra</span>
-        <span><i class="legend-box marked"></i>Đánh dấu</span>
+        <span><i class="legend-box current"></i>Currently viewing</span>
+        <span><i class="legend-box correct"></i>Correct</span>
+        <span><i class="legend-box wrong"></i>Incorrect</span>
+        <span><i class="legend-box todo"></i>Not checked</span>
+        <span><i class="legend-box marked"></i>Flagged</span>
       </div>
 
       <div id="paletteSections" class="palette-sections"></div>
