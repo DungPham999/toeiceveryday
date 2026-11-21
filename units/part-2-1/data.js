@@ -37,7 +37,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "When is the play starting? (A) Not that far. (8) Right, it was wonderful. (C) Not for another hour."
+                "When is the play starting? (A) Not that far. (B) Right, it was wonderful. (C) Not for another hour."
               ]
             },
             {
