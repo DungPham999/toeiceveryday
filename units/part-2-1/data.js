@@ -135,7 +135,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "You refilled the ink cartridge, didn’t you? (A) Right. You can print that document out now. (8) No, I haven’t installed the fridge. (C) It was the bridge near the riverbank."
+                "You refilled the ink cartridge, didn’t you? (A) Right. You can print that document out now. (B) No, I haven’t installed the fridge. (C) It was the bridge near the riverbank."
               ]
             },
             {
@@ -479,7 +479,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Why is Penny going to Washington? (A) I heard she can’t come until tomorrow. 3) She has a conference to attend (C) Yes, she’ll stay at a hotel in town."
+                "Why is Penny going to Washington? (A) I heard she can’t come until tomorrow. (B) She has a conference to attend (C) Yes, she’ll stay at a hotel in town."
               ]
             },
             {
@@ -507,7 +507,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "What did you give Kyle for his birthday? (A) I forgot, sorry. Happy birthday! (B) Yes, he gave it to me. I got him a book."
+                "What did you give Kyle for his birthday? (A) I forgot, sorry. Happy birthday! (B) Yes, he gave it to me. (C) I got him a book."
               ]
             },
             {
@@ -521,7 +521,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Would you rather rent the apartment for 6 months or a year? (A) No, it wasn’t very long ago. (B) My rent is $150 a week. A shorter lease would be better."
+                "Would you rather rent the apartment for 6 months or a year? (A) No, it wasn’t very long ago. (B) My rent is $150 a week. (C) A shorter lease would be better."
               ]
             },
             {
@@ -535,7 +535,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Have you seen my cell phone anywhere? (A) I wouldn’t have looked for it. 3) Yes, it’s on the kitchen bench (C) How much did you sell it for?"
+                "Have you seen my cell phone anywhere? (A) I wouldn’t have looked for it. (B) Yes, it’s on the kitchen bench (C) How much did you sell it for?"
               ]
             },
             {
@@ -563,7 +563,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "How much did that digital camera cost? (A) It was about $500. (8) Around 3 months ago. (C) Yes, the company is cutting costs."
+                "How much did that digital camera cost? (A) It was about $500. (B) Around 3 months ago. (C) Yes, the company is cutting costs."
               ]
             },
             {
@@ -605,7 +605,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Why don’t you join me for dinner tonight? (A) I’ve already had lunch. (B) Sorry, | have other plans. (C) Because it’s raining."
+                "Why don’t you join me for dinner tonight? (A) I’ve already had lunch. (B) Sorry, I have other plans. (C) Because it’s raining."
               ]
             },
             {
@@ -633,7 +633,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Where are these supplies headed for? (A) They're being shipped to Florida. (B) He’s the head of the marketing division. (C) ’'m not surprised."
+                "Where are these supplies headed for? (A) They're being shipped to Florida. (B) He’s the head of the marketing division. (C) I'm not surprised."
               ]
             },
             {
@@ -647,7 +647,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "You went to the sales promotion, didn’t you? (A) You mean the one in Georgia Mall? (B) No, I didn’t get promoted. (O) It’s already gone."
+                "You went to the sales promotion, didn’t you? (A) You mean the one in Georgia Mall? (B) No, I didn’t get promoted. (C) It’s already gone."
               ]
             },
             {
@@ -661,7 +661,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Which firm did the new recruit use to work for? (A) We don’t need to recruit any new workers. (B) Yes, I’m firmly against it. (C) 'm not sure. You should ask her yourself."
+                "Which firm did the new recruit use to work for? (A) We don’t need to recruit any new workers. (B) Yes, I’m firmly against it. (C) I'm not sure. You should ask her yourself."
               ]
             },
             {
@@ -689,7 +689,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "When are you catching the bus to San Diego? (A) Because of the traffic jam. (8) First thing tomorrow morning. (C) It'll pick me up outside the hotel."
+                "When are you catching the bus to San Diego? (A) Because of the traffic jam. (B) First thing tomorrow morning. (C) It'll pick me up outside the hotel."
               ]
             },
             {
@@ -731,7 +731,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Do you know where the town hall is? (A) Yes, it is a big town. (B) Sorry, ’'m not from around here. (C) Just down the hall."
+                "Do you know where the town hall is? (A) Yes, it is a big town. (B) Sorry, I'm not from around here. (C) Just down the hall."
               ]
             },
             {
@@ -815,7 +815,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "What are we going to discuss at the staff meeting? (A) I wasn’t part of the discussions. (B) The company’s new medical plan. (O) Yes, it’s tomorrow at the end of the day."
+                "What are we going to discuss at the staff meeting? (A) I wasn’t part of the discussions. (B) The company’s new medical plan. (C) Yes, it’s tomorrow at the end of the day."
               ]
             },
             {
@@ -857,7 +857,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Ms. Smith filed a complaint about our customer service. (A) Just fill out these forms, please. (B) No, I completed it. (C) Pl look into it right away."
+                "Ms. Smith filed a complaint about our customer service. (A) Just fill out these forms, please. (B) No, I completed it. (C) I'll look into it right away."
               ]
             }
           ]
@@ -879,7 +879,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "How are you getting to the airport? (A) Yes, Narita Airport. } (B) I'll take the bus. (C) Around 2 hours."
+                "How are you getting to the airport? (A) Yes, Narita Airport. (B) I'll take the bus. (C) Around 2 hours."
               ]
             },
             {
@@ -921,7 +921,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "How much did the printing shop charge? \\) Two dollars per page (B) I didn’t notice any changes. (C) It’s just around the corner."
+                "How much did the printing shop charge? (A) Two dollars per page (B) I didn’t notice any changes. (C) It’s just around the corner."
               ]
             },
             {
@@ -935,7 +935,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Would you like to order any appetizers? (A) Thanks, they were delicious. 3) We have to look at the menu again (C) That’s not like you."
+                "Would you like to order any appetizers? (A) Thanks, they were delicious. (B) We have to look at the menu again (C) That’s not like you."
               ]
             },
             {
@@ -949,7 +949,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "I think the county fair begins tomorrow. (A) That’s very unfair. (B) Yes, I went yesterday. ©) Let’s go there together"
+                "I think the county fair begins tomorrow. (A) That’s very unfair. (B) Yes, I went yesterday. (C) Let’s go there together"
               ]
             },
             {
@@ -977,7 +977,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Who is Mr. Verity talking to in his office? ) A paper salesperson (B) Yes, he’s just in his office. (C) No, that’s not what I heard."
+                "Who is Mr. Verity talking to in his office? (A) A paper salesperson (B) Yes, he’s just in his office. (C) No, that’s not what I heard."
               ]
             },
             {
@@ -1005,7 +1005,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Jack Lyons won the “employee of the month” award. A) 1 think he deserved it. (B) Yes, he’s a very good employer. (C) | wonder who won it."
+                "Jack Lyons won the “employee of the month” award. (A) 1 think he deserved it. (B) Yes, he’s a very good employer. (C) I wonder who won it."
               ]
             },
             {
@@ -1019,7 +1019,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "When is jillian from Accounting going on vacation? (A) Hawaii. B) Next Friday. (C) On the budgeting report."
+                "When is jillian from Accounting going on vacation? (A) Hawaii. (B) Next Friday. (C) On the budgeting report."
               ]
             },
             {
@@ -1047,7 +1047,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "What is the first item on today’s agenda? (A) In the staffroom. (B) I decided not to buy the item. The new parking policy"
+                "What is the first item on today’s agenda? (A) In the staffroom. (B) I decided not to buy the item. (C) The new parking policy"
               ]
             },
             {
@@ -1089,7 +1089,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Didn’t you participate in last week’s workshop? (A) Really? I haven’t seen that part. (B) Yes, I’m planning on it. (C) I had to withdraw at the last minute"
+                "Didn’t you participate in last week’s workshop? (A) Really? I haven’t seen that part. (B) Yes, I’m planning on it. (C) I had to withdraw at the last minute."
               ]
             },
             {
@@ -1103,7 +1103,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Where do you keep the medical kit? (A) The medical school is on another campus. (B) No, we decided not to keep it. In the top drawer of the cabinet"
+                "Where do you keep the medical kit? (A) The medical school is on another campus. (B) No, we decided not to keep it. (C) In the top drawer of the cabinet."
               ]
             },
             {
@@ -1117,7 +1117,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Why don’t you submit an application? I’m not interested in the position (8) No, I haven’t sent one in yet. (C) Yes, I should get a refund on the appliance."
+                "Why don’t you submit an application? (A) I’m not interested in the position (B) No, I haven’t sent one in yet. (C) Yes, I should get a refund on the appliance."
               ]
             },
             {
@@ -1131,7 +1131,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Frank’s coming to the concert tonight, isn’t he? (A) No, the conference room is already fully booked. 3) I don’t think he'll be able to make it (C) Actually, the concert is at Albert Hall."
+                "Frank’s coming to the concert tonight, isn’t he? (A) No, the conference room is already fully booked. (B) I don’t think he'll be able to make it (C) Actually, the concert is at Albert Hall."
               ]
             },
             {
@@ -1145,7 +1145,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Would you mind sharing a cab with me? (A) No, it’s not mine either. (B) Well, I’m going to catch a taxi. Why not? We’re going in the same direction"
+                "Would you mind sharing a cab with me? (A) No, it’s not mine either. (B) Well, I’m going to catch a taxi. (C) Why not? We’re going in the same direction"
               ]
             },
             {
@@ -1159,7 +1159,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Hasn’t the contract already been signed? No, the lawyer is still making some amend (8) I haven’t been able to contact him either. (C) Yes, I saw that signboard the other day. ments"
+                "Hasn’t the contract already been signed? No, the lawyer is still making some amend (B) I haven’t been able to contact him either. (C) Yes, I saw that signboard the other day."
               ]
             },
             {
@@ -1173,7 +1173,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "What does Ms. Anderson think about the proposal? \\) She didn’t say anything about it (B) Well, I suppose so. (C) I'd like to put the idea to her, too."
+                "What does Ms. Anderson think about the proposal? (A) She didn’t say anything about it (B) Well, I suppose so. (C) I'd like to put the idea to her, too."
               ]
             },
             {
@@ -1187,7 +1187,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "You've prepared your presentation for the shareholders, haven’t you? (A) L invested a lot of money in it. (8) That’s not the way it was presented to me. Of course, but I need time to practice it."
+                "You've prepared your presentation for the shareholders, haven’t you? (A) L invested a lot of money in it. (B) That’s not the way it was presented to me. (C) Of course, but I need time to practice it."
               ]
             },
             {
@@ -1201,7 +1201,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Do you know why the merger deal didn’t go through? A) ’'m not able to comment on that right now. (B) Yes, it has been emerging. (C) It has been going on for a few weeks."
+                "Do you know why the merger deal didn’t go through? (A) I'm not able to comment on that right now. (B) Yes, it has been emerging. (C) It has been going on for a few weeks."
               ]
             },
             {
@@ -1215,7 +1215,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Would you prefer to watch a romantic comedy or an action movie? A) Either is fine by me. (B) Yes, I sure do. (C) I didn’t like the first movie."
+                "Would you prefer to watch a romantic comedy or an action movie? (A) Either is fine by me. (B) Yes, I sure do. (C) I didn’t like the first movie."
               ]
             },
             {
@@ -1257,7 +1257,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Have you heard back from the real estate agent? (A) Yes, the mayor made a public statement. (B) She’ll call me back soon (C) It’s in the bag."
+                "Have you heard back from the real estate agent? (A) Yes, the mayor made a public statement. (B) She’ll call me back soon. (C) It’s in the bag."
               ]
             },
             {
@@ -1271,7 +1271,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Should we display these items in the shop window or beside the cashier’s desk? (A) The cashier isn’t at her desk. (B) Yes, the windows need cleaning. What do you think?"
+                "Should we display these items in the shop window or beside the cashier’s desk? (A) The cashier isn’t at her desk. (B) Yes, the windows need cleaning. (C) What do you think?"
               ]
             },
             {
