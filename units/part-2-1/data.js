@@ -121,7 +121,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [https://github.com/DungPham999/toeiceveryday/blob/main/units/part-2-1/data.js
-                "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to (Tôi đã định làm việc đó từ lâu rồi (nhưng vẫn chưa thực hiện)). (C) I’ve never worked for a charity."
+                "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to `Tôi đã định làm việc đó từ lâu rồi _ nhưng vẫn chưa thực hiện`. (C) I’ve never worked for a charity."
 
               
               ]
@@ -165,7 +165,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Do you think it’s going to rain today or not? (A) P'd take an umbrella just in case. (B) Yes, it rained all day. (C) He wants to be a weather forecaster."
+                "Do you think it’s going to rain today or not? (A) I'd take an umbrella just in case. (B) Yes, it rained all day. (C) He wants to be a weather forecaster."
               ]
             },
             {
@@ -179,7 +179,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 1,
               "script": [
-                "Would you mind if I borrowed your stapler? (A) Yes, I’ll borrow it. (B) You'll need to refill it first. (C) L ordered it from an office supplies’ catalog."
+                "Would you mind if I borrowed your stapler? (A) Yes, I’ll borrow it. (B) You'll need to refill it first. (C) I ordered it from an office supplies’ catalog."
               ]
             },
             {
@@ -263,7 +263,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "Are those the sales figures from this month or last month? (A) They transferred from marketing last month. (8) Ihave only been working in sales for two months. (C) They’re July’s figures."
+                "Are those the sales figures from this month or last month? (A) They transferred from marketing last month. (B) I have only been working in sales for two months. (C) They’re July’s figures."
               ]
             },
             {
