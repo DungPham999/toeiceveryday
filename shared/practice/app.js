@@ -139,7 +139,12 @@ function dots(){
 }
 function progress(){const n=Object.keys(answers).length,t=all.length;$("progressText").textContent=`${n} / ${t} answered`;$("progressBar").style.width=`${t?n/t*100:0}%`}
 function palette(){
- let c=0,w=0;all.forEach(x=>{if(correct(x.q,x.it,x.e))c++;else if(wrong(x.q,x.it,x.e))w++});$("correctCount").textContent=c;$("wrongCount").textContent=w;$("todoCount").textContent=all.length-c-w;
+ let c=0,w=0;all.forEach(x=>{if(correct(x.q,x.it,x.e))c++;else if(wrong(x.q,x.it,x.e))w++});
+ $("correctCount").textContent=c;$("wrongCount").textContent=w;$("todoCount").textContent=all.length-c-w;
+ const totalChecked=c+w, accuracy=totalChecked?(c/totalChecked)*100:0;
+ const accuracyText=$("accuracyText"),accuracyBar=$("accuracyBar");
+ if(accuracyText)accuracyText.textContent=`Tỷ lệ đúng: ${accuracy.toFixed(2).replace(".",",")}% (${c}/${totalChecked} câu đã kiểm tra)`;
+ if(accuracyBar)accuracyBar.style.width=accuracy+"%";
  const box=$("paletteSections");box.innerHTML="";
  parts.forEach(p=>{let sec=document.createElement("section");sec.className="palette-section";sec.innerHTML=`<h3>Part ${p}</h3>`;
    exs(p).forEach((e,ei)=>{let lab=document.createElement("div");lab.className="palette-exercise";lab.textContent=e.label||`Exercise ${ei+1}`;sec.appendChild(lab);let grid=document.createElement("div");grid.className="palette-grid";
