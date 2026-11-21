@@ -65,7 +65,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 2,
               "script": [
-                "(heard Tessa called today. (A) A friend of mine is called Tessa. (B) No, I didn’t receive any calls yesterday. (C) Right, she left a message."
+                "I heard Tessa called today. (A) A friend of mine is called Tessa. (B) No, I didn’t receive any calls yesterday. (C) Right, she left a message."
               ]
             },
             {
@@ -79,7 +79,7 @@ window.PRACTICE_DATA = {
               ],
               "answer": 0,
               "script": [
-                "Is Ms. Jones available at the moment? (A) She’s not at her desk right now. (B) Yes, it’s available for the right price. (C) Pll meet her for a moment."
+                "Is Ms. Jones available at the moment? (A) She’s not at her desk right now. (B) Yes, it’s available for the right price. (C) I'll meet her for a moment."
               ]
             },
             {
@@ -120,8 +120,10 @@ window.PRACTICE_DATA = {
                 "C"
               ],
               "answer": 1,
-              "script": [
-                "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to. (C) I’ve never worked for a charity."
+              "script": [https://github.com/DungPham999/toeiceveryday/blob/main/units/part-2-1/data.js
+                "Have you donated any money to charity this year? (A) Thanks for the donation. (B) I’ve been meaning to (Tôi đã định làm việc đó từ lâu rồi (nhưng vẫn chưa thực hiện)). (C) I’ve never worked for a charity."
+
+              
               ]
             },
             {
