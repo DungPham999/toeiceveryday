@@ -1663,7 +1663,7 @@ window.PRACTICE_DATA = {
             {
               "id": "part4-98-100",
               
-              "start": 2657.712,
+              "start": 2660.712,
               "end": 2732.508,
               "script": [
                 "Good morning. I hope you are settling in to your new offices here at Golden Glove Insurance Company. Let’s plan something fun to get to know each other. On the wall, there’s a list of team-building activities. After this meeting, put a check mark next to the activity you want to do together next Friday afternoon. It would be energizing and fun to use our volleyball court, but I shouldn’t influence you! Please make your own choice, and we’ll do the one with the most votes."
