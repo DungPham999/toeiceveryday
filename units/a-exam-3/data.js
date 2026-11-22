@@ -641,7 +641,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Why does the woman call the man?",
                   "choices": [
                     "To discuss renewing a contract",
-                    "To discuss a transportaUon issue",
+                    "To discuss a transportation issue",
                     "To announce a change in price",
                     "To announce a personnel change"
                   ],
@@ -655,19 +655,19 @@ window.PRACTICE_DATA = {
                     "It is a good low-cost opUon.",
                     "It has not led to a signiﬁcant increase in sales.",
                     "His colleagues have decided to cancel it.",
-                    "His colleagues do not have Ume to discuss it."
+                    "His colleagues do not have time to discuss it."
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
                 },
                 {
                   "number": 37,
-                  "prompt": "What will the speakers discuss in their next meeJng?",
+                  "prompt": "What will the speakers discuss in their next meeting?",
                   "choices": [
                     "Hiring a celebrity",
-                    "AdverUsing on the Internet",
-                    "Expanding an adverUsing budget",
-                    "Changing adverUsing companies"
+                    "Advertising on the Internet",
+                    "Expanding an advertising budget",
+                    "Changing advertising companies"
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
@@ -704,7 +704,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "It seems too small.",
                     "It arrived late.",
-                    "It contains a large quanUty of one item.",
+                    "It contains a large quantity of one item.",
                     "One type of item is missing from it."
                   ],
                   "answer": 2,
@@ -743,7 +743,7 @@ window.PRACTICE_DATA = {
                     "Meet with a client",
                     "Visit a doctor's oﬃce",
                     "Relocate to a diﬀerent oﬃce",
-                    "Aüend a presentaUon"
+                    "Attend a presentaUon"
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
@@ -766,7 +766,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "A colleague is out of town.",
                     "A price has changed.",
-                    "Some sogware must be updated.",
+                    "Some software must be updated.",
                     "A parking area is closed."
                   ],
                   "answer": 3,
@@ -789,7 +789,7 @@ window.PRACTICE_DATA = {
               "questions": [
                 {
                   "number": 44,
-                  "prompt": "Where is the conversaJon most likely taking place?",
+                  "prompt": "Where is the conversation most likely taking place?",
                   "choices": [
                     "At a bus terminal",
                     "At an airport",
@@ -815,7 +815,7 @@ window.PRACTICE_DATA = {
                   "number": 46,
                   "prompt": "Why does the woman say, \"I'm the guest speaker at a conference\"?",
                   "choices": [
-                    "To conﬁrm her conference aüendance",
+                    "To conﬁrm her conference attendance",
                     "To introduce herself",
                     "To refuse an oﬀer",
                     "To clarify a misunderstanding"
@@ -842,7 +842,7 @@ window.PRACTICE_DATA = {
                     "His employees need access to the roof.",
                     "Part of his plan to do a procedure.",
                     "A shipment of steel was incomplete.",
-                    "A renovaUon project is over budget."
+                    "A renovation project is over budget."
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
@@ -900,7 +900,7 @@ window.PRACTICE_DATA = {
                   "number": 51,
                   "prompt": "What is the woman concerned about?",
                   "choices": [
-                    "The accuracy of some sogware",
+                    "The accuracy of some software",
                     "An increased workload",
                     "Customer complaints",
                     "Running out of supplies"
@@ -912,7 +912,7 @@ window.PRACTICE_DATA = {
                   "number": 52,
                   "prompt": "What does Marc emphasize?",
                   "choices": [
-                    "Reduced operaUng expenses",
+                    "Reduced operating expenses",
                     "Greater inventory availability",
                     "The eﬃciency of a new system",
                     "The need for extra training"
@@ -950,10 +950,10 @@ window.PRACTICE_DATA = {
                   "number": 54,
                   "prompt": "What does the woman say about the e-mail?",
                   "choices": [
-                    "She is not happy with the aüached photos.",
+                    "She is not happy with the attached photos.",
                     "She expected it to contain a video.",
                     "She thought it would arrive earlier.",
-                    "She has not had Ume to read it."
+                    "She has not had time to read it."
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
@@ -965,7 +965,7 @@ window.PRACTICE_DATA = {
                     "Talk with her on the phone about a video.",
                     "Share some ideas for a new musical.",
                     "Help her with a problem at the studio.",
-                    "Allow extra Ume to get to his appointment."
+                    "Allow extra time to get to his appointment."
                   ],
                   "answer": 3,
                   "explanation": "Answer key: D. The transcript supports this answer."
@@ -1004,7 +1004,7 @@ window.PRACTICE_DATA = {
                     "Some video games are too diﬃcult.",
                     "Customers do not like the music.",
                     "Some games only work with expensive equipment.",
-                    "Some games are completely defecUve."
+                    "Some games are completely defective."
                   ],
                   "answer": 1,
                   "explanation": "Answer key: B. The transcript supports this answer."
@@ -1039,7 +1039,7 @@ window.PRACTICE_DATA = {
                   "number": 59,
                   "prompt": "What does the man say he will do today?",
                   "choices": [
-                    "Greet paUents",
+                    "Greet patients",
                     "Train a new employee",
                     "Transfer medical records",
                     "Make appointments"
@@ -1053,7 +1053,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "The cost of hiring a new oﬃce assistant",
                     "Maintaining the security of electronic ﬁles",
-                    "The privacy of paUents in the oﬃce",
+                    "The privacy of patients in the oﬃce",
                     "Using a scheduling system"
                   ],
                   "answer": 3,
@@ -1154,7 +1154,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "They had more lights.",
                     "They had larger lights.",
-                    "They had mulUcolor lights.",
+                    "They had multicolor lights.",
                     "They had ﬂashing lights."
                   ],
                   "answer": 1,
@@ -1262,7 +1262,7 @@ window.PRACTICE_DATA = {
                   "number": 72,
                   "prompt": "What does the speaker reassure the listener about?",
                   "choices": [
-                    "A price is negoUable.",
+                    "A price is negotiable.",
                     "Some supplies have arrived.",
                     "A job applicant is qualiﬁed.",
                     "Clients are satisﬁed."
@@ -1598,8 +1598,8 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "The store will open.",
                     "The contract will be signed.",
-                    "The inspecUon will take place.",
-                    "ConstrucUon work will start"
+                    "The inspection will take place.",
+                    "Construction work will start"
                   ],
                   "answer": 0,
                   "explanation": "Answer key: A. The transcript supports this answer."
@@ -1678,7 +1678,7 @@ window.PRACTICE_DATA = {
                   "number": 99,
                   "prompt": "When will the group have a team-building acJvity?",
                   "choices": [
-                    "This agernoon",
+                    "This afternoon",
                     "Tomorrow morning",
                     "Next Friday",
                     "Next Saturday"
