@@ -2332,17 +2332,17 @@ window.PRACTICE_DATA = {
                     "Its starting time",
                     "Its main purpose",
                     "Its location",
-                    "Its duraUon"
+                    "Its duration"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 148,
                   "prompt": "What is indicated about Mayor Lizeüe?",
                   "choices": [
                     "She owns a fast-food restaurant.",
-                    "She recently won an elecUon.",
+                    "She recently won an election.",
                     "She has a home on Hedgerow Boulevard.",
                     "She will present an award to a city employee."
                   ],
@@ -2364,8 +2364,8 @@ window.PRACTICE_DATA = {
                     "Bayshore Hotel staﬀ",
                     "Bayshore Hotel patrons"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 150,
@@ -2376,8 +2376,8 @@ window.PRACTICE_DATA = {
                     "Food will be served.",
                     "Guests of invitees are welcome."
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2394,8 +2394,8 @@ window.PRACTICE_DATA = {
                     "They are shown during the morning.",
                     "They are being held outdoors."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 152,
@@ -2406,8 +2406,8 @@ window.PRACTICE_DATA = {
                     "The Missing Papers",
                     "A Rambling Homecoming"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2424,8 +2424,8 @@ window.PRACTICE_DATA = {
                     "ParUcipants in an online cooking course",
                     "Owners of a parUcular type of"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 154,
@@ -2436,8 +2436,8 @@ window.PRACTICE_DATA = {
                     "He ﬁnds it convenient to use.",
                     "He is concerned that it might break."
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 155,
@@ -2460,8 +2460,8 @@ window.PRACTICE_DATA = {
                     "She will contact a manufacturer.",
                     "She will aüempt to open a container."
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2478,8 +2478,8 @@ window.PRACTICE_DATA = {
                     "At a lighUng store",
                     "At a manufacturing company"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 158,
@@ -2490,8 +2490,8 @@ window.PRACTICE_DATA = {
                     "She will not be able to subsUtute for an absent employee.",
                     "She has not had time to unpack some boxes."
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2520,8 +2520,8 @@ window.PRACTICE_DATA = {
                     "Conﬁrm a delivery date",
                     "Update his address"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 161,
@@ -2532,8 +2532,8 @@ window.PRACTICE_DATA = {
                     "conUnued",
                     "allowed"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2562,8 +2562,8 @@ window.PRACTICE_DATA = {
                     "She has started many businesses.",
                     "She regularly travels around the world."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 164,
@@ -2574,8 +2574,8 @@ window.PRACTICE_DATA = {
                     "[3]",
                     "[4]"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2592,8 +2592,8 @@ window.PRACTICE_DATA = {
                     "It specializes in making athleUc uniforms.",
                     "It helps companies promote"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 166,
@@ -2604,8 +2604,8 @@ window.PRACTICE_DATA = {
                     "ignored",
                     "closed up"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 2,
+                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 167,
@@ -2629,13 +2629,13 @@ window.PRACTICE_DATA = {
                   "number": 168,
                   "prompt": "What does the Web page focus on?",
                   "choices": [
-                    "An overview of an aüracUon",
-                    "A town's cultural fesUval",
+                    "An overview of an attraction",
+                    "A town's cultural festival",
                     "A local gardening club",
                     "An opportunity to buy art"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer":0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 169,
@@ -2658,8 +2658,8 @@ window.PRACTICE_DATA = {
                     "A public park has been cleaned up.",
                     "A ﬁlm about Mr. Barton has been made."
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 171,
@@ -2688,8 +2688,8 @@ window.PRACTICE_DATA = {
                     "The accounting director",
                     "The board of directors"
                   ],
-                  "answer": 2,
-                  "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 173,
@@ -2700,8 +2700,8 @@ window.PRACTICE_DATA = {
                     "QualiﬁcaUons",
                     "DuUes"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 174,
@@ -2712,8 +2712,8 @@ window.PRACTICE_DATA = {
                     "By uploading a résumé to a Web page",
                     "By compleUng an online applicaUon"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 175,
@@ -2724,8 +2724,8 @@ window.PRACTICE_DATA = {
                     "[3]",
                     "[4]"
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -2742,8 +2742,8 @@ window.PRACTICE_DATA = {
                     "An art gallery owner",
                     "An adult educaUon teacher"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 177,
@@ -2766,8 +2766,8 @@ window.PRACTICE_DATA = {
                     "lower",
                     "slow"
                   ],
-                  "answer": 3,
-                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
+                  "answer": 1,
+                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 179,
@@ -2778,8 +2778,8 @@ window.PRACTICE_DATA = {
                     "She failed to submit her request in wriUng.",
                     "She already attended part of the class."
                   ],
-                  "answer": 0,
-                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
+                  "answer": 3,
+                  "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
                 },
                 {
                   "number": 180,
@@ -2790,8 +2790,8 @@ window.PRACTICE_DATA = {
                     "Aüend half the class and sUll receive credit",
                     "Contact the teacher to arrange for private tutoring"
                   ],
-                  "answer": 1,
-                  "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
+                  "answer": 0,
+                  "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
                 }
               ]
             },
@@ -3025,7 +3025,7 @@ window.PRACTICE_DATA = {
                   "number": 198,
                   "prompt": "What is indicated about Ms. Ballard?",
                   "choices": [
-                    "She registered for the grant-wriUng course before October 1.",
+                    "She registered for the grant-writing course before October 1.",
                     "She currently works as a grant writer.",
                     "She took a course from Ms. Gilliam on a previous occasion.",
                     "She edits Mr. Fineman's blog posts."
@@ -3039,8 +3039,8 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "They attended a class together in Winnipeg.",
                     "They have been interviewed by Mr. Fineman.",
-                    "They want to learn how to research grant opportuniUes.",
-                    "They noUced the same weakness in the WriUng Great Grants course."
+                    "They want to learn how to research grant opportunities.",
+                    "They noticed the same weakness in the Writing Great Grants course."
                   ],
                   "answer": 3,
                   "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
@@ -3050,9 +3050,9 @@ window.PRACTICE_DATA = {
                   "prompt": "What does Mr. Voigt indicate about Ms. Gilliam?",
                   "choices": [
                     "She lives in Toronto.",
-                    "She started a grant-wriUng ﬁrm.",
+                    "She started a grant-writing ﬁrm.",
                     "She wrote a grant for Mr. Fineman.",
-                    "She authored a grant-wriUng manual."
+                    "She authored a grant-writing manual."
                   ],
                   "answer": 1,
                   "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
