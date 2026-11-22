@@ -96,9 +96,25 @@ $("duration").textContent=fmt(Math.max(0,b.end-b.start));
 drawWave();
   
    if(([1,2].includes(part)&&currentItem.questions.every(answered))||([3,4].includes(part)&&checked.has(currentItem.id)))showScript();
- } else if([6,7].includes(part)){
-   $("passageWrap").classList.remove("hidden");$("passageHtml").innerHTML=currentItem.passageHtml||currentEx.passageHtml||"<p>Passage unavailable.</p>";
- }
+} else if([6,7].includes(part)){
+  $("passageWrap").classList.remove("hidden");
+
+  const passageTitle =
+    currentItem.passageTitle ||
+    currentEx.passageTitle ||
+    "";
+
+  const passageContent =
+    currentItem.passageHtml ||
+    currentEx.passageHtml ||
+    "<p>Passage unavailable.</p>";
+
+  $("passageHtml").innerHTML =
+    (passageTitle
+      ? `<div class="passage-title">${esc(passageTitle)}</div>`
+      : "")
+    + passageContent;
+}
 }
 function questions(){
  const area=$("questionArea");area.innerHTML="";
