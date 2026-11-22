@@ -2323,7 +2323,7 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "part7-147-148",
-                    "passageTitle": "Questions 147-148 refer to the following article.",
+                    "label": "Questions 147-148 refer to the following article.",
 
       "passageHtml": "<div class=\"source-doc\"><div style=\"line-height:1.85\"> <strong> Mayor Lizette Set to Deliver State of the City Address</strong><br> <strong>FALCON HEIGHTS (21 April)– </strong> Mayor Loretta Lizette will deliver her fifth State of the City address at Falcon Heights City Hall, Room 101, on Wednesday, 30 April, beginning at 7:00 PM. The event is open to the public, but seating is first come, first served.<br>Mayor Lizette, who was reelected to her second four-year term last month, will discuss her vision for the future of the city. One issue on her agenda is the controversial application by Panhandle Eatery, a fast-food restaurant, to open a location on historic Hedgerow Boulevard. The speech will be followed by a question-and-answer period. Doors open at 6:30 PM.</div></div>",
 
