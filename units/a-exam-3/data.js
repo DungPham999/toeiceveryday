@@ -2854,7 +2854,7 @@ window.PRACTICE_DATA = {
                     "She is happy that a building design was changed.",
                     "She is planning to start her own bakery business.",
                     "She did not attend a public hearing.",
-                    "She wants to submit an arUcle to the"
+                    "She wants to submit an article to the"
                   ],
                   "answer": 0,
                   "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
@@ -2871,7 +2871,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "To apologize for poor Internet service",
                     "To seek permission from a property owner",
-                    "To provide an explanaUon for a delay",
+                    "To provide an explanation for a delay",
                     "To persuade a customer to switch Internet providers"
                   ],
                   "answer": 1,
@@ -2883,7 +2883,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "It recently experienced power outages.",
                     "It houses Raxconnect's headquarters.",
-                    "It will require only one connecUon hub.",
+                    "It will require only one connection hub.",
                     "It will soon have upgraded Internet service."
                   ],
                   "answer": 3,
@@ -2917,7 +2917,7 @@ window.PRACTICE_DATA = {
                   "number": 190,
                   "prompt": "What does the noJce suggest about people who live on Lefroy Street?",
                   "choices": [
-                    "They will have access to a shuüle service to their homes.",
+                    "They will have access to a shuttle service to their homes.",
                     "They will receive free Internet service for one week.",
                     "They will be asked to ﬁll out a form when Raxconnect's work is done.",
                     "They will be able to use the street during construction."
@@ -2959,10 +2959,10 @@ window.PRACTICE_DATA = {
                   "number": 193,
                   "prompt": "According to the e-mail, what are Ms. Botha's readers interested in?",
                   "choices": [
-                    "TasUng new foods",
-                    "RenUng a fesUval booth",
+                    "Tasting new foods",
+                    "Renting a festival booth",
                     "Opening a business",
-                    "WriUng reviews of food products"
+                    "Writing reviews of food products"
                   ],
                   "answer": 0,
                   "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
@@ -2971,7 +2971,7 @@ window.PRACTICE_DATA = {
                   "number": 194,
                   "prompt": "What is indicated about Ms. Botha?",
                   "choices": [
-                    "She plans to attend the Wooden Sailboat FesUval.",
+                    "She plans to attend the Wooden Sailboat Festival.",
                     "She grew up in the Cape Town area.",
                     "She wants to talk to Mr. and Ms. Grundon.",
                     "She applied for a job in Albert and"
