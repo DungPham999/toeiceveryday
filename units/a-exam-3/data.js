@@ -2323,7 +2323,7 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "part7-147-148",
-                    "label": "Questions 147-148 refer to the following article.",
+                    "passageTitle": "Questions 147-148 refer to the following article.",
 
       "passageHtml": "<div class=\"source-doc\"><div style=\"line-height:1.85\"> <strong> Mayor Lizette Set to Deliver State of the City Address</strong><br> <strong>FALCON HEIGHTS (21 April)– </strong> Mayor Loretta Lizette will deliver her fifth State of the City address at Falcon Heights City Hall, Room 101, on Wednesday, 30 April, beginning at 7:00 PM. The event is open to the public, but seating is first come, first served.<br>Mayor Lizette, who was reelected to her second four-year term last month, will discuss her vision for the future of the city. One issue on her agenda is the controversial application by Panhandle Eatery, a fast-food restaurant, to open a location on historic Hedgerow Boulevard. The speech will be followed by a question-and-answer period. Doors open at 6:30 PM.</div></div>",
 
@@ -3027,13 +3027,32 @@ window.PRACTICE_DATA = {
               ]
             },
             {
-              "id": "part7-196-200",
+          "id": "part7-196-200",
 
-                   "passageTitle": "Questions 196-200 refer to the following blog post and online forms.",
-      "passageHtml": "<div class=\"source-doc\"><h3>Ben’s Nonprofit Burst—Resources for those who work in the nonprofit sector</h3><h4>Getting Grants</h4><p>Posted on August 18 by Ben Fineman</p><p>Grant writing is the art of completing applications for financial aid offered by government agencies, schools, corporations, or other entities. There is huge competition for grants and no room for mediocrity in grant writing. To improve your grant-writing skills, consider taking an online course taught by Kristina Gilliam of Meadow Park University. Her Writing Great Grants course is divided into four 90-minute interactive sessions. It is designed for people with some basic knowledge of grant writing. These Monday evening classes run from November 15 to December 6. For details and registration, visit www.kristinagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent off the $350 tuition. This code expires on September 30. On October 1, only full-price registration will be available until the final registration day, November 1.</p> </div>
-        <div> <h3>www.kristinagilliam.ca/feedback — Natalie Ballard</h3><p>Thank you for participating in my Writing Great Grants course. Please take a moment to tell me about your experience by filling out the form below.</p><p><strong>Name:</strong> Natalie Ballard<br><strong>Location:</strong> Winnipeg</p><p><strong>Comment:</strong> Relatively short compared to other writing courses I’ve taken, Writing Great Grants provided a decent overview. I was impressed to learn that the instructor helped companies get millions of dollars in grants during her career, and I’m glad to now have her as a resource if I ever get hired as a grant writer. Fortunately, I used Ben’s Nonprofit Burst’s promo code when I registered. Otherwise, I’d have considered the tuition too high. The Website gave me the impression that Ms. Gilliam would include more specifics about the actual writing process than she did.</p> </div>
-        <div>   <h3>www.kristinagilliam.ca/feedback — Paul Voigt</h3><p>Thank you for participating in my Writing Great Grants course. Please take a moment to tell me about your experience by filling out the form below.</p><p><strong>Name:</strong> Paul Voigt<br><strong>Location:</strong> Toronto</p><p><strong>Comment:</strong> This was a great course overall. The instructor shared a wealth of valuable insights, including her experiences as the founder of Orden International. I never realized that grant-writing firms even existed! I might start one of my own if I ever leave my current grant-writing job. The course focused mainly on researching grant opportunities and analyzing samples of successful grant applications. When several of us asked for specific writing tips during the final session, Ms. Gilliam simply referred us to other resources. The course description on her Web site was a bit misleading in that regard.</p></div>",
-  
+"passageTitle": "Questions 196-200 refer to the following blog post and online forms.",
+
+"passageHtml": `
+<div class="source-doc">
+  <h3>Ben’s Nonprofit Burst—Resources for those who work in the nonprofit sector</h3>
+  <h4>Getting Grants</h4>
+  <p>Posted on August 18 by Ben Fineman</p>
+  <p>Grant writing is the art of completing applications for financial aid offered by government agencies, schools, corporations, or other entities. There is huge competition for grants and no room for mediocrity in grant writing. To improve your grant-writing skills, consider taking an online course taught by Kristina Gilliam of Meadow Park University. Her Writing Great Grants course is divided into four 90-minute interactive sessions. It is designed for people with some basic knowledge of grant writing. These Monday evening classes run from November 15 to December 6. For details and registration, visit www.kristinagilliam.ca/course. Use the promo code NPBURST at checkout to get 15 percent off the $350 tuition. This code expires on September 30. On October 1, only full-price registration will be available until the final registration day, November 1.</p>
+</div>
+
+<div>
+  <h3>www.kristinagilliam.ca/feedback — Natalie Ballard</h3>
+  <p>Thank you for participating in my Writing Great Grants course. Please take a moment to tell me about your experience by filling out the form below.</p>
+  <p><strong>Name:</strong> Natalie Ballard<br><strong>Location:</strong> Winnipeg</p>
+  <p><strong>Comment:</strong> Relatively short compared to other writing courses I’ve taken, Writing Great Grants provided a decent overview. I was impressed to learn that the instructor helped companies get millions of dollars in grants during her career, and I’m glad to now have her as a resource if I ever get hired as a grant writer. Fortunately, I used Ben’s Nonprofit Burst’s promo code when I registered. Otherwise, I’d have considered the tuition too high. The Website gave me the impression that Ms. Gilliam would include more specifics about the actual writing process than she did.</p>
+</div>
+
+<div>
+  <h3>www.kristinagilliam.ca/feedback — Paul Voigt</h3>
+  <p>Thank you for participating in my Writing Great Grants course. Please take a moment to tell me about your experience by filling out the form below.</p>
+  <p><strong>Name:</strong> Paul Voigt<br><strong>Location:</strong> Toronto</p>
+  <p><strong>Comment:</strong> This was a great course overall. The instructor shared a wealth of valuable insights, including her experiences as the founder of Orden International. I never realized that grant-writing firms even existed! I might start one of my own if I ever leave my current grant-writing job. The course focused mainly on researching grant opportunities and analyzing samples of successful grant applications. When several of us asked for specific writing tips during the final session, Ms. Gilliam simply referred us to other resources. The course description on her Web site was a bit misleading in that regard.</p>
+</div>
+`,
               "questions": [
                 {
                   "number": 196,
