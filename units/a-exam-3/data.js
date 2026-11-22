@@ -141,7 +141,7 @@ window.PRACTICE_DATA = {
           "questions": [
             {
               "number": 7,
-              "start": 280.0,
+              "start": 285.0,
               "end": 299.943,
               "choices": [
                 "A",
@@ -579,7 +579,7 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "part3-32-34",
-              "start": 793.872,
+              "start": 823.872,
               "end": 881.351,
               "script": [
                 "W-Br: Hi, Martin. It’s Lillian. Are you still planning to read from your book of poetry at the arts festival next weekend? You’re one of this publishing company’s most accomplished writers.",
@@ -776,8 +776,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-44-46",
-              "start": 1124.091,
-              "end": 1191.455,
+              "start": 1129.091,
+              "end": 1197.455,
               "script": [
                 "W-Br: Hi. I’m flying to Munich. The name’s Goldenberg. I have one suitcase.",
                 "M-Cn: I see your reservation, Ms. Goldenberg. I’ll print your boarding pass.",
@@ -827,8 +827,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-47-49",
-              "start": 1199.546,
-              "end": 1274.48,
+              "start": 1213.546,
+              "end": 1292.48,
               "script": [
                 "M-Au Hi, I’m calling from Gwan Construction. We were originally scheduled to transport the tower crane to your building this weekend for upcoming construction. As you know, we will use it to lift large steel beams onto the roof for renovations on the top floor. But I’m afraid we’re going to have to bring it and set it up this Wednesday instead.",
                 "W-Am Well, the weekend would have been better, since most of the offices are usually empty. But if you have to, I’ll send a notice that employees should use the side-street entrance.",
@@ -875,8 +875,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-50-52",
-              "start": 1282.562,
-              "end": 1358.532,
+              "start": 1294.562,
+              "end": 1370.532,
               "script": [
                 "M-Au As you all know, our bookstore has a new inventory system for keeping track of what books we have in the store. We were going to start using it just after the holidays when the store is closed to customers, but we need to start using it now.",
                 "W-Br Mr. Jones, you mean we’ll be entering inventory into the system and helping customers at the same time? That’s a lot.",
@@ -924,8 +924,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-53-55",
-              "start": 1366.608,
-              "end": 1443.982,
+              "start": 1373.608,
+              "end": 1459.982,
               "script": [
                 "W-Br Hi, I’m Tina Mackin, from the television program Sunrise Scotland. I just received an e-mail with information on the musical that’s opening next month, The Fields of Dumbarton.",
                 "M-Cn Yes, the director asked me to send that—some photos and information. So you got the e-mail with all the attachments?",
@@ -974,8 +974,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-56-58",
-              "start": 1452.089,
-              "end": 1531.973,
+              "start": 1465.089,
+              "end": 1547.973,
               "script": [
                 "W-Am Have you had a chance to look at the survey results?",
                 "M-Au I wasn’t surprised. , We’ve known for a while that our customers really don’t like the music in our video games.",
@@ -1025,8 +1025,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-59-61",
-              "start": 1540.06,
-              "end": 1609.37,
+              "start": 1554.06,
+              "end": 1624.37,
               "script": [
                 "M-Cn Good morning, Dr. An! In case you have forgotten, today I am going to start transferring patients’ paper records to electronic files.",
                 "W-Am Oh, right! Thanks! Who will be handling phone calls and greeting patients while you’re in the back office?",
@@ -1075,8 +1075,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-62-64",
-              "start": 1617.454,
-              "end": 1690.679,
+              "start": 1630.454,
+              "end": 1706.679,
               "script": [
                 "W-Am Hi, Ian. This is Michelle from Michelle’s Flower Shop. We just received our wholesale order, but the tulips are missing.",
                 "M-Cn Oh sorry, I forgot to let you know that my supplier can’t get them to me until tomorrow.",
@@ -1127,8 +1127,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-65-67",
-              "start": 1698.768,
-              "end": 1769.952,
+              "start": 1722.768,
+              "end": 1789.952,
               "script": [
                 "W-Am I hear that we’ve received complaints about the display panel on the Handimax coffee maker we just introduced. Have you looked into it?",
                 "M-Au , It’s the warning light that lets people know that more water needs to be added. On the Handimax, it’s right next to the Keep Warm light and some customers become confused when using the machine.",
@@ -1177,8 +1177,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part3-68-70",
-              "start": 1778.049,
-              "end": 1858.325,
+              "start": 1808.049,
+              "end": 1890.325,
               "script": [
                 "M-Cn Thanks for stopping by, Petra. Last week, I got the schedule for the rollout of Langenfeld’s new oatmeal raisin cookies.",
                 "W-Br Oh, yes. It’s about time. Customers have been complaining about how dry the current ones are.",
@@ -1240,8 +1240,8 @@ window.PRACTICE_DATA = {
           "sets": [
             {
               "id": "part4-71-73",
-              "start": 1866.378,
-              "end": 1964.319,
+              "start": 1926.378,
+              "end": 1990.319,
               "script": [
                 "Hi, Chara. This is Joe. I found a very nice space for your restaurant. It has everything you’re looking for, including an outdoor terrace. It’s a bit over your budget, but don’t worry. The owners like the idea that you’re such a successful chef. So they are willing to sit down and come to a compromise on the rent. This place is not downtown, but it’s located in the neighborhood of Peckham, which, as you know, is a busy, vibrant area. I think you’ll like it."
               ],
@@ -1286,8 +1286,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-74-76",
-              "start": 1972.444,
-              "end": 2042.364,
+              "start": 1996.444,
+              "end": 2073.364,
               "script": [
                 "Good morning, new Catrin’s Fitness staff! Having you working on a rotating basis at the front desk in the mornings will be really helpful! Plan to arrive at five A.M. to turn on the lights and the exercise machines. Oh, be sure to turn on the steam rooms in the men’s and women’s locker rooms. The steam rooms can malfunction as they warm up, and members have been complaining, so I always double-check that the steam is working OK just before we open. Please unlock the entrance at about five twenty-five and be ready to scan IDs as the guests come in."
               ],
@@ -1332,8 +1332,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-77-79",
-              "start": 2050.424,
-              "end": 2126.941,
+              "start": 2079.424,
+              "end": 2155.941,
               "script": [
                 "Welcome back. I’m Hongwei Shen, back with you live for today’s airing of Science Today. From biology to physics, Science Today is your source of accurate science news. We’ve been talking about the meteor shower that will be visible in the night sky on Saturday and Sunday. It’s going to be a big event, and I hope you have the chance to see it. I’m going to open the line to callers now. If you have a question about astronomy and this weekend’s event—and I’m going to restrict questions to those topics only—the number is 555-0156."
               ],
@@ -1378,8 +1378,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-80-82",
-              "start": 2135.045,
-              "end": 2206.771,
+              "start": 2160.045,
+              "end": 2235.771,
               "script": [
                 "Good afternoon, everyone, and welcome to the Panecks Corporation’s ten-year anniversary luncheon. We have had so many achievements: just this past year we sold our five millionth unit. That makes five million cars on the road today equipped with Panecks radios. As you might know, our president, Mr. Strohmeyer, has been in Japan all this month negotiating with Navasota Motors. He couldn’t be here today, but he sent a video greeting to thank you for all your hard work. We have three monitors here in the front of the room. Let’s get started."
               ],
@@ -1424,8 +1424,8 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-83-85",
-              "start": 2214.864,
-              "end": 2244.875,
+             "start": 2249.949,
+              "end": 2319.881,
               "script": [
                 "Thanks for attending this all-staff meeting today. First on the agenda is our new restaurant reservation app, Faster Now. We have competition from other technology companies, but our app is the only one that specializes in business luncheons. You’ll see that the app will allow the user not only to reserve a table but also to make menu choices in advance. That way, when people get to the restaurant, they won’t have to wait long for their meal. Here’s Johanna, our lead IT researcher, who’ll describe the app specifications and show us how it works."
               ],
@@ -1470,8 +1470,9 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-86-88",
-              "start": 2249.949,
-              "end": 2319.881,
+                "start": 2328.012,
+              "end": 2404.64,
+              
               "script": [
                 "I called this meeting because next week this team is scheduled to begin installing windows in the new building on Bellevue Avenue. Originally, you were going to install the M-FIT on all floors. Our supplier just raised the price on those frames, so we had to change them. The new type, the M-25, has the same dimensions, but it’s installed differently. I’ll send a link to the supplier’s Web site where you’re going to sign up to watch a video demonstration on how to install this model. I know this is a last-minute request. Still, this way we’ll stay on budget."
               ],
@@ -1516,8 +1517,9 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-89-91",
-              "start": 2328.012,
-              "end": 2404.64,
+              "start": 2412.721,
+              "end": 2485.947,
+              
               "script": [
                 "Thank you for calling Forest Apartments. Press one to speak to our on-site manager. All residents should be aware that next week we will start updating the laundry facilities in each of our buildings. While the work is going on, tenants will not be able to access the laundry facilities in their building. The Maple building will be first. Tenants of the Maple building may use the laundry room in any other building while their facilities are being renovated. Please note that new doors and locks will also be installed, so all tenants will need a new key. Please stop at the main office to pick that up."
               ],
@@ -1562,8 +1564,10 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-92-94",
-              "start": 2412.721,
-              "end": 2485.947,
+               "start": 2494.022,
+              "end": 2565.505,
+
+              
               "script": [
                 "This message is for Mr. Yun. I’m calling from the rental office. I received the signed contract, and as we confirmed earlier, your rental of the retail space here in the shopping center will begin on the first of October. There are a few more things. You need to schedule a city inspection before the electricity can be turned on. And the owner has agreed to your request to add a storage room, and construction will begin within the week. I think everything can be done by the first of October, and you can open your doors and welcome new customers."
               ],
@@ -1608,8 +1612,10 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-95-97",
-              "start": 2494.022,
-              "end": 2565.505,
+
+                "start": 2573.712,
+              "end": 2649.508,
+              
               "script": [
                 "Greetings, Carsin’s cashiers! Let’s take a look at the coupon we just mailed out to rewards members this week. Our local rival, Gilroy’s, has been offering a similar discount to its customers, and business there has been booming. So it’s time we try something similar—but, of course, even better! Our discount offer is ten percent, while theirs is only five percent. Please spend some time looking over the four rules of use at the bottom.",
                 "We may need to revisit the one about using multiple discounts. Our customers do love manufacturer coupons! We will monitor customer complaints."
@@ -1656,8 +1662,9 @@ window.PRACTICE_DATA = {
             },
             {
               "id": "part4-98-100",
-              "start": 2573.712,
-              "end": 2649.508,
+              
+              "start": 2657.712,
+              "end": 2732.508,
               "script": [
                 "Good morning. I hope you are settling in to your new offices here at Golden Glove Insurance Company. Let’s plan something fun to get to know each other. On the wall, there’s a list of team-building activities. After this meeting, put a check mark next to the activity you want to do together next Friday afternoon. It would be energizing and fun to use our volleyball court, but I shouldn’t influence you! Please make your own choice, and we’ll do the one with the most votes."
               ],
