@@ -2434,7 +2434,7 @@ window.PRACTICE_DATA = {
                 },
                 {
                   "number": 154,
-                  "prompt": "What is Mr. Kumar's opinion of the CanomaUk product?",
+                  "prompt": "What is Mr. Kumar's opinion of the Canomatik product?",
                   "choices": [
                     "He likes its size.",
                     "He is dissatisfied with its quality.",
@@ -2553,7 +2553,7 @@ window.PRACTICE_DATA = {
               "questions": [
                 {
                   "number": 162,
-                  "prompt": "Who introduced Ms. BauUsta to weaving?",
+                  "prompt": "Who introduced Ms. Bautista to weaving?",
                   "choices": [
                     "Her family",
                     "Her teachers",
@@ -2565,7 +2565,7 @@ window.PRACTICE_DATA = {
                 },
                 {
                   "number": 163,
-                  "prompt": "What is indicated about Ms. BauUsta?",
+                  "prompt": "What is indicated about Ms. Bautista?",
                   "choices": [
                     "She was born in Manila.",
                     "She buys materials from nearby sources.",
@@ -2577,7 +2577,7 @@ window.PRACTICE_DATA = {
                 },
                 {
                   "number": 164,
-                  "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"However, Ms. BauUsta has broader goals.\"",
+                  "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"However, Ms. Bautista has broader goals.\"",
                   "choices": [
                     "[1]",
                     "[2]",
