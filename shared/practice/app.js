@@ -199,6 +199,52 @@ addEventListener("mousemove",e=>{if(!dragging||![3,4,6,7].includes(part))return;
                                     let r=$("mainLayout").getBoundingClientRect(),pct=(e.clientX-r.left)/r.width*100;p7width=Math.max(30,Math.min(70,pct));$("mainLayout").style.setProperty("--left",p7width+"%")});
 addEventListener("mouseup",()=>{if(dragging){dragging=false;document.body.classList.remove("resizing");localStorage.setItem(K.w,p7width)}});
 
-addEventListener("keydown",e=>{if(e.key==="Escape")closePalette();if(["1","2","3","4"].includes(e.key)&&part!==5){let q=currentItem?.questions.find(x=>!answered(x));if(q)choose(q,+e.key-1)}});
+ addEventListener("keydown",e=>{
+
+  // Không chạy liên tục khi giữ phím
+  if(e.repeat)return;
+
+  // ESC: đóng Question List
+  if(e.key==="Escape"){
+    closePalette();
+    return;
+  }
+
+  // CTRL: Phát / Dừng audio
+  if(e.key==="Control" && part<=4){
+    e.preventDefault();
+    $("playBtn").click();
+    return;
+  }
+
+  // SHIFT: Tua lại 3 giây
+  if(e.key==="Shift" && part<=4){
+    e.preventDefault();
+    $("back3").click();
+    return;
+  }
+
+  // Phím 1–4: chọn A–D
+  if(["1","2","3","4"].includes(e.key)){
+    const index=+e.key-1;
+
+    // Ưu tiên câu đang focus
+    let q=currentItem?.questions.find(
+      x=>x.n===focus && !answered(x)
+    );
+
+    // Nếu không có thì lấy câu chưa trả lời tiếp theo
+    if(!q){
+      q=currentItem?.questions.find(x=>!answered(x));
+    }
+
+    if(q && index<(q.choices||[]).length){
+      choose(q,index);
+    }
+  }
+
+});
+
+ 
 progress();render();
 })();
