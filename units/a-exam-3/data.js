@@ -2721,7 +2721,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "Salary",
                     "Schedule",
-                    "QualiﬁcaUons",
+                    "Qualiﬁcations",
                     "DuUes"
                   ],
                   "answer": 3,
@@ -2776,7 +2776,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Why did Ms. Wright send an e-mail to Ms. Morandi?",
                   "choices": [
                     "To decline an invitation",
-                    "To propose a soluUon",
+                    "To propose a solution",
                     "To ask for information",
                     "To reschedule a meeUng"
                   ],
@@ -2800,7 +2800,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Why most likely has Ms. Reddy not yet received a tuition refund?",
                   "choices": [
                     "The registration oﬃce has been closed.",
-                    "The refund check is sUll in the mail.",
+                    "The refund check is still in the mail.",
                     "She failed to submit her request in writing.",
                     "She already attended part of the class."
                   ],
@@ -2834,7 +2834,7 @@ window.PRACTICE_DATA = {
                     "It has little open land for development.",
                     "It has two warehouse districts.",
                     "It is home to a university.",
-                    "It has a growing populaUon."
+                    "It has a growing population."
                   ],
                   "answer": 2,
                   "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
@@ -2971,7 +2971,7 @@ window.PRACTICE_DATA = {
                     "The merger of two companies",
                     "The retirement of a company's leaders",
                     "The expansion of a product line",
-                    "The relocation of a producUon plant"
+                    "The relocation of a production plant"
                   ],
                   "answer": 2,
                   "explanation": "According to the supplied answer key, the correct answer is C. Review the information in the passage that directly supports this choice."
