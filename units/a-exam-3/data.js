@@ -2420,9 +2420,9 @@ window.PRACTICE_DATA = {
                   "prompt": "Who responded to Ms. Ito's question?",
                   "choices": [
                     "Customer service agents",
-                    "AdverUsing sales representaUves",
-                    "ParUcipants in an online cooking course",
-                    "Owners of a parUcular type of"
+                    "Advertising sales representatives",
+                    "Participants in an online cooking course",
+                    "Owners of a particular type of appliance"
                   ],
                   "answer": 3,
                   "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
@@ -2475,7 +2475,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "At a guesthouse",
                     "At an accounting ﬁrm",
-                    "At a lighUng store",
+                    "At a lighting store",
                     "At a manufacturing company"
                   ],
                   "answer": 2,
@@ -2529,7 +2529,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "described",
                     "protected",
-                    "conUnued",
+                    "continued",
                     "allowed"
                   ],
                   "answer": 1,
@@ -2548,7 +2548,7 @@ window.PRACTICE_DATA = {
                     "Her family",
                     "Her teachers",
                     "Senior designers",
-                    "Local cragspeople"
+                    "Local craftspeople"
                   ],
                   "answer": 0,
                   "explanation": "According to the supplied answer key, the correct answer is A. Review the information in the passage that directly supports this choice."
@@ -2587,10 +2587,10 @@ window.PRACTICE_DATA = {
                   "number": 165,
                   "prompt": "What is indicated about Brandmark Products, Inc.?",
                   "choices": [
-                    "It has disconUnued making some products.",
+                    "It has discontinued making some products.",
                     "It oﬀers discounts on large orders.",
-                    "It specializes in making athleUc uniforms.",
-                    "It helps companies promote"
+                    "It specializes in making athletic uniforms.",
+                    "It helps companies promote themselves."
                   ],
                   "answer": 3,
                   "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
@@ -2707,10 +2707,10 @@ window.PRACTICE_DATA = {
                   "number": 174,
                   "prompt": "How can candidates apply for the position?",
                   "choices": [
-                    "By visiUng a booth at a job fair",
+                    "By visiting a booth at a job fair",
                     "By e-mailing a résumé to the personnel oﬃce",
                     "By uploading a résumé to a Web page",
-                    "By compleUng an online applicaUon"
+                    "By completing an online application"
                   ],
                   "answer": 1,
                   "explanation": "According to the supplied answer key, the correct answer is B. Review the information in the passage that directly supports this choice."
@@ -2749,7 +2749,7 @@ window.PRACTICE_DATA = {
                   "number": 177,
                   "prompt": "Why did Ms. Wright send an e-mail to Ms. Morandi?",
                   "choices": [
-                    "To decline an invitaUon",
+                    "To decline an invitation",
                     "To propose a soluUon",
                     "To ask for information",
                     "To reschedule a meeUng"
@@ -2775,7 +2775,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "The registration oﬃce has been closed.",
                     "The refund check is sUll in the mail.",
-                    "She failed to submit her request in wriUng.",
+                    "She failed to submit her request in writing.",
                     "She already attended part of the class."
                   ],
                   "answer": 3,
