@@ -2787,7 +2787,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "Use her previously paid tuition to take a future class",
                     "Find the same class at another adult school",
-                    "Aüend half the class and sUll receive credit",
+                    "Attend half the class and still receive credit",
                     "Contact the teacher to arrange for private tutoring"
                   ],
                   "answer": 0,
@@ -2803,7 +2803,7 @@ window.PRACTICE_DATA = {
                   "number": 181,
                   "prompt": "What is indicated about Orevale City?",
                   "choices": [
-                    "It has liüle open land for development.",
+                    "It has little open land for development.",
                     "It has two warehouse districts.",
                     "It is home to a university.",
                     "It has a growing populaUon."
@@ -2948,9 +2948,9 @@ window.PRACTICE_DATA = {
                   "prompt": "What does the press release suggest about Albert and Annie's South African division?",
                   "choices": [
                     "It will open in mid-November.",
-                    "It will not be hiring unUl mid- December.",
+                    "It will not be hiring until mid-December.",
                     "It will soon launch its own Web site.",
-                    "It will not sell ice cream directly to"
+                    "It will not sell ice cream directly to consumers."
                   ],
                   "answer": 3,
                   "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
@@ -2986,7 +2986,7 @@ window.PRACTICE_DATA = {
                     "It was staﬀed by Mr. Oessenich.",
                     "It did not have coﬀee ice cream when Mr. Sato arrived.",
                     "It was one of three booths featuring frozen desserts.",
-                    "It did not oﬀer samples of the"
+                    "It did not oﬀer samples of the company's newest flavors."
                   ],
                   "answer": 3,
                   "explanation": "According to the supplied answer key, the correct answer is D. Review the information in the passage that directly supports this choice."
@@ -3001,7 +3001,7 @@ window.PRACTICE_DATA = {
                   "number": 196,
                   "prompt": "What is the purpose of the blog post?",
                   "choices": [
-                    "To provide grant-wriUng Ups",
+                    "To provide grant-writing tips",
                     "To recommend a learning experience",
                     "To spotlight an employee",
                     "To preview changes to a Web site"
