@@ -117,7 +117,7 @@ function questions(){
      b.innerHTML=`<span class="radio"></span><span class="${hide?"hidden-choice":""}"><b>(${String.fromCharCode(65+i)})</b>${hide?"":" "+esc(c)}</span>`;
      b.onclick=()=>choose(q,i);choices.appendChild(b)});
    card.appendChild(choices);
-   if(qc&&q.explanation){let e=document.createElement("div");e.className="explanation";e.innerHTML=`<b>Explanation:</b> ${esc(q.explanation)}`;card.appendChild(e)}
+   if(qc&&q.explanation){let e=document.createElement("div");e.className="explanation";e.style.whiteSpace="pre-line";e.innerHTML=`<b>Explanation:</b> ${esc(q.explanation)}`;card.appendChild(e)}
    area.appendChild(card)
  });
  if([3,4,6,7].includes(part)&&!checked.has(currentItem.id)){
@@ -143,8 +143,7 @@ function palette(){
  $("correctCount").textContent=c;$("wrongCount").textContent=w;$("todoCount").textContent=all.length-c-w;
  const totalChecked=c+w, accuracy=totalChecked?(c/totalChecked)*100:0;
  const accuracyText=$("accuracyText"),accuracyBar=$("accuracyBar");
- if(accuracyText)accuracyText.textContent=`Accuracy: ${accuracy.toFixed(2)}% (${c} out of ${totalChecked} questions answered)`;
- 
+ if(accuracyText)accuracyText.textContent=`Tỷ lệ đúng: ${accuracy.toFixed(2).replace(".",",")}% (${c}/${totalChecked} câu đã kiểm tra)`;
  if(accuracyBar)accuracyBar.style.width=accuracy+"%";
  const box=$("paletteSections");box.innerHTML="";
  parts.forEach(p=>{let sec=document.createElement("section");sec.className="palette-section";sec.innerHTML=`<h3>Part ${p}</h3>`;
