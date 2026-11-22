@@ -370,3 +370,11 @@ a{text-decoration:none;color:inherit}
   .part-tabs{padding-inline:4px;gap:2px}
   .part-tabs button{font-size:10px}
 }
+
+.passage-title{
+  font-size:16px;
+  font-weight:700;
+  color:#5f5145;
+  margin:0 0 14px;
+  padding:0 0 10px;
+}
