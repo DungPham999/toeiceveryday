@@ -1014,7 +1014,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Why does the woman say, \"So, let's not rush this decision\"?",
                   "choices": [
                     "To request more funding from the division leaders",
-                    "To reject the man's suggesUon",
+                    "To reject the man's suggestion",
                     "To obtain a replacement product",
                     "To recommend a diﬀerent musician"
                   ],
@@ -1190,10 +1190,10 @@ window.PRACTICE_DATA = {
                   "number": 68,
                   "prompt": "What does the woman say about the bakery's customers?",
                   "choices": [
-                    "They are dissaUsﬁed with the quality of a product.",
+                    "They are dissatisﬁed with the quality of a product.",
                     "They think the bakery's products are overpriced.",
                     "They are now aware of the bakery's social media accounts.",
-                    "They someUmes arrive before the bakery opens."
+                    "They sometimes arrive before the bakery opens."
                   ],
                   "answer": 0,
                   "explanation": "Answer key: A. The transcript supports this answer."
@@ -1217,7 +1217,7 @@ window.PRACTICE_DATA = {
                     "Ship a product early.",
                     "Sell a wider range of products.",
                     "Hold a contest.",
-                    "AdverUse a discount."
+                    "Advertise a discount."
                   ],
                   "answer": 3,
                   "explanation": "Answer key: D. The transcript supports this answer."
@@ -1251,7 +1251,7 @@ window.PRACTICE_DATA = {
                   "prompt": "Who is the speaker?",
                   "choices": [
                     "An investment banker",
-                    "An aüorney",
+                    "An attorney",
                     "A real estate agent",
                     "An architect"
                   ],
@@ -1265,7 +1265,7 @@ window.PRACTICE_DATA = {
                     "A price is negoUable.",
                     "Some supplies have arrived.",
                     "A job applicant is qualiﬁed.",
-                    "Clients are saUsﬁed."
+                    "Clients are satisﬁed."
                   ],
                   "answer": 0,
                   "explanation": "Answer key: A. The transcript supports this answer."
@@ -1274,7 +1274,7 @@ window.PRACTICE_DATA = {
                   "number": 73,
                   "prompt": "What is an advantage of Peckham?",
                   "choices": [
-                    "It has beauUful scenery.",
+                    "It has beautiful scenery.",
                     "It has several parks.",
                     "It is a safe neighborhood.",
                     "It is popular."
@@ -1308,7 +1308,7 @@ window.PRACTICE_DATA = {
                   "number": 75,
                   "prompt": "What does the speaker imply when she says, \"I always double-check that the steam is working okay\"?",
                   "choices": [
-                    "She deserves a promoUon.",
+                    "She deserves a promotion.",
                     "She does not enjoy doing extra work.",
                     "Some complaints are unreasonable.",
                     "A task is important."
@@ -1368,7 +1368,7 @@ window.PRACTICE_DATA = {
                   "choices": [
                     "Win a prize",
                     "Request advice",
-                    "Ask quesUons",
+                    "Ask questions",
                     "Call again later"
                   ],
                   "answer": 2,
@@ -1434,10 +1434,10 @@ window.PRACTICE_DATA = {
                   "number": 83,
                   "prompt": "What is Faster Now?",
                   "choices": [
-                    "Job-recruiUng sogware",
+                    "Job-recruiting software",
                     "An online Web site builder",
                     "A self-paced training program",
-                    "A reservaUon app for restaurants"
+                    "A reservation app for restaurants"
                   ],
                   "answer": 3,
                   "explanation": "Answer key: D. The transcript supports this answer."
@@ -1483,7 +1483,7 @@ window.PRACTICE_DATA = {
                     "The grand opening of a shopping center",
                     "The maintenance of a city park",
                     "The repair of a highway",
-                    "The construcUon of a building"
+                    "The construction of a building"
                   ],
                   "answer": 3,
                   "explanation": "Answer key: D. The transcript supports this answer."
