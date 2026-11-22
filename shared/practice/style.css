@@ -378,3 +378,31 @@ a{text-decoration:none;color:inherit}
   margin:0 0 14px;
   padding:0 0 10px;
 }
+.keyboard-hints{
+  display:flex;
+  align-items:center;
+  gap:28px;
+  padding:14px 24px 18px;
+  font-size:14px;
+  color:#806f5d;
+  flex-wrap:wrap;
+}
+
+.keyboard-hints span{
+  display:flex;
+  align-items:center;
+  gap:7px;
+}
+
+.keyboard-hints kbd{
+  display:inline-block;
+  padding:4px 9px;
+  border:1px solid #d8c7ae;
+  border-radius:7px;
+  background:#fffaf2;
+  color:#776653;
+  font-family:monospace;
+  font-size:14px;
+  font-weight:700;
+  line-height:1;
+}
